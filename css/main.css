@@ -22,6 +22,10 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
 
+/* FPG hacks */
+.page-content table { width: 100% }
+.page-content td  { padding-left: 0px; padding-right: 50px }
+
 /* Utility */
 
 .wrap:before,
