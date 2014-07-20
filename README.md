@@ -4,7 +4,8 @@ Webpages for the KU FPG
 
  * To add a file, add a .md file, in the appropriate directory.
 
- * To edit the sidebar, edit _includes/sidebar.html
+ * To edit the sidebar, edit _data/sidebar.html
+ * To edit the navbar, edit _data/navbar.html
 
 
 ## Other Packages

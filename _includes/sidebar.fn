@@ -1,0 +1,8 @@
+<ul>
+{% for item in include.param %}
+  <li><a href="{{item.href}}">{{item.name}}</a></li>
+  {% if item.sublinks %}
+      {% include sidebar.fn param=item.sublinks %}
+  {% endif %}
+{% endfor %}
+</ul>

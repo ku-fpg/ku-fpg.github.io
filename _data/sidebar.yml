@@ -1,0 +1,34 @@
+- name: Functional Programming at KU
+- name: Research Projects
+  href: "/index.html"
+  sublinks:
+  - name: The HERMIT Project
+  - name: THe Kansas Lava Project
+  - name: The Sunroof Project
+- name: Software, Tools and Libraries
+  sublinks:
+  - name: HERMIT
+  - name: Kansas Lava
+  - name: Lambda Bridge
+  - name: KURE
+  - name: Sunroof
+  - name: Scotty
+  - name: Blank Canvas
+  - name: ChalkBoard
+  - name: Haskell Program Coverage
+  - name: HOOD Debugger
+  - name: "IO-Based Reification"
+- name: Theory
+  sublinks:
+  - name: Worker/Wrapper Transformation
+  - name: Constrained Type-Class Instances
+- name: Publications
+- name: About FPG
+  sublinks:
+  - name: Andrew Farmer
+  - name: Andy Gill
+  - name: Ed Komp
+  - name: Bowe Neuenschwander
+  - name: Neil Sculthorpe
+  - name: Michael Stees
+  
