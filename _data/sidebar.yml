@@ -6,8 +6,10 @@
   - name: THe Kansas Lava Project
   - name: The Sunroof Project
 - name: Software, Tools and Libraries
+  href: /software
   sublinks:
   - name: HERMIT
+    href: /projects/HERMIT
   - name: Kansas Lava
   - name: Lambda Bridge
   - name: KURE

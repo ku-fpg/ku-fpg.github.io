@@ -1,7 +1,6 @@
 ---
 layout: page
 title: The Functional Programming Group
-permalink: /about/
 ---
 
 The Functional Programming Group, led by Andy Gill, apply and extend
