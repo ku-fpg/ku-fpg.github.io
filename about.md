@@ -36,6 +36,12 @@ language. The lab does not offer scholarships to outside students,
 though we have people join from other graduate programs from
 time to time.
 
+
+{% highlight Haskell %}
+main = print "Hello"
+{% endhighlight %}
+
+
 ## Current Members
 
 Who                                                             | Project(s)                      | Status

@@ -1,3 +1,4 @@
 <div class="sidebar">
-    {% capture sidebar %}{% include sidebar.md %}{% endcapture %}{{ sidebar | markdownify }}
+    {% capture sidebar %}{% include sidebar.md %}{% endcapture %}
+    {{ sidebar | markdownify   }}
 </div>
