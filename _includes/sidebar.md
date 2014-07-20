@@ -1,3 +1,8 @@
+* [Functional Programming at KU](/index.html)
+  * The HERMIT Project
+  * THe Kansas Lava Project
+
+
 <ul>
     <li><a>Functional Programming @ KU</a></li>
     <li><a href="{{ site.baseurl }}/research">Research Projects</a>
