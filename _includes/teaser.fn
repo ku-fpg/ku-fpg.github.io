@@ -3,6 +3,9 @@
 <DL>
 <DT><a href="{{ include.href | prepend: site.baseurl }}">{{p.title}}</a></DT>
 <DD>{{ p.content | split: "</p>" | first | remove: "<p>" }}</DD>
+<HR>
+<DD>{{ p.content | jsonify }}</DD>
+
 </DL>
 {% endif %}
 {% endfor %}
