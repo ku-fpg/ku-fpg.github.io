@@ -142,7 +142,7 @@
     and Program Manipulation*, ser. PEPM ’14. New York, NY, USA: ACM, 2014,
     pp. 71–82.
   a_cite: |
-    M. D. Adams, A. Farmer, and J. P. Magalhães, “[Optimizing syb is easy](/papers/Adams-14-OSIE)!”
+    M. D. Adams, A. Farmer, and J. P. Magalhães, “[Optimizing syb is easy!](/papers/Adams-14-OSIE)”
     in *Proceedings of the ACM SIGPLAN 2014 Workshop on Partial Evaluation
     and Program Manipulation*, ser. PEPM ’14. New York, NY, USA: ACM, 2014,
     pp. 71–82.
@@ -850,7 +850,7 @@
     in Functional Programming*. Springer-Verlag, LNCS 6546, May 2010.
   a_cite: |
     A. Farmer, G. Kimmell, and A. Gill, “[What’s the matter with
-    <span>K</span>ansas <span>L</span>ava](/papers/Farmer-10-WhatsTheMatter)?” in *Post-Proceedings of Trends
+    <span>K</span>ansas <span>L</span>ava?](/papers/Farmer-10-WhatsTheMatter)” in *Post-Proceedings of Trends
     in Functional Programming*. Springer-Verlag, LNCS 6546, May 2010.
   year: 2010
   links:

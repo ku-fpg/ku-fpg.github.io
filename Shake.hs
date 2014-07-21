@@ -52,11 +52,12 @@ main2 ("build":extra) = do
                        , shakeThreads = 16
                        } $ do
 
-        want [ "_data/publications.yml" ]
+        want $ [ "_data/publications.yml" ]++
+               [ "papers/" ++ nm ++ ".md" | (nm,_) <- bib ]
 
         addBibTeXOracle "_meta/bibtex.bib" bib
         
-        let okayBib xs = not (xs `elem` words "abstract url xrl")
+        let okayBib xs = not (xs `elem` words "abstract url xurl")
 
         "_data/publications.yml" *> \ out -> do
 	    txt <- sequence 
@@ -89,29 +90,21 @@ main2 ("build":extra) = do
 		    ]
             writeFile' out $ unlines $ ("# auto generated from _meta/bibtex.bib" : txt)
 
-{-
-  links:
-    - http://www.ittc.ku.edu/csdl/fpg/files/Sculthorpe-14-KURE.pdf
-    - http://www.ittc.ku.edu/csdl/fpg/software/kure.html
-  abstract: |
-        When writing transformation systems, a significant amount of engineering effort goes into setting up the infrastructure needed to direct individual transformations to specific targets in the data being transformed. Strategic programming languages provide general-purpose infrastructure for this task, which the author of a transformation system can use for any algebraic data structure.
+------------------------------------------------------------------------------------------------------------------------------
 
-        The Kansas University Rewrite Engine (KURE) is a typed strategic programming language, implemented as a Haskell-embedded domain-specific language. KURE is designed to support typed transformations over typed data, and the main challenge is how to make such transformations compatible with generic traversal strategies that should operate over any type.
 
-        Strategic programming in a typed setting has much in common with datatype-generic programming. Compared to other approaches to datatype-generic programming, the distinguishing feature of KURE’s solution is that the user can configure the behaviour of traversals based on the location of each datum in the tree, beyond their behaviour being determined by the type of each datum.
+        "papers/*.md" *> \ out -> do
+               let nm = (dropExtension (dropDirectory1 out))
+               cite <- getBibTeXCitation nm
+               writeFile' out $ unlines
+                              [ "---"
+                              , "layout: publication"
+                              , "key: " ++ nm
+                              , "---"
+                              ]
 
-        This article describes KURE’s approach to assigning types to generic traversals, and the implementation of that approach. We also compare KURE, its design choices, and their consequences, with other approaches to strategic and datatype-generic programming.
-  bibtex: |
-        @article{Sculthorpe:13:KURE,
-          author = {Neil Sculthorpe and Nicolas Frisby and Andy Gill},
-          title = {The {K}ansas {U}niversity {R}ewrite {E}ngine: A {H}askell-Embedded Strategic Programming Language with Custom Closed Universes},
-          url = {http://www.ittc.ku.edu/csdl/fpg/files/Sculthorpe-14-KURE.pdf},
-          xurl = {http://www.ittc.ku.edu/csdl/fpg/software/kure.html},
-          journal = {Journal of Functional Programming},
-          publisher = {Cambridge University Press},
-          year = {2014},
-        }
--}
+
+------------------------------------------------------------------------------------------------------------------------------
 
         "_auto/bibtex/*.bib" *> \ out -> do
                 cite <- getBibTeXCitation (dropExtension (dropDirectory1 (dropDirectory1 out)))
