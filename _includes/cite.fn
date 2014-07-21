@@ -1,0 +1,1 @@
+{% for item in site.data.publications %}{% if item.href == include.cite %}{{ item.a_cite | trim | markdownify }}{% endif %}{% endfor %}

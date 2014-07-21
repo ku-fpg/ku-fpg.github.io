@@ -17,7 +17,7 @@ which gives the research-centric view of the FPG lab.
 
 ## Rewriting and Refactoring Tools
 
-<a href="/software/hermit" class="teaser">More about HERMIT</a>
+[More about HERMIT](/software/hermit)
 
 ## Haskell Domain Specific Languages (DSLs)
 

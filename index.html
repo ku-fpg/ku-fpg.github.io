@@ -19,19 +19,8 @@ layout: default
 
 </div>
 
-BEFORE {{ site.data.sidebar }} AFTER <BR>
-BEFORE 
-{% for item in site.data.navbar %}
-
-   {{ item.name }} 
-,
-   {{ item.href }} 
-
-
-{% endfor %}
-
-
-
-
-AFTER <BR>
+BEFORE {{ site.data.publications }} AFTER <BR>
+    
+BEFORE {{ site.pages | group_by:"layout" | map: "layout" | join: "," }} AFTER <BR>
+    
 
