@@ -1,5 +1,8 @@
  
 .navbar { border-bottom: 1px solid #888888 }
-.sidebar { border: 1px solid #ddd; box-shadow: 3px 3px 5px #eee; border-radius: 10px  }
+.sidebar {
+	 padding-right: 10px;
+/* border: 1px solid #ddd; box-shadow: 3px 3px 5px #eee; border-radius: 10px   */
+}
 
 .page-content { font-size: larger; }

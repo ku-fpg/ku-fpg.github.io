@@ -1,6 +1,3 @@
-- name: About Us
-  href: "/"
-
 - name: Research
   href: "/research"
 
@@ -10,3 +7,6 @@
 - name: Publications
   href: "/publications"
   
+- name: About Us
+  href: "/"
+

@@ -1,10 +1,10 @@
-- name: Functional Programming at KU
-- name: Research Projects
+- name: Funded Research
   href: "/index.html"
   sublinks:
-  - name: The HERMIT Project
-  - name: THe Kansas Lava Project
-  - name: The Sunroof Project
+  - name: NSF CAREER (2014-2019)
+  - name: Armored Software (2013-2017)
+  - name: The HERMIT Project (2011-2015)
+  - name: FEC Decoders (2009-2011)
 - name: Software, Tools and Libraries
   href: /software
   sublinks:
@@ -20,12 +20,9 @@
   - name: Haskell Program Coverage
   - name: HOOD Debugger
   - name: "IO-Based Reification"
-- name: Theory
-  sublinks:
-  - name: Worker/Wrapper Transformation
-  - name: Constrained Type-Class Instances
 - name: Publications
-- name: About FPG
+  href: "/publications"
+- name: About Us
   sublinks:
   - name: Andrew Farmer
   - name: Andy Gill
