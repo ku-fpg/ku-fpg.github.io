@@ -9,4 +9,5 @@ dist/
 cabal.sandbox.*
 papers/
 .\#*
+tmp/
 

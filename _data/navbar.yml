@@ -1,4 +1,4 @@
-- name: Home
+- name: About Us
   href: "/"
 
 - name: Research
@@ -7,11 +7,6 @@
 - name: Software
   href: "/software"
   
-- name: Theory
-  href: "/theory"
-  
 - name: Publications
   href: "/publications"
   
-- name: About Us
-  href: "/about"

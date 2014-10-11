@@ -1,11 +1,8 @@
 {% assign href = include.href | append: ".md" | remove_first: "/" %}
 {% for p in site.pages %}{% if p.path == href %}
-<DL>
-<DT><a href="{{ include.href | prepend: site.baseurl }}">{{p.title}}</a></DT>
-<DD>{{ p.content | split: "</p>" | first | remove: "<p>" }}</DD>
-<HR>
-<DD>{{ p.content | jsonify }}</DD>
-
-</DL>
+{% comment %}
+ <{{ include.tag }}><a href="{{ include.href | prepend: site.baseurl }}">{{p.title}}</a></{{ include.tag }}>
+{% endcomment %}
+<p>{{ p.content | markdownify | split: "</p>" | first | remove: "<p>" }}</p>
 {% endif %}
 {% endfor %}
