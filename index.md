@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 ## Functional Programming Group at KU
 
 <a class="teaser" href="/about">Read more about About Functional Programming at KU</a>

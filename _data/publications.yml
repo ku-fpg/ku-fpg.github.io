@@ -4,43 +4,71 @@
     N. Sculthorpe, N. Frisby, and A. Gill, “The <span>K</span>ansas
     <span>U</span>niversity <span>R</span>ewrite <span>E</span>ngine: A
     <span>H</span>askell-embedded strategic programming language with custom
-    closed universes,” *Journal of Functional Programming*, 2014.
+    closed universes,” 2013, submitted to the Journal of Functional
+    Programming.
   a_cite: |
     N. Sculthorpe, N. Frisby, and A. Gill, “[The <span>K</span>ansas
     <span>U</span>niversity <span>R</span>ewrite <span>E</span>ngine: A
     <span>H</span>askell-embedded strategic programming language with custom
-    closed universes](/papers/Sculthorpe-13-KURE),” *Journal of Functional Programming*, 2014.
-  year: 2014
+    closed universes](/papers/Sculthorpe-13-KURE),” 2013, submitted to the Journal of Functional
+    Programming.
+  year: 2013
   links:
-    - <http://www.ittc.ku.edu/csdl/fpg/files/Sculthorpe-14-KURE.pdf>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Sculthorpe-13-KURE.pdf>
     - <http://www.ittc.ku.edu/csdl/fpg/software/kure.html>
   abstract: |
-    When writing transformation systems, a significant amount of engineering effort goes into setting
-    up the infrastructure needed to direct individual transformations to specific targets in the data
-    being transformed.  Strategic programming languages provide general-purpose infrastructure for
-    this task, which the author of a transformation system can use for any algebraic data structure.
+    When writing transformation systems, a significant amount of engineering effort goes into setting up the infrastructure
+    needed to direct individual transformations to specific targets in the data being transformed.  Strategic and generic
+    programming languages provide general-purpose infrastructure for this task, which the author of a transformation system
+    can use for any algebraic data structure.
     
-    The Kansas University Rewrite Engine (KURE) is a typed strategic programming language, implemented
-    as a Haskell-embedded domain-specific language. KURE is designed to support typed transformations
-    over typed data, and the main challenge is how to make such transformations compatible with
-    generic traversal strategies that should operate over any type.
+    The Kansas University Rewrite Engine (KURE) is a typed strategic programming language, implemented as a Haskell-embedded
+    domain-specific language.  Or, viewed from another perspective, KURE is a Haskell library for generic programming.  KURE
+    is designed to support typed transformations over typed data, and the main challenge is how to make such transformations
+    compatible with generic traversal strategies that should operate over any type.  Compared to other Haskell libraries for
+    generic programming that provide such type support, the distinguishing feature of KURE's solution is that the user can
+    configure the behavior of traversals based on the location of each datum in the tree, beyond their behavior being
+    determined by the type of each datum.
     
-    Strategic programming in a typed setting has much in common with datatype-generic programming.
-    Compared to other approaches to datatype-generic programming, the distinguishing feature of KURE's
-    solution is that the user can configure the behaviour of traversals based on the location of each
-    datum in the tree, beyond their behaviour being determined by the type of each datum.
-    
-    This article describes KURE's approach to assigning types to generic traversals, and the
-    implementation of that approach.  We also compare KURE, its design choices, and their
-    consequences, with other approaches to strategic and datatype-generic programming.
+    This article describes KURE's approach to assigning types to generic traversals, and the implementation of that
+    approach.  We also compare KURE, its design choices, and their consequences, with other approaches to strategic and
+    generic programming.
   bibtex: |
-    @article{Sculthorpe:13:KURE,
+    @unpublished{Sculthorpe:13:KURE,
       author = {Neil Sculthorpe and Nicolas Frisby and Andy Gill},
       title = {The {K}ansas {U}niversity {R}ewrite {E}ngine: A {H}askell-Embedded Strategic Programming Language with Custom Closed Universes},
-      xurl = {http://www.ittc.ku.edu/csdl/fpg/software/kure.html},
-      journal = {Journal of Functional Programming},
-      publisher = {Cambridge University Press},
+      note = {Submitted to the Journal of Functional Programming},
+      year = {2013},
+    }
+
+- key: Gill-2014-DSLs-and-Synthesis
+  cite: |
+    A. Gill, “Domain-specific languages and code synthesis using haskell,”
+    *Queue*, vol. 12, no. 4, pp. 30:30–30:43, apr 2014.
+  a_cite: |
+    A. Gill, “[Domain-specific languages and code synthesis using haskell](/papers/Gill-2014-DSLs-and-Synthesis),”
+    *Queue*, vol. 12, no. 4, pp. 30:30–30:43, apr 2014.
+  year: 2014
+  links:
+    - <http://doi.acm.org/10.1145/2611429.2617811>
+  bibtex: |
+    @article{Gill:2014:DSLs-and-Synthesis,
+      author = {Gill, Andy},
+      title = {Domain-specific Languages and Code Synthesis Using Haskell},
+      journal = {Queue},
+      issue_date = {April 2014},
+      volume = {12},
+      number = {4},
+      month = {apr},
       year = {2014},
+      issn = {1542-7730},
+      pages = {30:30--30:43},
+      articleno = {30},
+      numpages = {14},
+      doi = {10.1145/2611429.2617811},
+      acmid = {2617811},
+      publisher = {ACM},
+      address = {New York, NY, USA},
     }
 
 - key: Bracker-14-Sunroof
@@ -69,7 +97,7 @@
     foreign-function API to the browser’s JavaScript
     engine, and all the browser-specific functionality,
     including HTML-based rendering, event handling, and
-    drawing to the HTML5 canvas element.
+    drawing to the HTML5 canvas element.  
     
     In this paper,
     we give the design and implementation of
@@ -102,88 +130,70 @@
 - key: Farmer-14-HERMITinStream
   cite: |
     A. Farmer, C. <span>Höner zu Siederdissen</span>, and A. Gill, “The
-    hermit in the stream: Fusing stream fusion’s concatmap,” in *Proceedings
-    of the ACM SIGPLAN 2014 Workshop on Partial Evaluation and Program
-    Manipulation*, ser. PEPM ’14. New York, NY, USA: ACM, 2014, pp. 97–108.
+    <span>HERMIT</span> in the <span>Stream</span>,” in *Proceedings of the
+    2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
+    Manipulation*, ser. PEPM ’14. ACM, 2014.
   a_cite: |
     A. Farmer, C. <span>Höner zu Siederdissen</span>, and A. Gill, “[The
-    hermit in the stream: Fusing stream fusion’s concatmap](/papers/Farmer-14-HERMITinStream),” in *Proceedings
-    of the ACM SIGPLAN 2014 Workshop on Partial Evaluation and Program
-    Manipulation*, ser. PEPM ’14. New York, NY, USA: ACM, 2014, pp. 97–108.
+    <span>HERMIT</span> in the <span>Stream</span>](/papers/Farmer-14-HERMITinStream),” in *Proceedings of the
+    2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
+    Manipulation*, ser. PEPM ’14. ACM, 2014.
   year: 2014
   links:
-    - <http://doi.acm.org/10.1145/2543728.2543736>
-    - <http://www.ittc.ku.edu/csdl/fpg/files/Farmer-14-HERMITinStream.pdf>
   abstract: |
     Stream Fusion, a popular deforestation technique in the Haskell community, cannot fuse the concatMap combinator. This is a serious limitation, as concatMap represents computations on nested streams. The original implementation of Stream Fusion used the Glasgow Haskell Compiler’s user-directed rewriting system. A transformation which allows the compiler to fuse many uses of concatMap has previously been proposed, but never implemented, because the host rewrite system was not expressive enough to implement the proposed transformation. In this paper, we develop a custom optimization plugin which implements the proposed concatMap transformation, and study the effectiveness of the transformation in practice. We also provide a new translation scheme for list comprehensions which enables them to be optimized. Within this framework, we extend the transformation to monadic streams. Code featuring uses of concatMap experiences significant speedup when compiled with this optimization. This allows Stream Fusion to outperform its rival, foldr/build, on many list computations, and enables performance-sensitive code to be expressed at a higher level of abstraction.
   bibtex: |
     @inproceedings{Farmer:14:HERMITinStream,
       author = {Andrew Farmer and Christian {H\"{o}ner zu Siederdissen} and Andy Gill},
-      title = {The HERMIT in the Stream: Fusing Stream Fusion's concatMap},
-      booktitle = {Proceedings of the ACM SIGPLAN 2014 Workshop on Partial Evaluation and Program Manipulation},
+      title = {The {HERMIT} in the {Stream}},
+      booktitle = {Proceedings of the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation},
       series = {PEPM '14},
-      year = {2014},
-      isbn = {978-1-4503-2619-3},
-      location = {San Diego, California, USA},
-      pages = {97--108},
-      numpages = {12},
-      xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Farmer-14-HERMITinStream.pdf},
-      doi = {10.1145/2543728.2543736},
-      acmid = {2543736},
       publisher = {ACM},
-      address = {New York, NY, USA},
-      keywords = {deforestation, functional programming, ghc, haskell, optimization, program fusion, program transformation, stream fusion},
+      location = {San Diego, California, USA},
+      year = {2014},
     }
 
 - key: Adams-14-OSIE
   cite: |
-    M. D. Adams, A. Farmer, and J. P. Magalhães, “Optimizing syb is easy!”
-    in *Proceedings of the ACM SIGPLAN 2014 Workshop on Partial Evaluation
-    and Program Manipulation*, ser. PEPM ’14. New York, NY, USA: ACM, 2014,
-    pp. 71–82.
+    M. D. Adams, A. Farmer, and J. P. <span>Magalhães</span>, “Optimizing
+    <span>SYB</span> <span>Is</span> <span>Easy</span>!” in *Proceedings of
+    the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
+    Manipulation*, ser. PEPM ’14. ACM, 2014.
   a_cite: |
-    M. D. Adams, A. Farmer, and J. P. Magalhães, “[Optimizing syb is easy!](/papers/Adams-14-OSIE)”
-    in *Proceedings of the ACM SIGPLAN 2014 Workshop on Partial Evaluation
-    and Program Manipulation*, ser. PEPM ’14. New York, NY, USA: ACM, 2014,
-    pp. 71–82.
+    M. D. Adams, A. Farmer, and J. P. <span>Magalhães</span>, “[Optimizing
+    <span>SYB</span> <span>Is</span> <span>Easy</span>!](/papers/Adams-14-OSIE)” in *Proceedings of
+    the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
+    Manipulation*, ser. PEPM ’14. ACM, 2014.
   year: 2014
   links:
-    - <http://doi.acm.org/10.1145/2543728.2543730>
-    - <http://www.ittc.ku.edu/csdl/fpg/files/Adams-14-OSIE.pdf>
   abstract: |
-    The most widely used generic-programming system in the Haskell community, Scrap Your Boilerplate (SYB), also happens to be one of the slowest. Generic traversals in SYB are about an order of magnitude slower than equivalent handwritten, non-generic traversals. Thus while SYB allows the concise expression of many traversals, its use incurs a significant runtime cost. Existing techniques for optimizing other generic-programming systems are not able to eliminate this overhead.
+    The most widely used generic-programming system in the Haskell community, Scrap Your Boilerplate (SYB), also happens to be one of the slowest. Generic traversals in SYB are about an order of magnitude slower than equivalent handwritten, non-generic traversals. Thus while SYB allows the concise expression of many traversals, its use incurs a significant runtime cost. Existing techniques for optimizing other generic-programming systems are not able to eliminate this overhead. 
     
-    This paper presents an optimization that completely eliminates this cost. The optimization takes advantage of domain-specific knowledge about the structure of SYB and in so doing can optimize SYB-style traversals to be as fast as handwritten, non-generic code.
+    This paper presents an optimization that completely eliminates this cost. The optimization takes advantage of domain-specific knowledge about the structure of SYB and in so doing can optimize SYB-style traversals to be as fast as handwritten, non-generic code. 
     
     This paper presents both the formal structure of the optimization and the results of benchmarking the optimized SYB code against both unoptimized SYB code and handwritten, non-generic code. In these benchmarks, the optimized SYB code matches the performance of handwritten code even when the unoptimized SYB code is an order of magnitude or more slower.
   bibtex: |
     @inproceedings{Adams:14:OSIE,
-      author = {Adams, Michael D. and Farmer, Andrew and Magalh\~{a}es, Jos{\'e} Pedro},
-      title = {Optimizing SYB is Easy!},
-      booktitle = {Proceedings of the ACM SIGPLAN 2014 Workshop on Partial Evaluation and Program Manipulation},
+      author = {Michael D. Adams and Andrew Farmer and Jos\'{e} Pedro {Magalh\~{a}es}},
+      title = {Optimizing {SYB} {Is} {Easy}!},
+      booktitle = {Proceedings of the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation},
       series = {PEPM '14},
-      year = {2014},
-      isbn = {978-1-4503-2619-3},
-      location = {San Diego, California, USA},
-      pages = {71--82},
-      numpages = {12},
-      xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Adams-14-OSIE.pdf},
-      doi = {10.1145/2543728.2543730},
-      acmid = {2543730},
       publisher = {ACM},
-      address = {New York, NY, USA},
-      keywords = {datatype-generic programming, haskell, keywords: optimization, partial evaluation, performance, scrap your boilerplate (syb)},
+      location = {San Diego, California, USA},
+      year = {2014},
     }
 
 - key: Sculthorpe-13-ConstrainedMonad
   cite: |
     N. Sculthorpe, J. Bracker, G. Giorgidze, and A. Gill, “The
-    constrained-monad problem,” in *International Conference on Functional
-    Programming*. ACM, 2013, pp. 287–298.
+    constrained-monad problem,” in *In Proceedings of the 18th ACM SIGPLAN
+    International Conference on Functional Programming*. ACM, 2013, pp.
+    287–298.
   a_cite: |
     N. Sculthorpe, J. Bracker, G. Giorgidze, and A. Gill, “[The
-    constrained-monad problem](/papers/Sculthorpe-13-ConstrainedMonad),” in *International Conference on Functional
-    Programming*. ACM, 2013, pp. 287–298.
+    constrained-monad problem](/papers/Sculthorpe-13-ConstrainedMonad),” in *In Proceedings of the 18th ACM SIGPLAN
+    International Conference on Functional Programming*. ACM, 2013, pp.
+    287–298.
   year: 2013
   links:
     - <http://dl.acm.org/citation.cfm?doid=2500365.2500602>
@@ -210,11 +220,110 @@
     @inproceedings{Sculthorpe:13:ConstrainedMonad,
       author = {Neil Sculthorpe and Jan Bracker and George Giorgidze and Andy Gill},
       title = {The Constrained-Monad Problem},
-      booktitle = {International Conference on Functional Programming},
+      booktitle = {In Proceedings of the 18th ACM SIGPLAN International Conference on Functional Programming},
       publisher = {ACM},
       location = {Boston, Massachusetts},
-      xurl = {http://www.ittc.ku.edu/csdl/fpg/theory/constrainedTypeClassInstances.html},
       pages = {287--298},
+      year = {2013},
+    }
+
+- key: Persson-11-GenericMonadicConstructs
+  cite: |
+    A. Persson, E. Axelsson, and J. Svenningsson, “Generic monadic
+    constructs for embedded languages,” in *Implementation and Application
+    of Functional Languages 2011*. Springer, 2012, pp. 85–99.
+  a_cite: |
+    A. Persson, E. Axelsson, and J. Svenningsson, “[Generic monadic
+    constructs for embedded languages](/papers/Persson-11-GenericMonadicConstructs),” in *Implementation and Application
+    of Functional Languages 2011*. Springer, 2012, pp. 85–99.
+  year: 2012
+  links:
+    - <http://link.springer.com/chapter/10.1007\%2F978-3-642-34407-7_6?LI=true>
+  bibtex: |
+    @inproceedings{Persson:11:GenericMonadicConstructs,
+      author = {Anders Persson and Emil Axelsson and Josef Svenningsson},
+      title = {Generic Monadic Constructs for Embedded Languages},
+      booktitle = {Implementation and Application of Functional Languages 2011},
+      location = {Lawrence, Kansas},
+      pages = {85--99},
+      publisher = {Springer},
+      year = {2012},
+      xtra = {for citing regarding constrained-monad problem},
+    }
+
+- key: Orchard-10-ConstraintsUnleashed
+  cite: |
+    D. Orchard and T. Schrijvers, “Haskell type constraints unleashed,” in
+    *International Conference on Functional and Logic Programming*.
+    Springer, 2010, pp. 56–71.
+  a_cite: |
+    D. Orchard and T. Schrijvers, “[Haskell type constraints unleashed](/papers/Orchard-10-ConstraintsUnleashed),” in
+    *International Conference on Functional and Logic Programming*.
+    Springer, 2010, pp. 56–71.
+  year: 2010
+  links:
+    - <http://link.springer.com/chapter/10.1007\%2F978-3-642-12251-4_6>
+  bibtex: |
+    @inproceedings{Orchard:10:ConstraintsUnleashed,
+      author = {Dominic Orchard and Tom Schrijvers},
+      title = {Haskell Type Constraints Unleashed},
+      booktitle = {International Conference on Functional and Logic Programming},
+      location = {Sendai, Japan},
+      pages = {56--71},
+      publisher = {Springer},
+      year = {2010},
+      xtra = {for citing regarding constrained-monad problem},
+    }
+
+- key: Hughes-99-RestrictedDataTypes
+  cite: |
+    J. Hughes, “Restricted data types in <span>Haskell</span>,” in *Haskell
+    Workshop*, 1999.
+  a_cite: |
+    J. Hughes, “[Restricted data types in <span>Haskell</span>](/papers/Hughes-99-RestrictedDataTypes),” in *Haskell
+    Workshop*, 1999.
+  year: 1999
+  links:
+    - <http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.2816>
+  bibtex: |
+    @inproceedings{Hughes:99:RestrictedDataTypes,
+      author = {John Hughes},
+      title = {Restricted Data Types in {Haskell}},
+      booktitle = {Haskell Workshop},
+      location = {Paris, France},
+      year = {1999},
+      xtra = {for citing regarding constrained-monad problem},
+    }
+
+- key: Hackage-08-RMonad
+  cite: |
+    G. Sittampalam and P. Gavin, “R<span>M</span>onad,” 2008.
+  a_cite: |
+    G. Sittampalam and P. Gavin, “[R<span>M</span>onad](/papers/Hackage-08-RMonad),” 2008.
+  year: 2008
+  links:
+    - <http://hackage.haskell.org/package/rmonad>
+  bibtex: |
+    @misc{Hackage:08:RMonad,
+      author = {Ganesh Sittampalam and Peter Gavin},
+      title = {R{M}onad},
+      xtra = {for citing regarding constrained-monad problem},
+      year = {2008},
+    }
+
+- key: Hackage-13-ConstrainedNormal
+  cite: |
+    N. Sculthorpe, “The constrained-normal package,” 2013.
+  a_cite: |
+    N. Sculthorpe, “[The constrained-normal package](/papers/Hackage-13-ConstrainedNormal),” 2013.
+  year: 2013
+  links:
+    - <http://hackage.haskell.org/package/constrained-normal>
+  bibtex: |
+    @misc{Hackage:13:ConstrainedNormal,
+      author = {Neil Sculthorpe},
+      title = {The Constrained-Normal Package},
+      xtra = {for citing regarding constrained-monad problem},
       year = {2013},
     }
 
@@ -235,9 +344,9 @@
     based upon different recursion operators and different correctness
     conditions.  In this article we show how these two approaches can
     be generalised in a uniform manner by combining their correctness
-    conditions, extend the theory with new conditions that are
-    both necessary and sufficient to ensure the correctness of the
-    worker/wrapper technique, and explore the benefits that result.
+    conditions, how the theory can be extended with new conditions
+    that are necessary (in addition to sufficient) to ensure the correctness
+    of the worker/wrapper technique, and explore the benefits that result.
     All the proofs have been mechanically verified using the Agda system.
   bibtex: |
     @article{Sculthorpe:14:WorkIt,
@@ -247,6 +356,7 @@
       pages = {113--127},
       volume = {24},
       number = {1},
+      publisher = {Cambridge University Press},
       year = {2014},
     }
 
@@ -254,17 +364,16 @@
   cite: |
     A. Gill, T. Bull, A. Farmer, G. Kimmell, and E. Komp, “Types and
     associated type families for hardware simulation and synthesis: The
-    internals and externals of <span>K</span>ansas <span>L</span>ava,” 2013,
-    accepted for publication in the Journal of Higher-Order and Symbolic
-    Computation.
+    internals and externals of <span>K</span>ansas <span>L</span>ava,”
+    *Higher-Order and Symbolic Computation*, pp. 1–20, 2013.
   a_cite: |
     A. Gill, T. Bull, A. Farmer, G. Kimmell, and E. Komp, “[Types and
     associated type families for hardware simulation and synthesis: The
-    internals and externals of <span>K</span>ansas <span>L</span>ava](/papers/Gill-13-TypesKansasLava),” 2013,
-    accepted for publication in the Journal of Higher-Order and Symbolic
-    Computation.
+    internals and externals of <span>K</span>ansas <span>L</span>ava](/papers/Gill-13-TypesKansasLava),”
+    *Higher-Order and Symbolic Computation*, pp. 1–20, 2013.
   year: 2013
   links:
+    - <http://dx.doi.org/10.1007/s10990-013-9098-7>
   abstract: |
     In this article
     we overview the design and implementation of the second generation
@@ -290,11 +399,15 @@
     illustrate its use in a small but complete example.
   bibtex: |
     @article{Gill:13:TypesKansasLava,
+      issn = {1388-3690},
+      journal = {Higher-Order and Symbolic Computation},
+      doi = {10.1007/s10990-013-9098-7},
+      publisher = {Springer US},
+      keywords = {Domain specific languages; Hardware; Synthesis; Types},
+      pages = {1-20},
       title = {Types and Associated Type Families for Hardware Simulation and Synthesis:
               The Internals and Externals of {K}ansas {L}ava},
       author = {Andy Gill and Tristan Bull and Andrew Farmer and Garrin Kimmell and Ed Komp},
-      booktitle = {Post-Proceedings of Trends in Functional Programming},
-      note = {Accepted for publication in the Journal of Higher-Order and Symbolic Computation},
       year = {2013},
     }
 
@@ -344,7 +457,6 @@
       pages = {86--103},
       volume = {8241},
       year = {2013},
-      xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Sculthorpe-13-HERMITinTree-extended.pdf},
     }
 
 - key: Farmer-12-HERMITinMachine
@@ -399,7 +511,6 @@
       isbn = {978-1-4503-1574-6},
       location = {Copenhagen, Denmark},
       pages = {1--12},
-      xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Farmer-12-HERMITinMachine.pdf},
       doi = {10.1145/2364506.2364508},
       acmid = {2364508},
       publisher = {ACM},
@@ -733,11 +844,11 @@
 - key: Gill-10-F5
   cite: |
     G. Hutton, M. Jaskelioff, and A. Gill, “Factorising folds for faster
-    functions,” *Journal of Functional Programming*, vol. 20, no. 3–4, pp.
+    functions,” *Journal of Functional Programming*, vol. 20, no. 3-4, pp.
     353–373, 2010.
   a_cite: |
     G. Hutton, M. Jaskelioff, and A. Gill, “[Factorising folds for faster
-    functions](/papers/Gill-10-F5),” *Journal of Functional Programming*, vol. 20, no. 3–4, pp.
+    functions](/papers/Gill-10-F5),” *Journal of Functional Programming*, vol. 20, no. 3-4, pp.
     353–373, 2010.
   year: 2010
   links:
@@ -755,7 +866,7 @@
       journal = {Journal of Functional Programming},
       publisher = {Cambridge University Press},
       volume = {20},
-      number = {3--4},
+      number = {3-4},
       pages = {353--373},
       year = {2010},
     }
@@ -792,7 +903,6 @@
       booktitle = {Post-Proceedings of Trends in Functional Programming},
       month = {May},
       year = {2010},
-      xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Matlage-10-BeginningMiddleEnd.pdf},
       publisher = {Springer-Verlag},
       series = {LNCS},
       volume = {6546},
@@ -1694,5 +1804,33 @@
       publisher = {Springer},
       series = {Workshops in Computing},
       isbn = {3-540-19760-5},
+    }
+
+- key: SPJ-91-Unboxed
+  cite: |
+    S. <span>Peyton Jones</span> and J. Launchbury, “Unboxed values as first
+    class citizens in a non-strict functional language,” in *Functional
+    Programming Languages and Computer Architecture*, ser. <span>FPCA</span>
+    ’91. Springer, 1991, pp. 636–666.
+  a_cite: |
+    S. <span>Peyton Jones</span> and J. Launchbury, “[Unboxed values as first
+    class citizens in a non-strict functional language](/papers/SPJ-91-Unboxed),” in *Functional
+    Programming Languages and Computer Architecture*, ser. <span>FPCA</span>
+    ’91. Springer, 1991, pp. 636–666.
+  year: 1991
+  links:
+    - <http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.231>
+  abstract: |
+    The code compiled from a non-strict functional program usually manipulates heap-allocated boxed numbers. Compilers for such languages often go to considerable trouble to optimise operations on boxed numbers into simpler operations on their unboxed forms. These optimisations are usually handled in an ad hoc manner in the code generator, because earlier phases of the compiler have no way to talk about unboxed values. We present a new approach, which makes unboxed values into (nearly) first-class citizens. The language, including its type system, is extended to handle unboxed values. The optimisation of boxing and unboxing operations can now be reinterpreted as a set of correctness-preserving program transformations. Indeed the particular transformations required are ones which a compiler would want to implement anyway. The compiler becomes both simpler and more modular. Two other benefits accrue. Firstly, the results of strictness analysis can be exploited within the same uniform transformational framework. Secondly, new algebraic data types with unboxed components can be declared. Values of these types can be manipulated much more efficiently than the corresponding boxed versions. Both a static and a dynamic semantics are given for the augmented language. The denotational dynamic semantics is notable for its use of unpointed domains.
+  bibtex: |
+    @inproceedings{SPJ:91:Unboxed,
+      author = {Simon {Peyton Jones} and John Launchbury},
+      title = {Unboxed Values as First Class Citizens in a	Non-Strict Functional Language},
+      booktitle = {Functional Programming Languages and Computer Architecture},
+      series = {{FPCA} '91},
+      pages = {636--666},
+      publisher = {Springer},
+      year = {1991},
+      xtra = {for citing regarding worker/wrapper},
     }
 
