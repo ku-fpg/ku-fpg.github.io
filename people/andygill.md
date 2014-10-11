@@ -1,46 +1,36 @@
-<div class="row"><div class="span8 offset1">
+---
+layout: default
+title: Andrew Gill
+---
 
-<div class="row"><div class="span4">
+<img src="{{site.baseurl}}/images/andygill/me.jpg" class="img-rounded floatright"/>
 
-<div style="font-size: 12pt; line-height: 20pt; text-align: left">
-<strong>Andy Gill</strong><br>
-Assistant Professor<br>
-[Electrical Engineering and Computer Science](http://www.eecs.ku.edu/)<br>
-[School of Engineering](http://www.engr.ku.edu/)<br>
-[The University of Kansas](http://www.ku.edu/)</div>
 
-<BR/>
-<BR/>
 
---------------- -----------------------------
-<b>Email:</b>    andygill at ku.edu
+> **Andrew Gill**  
+> Associate Professor  
+> [Electrical Engineering and Computer Science](http://www.eecs.ku.edu/)  
+> [School of Engineering](http://www.engr.ku.edu/)  
+> [The University of Kansas](http://www.ku.edu/)  
 
-Phone:          +1 785-864-8817 (Eaton) / <BR>
-                +1 785-864-4712 (ITTC) <BR>
-                +1 785-864-3226 (FAX)
 
-Address:        The University of Kansas, <BR>
-                2001 Eaton Hall, <BR>
-                1520 West 15th Street, <BR>
-                Lawrence, KS 66045-7621
+<div class="clear-both"/>
 
-Office:         Room 2024 (Eaton) / <BR>
-                Room 252 (Nichols Hall)
+### Contact Information
 
-Office<BR>hours:   Wednesday 2:00-4:00 <BR>
-                 (or by appointment)
---------------- -----------------------------
 
-</div><div class="span2 offset2">
-
-<img src="/files/andygill/me.jpg" class="img-rounded"/>
-
-</div></div>
+ &nbsp;        |
+ ------------:|:----------------------------
+ **Email:**     |  andygill@ku.edu
+**Phone:**    | +1 785-864-8817 (Eaton) / <BR>  +1 785-864-4712 (ITTC) <BR> +1 785-864-3226 (FAX)
+**Address:**  | The University of Kansas, <BR>  2001 Eaton Hall, <BR> 1520 West 15th Street, <BR> Lawrence, KS 66045-7621
+**Office:**   | Room 2024 (Eaton) / <BR> Room 252 (Nichols Hall)
+**Office hours:** | Wednesday 2:00-4:00 <BR> (or by appointment)
 
 Research
 --------
 
-I lead the [Functional Programming Group](/index) at the University of Kansas.
+I lead the [Functional Programming Group](/) at the University of Kansas.
 Funded by the National Science Foundation,
 the International Foundation for Telemetering, and others,
 we use functional programming to solve problems in ways that are
@@ -52,41 +42,31 @@ implementations. We then deploy our new technologies into diverse
 application areas, including telemetry, high performance computing and
 real-time systems.
 
-<a class="label" href="/research">Read more about Functional Programming Research at KU</a>
-
 Teaching
 --------
 
 I teach programming in Java (EECS 168 &amp; 368),
-Scheme (EECS 368), and Haskell (EECS 368, 776, 876).
+JavaScript &amp; Scheme (EECS 368), and Haskell (EECS 368, 776, 876).
 In all these class, we go on to use programming
 to solve interesting real-world problems.
+I also lead the EECS Computer Science Capstone (EECS 581, 582).
+In Fall 2014, I am teaching EECS 776 and EECS 581.
 
---------  --------------
-EECS 168  Programming I
-EECS 368  Programming Language Paradigms
-EECS 776  Functional Programming and Domain Specific Languages
-EECS 876  Advanced Topics in Functional Languages
---------  --------------
+-------- |:-------------------------------------------------------|:---------
+EECS 168 | Programming I					  | S13 S12
+EECS 368 | Programming Language Paradigms			  | F08 F09 F11 F12 S14
+EECS 581 | CS Senior Design I					  | F14
+EECS 582 | CS Senior Design II					  | S15
+EECS 776 | Functional Programming and Domain Specific Languages   | F12 F13 F14
+EECS 700 | Functional Programming                                 | S09 S10 S11 S12
+EECS 800 | Advanced Special Topics in Functional Languages        | S10 S11
+EECS 876 | Advanced Topics in Functional Languages    		  | S14
 
-I am teaching Programming I (EECS 168) in Spring 2013.
+## Recent Publications and Submissions
 
-<a class="label" href="/users/andygill/teaching">Read more about Andy Gill's classes at KU</a>
+{% include recent.fn %}
 
-
-Recent Publications and Submissions
------------------------------------
-
- * <div class="cite Sculthorpe:13:ConstrainedMonad"/>
- * <div class="cite Gill:13:TypesKansasLava"/>
- * <div class="cite Sculthorpe:13:HERMITinTree"/>
- * <div class="cite Farmer:12:HERMITinMachine"/>
- * <div class="cite Farmer-12-WebDSLs"/>
- * <div class="cite Frisby:12:AlmostHomomorphicFunctions"/>
- * <div class="cite Gill:12:PatchLogic"/>
-
-Professional Activities
------------------------
+## Professional Activities
 
 -   Editor,
         SIGPLAN Notices & SIGPLAN Information Director
@@ -178,8 +158,7 @@ Professional Activities
         [ACM SIGPLAN Haskell  Workshop](http://www.haskell.org/haskell-workshop/2007/)
         (HASKELL'07)
 
-Bio and Background
-------------------
+## Bio and Background
 
 Andrew (Andy) Gill was born and educated in Scotland, and has spent his
 professional career in the United States. Andy received his Ph.D. from
@@ -200,6 +179,3 @@ language design, debugging, and dependability. The long-term goal of his
 research is to offer engineers and practitioners the opportunity to write
 clear and high-level executable specifications that can realistically be
 compiled into efficient implementations.
-
-
-</div></div>

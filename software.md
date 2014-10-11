@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Software Projects
+title: Software Projects, Tools and Libraries
 ---
 We build tools and libraries, typically written in Haskell, to explore and validate our
 ideas. The main research challenge we are addressing is improving the

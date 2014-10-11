@@ -12,3 +12,5 @@
   border-top: 1px solid black;
 }
 
+.floatright { float: right; }
+.clear-both { clear: both; }
