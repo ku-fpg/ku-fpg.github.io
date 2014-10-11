@@ -5,3 +5,6 @@ _auto/
 dist/
 \#*
 .shake*
+.cabal-sandbox/
+cabal.sandbox.*
+papers/

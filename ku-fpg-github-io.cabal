@@ -15,7 +15,6 @@ Executable Shake
   Other-modules:       BibTeX
   Ghc-options:         -threaded
   Build-depends:       base >= 4.6 && < 5.0,
-                       kure >= 2.6.14,
                        directory >= 1.2,
                        shake >= 0.10,
                        old-locale >= 1.0.0.5,

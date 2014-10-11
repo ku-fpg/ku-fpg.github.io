@@ -1,12 +1,22 @@
 Webpages for the KU FPG
 =======================
 
+## Adding files
 
  * To add a file, add a .md file, in the appropriate directory.
 
  * To edit the sidebar, edit _data/sidebar.html
+
  * To edit the navbar, edit _data/navbar.html
 
+## Building
+
+ * To build, use `echo main | cabal repl`.
+   There are a number of .md files that are auto generated.
+
+   * _meta/bibtex.bib => _data/publications.yml & papers/*md
+
+ * To generate the html files into _site, use `jekyll build`.
 
 ## Other Packages
 

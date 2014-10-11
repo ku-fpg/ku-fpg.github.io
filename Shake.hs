@@ -92,7 +92,6 @@ main2 ("build":extra) = do
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-
         "papers/*.md" *> \ out -> do
                let nm = (dropExtension (dropDirectory1 out))
                cite <- getBibTeXCitation nm
@@ -133,7 +132,7 @@ main2 ("build":extra) = do
                      , replaceExtension out ".aux"
                         -- TODO: also the bst file???
                      ]
-                systemCwd (dropFileName out) "bibtex" [dropExtension (takeFileName out)]
+                cmd (Cwd $ dropFileName out) "bibtex" [dropExtension (takeFileName out)]
 
 		-- Short has the preamble to postamble removed
         "_auto/bibtex/*.bbl-short" *> \ out -> do
@@ -169,7 +168,7 @@ main2 ("build":extra) = do
         "_auto/bibtex/*.html-abstract" *> \ out -> do
                 need [ replaceExtension out "abstract"
                      ]
-                system' "pandoc" ["-f","latex",
+                cmd    "pandoc" ["-f","latex",
                                  "-t", "markdown",
                                  replaceExtension out "abstract",
                                  "-o", out ]
