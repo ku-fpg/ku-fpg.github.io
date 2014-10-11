@@ -64,7 +64,7 @@ EECS 876 | Advanced Topics in Functional Languages    		  | S14
 
 ## Recent Publications and Submissions
 
-{% include recent.fn %}
+{% include recent.fn me="Gill" %}
 
 ## Professional Activities
 
