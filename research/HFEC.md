@@ -33,8 +33,7 @@ techneque for representing curciuts.
 
 ## Publications
 
-
-
+{% include cite.fn grep="Gill" %}
 
 
 

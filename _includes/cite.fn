@@ -1,1 +1,0 @@
-{% for item in site.data.publications %}{% if item.key == include.cite %}{{ item.a_cite | trim | markdownify }}{% endif %}{% endfor %}

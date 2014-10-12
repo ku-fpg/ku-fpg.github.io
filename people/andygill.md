@@ -64,7 +64,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 
 ## Recent Publications and Submissions
 
-{% include recent.fn me="Gill" %}
+{% include cite.fn grep="Gill" %}
 
 ## Professional Activities
 
