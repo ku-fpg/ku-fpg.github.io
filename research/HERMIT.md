@@ -40,7 +40,41 @@ impact. For example, Evaluation Assurance Level (EAL) 5 and 6 of the
 Common Criteria call for semi-formal methods to construct such links,
 and this project addresses keys part of this requirement.
 
-## Publications
+## Summary of Research Methods
+
+((TODO))
+
+## Relevent Publications
+
+{% include cite.fn key="Gill-13-TypesKansasLava" %}
+
+{% include cite.fn key="Sculthorpe-14-KURE" %}
+{% include cite.fn key="Gill-2014-DSLs-and-Synthesis" %}
+{% include cite.fn key="Bracker-14-Sunroof" %}
+{% include cite.fn key="Farmer-14-HERMITinStream" %}
+{% include cite.fn key="Adams-14-OSIE" %}
+{% include cite.fn key="Sculthorpe-13-ConstrainedMonad" %}
+{% include cite.fn key="Sculthorpe-14-WorkIt" %}
+{% include cite.fn key="Gill-13-TypesKansasLava" %}
+{% include cite.fn key="Sculthorpe-13-HERMITinTree" %}
+{% include cite.fn key="Farmer-12-HERMITinMachine" %}
+{% include cite.fn key="Farmer-12-WebDSLs" %}
+
+### Background Publications
+
+These publications supported the original proposal.
+
+"Deriving an efficient FPGA ..." was a case study of using worker/wrapper, applied
+to hardware synthesis.
+
+{% include cite.fn key="Gill-11-DerivingLDPC" %}
+
+"The worker/wrapper transformation" was the first formalization of worker/wrapper.
+
+{% include cite.fn key="Gill-09-WW" %}
+
+
+
 
 
 
