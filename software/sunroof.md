@@ -1,17 +1,14 @@
-Sunroof
-=======
-
-<div class="teaser">
-
-Sunroof is a Domain Specific Language (DSL) for dynamically generating JavaScript.
+---
+layout: page
+title: Sunroof
+---
+**Sunroof** is a Domain Specific Language (DSL) for dynamically generating JavaScript.
 Sunroof is build on top of the JS-monad, which, like the IO-monad, allows
 read and write access to external resources, but specifically JavaScript
 resources. As such, Sunroof is primarily a feature-rich foreign
 function API to the browser's JavaScript engine, and all the browser-specific
 functionality, like HTML-based rendering, event handling, and even
 drawing to the HTML5 canvas.
-
-</div>
 
 Sunroof is a Haskell-hosted DSL. This
 makes it easy to use Haskell abstractions for larger Javascript
@@ -84,7 +81,5 @@ language extension `ScopedTypeVariables`. [Look here for further examples][examp
  * <div class="cite Bracker:14:Sunroof"/>
  * <div class="cite Farmer:12:WebDSLs"/>
  * <div class="cite Sculthorpe:13:ConstrainedMonad"/>
-
-
 
 [examples]: https://github.com/ku-fpg/sunroof-compiler/wiki/Examples

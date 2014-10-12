@@ -1,12 +1,14 @@
-<div class="teaser">
-
-IO-based reification, as implemented by
+---
+layout: page
+title: IO-based Observable Sharing and Reification
+---
+**IO-based reification**, as implemented by
 [data-reify](http://hackage.haskell.org/cgi-bin/hackage-scripts/package/data-reify),
 provided the ability to turn recursive structures into explicit graphs.
 Many (implicitly or explicitly) recursive data structure can be given
 this ability, via a type class instance. 
-
-</div>
+It is a key piece of technolgy used in many reification and sythesis
+libraries.
 
 ### Key Links
 

@@ -23,12 +23,14 @@
     href: /software/kansas-lava
   - name: KURE
     href: /software/kure
-  - name: Scotty
   - name: Blank Canvas
     href: /software/blank-canvas
   - name: Haskell Program Coverage
+    href: /software/hpc  
   - name: HOOD Debugger
-  - name: "IO-Based Reification"
+    href: /software/hood
+  - name: "IO-Based Observable Sharing"
+    href: /software/data-reify
 - name: Publications
   href: "/publications"
   

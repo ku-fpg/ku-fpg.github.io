@@ -27,7 +27,7 @@ which gives the research-centric view of the FPG lab.
 
 -----------------------------------------------------------
 
-## Hardware and Software Sythesis
+## Hardware and Software Synthesis
 
 ### Kansas Lava
 
@@ -37,44 +37,25 @@ which gives the research-centric view of the FPG lab.
 
 {% include teaser.fn href="/software/blank-canvas" %}
 
------------------------------------------------------------
-
-## Web Technologies
-
-<a href="/software/scotty" class="teaser">More about Scotty</a>
-
------------------------------------------------------------
-
-## Retired Projects
-
-These are FPG projects which are, for one reason or another,
-are no longer under active development.
-
 ### Sunroof
 
 {% include teaser.fn href="/software/sunroof" %}
 
-### ChalkBoard the Graphics Library
+### IO-based Observable Sharing and Reification
 
-<a href="/software/chalkboard" class="teaser">More about ChalkBoard</a>
+{% include teaser.fn href="/software/data-reify" %}
 
-----------------------------------------------------------------
+-----------------------------------------------------------
 
-## Tools
+## Debugging and Profiling Tools
 
-<a href="/software/hpc" class="teaser">More about Haskell Program Coverage</a>
+### Haskell Program Coverage
 
-----------------------------------------------------------------
+{% include teaser.fn href="/software/hpc" %}
 
-## Libraries
+### Haskell Object Observation Debugger
 
-### Haskell Object Observation Debugger (Hood)
-
-<a href="/software/hood" class="teaser">More about the Haskell Object Observation Debugger</a>
-
-### IO-Based Reification
-
-<a href="/software/data-reify" class="teaser">More about IO-Based Reification</a>
+{% include teaser.fn href="/software/hood" %}
 
 -----------------------------------------------------------
 
@@ -99,7 +80,21 @@ All these libraries are on hackage.
     the output document. A typical application is outputting pretty HTML
     with style attributes like bold and color.
 
+[scotty](http://hackage.haskell.org/package/scotty)
+    A Haskell web framework inspired by Ruby's Sinatra, using WAI and Warp.
+
 [sized-types](http://hackage.haskell.org/package/sized-types)
     Providing indices, matrixes, sparse matrixes, and signed and
     unsigned bit vectors.
+
+-----------------------------------------------------------
+
+## Retired Projects
+
+These are FPG projects which are, for one reason or another,
+are no longer under active development.
+
+### ChalkBoard
+
+{% include teaser.fn href="/software/chalkboard" %}
 
