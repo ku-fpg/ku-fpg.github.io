@@ -25,7 +25,7 @@ Project            |  Funded<BR>by | Period of<BR>Peformanace  |  Investigators 
 [CAREER: Filling the Gaps in Domain-Specific<BR>Functional-Based Solutions for<BR>High-Performance Execution](/research/CAREER) | NSF | Jun 2014 -<BR> Apr 2019     | Andrew Gill (PI) | $521,201
 [Armored Software](http://armoredsoftware.github.io/)   | DoD | Sep 2013 -<BR>Sep 2017     | Perry Alexander (PI)<BR>Andrew Gill<BR>Prasad Kulkarni | $2,708,071
 [Improving the Applicability of Haskell-Hosted<BR>Semi-Formal Models to High Assurance<BR>Development](/research/HERMIT) (The HERMIT Project)    | NSF | Aug 2011 -<BR>Jul 2015     | Andrew Gill (PI) | $527,750
-Efficient Hardware Implementation of<BR> Iterative FEC Decoders | DoD |  May 2009 -<BR>Aug 2011 | Erik Perrins (PI)<BR>Andrew Gill | $799,267
+[High-Rate High-Speed Forward Error<BR>Correction Architectures for<BR>Aeronautical Telemetry](/research/HFEC) (HFEC) | DoD |  May 2009 -<BR>Aug 2011 | Erik Perrins (PI)<BR>Andrew Gill | $799,267
 	  
 
 ## Overview of Research
