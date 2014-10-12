@@ -28,11 +28,10 @@ ITTC, in Nichols Hall on west campus.
 
 Who                                                             | Project(s)                      | Status
 :---------------------------------------------------------------|:--------------------------------|:------------------
-[Andrew Farmer](/users/andrewfarmer)                            | HERMIT                          | PhD, expected 2014
+Justin Dawson							| Armored Sofware		  | PhD, expected 2017
+[Andrew Farmer](/users/andrewfarmer)                            | HERMIT                          | PhD, expected 2015
 [Andy Gill](/users/andygill)                                    | HERMIT &amp; KansasLava         | PI / Faculty
-Adam Howell                                                     | HERMIT/Android                  | BS CS
-[Ed Komp](http://www.ittc.ku.edu/view_contact.phtml?id=28)      | HERMIT                          | Staff
-[Bowe Neuenschwander](/users/boweneuenschwander)                | KansasLava / &lambda;-Bridge    | MS, expected 2013
+[Bowe Neuenschwander](/users/boweneuenschwander)                | KansasLava / &lambda;-Bridge    | MS, expected 2015
 Ryan Scott                                                      | HERMIT/Android                  | BS CS
 Mike Stees                                                      | High Performance Haskell        | PhD, expected 2017
 Rama Subramanian                                                | TBD                             | MS CS
@@ -47,11 +46,15 @@ Jan Bracker                                           | Sunroof, MS Exchange    
 Tristan Bull                                          | HFEC, MS 2011            | Industry
 Patrick G Flor                                        | HERMIT/Android           | Groupon
 Nicolas Frisby                                        | HERMIT, Staff            | FP Complete
+Adam Howell                                           | HERMIT/Android, BS 2014  | IBM
 [Garrin Kimmell](http://www.ittc.ku.edu/~kimmell/)    | HFEC, PostDoc            | PostDoc, University of Iowa
+[Ed Komp](http://www.ittc.ku.edu/view_contact.phtml?id=28) | HERMIT              | Long-term ITTC Staff member
 Kevin Matlage                                         | ChalkBoard, MS 2011      | Industry
 Patrick Miller                                        | Lambda Bridge, BS 2012   | PhD student, Notre Dame
 [Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/)   | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
 Brandon Smith                                         | ChalkBoard, BS 2011      | Industry
+
+
 
 
 ### Visitors and Visits
