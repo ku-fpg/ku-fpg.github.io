@@ -7,10 +7,13 @@
   href: "/research"
   sublinks:
   - name: NSF CAREER (2014-2019)
+    href: /research/CAREER
   - name: Armored Software (2013-2017)
     href: http://armoredsoftware.github.io/
   - name: The HERMIT Project (2011-2015)
+    href: /research/HERMIT
   - name: FEC Decoders (2009-2011)
+    href: /research/HFEC
 - name: Software, Tools and Libraries
   href: /software
   sublinks:
