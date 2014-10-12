@@ -49,6 +49,8 @@ I teach programming in Java (EECS 168 &amp; 368),
 JavaScript &amp; Scheme (EECS 368), and Haskell (EECS 368, 776, 876).
 In all these class, we go on to use programming
 to solve interesting real-world problems.
+Before KU, I taught graduate-level compilers at the Oregon Graduate
+Institute (OGI).
 I also lead the EECS Computer Science Capstone (EECS 581, 582).
 In Fall 2014, I am teaching EECS 776 and EECS 581.
 
@@ -56,9 +58,10 @@ In Fall 2014, I am teaching EECS 776 and EECS 581.
 EECS 168     | Programming I					      | S13 S12
 EECS 368     | Programming Language Paradigms			      | F08 F09 F11 F12 S14
 EECS 581/582 | CS Senior Design I & II				      | F14 S15
-EECS 776     | Functional Programming and Domain Specific Languages   | F12 F13 F14
 EECS 700     | Functional Programming                                 | S09 S10 S11 S12
+EECS 776     | Functional Programming and Domain Specific Languages   | F12 F13 F14
 EECS 876/800 | Advanced Topics in Functional Languages                | S10 S11 S14
+CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 02, Summer 03
 
 ## Recent Publications and Submissions
 
@@ -67,7 +70,20 @@ EECS 876/800 | Advanced Topics in Functional Languages                | S10 S11 
 ## Professional Activities
 
 -   Editor,
-        SIGPLAN Notices & SIGPLAN Information Director
+        SIGPLAN Notices
+-   ACM SIGPLAN Information Director
+-   PC Member,
+       Trends in Functional Programming,
+       2015
+-   PC Member,
+       ACM SIGPLAN International Conference on Functional Programming,
+       2015
+-   PC Member,
+       7th International Conference on Software Language Engineering,
+       2014
+-   PC Member,
+       24th International Conference on Field Programmable Logic and Applications,
+       2014
 -   PC Member,
         Workshop on Haskell And Rewriting Techniques (HART), 
         2013
@@ -155,6 +171,19 @@ EECS 876/800 | Advanced Topics in Functional Languages                | S10 S11 
 -   PC Member for the
         [ACM SIGPLAN Haskell  Workshop](http://www.haskell.org/haskell-workshop/2007/)
         (HASKELL'07)
+-   Chair,
+	First International Glasgow Haskell Compiler “Hackathon”, 2006, 55 attendees.
+-   PC Member,
+       ACM SIGPLAN Haskell Workshop,
+       2000  
+
+
+## Professional Awards
+
+ * Miller Award for Research, University of Kansas School of Engineering, 2014.
+ * National Science Foundation CAREER Award, 2014.
+ * Excellence in Teaching award, Center for Teaching Excellence, University of Kansas, 2010.
+ * Harry Talley Excellence in Teaching Award, KU EECS Department, 2009.
 
 ## Bio and Background
 
