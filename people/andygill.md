@@ -52,15 +52,13 @@ to solve interesting real-world problems.
 I also lead the EECS Computer Science Capstone (EECS 581, 582).
 In Fall 2014, I am teaching EECS 776 and EECS 581.
 
--------- |:-------------------------------------------------------|:---------
-EECS 168 | Programming I					  | S13 S12
-EECS 368 | Programming Language Paradigms			  | F08 F09 F11 F12 S14
-EECS 581 | CS Senior Design I					  | F14
-EECS 582 | CS Senior Design II					  | S15
-EECS 776 | Functional Programming and Domain Specific Languages   | F12 F13 F14
-EECS 700 | Functional Programming                                 | S09 S10 S11 S12
-EECS 800 | Advanced Special Topics in Functional Languages        | S10 S11
-EECS 876 | Advanced Topics in Functional Languages    		  | S14
+------------ |:-------------------------------------------------------|:---------
+EECS 168     | Programming I					      | S13 S12
+EECS 368     | Programming Language Paradigms			      | F08 F09 F11 F12 S14
+EECS 581/582 | CS Senior Design I & II				      | F14 S15
+EECS 776     | Functional Programming and Domain Specific Languages   | F12 F13 F14
+EECS 700     | Functional Programming                                 | S09 S10 S11 S12
+EECS 876/800 | Advanced Topics in Functional Languages                | S10 S11 S14
 
 ## Recent Publications and Submissions
 

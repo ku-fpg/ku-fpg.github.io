@@ -16,16 +16,6 @@ needs.
 
 ------------------------------------------------------------------------
 
-### Research
-
-{% include teaser.fn href="/research" tag="h2" %}
-
-### Software
-
-{% include teaser.fn href="/software" tag="h2" %}
-
-------------------------------------------------------------------------
-
 ## Group Composition
 
 The Functional Programming Group at the University of Kansas 
@@ -40,7 +30,6 @@ Who                                                             | Project(s)    
 :---------------------------------------------------------------|:--------------------------------|:------------------
 [Andrew Farmer](/users/andrewfarmer)                            | HERMIT                          | PhD, expected 2014
 [Andy Gill](/users/andygill)                                    | HERMIT &amp; KansasLava         | PI / Faculty
-Nicolas Frisby                                                  | HERMIT                          | Staff / Post PhD
 Adam Howell                                                     | HERMIT/Android                  | BS CS
 [Ed Komp](http://www.ittc.ku.edu/view_contact.phtml?id=28)      | HERMIT                          | Staff
 [Bowe Neuenschwander](/users/boweneuenschwander)                | KansasLava / &lambda;-Bridge    | MS, expected 2013
@@ -53,20 +42,22 @@ These are people who have previously worked for or with FPG in some capacity.
 
 Who                                                   | Project                 | Where after FPG
 ------------------------------------------------------|:------------------------|:---------------
-Robert Blair                                          |HERMIT/Android, BS 2013  |
-Jan Bracker                                           |Sunroof, MS Exchange     | Christian-Albrechts-University
-Tristan Bull                                          |HFEC, MS 2011            |Industry
-Patrick G Flor                                        |HERMIT/Android           | Groupon
-[Garrin Kimmell](http://www.ittc.ku.edu/~kimmell/)    |HFEC, PostDoc            | PostDoc, University of Iowa
-Kevin Matlage                                         |ChalkBoard, MS 2011      | Industry
-Patrick Miller                                        |Lambda Bridge, BS 2012   | PhD student, Notre Dame
-[Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/)   |HERMIT/KURE, PostDoc     | PostDoc, Swansea University
-Brandon Smith                                         |ChalkBoard, BS 2011      | Industry
+Robert Blair                                          | HERMIT/Android, BS 2013  | Industry
+Jan Bracker                                           | Sunroof, MS Exchange     | Christian-Albrechts-University
+Tristan Bull                                          | HFEC, MS 2011            | Industry
+Patrick G Flor                                        | HERMIT/Android           | Groupon
+Nicolas Frisby                                        | HERMIT, Staff            | FP Complete
+[Garrin Kimmell](http://www.ittc.ku.edu/~kimmell/)    | HFEC, PostDoc            | PostDoc, University of Iowa
+Kevin Matlage                                         | ChalkBoard, MS 2011      | Industry
+Patrick Miller                                        | Lambda Bridge, BS 2012   | PhD student, Notre Dame
+[Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/)   | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
+Brandon Smith                                         | ChalkBoard, BS 2011      | Industry
 
 
 ### Visitors and Visits
 
-These are people who have visited the lab for more than a day or so.
+These are people who have visited the lab for more than a day or so. 
+If you want to visit KU, email Professor Gill.
 
 Who                                                                    | When          | From
 ------------------------------------------------------------           |:--------------|:-----------
@@ -75,8 +66,7 @@ Who                                                                    | When   
 [Simon Thompson](http://www.cs.kent.ac.uk/people/staff/sjt/)           | June 2011     |  University of Kent
 [Jun Inoue](http://www.owlnet.rice.edu/~ji2)                           | Oct/Nov 2010  | Rice University
 
-If you want to visit KU, email Professor Gill.
-
+We also occationally leave the lab.
 
 Who                                  | When           | Length   | Visiting
 -------------------------------------|:---------------|:---------|:-----------

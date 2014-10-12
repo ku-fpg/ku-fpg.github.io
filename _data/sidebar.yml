@@ -1,5 +1,10 @@
+- name: Functional Programming Group
+  href: "/"
+  sublinks:
+  - name: Andrew Gill
+    href: "/people/andygill"
 - name: Funded Research
-  href: "/index.html"
+  href: "/research"
   sublinks:
   - name: NSF CAREER (2014-2019)
   - name: Armored Software (2013-2017)
@@ -22,12 +27,4 @@
   - name: "IO-Based Reification"
 - name: Publications
   href: "/publications"
-- name: About Us
-  sublinks:
-  - name: Andrew Farmer
-  - name: Andy Gill
-  - name: Ed Komp
-  - name: Bowe Neuenschwander
-  - name: Neil Sculthorpe
-  - name: Michael Stees
   

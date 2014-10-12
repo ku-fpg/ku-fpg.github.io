@@ -1,3 +1,4 @@
 <div class="sidebar" style="padding-right: 10px">
+    {% assign href = page.path | remove: 'index.md' | remove: '.md' | prepend: '/' %}
     {% include sidebar.fn param=site.data.sidebar level=0 %}
 </div>

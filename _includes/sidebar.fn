@@ -1,8 +1,14 @@
 {% if include.level > 0 %}<ul>{% endif %}
 {% for item in include.param %}
-{% if include.level > 0 %}<li>{% else %}<h4>{% endif %}
-  <a href="{{item.href}}">{{item.name}}</a>
-{% if include.level > 0 %}</li>{% else %}</h4>{% endif %}
+{% if include.level > 0 %}<li>{% else %}<b>{% endif %}
+  {% if item.href == href %}
+    <span class="self">
+  {% else %}
+     <span>
+  {% endif %}
+    <a href="{{item.href}}">{{item.name}}</a>
+  </span>
+{% if include.level > 0 %}</li>{% else %}</b>{% endif %}
   {% if item.sublinks %}
       {% assign level = include.level | plus: 1 %}
       {% include sidebar.fn param=item.sublinks level=level %}

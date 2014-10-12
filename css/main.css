@@ -5,12 +5,24 @@
 /* border: 1px solid #ddd; box-shadow: 3px 3px 5px #eee; border-radius: 10px   */
 }
 
+.sidebar a {
+  color: #428bca;
+}
+
+.sidebar .self a { 
+  color: white;
+  background: #428bca;
+  padding: 1px;
+}
+
 .page-content { font-size: larger; }
 /* Set the fixed height of the footer here */
 #footer {
   height: 20px;
   border-top: 1px solid black;
 }
+
+.self { color: red; }
 
 .floatright { float: right; }
 .clear-both { clear: both; }
