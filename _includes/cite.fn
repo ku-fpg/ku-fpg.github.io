@@ -1,0 +1,9 @@
+<ul class="citation-list">
+      {% assign pubs = site.data.publications | sort: 'year' %}
+      {% for item in pubs reversed %}
+        {% if (item.year >= 2013 and item.cite contains include.grep %}
+            <li>{{ item.a_cite | trim | markdownify }}
+           </li>
+	{% endif %}
+      {% endfor %}
+</ul>
