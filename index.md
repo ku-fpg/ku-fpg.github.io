@@ -19,25 +19,30 @@ needs.
 ## Group Composition
 
 The Functional Programming Group at the University of Kansas 
-is led by Andy Gill.
+is led by Andrew Gill.
 The group operates inside the Computer Systems Design Laboratory (CSDL), at
-ITTC, in Nichols Hall on west campus. 
+ITTC, in Nichols Hall on west campus. We currently have 15 group members.
 
 
-### Current Members and Alumni
-
-Who                                                             | Project(s)                      | Status
+Who                                     | Project(s)                      | Status
 :---------------------------------------|:--------------------------------|:------------------
 Justin Dawson				| Armored Sofware		  | PhD, expected 2017
+Aleksander Eskilson			| Animations			  | BS CS
 Andrew Farmer                           | HERMIT                          | PhD, expected 2015
 Josh Filstrup				| High Performance Haskell 	  | PhD, expected 2019
-[Andy Gill](/users/andygill)            | HERMIT &amp; KansasLava         | PI / Faculty
+[Andrew Gill](/users/andygill)          | HERMIT &amp; KansasLava         | PI / Faculty
 Mark Grebe				| Embedded Haskell Systems	  | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
-Ryan Scott                              | HERMIT/Android                  | BS CS
+Ryan Scott                              | HERMIT / CAREER		  | BS CS, expected 2015
+Nicholas Shaheed			| Animations and Music		  | BS CS
+James Stanton				| CAREER			  | BS CS, expected 2016
 Mike Stees                              | High Performance Haskell        | PhD, expected 2017
-Rama Subramanian                        | TBD                             | MS CS
+Rama Subramanian                        | Animations / FRP                | MS CS
 Brad Torrence                           | Artificial Life                 | MS CS
+Moiz Virani				| Websockets 			  | MS CS
+Mohammed Ziauddin			| TBD	     			  | MS CS
+
+### FPG Alumni
 
 These are people who have previously worked for or with FPG in some capacity.
 
