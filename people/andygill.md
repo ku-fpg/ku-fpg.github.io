@@ -181,6 +181,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 
  * Miller Award for Research, University of Kansas School of Engineering, 2014.
  * National Science Foundation CAREER Award, 2014.
+ * Distinguished Visitor Fellowship, Scottish Informatics and Computer Science Alliance, 2013.
  * Excellence in Teaching award, Center for Teaching Excellence, University of Kansas, 2010.
  * Harry Talley Excellence in Teaching Award, KU EECS Department, 2009.
 

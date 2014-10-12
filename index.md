@@ -73,10 +73,10 @@ Who                                                                    | When   
 
 We also occationally leave the lab.
 
-Who                                  | When           | Length   | Visiting
--------------------------------------|:---------------|:---------|:-----------
-[Andrew Farmer](/users/andrewfarmer) | Spring 2013    | 6 months | Portland State University
-Professor Gill 			     | Fall 2014      | 2 weeks  | Scotland as a ??? scholer.
+Who            | When           | Length   | Visiting
+---------------|:---------------|:---------|:-----------
+Andrew Farmer  | Spring 2013    | 6 months | Portland State University
+Professor Gill | Fall 2014      | 2 weeks  | Distinguished Visitor Fellowship, Scotland
 
 ### Joining the Group
 
