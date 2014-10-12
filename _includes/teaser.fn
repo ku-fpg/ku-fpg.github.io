@@ -3,6 +3,7 @@
 {% comment %}
  <{{ include.tag }}><a href="{{ include.href | prepend: site.baseurl }}">{{p.title}}</a></{{ include.tag }}>
 {% endcomment %}
-<p>{{ p.content | markdownify | split: "</p>" | first | remove: "<p>" }}</p>
+{% capture link %}<a href="{{ include.href | prepend: site.baseurl }}">{% endcapture %}
+<p>{{ p.content | markdownify | split: "</p>" | first | remove: "<p>" | replace: "strong>", "a>" | replace: "<a>", link }}</p>
 {% endif %}
 {% endfor %}

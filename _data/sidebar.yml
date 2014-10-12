@@ -18,14 +18,14 @@
   href: /software
   sublinks:
   - name: HERMIT
-    href: /projects/HERMIT
+    href: /software/hermit
   - name: Kansas Lava
-  - name: Lambda Bridge
+    href: /software/kansas-lava
   - name: KURE
-  - name: Sunroof
+    href: /software/kure
   - name: Scotty
   - name: Blank Canvas
-  - name: ChalkBoard
+    href: /software/blank-canvas
   - name: Haskell Program Coverage
   - name: HOOD Debugger
   - name: "IO-Based Reification"

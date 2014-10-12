@@ -5,7 +5,7 @@ title: Software Projects, Tools and Libraries
 We build tools and libraries, typically written in Haskell, to explore and validate our
 ideas. The main research challenge we are addressing is improving the
 high-assurance narrative for functional languages. We release our tools
-open source, under a BSD license, use GIT for version control, and
+open source, under a BSD license, use `git` for version control, and
 GitHub for external contributions.
 
 This page is a software-centric view of our research. Please email us if you
@@ -17,27 +17,42 @@ which gives the research-centric view of the FPG lab.
 
 ## Rewriting and Refactoring Tools
 
+### HERMIT
+
 {% include teaser.fn href="/software/hermit" %}
+   
+### KURE
 
-## Haskell Domain Specific Languages (DSLs)
+{% include teaser.fn href="/software/kure" %}
 
-### Kansas Lava and Hardware Specification and Generation
+-----------------------------------------------------------
 
-<a href="/software/kansas-lava" class="teaser">More about Kansas Lava</a>
+## Hardware and Software Sythesis
 
-<a href="/software/lambda-bridge" class="teaser">More about Lambda Bridge</a>
+### Kansas Lava
 
-### KURE - Term Rewriting
+{% include teaser.fn href="/software/kansas-lava" %}
 
-<a href="/software/kure" class="teaser">More about KURE</a>
+### Blank Canvas
 
-### Sunroof and other Web Technologies
+{% include teaser.fn href="/software/blank-canvas" %}
 
-<a href="/software/sunroof" class="teaser">More about Sunroof</a>
+-----------------------------------------------------------
+
+## Web Technologies
 
 <a href="/software/scotty" class="teaser">More about Scotty</a>
 
-<a href="/software/blank-canvas" class="teaser">More about Blank Canvas</a>
+-----------------------------------------------------------
+
+## Retired Projects
+
+These are FPG projects which are, for one reason or another,
+are no longer under active development.
+
+### Sunroof
+
+{% include teaser.fn href="/software/sunroof" %}
 
 ### ChalkBoard the Graphics Library
 
@@ -49,6 +64,8 @@ which gives the research-centric view of the FPG lab.
 
 <a href="/software/hpc" class="teaser">More about Haskell Program Coverage</a>
 
+----------------------------------------------------------------
+
 ## Libraries
 
 ### Haskell Object Observation Debugger (Hood)
@@ -59,28 +76,30 @@ which gives the research-centric view of the FPG lab.
 
 <a href="/software/data-reify" class="teaser">More about IO-Based Reification</a>
 
-
 -----------------------------------------------------------
 
-Other Libraries
----------------
+## Other Libraries
 
 All these libraries are on hackage.
 
--   [dotgen](http://hackage.haskell.org/package/dotgen) A simple
+[dotgen](http://hackage.haskell.org/package/dotgen) A simple
     interface for building .dot graph files, for input into the dot and
     graphviz tools. It includes a monadic interface for building graphs.
--   [httpd-shed](http://hackage.haskell.org/package/httpd-shed) A
+
+[httpd-shed](http://hackage.haskell.org/package/httpd-shed) A
     trivial web server that can be used to build Ajax and other
-    interactive applications in Haskell.
--   [io-reactive](http://hackage.haskell.org/package/io-reactive) An API
+    interactive applications in Haskell. Use scotty instead.
+
+[io-reactive](http://hackage.haskell.org/package/io-reactive) An API
     for generating reactive objects that mimic the reactive model used
     used in the TIMBER programming language.
--   [marked-pretty](http://hackage.haskell.org/package/marked-pretty) A
+
+[marked-pretty](http://hackage.haskell.org/package/marked-pretty) A
     compatible extension to pretty that allows marking and scoping of
     the output document. A typical application is outputting pretty HTML
     with style attributes like bold and color.
--   [sized-types](http://hackage.haskell.org/package/sized-types)
+
+[sized-types](http://hackage.haskell.org/package/sized-types)
     Providing indices, matrixes, sparse matrixes, and signed and
     unsigned bit vectors.
 
