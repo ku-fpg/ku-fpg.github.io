@@ -7,7 +7,7 @@ title: "CAREER: Filling the Gaps in Domain-Specific Functional-Based Solutions f
 **Title**     | CAREER: Filling the Gaps in Domain-Specific Functional-Based Solutions for High-Performance Execution
 **Funded&nbsp;by**       | The National Science Foundation
 **Link**                 | <http://www.nsf.gov/awardsearch/showAward?AWD_ID=1350901>
-**Period of Performace** | June 2014 - May 2019
+**Period of Performance** | June 2014 - May 2019
 **Amount**               | $521,201
 
 ## Abstract

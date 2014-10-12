@@ -26,7 +26,7 @@ ITTC, in Nichols Hall on west campus. We currently have 15 group members.
 
 Who                                     | Project(s)                      | Status
 :---------------------------------------|:--------------------------------|:------------------
-Justin Dawson				| Armored Sofware		  | PhD, expected 2017
+Justin Dawson				| Armored Software		  | PhD, expected 2017
 Aleksander Eskilson			| Animations			  | BS CS
 Andrew Farmer                           | HERMIT                          | PhD, expected 2015
 Josh Filstrup				| High Performance Haskell 	  | PhD, expected 2019
@@ -76,7 +76,7 @@ Who                                                                    | When   
 [Simon Thompson](http://www.cs.kent.ac.uk/people/staff/sjt/)           | June 2011     |  University of Kent
 [Jun Inoue](http://www.owlnet.rice.edu/~ji2)                           | Oct/Nov 2010  | Rice University
 
-We also occationally leave the lab.
+We also occasionally leave the lab.
 
 Who            | When           | Length   | Visiting
 ---------------|:---------------|:---------|:-----------

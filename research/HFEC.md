@@ -6,7 +6,7 @@ title: "Efficient Hardware Implementation of Iterative FEC Decoders"
 --------------|------------------------------------------------------------------------------
 **Title**     | High-Rate High-Speed Forward Error Correction Architectures for Aeronautical Telemetry
 **Funded&nbsp;by**       | T&E/S&T Program, U.S. Army 
-**Period of Performace** | May 2009 - Aug 2011 
+**Period of Performance** | May 2009 - Aug 2011 
 **Investigators**        | Erik Perrins (PI), Andrew Gill (Co-PI)
 **Amount**               | $799,267
 

@@ -20,7 +20,7 @@ community.
 
 ## Funded Research
 
-Project            |  Funded<BR>by | Period of<BR>Peformanace  |  Investigators   | Amount  |
+Project            |  Funded<BR>by | Period of<BR>Performance  |  Investigators   | Amount  |
 -------------------|:-------|-----------------|:-----------------|---------:|
 [CAREER: Filling the Gaps in Domain-Specific<BR>Functional-Based Solutions for<BR>High-Performance Execution](/research/CAREER) | NSF | Jun 2014 -<BR> Apr 2019     | Andrew Gill (PI) | $521,201
 [Armored Software](http://armoredsoftware.github.io/)   | DoD | Sep 2013 -<BR>Sep 2017     | Perry Alexander (PI)<BR>Andrew Gill<BR>Prasad Kulkarni | $2,708,071

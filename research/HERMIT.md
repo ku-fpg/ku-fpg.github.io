@@ -8,7 +8,7 @@ title: Improving the Applicability of Haskell-Hosted Semi-Formal Models to High 
 **Title**     | Improving the Applicability of Haskell-Hosted Semi-Formal Models to High Assurance Development
 **Funded&nbsp;by**       | The National Science Foundation
 **Link**                 | <http://www.nsf.gov/awardsearch/showAward?AWD_ID=1117569>
-**Period of Performace** | August 2011 - July 2015
+**Period of Performance** | August 2011 - July 2015
 **Amount**               | $527,750 ($495,750 + 2 REUs of 16,000)
 
 ## Abstract
