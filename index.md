@@ -27,15 +27,17 @@ ITTC, in Nichols Hall on west campus.
 ### Current Members and Alumni
 
 Who                                                             | Project(s)                      | Status
-:---------------------------------------------------------------|:--------------------------------|:------------------
-Justin Dawson							| Armored Sofware		  | PhD, expected 2017
-[Andrew Farmer](/users/andrewfarmer)                            | HERMIT                          | PhD, expected 2015
-[Andy Gill](/users/andygill)                                    | HERMIT &amp; KansasLava         | PI / Faculty
-[Bowe Neuenschwander](/users/boweneuenschwander)                | KansasLava / &lambda;-Bridge    | MS, expected 2015
-Ryan Scott                                                      | HERMIT/Android                  | BS CS
-Mike Stees                                                      | High Performance Haskell        | PhD, expected 2017
-Rama Subramanian                                                | TBD                             | MS CS
-Brad Torrence                                                   | Artificial Life                 | MS CS
+:---------------------------------------|:--------------------------------|:------------------
+Justin Dawson				| Armored Sofware		  | PhD, expected 2017
+Andrew Farmer                           | HERMIT                          | PhD, expected 2015
+Josh Filstrup				| High Performance Haskell 	  | PhD, expected 2019
+[Andy Gill](/users/andygill)            | HERMIT &amp; KansasLava         | PI / Faculty
+Mark Grebe				| Embedded Haskell Systems	  | Part time PhD
+Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
+Ryan Scott                              | HERMIT/Android                  | BS CS
+Mike Stees                              | High Performance Haskell        | PhD, expected 2017
+Rama Subramanian                        | TBD                             | MS CS
+Brad Torrence                           | Artificial Life                 | MS CS
 
 These are people who have previously worked for or with FPG in some capacity.
 
