@@ -25,4 +25,5 @@
 .self { color: red; }
 
 .floatright { float: right; }
+.floatleft { float: left; margin-right: 10px; margin-bottom: 10px; }
 .clear-both { clear: both; }

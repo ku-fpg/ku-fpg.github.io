@@ -4,11 +4,12 @@ All fields are optional.
 {% endcomment %}
 <ul class="citation-list">
       {% assign pubs = site.data.publications | sort: 'year' %}
+      {% assign key = include.key | replace: ':', '-' %}
       {% for item in pubs reversed %}
         {% capture year %}{{ item.year }}{% endcapture %}
         {% if include.year == nil or include.year contains year %}
             {% if include.grep == nil or item.cite contains include.grep %}
-	        {% if include.key == nil or item.key == include.key %}
+	        {% if include.key == nil or item.key == key %}
 		<li>{{ item.a_cite | trim | markdownify }}</li>
 		{% endif %}
 	    {% endif %}
