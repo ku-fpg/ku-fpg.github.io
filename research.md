@@ -18,8 +18,17 @@ to a problem. However, the scope and influence of our ideas is intended
 to be broader than simply their use inside our functional language
 community.
 
-Overview of Research
-====================
+## Funded Research
+
+Project            |  Period of Peformanace  |  Investigators   | Amount  |
+-------------------|:------------------------|:-----------------|---------:|
+[CAREER: Filling the Gaps in Domain-Specific<BR>Functional-Based Solutions<BR>for High-Performance Execution](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1350901) | Jun 2014 - Apr 2019     | Andrew Gill (PI) | $521,201
+[Armored Software](http://armoredsoftware.github.io/)   | Sep 2013 - Sep 2017     | Perry Alexander (PI)<BR>Andrew Gill<BR>Prasad Kulkarni | $2,708,071
+[Improving the Applicability of Haskell-Hosted<BR>Semi-Formal Models to High Assurance<BR>Development](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1117569) (The HERMIT Project)    | Aug 2011 - Jul 2015     | Andrew Gill (PI) | $527,750
+Efficient Hardware Implementation of<BR> Iterative FEC Decoders | May 2009 - Aug 2011 | Erik Perrins (PI)<BR>Andrew Gill | $799,267
+	  
+
+## Overview of Research
 
 It is **possible** to write specification style, high-level
 implementation (or model) in our language of choice, Haskell, as well as
@@ -41,60 +50,14 @@ reasons to use a functional language in the first place.
 
 As a group, we want to be able to use functional programming language
 technology as a bridge between both these programming styles, or more
-generally between specification and implementation. At the University of
-Kansas, we are addressing this gap using two separate techniques.
+generally between specification and implementation. 
 
--   First, we are looking at deep compiler optimizations which
-    fundamentally revisit the optimizing possibilities of a Haskell
-    program. At the heart of these principled optimizations is the
-    [Worker Wrapper transformation](/theory/workerwrapper).
--   Second, we are looking at ways of expressing and implementing
-    *Domain Specific Languages* (DSLs)
-    which are stylized libraries that give an engineered compromise
-    between clarity, elegance and efficiency.
-
-Separately, both these technologies address outstanding problems, and
-ofter viable solutions. Ultimately we want to join both research
-threads, and have the DSL technologies become the target of our
-aggressive optimizations, closing the loop and bridging the gap between
-specification and implementation.
-
-Summary of Active Projects
-==========================
-
-We have three projects that attempt to address our research objectives.
-
- * The [HERMIT Project](/projects/hermit) is building infrastructure for
-   performing deep for
-
-
- * The [Kansas Lava Project](/projects/kansas-lava) is ...
-   It is intended as a target for refinements in the HERMIT project.
-
- * [The Sunroof Project](/projects/sunroof) is looking DSLs for web technologies,
-   specifically deep embeddings for offshoring computation into
-   the browser.
-
-Funding
-=======
-### Improving the Applicability of Haskell-Hosted Semi-Formal Models to High Assurance Development
-
-##### NSF (2011-2014)
-
-<a href="/projects/hermit" class="teaser">More about the HERMIT project</a>
-
-### Efficient Hardware Implementation of Iterative FEC Decoders
-
-##### CTEIP (2009-2011)
-
-<a href="/projects/hfec" class="teaser">More about the HFEC project</a>
-
-### Other Sponsors
+## Other Sponsors
 
 We would like to thank our other sponsors for supporting our research.
 
+ * NVIDIA for donating a K-20 GPGPU to FPG@KU.
  * International Foundation for Telemetering (IFT) for
    funding for hardware, travel and student scholarships.
  * Xilinx for software and hardware through the Xilinx University Program.
  * Altera for software and hardware through the Altera University Program.
-
