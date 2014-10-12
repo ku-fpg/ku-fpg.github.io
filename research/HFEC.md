@@ -6,7 +6,6 @@ title: "Efficient Hardware Implementation of Iterative FEC Decoders"
 --------------|------------------------------------------------------------------------------
 **Title**     | High-Rate High-Speed Forward Error Correction Architectures for Aeronautical Telemetry
 **Funded&nbsp;by**       | T&E/S&T Program, U.S. Army 
-**Link**                 | <http://www.nsf.gov/awardsearch/showAward?AWD_ID=1350901>
 **Period of Performace** | May 2009 - Aug 2011 
 **Investigators**        | Erik Perrins (PI), Andrew Gill (Co-PI)
 **Amount**               | $799,267
@@ -31,9 +30,17 @@ examples.
 The KU FPG lab implemented the LDPC algorithm using Lava, an estabished
 techneque for representing curciuts.
 
-## Publications
+## Relevent Publications
 
-{% include cite.fn grep="Gill" %}
-
-
+{% include cite.fn key="Gill-13-TypesKansasLava" %}
+{% include cite.fn key="Gill-12-PatchLogic" %}
+{% include cite.fn key="Gill-11-Declarative" %}
+{% include cite.fn key="Gill-11-DerivingLDPC" %}
+{% include cite.fn key="Gill-11-GeneratingLDPC" %}
+{% include cite.fn key="Bull-11-FECandFP" %}
+{% include cite.fn key="Gill-10-TypesKansasLava" %}
+{% include cite.fn key="Farmer-10-WhatsTheMatter" %}
+{% include cite.fn key="Gill-09-KansasLava" %}
+{% include cite.fn key="Werling-09-ITC" %}
+{% include cite.fn key="Bull-09-ITC" %}
 
