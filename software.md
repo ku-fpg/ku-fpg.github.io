@@ -47,6 +47,12 @@ which gives the research-centric view of the FPG lab.
 
 -----------------------------------------------------------
 
+## Presentation Tools
+
+{% include teaser.fn href="/software/story-board" %}
+
+-----------------------------------------------------------
+
 ## Debugging and Profiling Tools
 
 ### Haskell Program Coverage
