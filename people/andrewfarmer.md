@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Andrew Gill
+title: Andrew Farmer
 ---
 
 <img src="{{site.baseurl}}/images/andrewfarmer/me.jpg" class="floatleft"/>
@@ -9,30 +9,28 @@ title: Andrew Gill
 
 I am a Ph.D. student with Dr. Gill. My interests include programming
 language design in general and specifically the compilation and optimization
-of functional languages. 
+of functional languages.
 I am currently working on [HERMIT](http://www.ittc.ku.edu/csdl/fpg/software/hermit.html),
 a GHC plugin for transforming Core Language programs.
 I am interested in making HERMIT useful for prototyping and debugging GHC optimizations.
 In the past I worked on testing and debugging tools for
-the [Kansas Lava](http://www.ittc.ku.edu/csdl/fpg/software/kansas-lava.html) project. 
+the [Kansas Lava](http://www.ittc.ku.edu/csdl/fpg/software/kansas-lava.html) project.
 
 I also created [Scotty](http://hackage.haskell.org/package/scotty), a small framework
 for specifying RESTful web services.
 
-<div class="clear-both"/>
-
-<div>
+<div align="center">
 <dl class="dl-horizontal">
     <dt>Email:</dt>
     <dd>afarmer at ittc dot ku.edu</dd>
     <dt>Personal webpage:</dt>
-    <dd><http://andrewfarmer.name></dd>
+    <dd>[http://andrewfarmer.name]</dd>
     <dt>Github:</dt>
-    <dd><https://github.com/xich></dd>
+    <dd>[https://github.com/xich]</dd>
     <dt>Twitter:</dt>
-    <dd><http://twitter.com/xich></dd>
+    <dd>[http://twitter.com/xich]</dd>
     <dt>Google+:</dt>
-    <dd><http://gplus.to/afarmer></dd>
+    <dd>[http://gplus.to/afarmer]</dd>
 </dl>
 </div>
 
