@@ -18,7 +18,7 @@ needs.
 
 ## Group Composition
 
-The Functional Programming Group at the University of Kansas 
+The Functional Programming Group at the University of Kansas
 is led by Andrew Gill.
 The group operates inside the Computer Systems Design Laboratory (CSDL), at
 ITTC, in Nichols Hall on west campus. We currently have 15 group members.
@@ -26,21 +26,21 @@ ITTC, in Nichols Hall on west campus. We currently have 15 group members.
 
 Who                                     | Project(s)                      | Status
 :---------------------------------------|:--------------------------------|:------------------
-Justin Dawson				| Armored Software		  | PhD, expected 2017
-Aleksander Eskilson			| Animations			  | BS CS
-Andrew Farmer                           | HERMIT                          | PhD, expected 2015
-Josh Filstrup				| High Performance Haskell 	  | PhD, expected 2019
+Justin Dawson                           | Armored Software                | PhD, expected 2017
+Aleksander Eskilson                     | Animations                      | BS CS
+[Andrew Farmer](/users/andrewfarmer)    | HERMIT                          | PhD, expected 2015
+Josh Filstrup                           | High Performance Haskell        | PhD, expected 2019
 [Andrew Gill](/users/andygill)          | HERMIT &amp; KansasLava         | PI / Faculty
-Mark Grebe				| Embedded Haskell Systems	  | Part time PhD
+Mark Grebe                              | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
-Ryan Scott                              | HERMIT / CAREER		  | BS CS, expected 2015
-Nicholas Shaheed			| Animations and Music		  | BS CS
-James Stanton				| CAREER			  | BS CS, expected 2016
+Ryan Scott                              | HERMIT / CAREER                 | BS CS, expected 2015
+Nicholas Shaheed                        | Animations and Music            | BS CS
+James Stanton                           | CAREER                          | BS CS, expected 2016
 Mike Stees                              | High Performance Haskell        | PhD, expected 2017
 Rama Subramanian                        | Animations / FRP                | MS CS
 Brad Torrence                           | Artificial Life                 | MS CS
-Moiz Virani				| Websockets 			  | MS CS
-Mohammed Ziauddin			| TBD	     			  | MS CS
+Moiz Virani                             | Websockets                      | MS CS
+Mohammed Ziauddin                       | TBD                             | MS CS
 
 ### FPG Alumni
 
@@ -66,7 +66,7 @@ Brandon Smith                                         | ChalkBoard, BS 2011     
 
 ### Visitors and Visits
 
-These are people who have visited the lab for more than a day or so. 
+These are people who have visited the lab for more than a day or so.
 If you want to visit KU, email Professor Gill.
 
 Who                                                                    | When          | From
