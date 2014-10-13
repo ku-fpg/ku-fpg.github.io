@@ -7,7 +7,6 @@ dist/
 .shake*
 .cabal-sandbox/
 cabal.sandbox.*
-papers/
 .\#*
 tmp/
 

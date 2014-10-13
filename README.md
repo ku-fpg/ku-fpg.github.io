@@ -11,7 +11,7 @@ Webpages for the KU FPG
 
 ## Building
 
- * To build, use `echo main | cabal repl`.
+ * To build, use `echo :main build | cabal repl`.
    There are a number of .md files that are auto generated.
 
    * _meta/bibtex.bib => _data/publications.yml & papers/*md
