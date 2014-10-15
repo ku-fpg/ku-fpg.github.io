@@ -3,7 +3,11 @@ layout: default
 title: Mike Stees
 ---
 
-Mike Stees is a Ph.D. student with Dr. Gill. He received his B.A. in Computer Science with a minor in Mathematics from Monmouth College. Mike's interests include functional programming, programming language design, parallelism and concurrency, and domain specific languages.
+<img src="{{site.baseurl}}/images/mikestees/me.jpg" class="floatleft"/>
+
+##Mike Stees
+
+I am a second year PhD student with Dr. Gill.  My research interests include programming language design and high performance computation.  In particular, I am interested in high performance functional programming.  My exploration of techniques for high performance has primarily focused on leveraging parallelism, but I have also looked at using optimizations like Worker/Wrapper to improve peformance.
 
 <div align="center">
 <dl class="dl-horizontal">
