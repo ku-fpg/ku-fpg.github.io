@@ -36,7 +36,7 @@ Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, 
 Ryan Scott                              | HERMIT / CAREER                 | BS CS, expected 2015
 Nicholas Shaheed                        | Animations and Music            | BS CS
 James Stanton                           | CAREER                          | BS CS, expected 2016
-[Mike Stees] (/people/mikestees)        | High Performance Haskell        | PhD, expected 2017
+[Mike Stees](/people/mikestees)         | High Performance Haskell        | PhD, expected 2017
 Rama Subramanian                        | Animations / FRP                | MS CS
 Brad Torrence                           | Artificial Life                 | MS CS
 Moiz Virani                             | Websockets                      | MS CS
