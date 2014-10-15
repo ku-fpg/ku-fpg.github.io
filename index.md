@@ -29,7 +29,7 @@ Who                                     | Project(s)                      | Stat
 Justin Dawson                           | Armored Software                | PhD, expected 2017
 Aleksander Eskilson                     | Animations                      | BS CS
 [Andrew Farmer](/people/andrewfarmer)   | HERMIT                          | PhD, expected 2015
-Josh Filstrup                           | High Performance Haskell        | PhD, expected 2019
+[Josh Filstrup](/people/joshfilstrup)   | High Performance Haskell        | PhD, expected 2019
 [Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
 Mark Grebe                              | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
