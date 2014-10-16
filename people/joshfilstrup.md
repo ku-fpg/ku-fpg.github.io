@@ -14,5 +14,5 @@ high performance program.
 
 ### Contact Info
 
-> [email](jfilstrup@ku.edu), [github](http://github.com/superfunc), [blog](http://joshfilstrup.com)
+> [email](mailto:jfilstrup@ku.edu), [github](http://github.com/superfunc), [blog](http://joshfilstrup.com)
 
