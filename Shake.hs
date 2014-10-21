@@ -57,7 +57,7 @@ main2 ("build":extra) = do
 
         addBibTeXOracle "_meta/bibtex.bib" bib
         
-        let okayBib xs = not (xs `elem` words "abstract url xurl")
+        let okayBib xs = not (xs `elem` words "abstract url xurl xxurl")
 
         "_data/publications.yml" *> \ out -> do
 	    txt <- sequence 
@@ -76,7 +76,7 @@ main2 ("build":extra) = do
                                         , not (all isSpace d) ] ++
 			  [ "  year: " ++ year | year <- maybeToList $ lookupBibTexCitation "year" e ] ++
 			  [ "  links:" ] ++
-			  [ "    - <" ++ x ++ ">"| t <- ["url","xurl"]
+			  [ "    - <" ++ x ++ ">"| t <- ["url","xurl","xxurl"]
                                         , x <- maybeToList $ lookupBibTexCitation t e 
                                         ] ++
 			  [ "  abstract: |" | _ <- maybeToList $ lookupBibTexCitation "abstract" e ] ++

@@ -777,17 +777,19 @@
       author = {Andy Gill and Garrin Kimmell},
     }
 
-- key: Gill-10-F5
+- key: Hutton-10-F5
   cite: |
     G. Hutton, M. Jaskelioff, and A. Gill, “Factorising folds for faster
     functions,” *Journal of Functional Programming*, vol. 20, no. 3-4, pp.
     353–373, 2010.
   a_cite: |
     G. Hutton, M. Jaskelioff, and A. Gill, “[Factorising folds for faster
-    functions](/papers/Gill-10-F5),” *Journal of Functional Programming*, vol. 20, no. 3-4, pp.
+    functions](/papers/Hutton-10-F5),” *Journal of Functional Programming*, vol. 20, no. 3-4, pp.
     353–373, 2010.
   year: 2010
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Hutton-10-F5.pdf>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Hutton-10-F5-extended.pdf>
   abstract: |
     The worker/wrapper transformation is a general technique for improving the performance of
     recursive programs by changing their types. The previous formalisation (Gill & Hutton, 2009) was
@@ -796,7 +798,7 @@
     transformation can be applied to programs defined using the structured pattern of recursion captured
     by fold operators, and illustrate our new technique with a number of examples.
   bibtex: |
-    @article{Gill:10:F5,
+    @article{Hutton:10:F5,
       author = {Graham Hutton and Mauro Jaskelioff and Andy Gill},
       title = {Factorising Folds for Faster Functions},
       journal = {Journal of Functional Programming},
@@ -1180,6 +1182,7 @@
     KS, Tech. Rep., June 2009.
   year: 2009
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Kimmell-09-ICFPContestProblem.pdf>
   bibtex: |
     @TechReport{Kimmell:09:ICFPContestProblem,
       author = {Garrin Kimmell and Kevin Matlage and
@@ -1219,6 +1222,8 @@
     Functional Programming*, vol. 19, no. 2, pp. 227–251, March 2009.
   year: 2009
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-09-WW.pdf>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-09-WW-extended.pdf>
   abstract: |
     The worker/wrapper transformation is a technique for changing the type
     of a computation, usually with the aim of improving its performance.
@@ -1542,8 +1547,6 @@
       booktitle = {ACM SIGPLAN Workshop on ML},
       year = {1998},
       month = {September},
-      citations = {23},
-      contribution = {30%},
     }
 
 - key: Gill-96-PhD
@@ -1661,9 +1664,10 @@
     1993, pp. 223–232.
   year: 1993
   links:
+    - <http://dl.acm.org/citation.cfm?doid=165180.165214>
     - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-93-ShortCutFusion.pdf>
   abstract: |
-    Lists are often used as ``glue'' to connect separate
+    Lists are often used as "glue" to connect separate
     parts of a program together. We propose an automatic technique for
     improving the efficiency of such programs, by removing many of these
     intermediate lists, based on a single, simple, local
