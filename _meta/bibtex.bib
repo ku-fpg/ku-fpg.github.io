@@ -119,6 +119,7 @@ abstract={Sunroof is a Haskell-hosted Domain Specific Language (DSL)
     publisher = "ACM",
     location = "San Diego, California, USA",
     year   = 2014,
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Farmer-14-HERMITinStream.pdf},
     abstract = "Stream Fusion, a popular deforestation technique in the Haskell community, cannot fuse the concatMap combinator. This is a serious limitation, as concatMap represents computations on nested streams. The original implementation of Stream Fusion used the Glasgow Haskell Compiler’s user-directed rewriting system. A transformation which allows the compiler to fuse many uses of concatMap has previously been proposed, but never implemented, because the host rewrite system was not expressive enough to implement the proposed transformation. In this paper, we develop a custom optimization plugin which implements the proposed concatMap transformation, and study the effectiveness of the transformation in practice. We also provide a new translation scheme for list comprehensions which enables them to be optimized. Within this framework, we extend the transformation to monadic streams. Code featuring uses of concatMap experiences significant speedup when compiled with this optimization. This allows Stream Fusion to outperform its rival, foldr/build, on many list computations, and enables performance-sensitive code to be expressed at a higher level of abstraction."
 }
 
@@ -130,6 +131,7 @@ abstract={Sunroof is a Haskell-hosted Domain Specific Language (DSL)
     publisher = "ACM",
     location = "San Diego, California, USA",
     year   = 2014,
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Adams-14-OSIE.pdf},
     abstract = "The most widely used generic-programming system in the Haskell community, Scrap Your Boilerplate (SYB), also happens to be one of the slowest. Generic traversals in SYB are about an order of magnitude slower than equivalent handwritten, non-generic traversals. Thus while SYB allows the concise expression of many traversals, its use incurs a significant runtime cost. Existing techniques for optimizing other generic-programming systems are not able to eliminate this overhead. 
 
 This paper presents an optimization that completely eliminates this cost. The optimization takes advantage of domain-specific knowledge about the structure of SYB and in so doing can optimize SYB-style traversals to be as fast as handwritten, non-generic code. 
@@ -144,9 +146,9 @@ This paper presents both the formal structure of the optimization and the result
     publisher = "ACM",
     location  = "Boston, Massachusetts",
     url       = "http://dl.acm.org/citation.cfm?doid=2500365.2500602",
-    xurl      = "http://www.ittc.ku.edu/csdl/fpg/theory/constrainedTypeClassInstances.html",
     pages     = "287--298",
     year      = 2013,
+    xurl = {http://www.ittc.ku.edu/csdl/fpg/files/ Sculthorpe-13-ConstrainedMonad.pdf},
     abstract  =  "In Haskell, there are many data types that would form
                   monads were it not for the presence of type-class
                   constraints on the operations on that data type.
@@ -225,7 +227,7 @@ illustrate its use in a small but complete example.}
 }
 
 
-@inproceedings{ Sculthorpe:13:HERMITinTree,
+@inproceedings{Sculthorpe:13:HERMITinTree,
     author       = "Neil Sculthorpe and Andrew Farmer and Andy Gill",
     title        = "The {HERMIT} in the Tree: Mechanizing Program Transformations in the {GHC} Core Language",
     booktitle    = "Proceedings of the 24th Symposium on Implementation and Application of Functional Languages",
@@ -439,6 +441,26 @@ with an exact range type that has no constructor for lambdas.}
  keywords = {dsl, error correction, lava, ldpc},
  month = {Sep},
  location = {Tokyo, Japan},
+ abstract={Creating correct hardware is hard. Though there is much
+                  talk of using formal and semi-formal methods to
+                  develop designs and implementations, in practice
+                  most implementations are written without the support
+                  of any formal or semi-formal methodology. Having
+                  such a methodology brings many benefits, including
+                  improved likelihood of a correct implementation,
+                  lowering the cost of design exploration and lowering
+                  the cost of certification. In this paper, we
+                  introduce a semi formal methodology for connecting
+                  executable specifications written in the functional
+                  language Haskell to efficient VHDL
+                  implementations. The connection is performed by
+                  manual edits, using semi-formal equational reasoning
+                  facilitated by the worker/wrapper transformation,
+                  and directed using commutable functors. We explain
+                  our methodology on a full-scale example, an
+                  efficient Low-Density Parity Check forward error
+                  correcting code, which has been implemented on a
+                  Virtex-5 FPGA.}
 }
 
 @inproceedings{Gill:11:GeneratingLDPC,
@@ -826,6 +848,7 @@ power of this recipe using a range of examples.
  year = 2008,
  month = "July",
  publisher = "Springer-Verlag",
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Harrison-08-Asynchronous.pdf},
  abstract = {Asynchronous interrupts abound in computing systems, yet
              they remain a thorny concept for both programming and
              verification practice.  The ubiquity of interrupts
@@ -848,19 +871,21 @@ power of this recipe using a range of examples.
     year        = 2007,
     month       = {September},
     publisher   = {ACM Press},
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-07-Hpc.pdf},
     abstract    = {We describe the design, implementation and use of HPC,
         a tool-kit to record and display Haskell Program Coverage. HPC includes tools that
         instrument Haskell programs to record program coverage, run instrumented
         programs, and display information derived from coverage data in various ways.},
 }
 
-@inproceedings{Marlow-07-GhciDebugger,
+@inproceedings{Marlow:07:GhciDebugger,
     author      = {Simon Marlow and Jos\'{e} Iborra and Bernard Pope and Andy Gill},
     title       = {A lightweight interactive debugger for {H}askell},
     booktitle   = {Proceedings of the 2007 {ACM} {SIGPLAN} {W}orkshop on Haskell},
     year        = 2007,
     month       = {September},
     publisher   = {ACM Press},
+    xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Marlow-07-GhciDebugger.pdf},
     abstract    = {This paper describes the design and construction of a Haskell
         source-level debugger built into the GHCi interactive environment.  We
         have taken a pragmatic approach: the debugger is based on the
@@ -888,6 +913,7 @@ power of this recipe using a range of examples.
   isbn      = {1-59593-489-8},
   location  = {Portland, Oregon, USA},
   publisher = {ACM Press},
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-06-IntroHERA.pdf},
   abstract  = {We introduce the new, improved version of the
         Haskell Equational Reasoning Assistant, which consists
         of an Ajax application for rewriting Haskell fragments
@@ -902,6 +928,7 @@ power of this recipe using a range of examples.
   isbn          = {0-7803-7169-0},
   pages         = {148--156},
   publisher     = {IEEE Computer Society},
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Moran-01-Legacy.pdf},
   abstract      = {When an Automated Testing Equipment (ATE) company
           designs a new system, the issue of backward compatibility is
           always a major concern, both for the company and its
@@ -939,6 +966,7 @@ power of this recipe using a range of examples.
   booktitle     = "Proceedings of the 2000 ACM SIGPLAN {W}orkshop on Haskell,
                    Technical report of the University of Nottingham",
   year          = 2000,
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-00-HOOD.pdf},
     abstract    = {Haskell has long needed a debugger. Although there has
           been much research into the topic of debugging lazy functional
           programs, no robust tool has yet come from the Haskell community
@@ -957,6 +985,7 @@ power of this recipe using a range of examples.
   booktitle     = "ACM SIGPLAN Workshop on ML",
   year          = 1998,
   month         = {September},
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Okasaki-98-IntMap.pdf},
   abstract      = {Finite maps are ubiquitous in many applications, but
         perhaps nowhere more so than in compilers and other language
         processors. In these applications, three operations on finite
@@ -980,6 +1009,7 @@ power of this recipe using a range of examples.
    school   = {The University of Glasgow},
    month    = {January},
    year     = 1996,
+   xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-96-PhD.pdf},
    abstract = {In functional languages intermediate data structures are
 	  often used as ''glue'' to connect separate parts of a program
 	  together. Deforestation is the process of automatically removing
@@ -1011,6 +1041,7 @@ power of this recipe using a range of examples.
    booktitle    = {Proceedings of the 1995 Glasgow Workshop on Functional Programming,
                    Electronic Workshops in Computing, Ullapool, Scotland},
    year         = 1995,
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-95-TechGUIHERA.pdf},
    abstract     = {The Haskell Equational Reasoning Assistant (HERA) is an application
         written in Haskell that helps users construct and present equational
         reasoning style proofs. In this paper we discuss the technology behind
@@ -1024,6 +1055,7 @@ power of this recipe using a range of examples.
   booktitle     = {IFIP Congress (1)},
   year          = 1994,
   pages         = {581--586},
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-94-CheapDeforestationPrac.pdf},
   abstract      = {We present a simple, automatic transformation - the
     foldr/build transformation - which successfully removes many
     intermediate lists from programs written in non-strict functional
@@ -1045,6 +1077,7 @@ power of this recipe using a range of examples.
   location     = {Copenhagen, Denmark},
   doi          = {http://doi.acm.org/10.1145/165180.165214},
   publisher    = {ACM Press},
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-93-ShortCutFusion.pdf},
   abstract     = {Lists are often used as ``glue'' to connect separate
   parts of a program together. We propose an automatic technique for
   improving the efficiency of such programs, by removing many of these
@@ -1053,7 +1086,7 @@ power of this recipe using a range of examples.
   Haskell compiler.}
 }
 
-@inproceedings{Avoid92,
+@inproceedings{Gill:92:Avoid,
   author       = {John Launchbury and Andrew Gill and John Hughes and Simon Marlow and Simon {Peyton Jones} and Philip Wadler},
   title        = {Avoiding Unnecessary Updates},
   booktitle    = {Glasgow Workshop on Functional Programming, Workshops in Computing},
@@ -1071,7 +1104,7 @@ power of this recipe using a range of examples.
       may be omitted.}
 }
 
-@inproceedings{NovelPeep91,
+@inproceedings{Gill:91:NovelPeep,
   author      = {Andrew Gill},
   title       = {A Novel Approach Towards Peephole Optimisations},
   booktitle   = {Proceedings of the 1991 Glasgow Workshop on Functional Programming},
