@@ -153,6 +153,7 @@
     Manipulation*, ser. PEPM ’14. ACM, 2014.
   year: 2014
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Farmer-14-HERMITinStream.pdf>
   abstract: |
     Stream Fusion, a popular deforestation technique in the Haskell community, cannot fuse the concatMap combinator. This is a serious limitation, as concatMap represents computations on nested streams. The original implementation of Stream Fusion used the Glasgow Haskell Compiler’s user-directed rewriting system. A transformation which allows the compiler to fuse many uses of concatMap has previously been proposed, but never implemented, because the host rewrite system was not expressive enough to implement the proposed transformation. In this paper, we develop a custom optimization plugin which implements the proposed concatMap transformation, and study the effectiveness of the transformation in practice. We also provide a new translation scheme for list comprehensions which enables them to be optimized. Within this framework, we extend the transformation to monadic streams. Code featuring uses of concatMap experiences significant speedup when compiled with this optimization. This allows Stream Fusion to outperform its rival, foldr/build, on many list computations, and enables performance-sensitive code to be expressed at a higher level of abstraction.
   bibtex: |
@@ -179,6 +180,7 @@
     Manipulation*, ser. PEPM ’14. ACM, 2014.
   year: 2014
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Adams-14-OSIE.pdf>
   abstract: |
     The most widely used generic-programming system in the Haskell community, Scrap Your Boilerplate (SYB), also happens to be one of the slowest. Generic traversals in SYB are about an order of magnitude slower than equivalent handwritten, non-generic traversals. Thus while SYB allows the concise expression of many traversals, its use incurs a significant runtime cost. Existing techniques for optimizing other generic-programming systems are not able to eliminate this overhead. 
     
@@ -210,7 +212,7 @@
   year: 2013
   links:
     - <http://dl.acm.org/citation.cfm?doid=2500365.2500602>
-    - <http://www.ittc.ku.edu/csdl/fpg/theory/constrainedTypeClassInstances.html>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/ Sculthorpe-13-ConstrainedMonad.pdf>
   abstract: |
     In Haskell, there are many data types that would form
     monads were it not for the presence of type-class
@@ -628,6 +630,27 @@
   year: 2011
   links:
     - <http://doi.acm.org/10.1145/2034773.2034804>
+  abstract: |
+    Creating correct hardware is hard. Though there is much
+    talk of using formal and semi-formal methods to
+    develop designs and implementations, in practice
+    most implementations are written without the support
+    of any formal or semi-formal methodology. Having
+    such a methodology brings many benefits, including
+    improved likelihood of a correct implementation,
+    lowering the cost of design exploration and lowering
+    the cost of certification. In this paper, we
+    introduce a semi formal methodology for connecting
+    executable specifications written in the functional
+    language Haskell to efficient VHDL
+    implementations. The connection is performed by
+    manual edits, using semi-formal equational reasoning
+    facilitated by the worker/wrapper transformation,
+    and directed using commutable functors. We explain
+    our methodology on a full-scale example, an
+    efficient Low-Density Parity Check forward error
+    correcting code, which has been implemented on a
+    Virtex-5 FPGA.
   bibtex: |
     @inproceedings{Gill:11:DerivingLDPC,
       author = {Gill, Andy and Farmer, Andrew},
@@ -1264,17 +1287,18 @@
       keywords = {call-by-value, combinator libraries, implementation, semantics, value recursion},
     }
 
-- key: Async08
+- key: Harrison-08-Asynchronous
   cite: |
     W. L. Harrison, G. Allwein, A. Gill, and A. Procter, “Asynchronous
     exceptions as an effect,” in *Ninth International Conference on
     Mathematics of Program Construction*. Springer-Verlag, July 2008.
   a_cite: |
     W. L. Harrison, G. Allwein, A. Gill, and A. Procter, “[Asynchronous
-    exceptions as an effect](/papers/Async08),” in *Ninth International Conference on
+    exceptions as an effect](/papers/Harrison-08-Asynchronous),” in *Ninth International Conference on
     Mathematics of Program Construction*. Springer-Verlag, July 2008.
   year: 2008
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Harrison-08-Asynchronous.pdf>
   abstract: |
     Asynchronous interrupts abound in computing systems, yet
     they remain a thorny concept for both programming and
@@ -1289,7 +1313,7 @@
     programming with interrupts and as a formal basis for
     reasoning about interrupt-driven computation as well.
   bibtex: |
-    @inproceedings{Async08,
+    @inproceedings{Harrison:08:Asynchronous,
       author = {William L. Harrison and Gerard Allwein and Andy Gill and Adam Procter},
       title = {Asynchronous Exceptions as an Effect},
       booktitle = {Ninth International Conference on Mathematics of Program Construction},
@@ -1298,7 +1322,7 @@
       publisher = {Springer-Verlag},
     }
 
-- key: Hpc07
+- key: Gill-07-Hpc
   cite: |
     A. Gill and C. Runciman, “Haskell <span>P</span>rogram
     <span>C</span>overage,” in *Proceedings of the 2007 <span>ACM</span>
@@ -1306,18 +1330,19 @@
     September 2007.
   a_cite: |
     A. Gill and C. Runciman, “[Haskell <span>P</span>rogram
-    <span>C</span>overage](/papers/Hpc07),” in *Proceedings of the 2007 <span>ACM</span>
+    <span>C</span>overage](/papers/Gill-07-Hpc),” in *Proceedings of the 2007 <span>ACM</span>
     <span>SIGPLAN</span> <span>W</span>orkshop on Haskell*. ACM Press,
     September 2007.
   year: 2007
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-07-Hpc.pdf>
   abstract: |
     We describe the design, implementation and use of HPC,
     a tool-kit to record and display Haskell Program Coverage. HPC includes tools that
     instrument Haskell programs to record program coverage, run instrumented
     programs, and display information derived from coverage data in various ways.
   bibtex: |
-    @inproceedings{Hpc07,
+    @inproceedings{Gill:07:Hpc,
       author = {Andy Gill and Colin Runciman},
       title = {Haskell {P}rogram {C}overage},
       booktitle = {Proceedings of the 2007 {ACM} {SIGPLAN} {W}orkshop on Haskell},
@@ -1326,7 +1351,7 @@
       publisher = {ACM Press},
     }
 
-- key: GhciDebugger07
+- key: Marlow-07-GhciDebugger
   cite: |
     S. Marlow, J. Iborra, B. Pope, and A. Gill, “A lightweight interactive
     debugger for <span>H</span>askell,” in *Proceedings of the 2007
@@ -1334,11 +1359,12 @@
     ACM Press, September 2007.
   a_cite: |
     S. Marlow, J. Iborra, B. Pope, and A. Gill, “[A lightweight interactive
-    debugger for <span>H</span>askell](/papers/GhciDebugger07),” in *Proceedings of the 2007
+    debugger for <span>H</span>askell](/papers/Marlow-07-GhciDebugger),” in *Proceedings of the 2007
     <span>ACM</span> <span>SIGPLAN</span> <span>W</span>orkshop on Haskell*.
     ACM Press, September 2007.
   year: 2007
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Marlow-07-GhciDebugger.pdf>
   abstract: |
     This paper describes the design and construction of a Haskell
     source-level debugger built into the GHCi interactive environment.  We
@@ -1357,7 +1383,7 @@
     implementation is light on complexity, and was integrated into GHC
     without significant upheaval.
   bibtex: |
-    @inproceedings{GhciDebugger07,
+    @inproceedings{Marlow:07:GhciDebugger,
       author = {Simon Marlow and Jos\'{e} Iborra and Bernard Pope and Andy Gill},
       title = {A lightweight interactive debugger for {H}askell},
       booktitle = {Proceedings of the 2007 {ACM} {SIGPLAN} {W}orkshop on Haskell},
@@ -1379,6 +1405,7 @@
     108–109.
   year: 2006
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-06-IntroHERA.pdf>
   abstract: |
     We introduce the new, improved version of the
     Haskell Equational Reasoning Assistant, which consists
@@ -1396,7 +1423,7 @@
       publisher = {ACM Press},
     }
 
-- key: Legacy01
+- key: Moran-01-Legacy
   cite: |
     A. Moran, J. Teisher, A. Gill, E. Pasalic, and J. Veneruso, “Automated
     translation of legacy code for <span>ATE</span>,” in *Proceedings of the
@@ -1404,11 +1431,12 @@
     148–156.
   a_cite: |
     A. Moran, J. Teisher, A. Gill, E. Pasalic, and J. Veneruso, “[Automated
-    translation of legacy code for <span>ATE</span>](/papers/Legacy01),” in *Proceedings of the
+    translation of legacy code for <span>ATE</span>](/papers/Moran-01-Legacy),” in *Proceedings of the
     IEEE International Test Conference*. IEEE Computer Society, 2001, pp.
     148–156.
   year: 2001
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Moran-01-Legacy.pdf>
   abstract: |
     When an Automated Testing Equipment (ATE) company
     designs a new system, the issue of backward compatibility is
@@ -1440,7 +1468,7 @@
     test programs, thereby greatly easing the applications
     engineers' burden.
   bibtex: |
-    @inproceedings{Legacy01,
+    @inproceedings{Moran:01:Legacy,
       author = {Andrew Moran and Jim Teisher and Andrew Gill and Emir Pasalic and John Veneruso},
       title = {Automated translation of legacy code for {ATE}},
       booktitle = {Proceedings of the IEEE International Test Conference},
@@ -1463,6 +1491,7 @@
     Nottingham*, 2000.
   year: 2000
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-00-HOOD.pdf>
   abstract: |
     Haskell has long needed a debugger. Although there has
     been much research into the topic of debugging lazy functional
@@ -1491,6 +1520,7 @@
     Workshop on ML*, September 1998, pp. 77–86.
   year: 1998
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Okasaki-98-IntMap.pdf>
   abstract: |
     Finite maps are ubiquitous in many applications, but
     perhaps nowhere more so than in compilers and other language
@@ -1525,6 +1555,7 @@
     Ph.D. dissertation, The University of Glasgow, January 1996.
   year: 1996
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-96-PhD.pdf>
   abstract: |
     In functional languages intermediate data structures are
     often used as ''glue'' to connect separate parts of a program
@@ -1571,6 +1602,7 @@
     Ullapool, Scotland*, 1995.
   year: 1995
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-95-TechGUIHERA.pdf>
   abstract: |
     The Haskell Equational Reasoning Assistant (HERA) is an application
     written in Haskell that helps users construct and present equational
@@ -1596,6 +1628,7 @@
     (1)*, 1994, pp. 581–586.
   year: 1994
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-94-CheapDeforestationPrac.pdf>
   abstract: |
     We present a simple, automatic transformation - the
     foldr/build transformation - which successfully removes many
@@ -1628,6 +1661,7 @@
     1993, pp. 223–232.
   year: 1993
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-93-ShortCutFusion.pdf>
   abstract: |
     Lists are often used as ``glue'' to connect separate
     parts of a program together. We propose an automatic technique for
@@ -1648,7 +1682,7 @@
       publisher = {ACM Press},
     }
 
-- key: Avoid92
+- key: Gill-92-Avoid
   cite: |
     J. Launchbury, A. Gill, J. Hughes, S. Marlow, S. <span>Peyton
     Jones</span>, and P. Wadler, “Avoiding unnecessary updates,” in *Glasgow
@@ -1656,7 +1690,7 @@
     Springer-Verlag, 1992, pp. 144–153.
   a_cite: |
     J. Launchbury, A. Gill, J. Hughes, S. Marlow, S. <span>Peyton
-    Jones</span>, and P. Wadler, “[Avoiding unnecessary updates](/papers/Avoid92),” in *Glasgow
+    Jones</span>, and P. Wadler, “[Avoiding unnecessary updates](/papers/Gill-92-Avoid),” in *Glasgow
     Workshop on Functional Programming, Workshops in Computing*.
     Springer-Verlag, 1992, pp. 144–153.
   year: 1992
@@ -1671,7 +1705,7 @@
     some steps towards an analysis for determining when these updates
     may be omitted.
   bibtex: |
-    @inproceedings{Avoid92,
+    @inproceedings{Gill:92:Avoid,
       author = {John Launchbury and Andrew Gill and John Hughes and Simon Marlow and Simon {Peyton Jones} and Philip Wadler},
       title = {Avoiding Unnecessary Updates},
       booktitle = {Glasgow Workshop on Functional Programming, Workshops in Computing},
@@ -1681,14 +1715,14 @@
       publisher = {Springer-Verlag},
     }
 
-- key: NovelPeep91
+- key: Gill-91-NovelPeep
   cite: |
     A. Gill, “A novel approach towards peephole optimisations,” in
     *Proceedings of the 1991 Glasgow Workshop on Functional Programming*,
     ser. Workshops in Computing, R. Heldal, C. K. Holst, and P. Wadler, Eds.
     Springer, August 1991, pp. 100–111.
   a_cite: |
-    A. Gill, “[A novel approach towards peephole optimisations](/papers/NovelPeep91),” in
+    A. Gill, “[A novel approach towards peephole optimisations](/papers/Gill-91-NovelPeep),” in
     *Proceedings of the 1991 Glasgow Workshop on Functional Programming*,
     ser. Workshops in Computing, R. Heldal, C. K. Holst, and P. Wadler, Eds.
     Springer, August 1991, pp. 100–111.
@@ -1704,7 +1738,7 @@
     solutions, and is presented as an alternative to conventional
     peepholing.
   bibtex: |
-    @inproceedings{NovelPeep91,
+    @inproceedings{Gill:91:NovelPeep,
       author = {Andrew Gill},
       title = {A Novel Approach Towards Peephole Optimisations},
       booktitle = {Proceedings of the 1991 Glasgow Workshop on Functional Programming},
