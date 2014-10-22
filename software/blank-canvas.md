@@ -13,7 +13,7 @@ Example
 Compile the program on the left, access `http://localhost:3000/`, see
 the picture on the right.
 
-~~~~ {width="50%"}
+~~~~ 
 import Graphics.Blank
 
 main = blankCanvas 3000 $ \ context -> do

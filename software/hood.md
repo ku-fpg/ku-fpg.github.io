@@ -32,7 +32,7 @@ Examples
 
 Hood can observe data structures:
 
-~~~~ {style="border: 1px solid black;"}
+~~~~ 
 main = runO ex2
 
 ex2 = print
@@ -44,7 +44,7 @@ ex2 = print
 
 Running this program gives this output:
 
-~~~~ {style="border: 1px solid black;"}
+~~~~ 
 [0,1,2,3,4,5,6,7,8,9]
 
 -- intermediate
@@ -54,7 +54,7 @@ Running this program gives this output:
 Hood can also observe functions, showing both the arguments and result
 of each call:
 
-~~~~ {style="border: 1px solid black;"}
+~~~~ 
 main = runO ex9
 
 ex9 = print $ observe "foldl (+) 0 [1..4]" foldl (+) 0 [1..4]
@@ -62,7 +62,7 @@ ex9 = print $ observe "foldl (+) 0 [1..4]" foldl (+) 0 [1..4]
 
 Running this program gives this output:
 
-~~~~ {style="border: 1px solid black;"}
+~~~~ 
 10
 
 -- foldl (+) 0 [1..4]
@@ -79,13 +79,13 @@ Note that Hood preserves the type and strictness properties of the
 function under observation. If an argument is not examined in the
 function, it remains unevaluated. As an example:
 
-~~~~ {style="border: 1px solid black;"}
+~~~~ 
 ghci> runO $ print $ observe "sum xs" (\ xs ys -> sum xs) [0..2] [0..]
 ~~~~
 
 Notice that ys is left unevaluated (denoted by the underscore):
 
-~~~~ {style="border: 1px solid black;"}
+~~~~ 
 3
 
 -- sum xs
@@ -106,5 +106,6 @@ and re-released it on hackage. We hope you find it useful.
  
 ### HOOD Papers
 
- * <div class="cite Gill:00:HOOD"/>
+{% include cite.fn key="Gill:00:HOOD" %}
+
 

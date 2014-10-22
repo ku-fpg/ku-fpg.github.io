@@ -28,7 +28,7 @@ Hackage](http://hackage.haskell.org/package/kure).
 
 ### Publications
 
-{% include cite.fn key="cite Sculthorpe:14:KURE" %}
-{% include cite.fn key="cite Farmer:12:HERMITinMachine" %}
-{% include cite.fn key="cite Gill:2009:KUREDSL" %}
+{% include cite.fn key="Sculthorpe:14:KURE" %}
+{% include cite.fn key="Farmer:12:HERMITinMachine" %}
+{% include cite.fn key="Gill:2009:KUREDSL" %}
  

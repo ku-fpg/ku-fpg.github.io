@@ -18,4 +18,11 @@ circuits.
  
 ### Kansas Lava Papers
 
- * <div class="cite Gill:09:TypeSafeReification"/>
+{% include cite.fn key="Gill-13-TypesKansasLava" %}
+{% include cite.fn key="Gill:11:Declarative" %}
+{% include cite.fn key="Gill:11:DerivingLDPC" %}
+{% include cite.fn key="Gill:11:GeneratingLDPC" %}
+{% include cite.fn key="Gill-10-TypesKansasLava" %}
+{% include cite.fn key="Gill-09-KansasLava" %}
+{% include cite.fn key="Gill:09:TypeSafeReification" %}
+

@@ -16,5 +16,6 @@ libraries.
  
 ### IO-based Reification Papers
 
- * <div class="cite Gill:09:TypeSafeReification"/>
+{% include cite.fn key="Gill:09:TypeSafeReification" %}
+
 
