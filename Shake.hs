@@ -151,6 +151,7 @@ main2 ("build":extra) = do
                                $ txt
 
         "_auto/bibtex/*.md-citation" *> \ out -> do
+                -- If this crashes, check to see if you have pandoc
                 need [ replaceExtension out "bbl-short"
                      ]
                 -- outputs single paragraph

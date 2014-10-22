@@ -56,6 +56,7 @@ implementations that execute correctly and quickly.
 
 ### Publicity
 
- * http://eecs.ku.edu/news/faculty-awards/2014/03/gill-wins-national-science/
+ * <http://eecs.ku.edu/news/faculty-awards/2014/03/gill-wins-national-science/>
+
 
 
