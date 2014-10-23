@@ -850,6 +850,7 @@
     ITTC-FY2011-TR-29952011-1.
   year: 2011
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-11-CatchingSat.pdf>
   abstract: |
     The 2009 ICFP programming contest problem required contestants to control
     virtual satellites that obey basic physical laws.  The orbital physics
