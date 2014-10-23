@@ -33,7 +33,7 @@ Aleksander Eskilson                     | Animations                      | BS C
 [Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
 Mark Grebe                              | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
-Ryan Scott                              | HERMIT / CAREER                 | BS CS, expected 2015
+[Ryan Scott](/people/ryanscott)         | HERMIT / CAREER                 | BS CS, expected 2015
 Nicholas Shaheed                        | Animations and Music            | BS CS
 James Stanton                           | CAREER                          | BS CS, expected 2016
 [Mike Stees](/people/mikestees)         | High Performance Haskell        | PhD, expected 2017
