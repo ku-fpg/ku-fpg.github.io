@@ -1,6 +1,6 @@
 {% comment %}
 Usage:  {% include cite.fn year="2013,2014" grep="Gill" key="Sculthorpe-14-KURE" %}
-All fields are optional.
+All fields are optional. It is possible to have multiple key, seperated by commas.
 {% endcomment %}
 <ul class="citation-list">
       {% assign pubs = site.data.publications | sort: 'year' %}
@@ -9,7 +9,7 @@ All fields are optional.
         {% capture year %}{{ item.year }}{% endcapture %}
         {% if include.year == nil or include.year contains year %}
             {% if include.grep == nil or item.cite contains include.grep %}
-	        {% if include.key == nil or item.key == key %}
+	        {% if include.key == nil or key contains item.key %}
 		<li>{{ item.a_cite | trim | markdownify }}</li>
 		{% endif %}
 	    {% endif %}
