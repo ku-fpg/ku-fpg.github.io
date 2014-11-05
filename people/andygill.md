@@ -78,6 +78,10 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
        ACM SIGPLAN International Conference on Functional Programming,
        2015
 -   PC Member,
+       The 22nd Annual IEEE International Symposium on 
+       Field-Programmable Custom Computing Machines,
+       2015
+-   PC Member,
        7th International Conference on Software Language Engineering,
        2014
 -   PC Member,
