@@ -2,10 +2,10 @@
 - key: Sculthorpe-14-Century
   cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “Making a century in hermit,”
-    Submitted to the Draft Proceedings of IFL, 2014.
+    2014, submitted to the Draft Proceedings of IFL.
   a_cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “[Making a century in hermit](/papers/Sculthorpe-14-Century),”
-    Submitted to the Draft Proceedings of IFL, 2014.
+    2014, submitted to the Draft Proceedings of IFL.
   year: 2014
   links:
   abstract: |
@@ -19,20 +19,20 @@
     mechanising Bird’s classic “Making a Century” pearl. We also use the mechanised
     pearl to introduce recent HERMIT developments for supporting for equational reasoning.
   bibtex: |
-    @misc{Sculthorpe:14:Century,
+    @unpublished{Sculthorpe:14:Century,
       author = {Sculthorpe, Neil and Farmer, Andrew and Gill, Andrew},
       year = {2014},
       title = {Making a Century in HERMIT},
-      howpublished = {Submitted to the Draft Proceedings of IFL},
+      note = {Submitted to the Draft Proceedings of IFL},
     }
 
 - key: Torrence-14-BetterLife
   cite: |
     B. Torrence, M. Stees, and A. Gill, “Worker/wrapper for a better life,”
-    Submitted to the Draft Proceedings of IFL, 2014.
+    2014, submitted to the Draft Proceedings of IFL.
   a_cite: |
     B. Torrence, M. Stees, and A. Gill, “[Worker/wrapper for a better life](/papers/Torrence-14-BetterLife),”
-    Submitted to the Draft Proceedings of IFL, 2014.
+    2014, submitted to the Draft Proceedings of IFL.
   year: 2014
   links:
   abstract: |
@@ -53,22 +53,22 @@
     such that we can execute on a CPU/GPU hybrid, by targeting
     the accelerate DSL.
   bibtex: |
-    @misc{Torrence:14:BetterLife,
+    @unpublished{Torrence:14:BetterLife,
       author = {Torrence, Brad and Stees, Make and Gill, Andrew},
       year = {2014},
       title = {Worker/wrapper for a Better Life},
-      howpublished = {Submitted to the Draft Proceedings of IFL},
+      note = {Submitted to the Draft Proceedings of IFL},
     }
 
 - key: Gill-14-BlankCanvas
   cite: |
     A. Gill, A. Eskilson, R. Scott, and J. Stanton, “Blank canvas and the
     remote-monad design pattern: A foreign function interface to the
-    javascript canvas api,” Submitted to the Draft Proceedings of IFL, 2014.
+    javascript canvas api,” 2014, submitted to the Draft Proceedings of IFL.
   a_cite: |
     A. Gill, A. Eskilson, R. Scott, and J. Stanton, “[Blank canvas and the
     remote-monad design pattern: A foreign function interface to the
-    javascript canvas api](/papers/Gill-14-BlankCanvas),” Submitted to the Draft Proceedings of IFL, 2014.
+    javascript canvas api](/papers/Gill-14-BlankCanvas),” 2014, submitted to the Draft Proceedings of IFL.
   year: 2014
   links:
   abstract: |
@@ -88,11 +88,11 @@
     we critically assess the feasibility of our straightforward
     approach, and explore improvements.
   bibtex: |
-    @misc{Gill:14:BlankCanvas,
+    @unpublished{Gill:14:BlankCanvas,
       author = {Gill, Andrew and Eskilson, Aleksander and Scott,Ryan and Stanton, James},
       year = {2014},
       title = {Blank Canvas and the remote-monad design pattern: A Foreign Function Interface to the JavaScript Canvas API},
-      howpublished = {Submitted to the Draft Proceedings of IFL},
+      note = {Submitted to the Draft Proceedings of IFL},
     }
 
 - key: Sculthorpe-14-KURE
@@ -100,16 +100,18 @@
     N. Sculthorpe, N. Frisby, and A. Gill, “The <span>K</span>ansas
     <span>U</span>niversity <span>R</span>ewrite <span>E</span>ngine: A
     <span>H</span>askell-embedded strategic programming language with custom
-    closed universes,” *Journal of Functional Programming*, 2014.
+    closed universes,” *Journal of Functional Programming*, vol. 24, pp.
+    434–473, 7 2014.
   a_cite: |
     N. Sculthorpe, N. Frisby, and A. Gill, “[The <span>K</span>ansas
     <span>U</span>niversity <span>R</span>ewrite <span>E</span>ngine: A
     <span>H</span>askell-embedded strategic programming language with custom
-    closed universes](/papers/Sculthorpe-14-KURE),” *Journal of Functional Programming*, 2014.
+    closed universes](/papers/Sculthorpe-14-KURE),” *Journal of Functional Programming*, vol. 24, pp.
+    434–473, 7 2014.
   year: 2014
   links:
+    - <http://journals.cambridge.org/article_S0956796814000185>
     - <http://www.ittc.ku.edu/csdl/fpg/files/Sculthorpe-14-KURE.pdf>
-    - <http://www.ittc.ku.edu/csdl/fpg/software/kure.html>
   abstract: |
     When writing transformation systems, a significant
     amount of engineering effort goes into setting up
@@ -146,24 +148,31 @@
       journal = {Journal of Functional Programming},
       publisher = {Cambridge University Press},
       year = {2014},
+      volume = {24},
+      issue = {04},
+      month = {7},
+      issn = {1469-7653},
+      pages = {434--473},
+      numpages = {40},
+      doi = {10.1017/S0956796814000185},
     }
 
 - key: Gill-14-DSLs-and-Synthesis
   cite: |
-    A. Gill, “Domain-specific languages and code synthesis using haskell,”
-    *Commun. ACM*, vol. 57, no. 6, pp. 42–49, jun 2014, also appeared in ACM
-    Queue, Vol 12(4), April 2014.
+    A. Gill, “Domain-specific languages and code synthesis using
+    <span>H</span>askell,” *Commun. ACM*, vol. 57, no. 6, pp. 42–49, jun
+    2014, also appeared in ACM Queue, Vol 12(4), April 2014.
   a_cite: |
-    A. Gill, “[Domain-specific languages and code synthesis using haskell](/papers/Gill-14-DSLs-and-Synthesis),”
-    *Commun. ACM*, vol. 57, no. 6, pp. 42–49, jun 2014, also appeared in ACM
-    Queue, Vol 12(4), April 2014.
+    A. Gill, “[Domain-specific languages and code synthesis using
+    <span>H</span>askell](/papers/Gill-14-DSLs-and-Synthesis),” *Commun. ACM*, vol. 57, no. 6, pp. 42–49, jun
+    2014, also appeared in ACM Queue, Vol 12(4), April 2014.
   year: 2014
   links:
     - <http://doi.acm.org/10.1145/2605205>
   bibtex: |
     @article{Gill:14:DSLs-and-Synthesis,
       author = {Gill, Andy},
-      title = {Domain-specific Languages and Code Synthesis Using Haskell},
+      title = {Domain-specific Languages and Code Synthesis Using {H}askell},
       journal = {Commun. ACM},
       issue_date = {June 2014},
       volume = {57},
@@ -308,7 +317,7 @@
   year: 2013
   links:
     - <http://dl.acm.org/citation.cfm?doid=2500365.2500602>
-    - <http://www.ittc.ku.edu/csdl/fpg/files/ Sculthorpe-13-ConstrainedMonad.pdf>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Sculthorpe-13-ConstrainedMonad.pdf>
   abstract: |
     In Haskell, there are many data types that would form
     monads were it not for the presence of type-class
