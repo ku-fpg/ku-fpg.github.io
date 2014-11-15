@@ -1,6 +1,8 @@
 ---
 layout: page
 title: The Haskell Equational Reasoning Model-to-Implementation Tunnel (HERMIT)
+redirect_from:
+ - /Tools/HERMIT
 ---
 The **Haskell Equational Reasoning Model-to-Implementation Tunnel**
 (HERMIT) is a GHC plugin that allows post-hoc transformations

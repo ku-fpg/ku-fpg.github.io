@@ -12,3 +12,6 @@ markdown: kramdown
 permalink: pretty
 excerpt_separator: "<!--MORE-->"
 exclude: ['_meta','dist','ku-fpg-github-io.cabal','Shake.hs','BibTeX.hs','.cabal-sandbox']
+
+gems:
+  - jekyll-redirect-from
