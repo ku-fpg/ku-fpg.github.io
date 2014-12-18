@@ -24,6 +24,9 @@ The group operates inside the Computer Systems Design Laboratory (CSDL), at
 ITTC, in Nichols Hall on west campus. We currently have 15 group members.
 
 
+
+
+
 Who                                     | Project(s)                      | Status
 :---------------------------------------|:--------------------------------|:------------------
 Justin Dawson                           | Armored Software                | PhD, expected 2017
@@ -33,13 +36,13 @@ Aleksander Eskilson                     | Animations                      | BS C
 [Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
 Mark Grebe                              | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
+Aditya Kumar Ravikanti			| (TDB)                           | MS CS
 [Ryan Scott](/people/ryanscott)         | HERMIT / CAREER                 | BS CS, expected 2015
 Nicholas Shaheed                        | Animations and Music            | BS CS
 James Stanton                           | CAREER                          | BS CS, expected 2016
 [Mike Stees](/people/mikestees)         | High Performance Haskell        | PhD, expected 2017
 Rama Subramanian                        | Animations / FRP                | MS CS
 Brad Torrence                           | Artificial Life                 | MS CS
-Moiz Virani                             | Websockets                      | MS CS
 Mohammed Ziauddin                       | TBD                             | MS CS
 
 ### FPG Alumni
@@ -60,9 +63,7 @@ Kevin Matlage                                         | ChalkBoard, MS 2011     
 Patrick Miller                                        | Lambda Bridge, BS 2012   | PhD student, Notre Dame
 [Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/)   | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
 Brandon Smith                                         | ChalkBoard, BS 2011      | Industry
-
-
-
+Moiz Virani                                           | Websockets, MS 2015      | Industry
 
 ### Visitors and Visits
 
