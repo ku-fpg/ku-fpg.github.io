@@ -184,7 +184,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 ## Professional Awards
 
  * Leading Light Award, for contributing to the research enterprise at the University of Kansas in a major way, Office of the Provost & Office of Research and Graduate Studies, 2014.
- * Miller Award for Research, University of Kansas School of Engineering, 2014.
+ * Miller Professional Development Award for distinguished research in the engineering profession,
+   University of Kansas School of Engineering, 
+   2014.
  * National Science Foundation CAREER Award, 2014.
  * Distinguished Visitor Fellowship, Scottish Informatics and Computer Science Alliance, 2013.
  * Excellence in Teaching award, Center for Teaching Excellence, University of Kansas, 2010.
