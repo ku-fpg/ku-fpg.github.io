@@ -43,6 +43,7 @@ James Stanton                           | CAREER                          | BS C
 [Mike Stees](/people/mikestees)         | High Performance Haskell        | PhD, expected 2017
 Rama Subramanian                        | Animations / FRP                | MS CS
 Brad Torrence                           | Artificial Life                 | MS CS
+David Young                             | TDB                             | BS CS
 Mohammed Ziauddin                       | TBD                             | MS CS
 
 ### FPG Alumni
