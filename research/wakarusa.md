@@ -6,7 +6,13 @@ title: "CAREER: Filling the Gaps in Domain-Specific Functional-Based Solutions f
 ## Summary
 
 This project is building a domain-specific language toolkit, called Wakarusa, that
-makes domain-specific languages easier to deploy. The project is funded by the NSF.
+makes domain-specific languages easier to deploy in high-performance scenarios.
+The technology is going to be initially applied to two types of high-performance
+platforms, GPGPUs and FPGAs.
+However, the toolkit will be general purpose, and we expect the result will also
+make it easier to deploy DSLs in situations where resource usage needs to be well-understand,
+such as cloud resources and embedded systems.
+The project is funded by the NSF.
 
 --------------|------------------------------------------------------------------------------
 **Title**     | CAREER: Filling the Gaps in Domain-Specific Functional-Based Solutions for High-Performance Execution
@@ -58,6 +64,13 @@ on-the-fly refactoring on user models. This new DSL will inform future
 high-performance DSL compilers, and open opportunities for customized
 DSLs and the domain specialist working together to find
 implementations that execute correctly and quickly.
+
+### Project Name
+
+[Wakarusa](http://en.wikipedia.org/wiki/Wakarusa_River) is a river just south of Lawrence, KS,
+where the main campus of the University of Kansas is located. Wakarusa is approximately
+translated as "deep river", and we use deep embeddings a key technology in our
+DSL toolkit. 
 
 ### Publicity
 
