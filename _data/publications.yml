@@ -2,13 +2,13 @@
 - key: Sculthorpe-14-Century
   cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “Making a century in hermit,”
-    2015, submitted to for peer-review for publication in the
+    2014, submitted to peer-review for consideration for publication in the
     post-proceedings of IFL 2014.
   a_cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “[Making a century in hermit](/papers/Sculthorpe-14-Century),”
-    2015, submitted to for peer-review for publication in the
+    2014, submitted to peer-review for consideration for publication in the
     post-proceedings of IFL 2014.
-  year: 2015
+  year: 2014
   links:
   abstract: |
     A benefit of pure functional programming is that it encourages equational reasoning. 
@@ -22,10 +22,10 @@
     pearl to introduce recent HERMIT developments for supporting for equational reasoning.
   bibtex: |
     @unpublished{Sculthorpe:14:Century,
-      author = {Sculthorpe, Neil and Farmer, Andrew and Gill, Andrew},
-      year = {2015},
+      author = {Sculthorpe, Neil and Farmer, Andrew and Gill, Andy},
+      year = {2014},
       title = {Making a Century in HERMIT},
-      note = {Submitted to for peer-review for publication in the post-proceedings of IFL 2014},
+      note = {Submitted to peer-review for consideration for publication in the post-proceedings of IFL 2014},
     }
 
 - key: Sculthorpe-14-KURE
