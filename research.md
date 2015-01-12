@@ -3,8 +3,10 @@ layout: page
 title: Research
 ---
 We use functional programming to solve problems in ways that are
-amicable to acceleration (GPUs, Multi-cores, FPGAs), and supports
-assurance arguments (using semi-formal methods like equational
+amicable to
+acceleration (GPUs, Multi-cores, FPGAs),
+remote deployment (Embedded devices, FPGAs, cloud computing),
+and supports assurance arguments (using semi-formal methods like equational
 reasoning). As a group we make aggressive use of functional languages,
 extending the technology where needed, and ultimately strive to close
 gaps between high level specifications and highly efficient
