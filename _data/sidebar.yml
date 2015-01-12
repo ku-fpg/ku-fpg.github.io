@@ -14,11 +14,11 @@
 - name: Funded Research
   href: "/research"
   sublinks:
-  - name: NSF CAREER (2014-2019)
-    href: /research/CAREER
+  - name: Wakarusa (2014-2019)
+    href: /research/wakarusa
   - name: Armored Software (2013-2017)
     href: http://armoredsoftware.github.io/
-  - name: The HERMIT Project (2011-2015)
+  - name: HERMIT (2011-2015)
     href: /research/HERMIT
   - name: FEC Decoders (2009-2011)
     href: /research/HFEC

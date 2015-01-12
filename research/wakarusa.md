@@ -3,6 +3,11 @@ layout: page
 title: "CAREER: Filling the Gaps in Domain-Specific Functional-Based Solutions for High-Performance Execution"
 ---
 
+## Summary
+
+This project is building a domain-specific language toolkit, called Wakarusa, that
+makes domain-specific languages easier to deploy. The project is funded by the NSF.
+
 --------------|------------------------------------------------------------------------------
 **Title**     | CAREER: Filling the Gaps in Domain-Specific Functional-Based Solutions for High-Performance Execution
 **Funded&nbsp;by**       | The National Science Foundation

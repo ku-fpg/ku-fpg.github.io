@@ -3,6 +3,13 @@ layout: page
 title: Improving the Applicability of Haskell-Hosted Semi-Formal Models to High Assurance Development
 ---
 
+## Summary
+
+This project is building a post-hoc transformation system inside a full scale Haskell compiler.
+This will improve the connections between
+Haskell models and Haskell implementations, as well allow
+the exploration of the powerful worker/wrapper transformation.
+The project is funded by the NSF.
 
 --------------|------------------------------------------------------------------------------
 **Title**     | Improving the Applicability of Haskell-Hosted Semi-Formal Models to High Assurance Development
