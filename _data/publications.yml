@@ -2,11 +2,13 @@
 - key: Sculthorpe-14-Century
   cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “Making a century in hermit,”
-    2014, submitted to the Draft Proceedings of IFL.
+    2015, submitted to for peer-review for publication in the
+    post-proceedings of IFL 2014.
   a_cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “[Making a century in hermit](/papers/Sculthorpe-14-Century),”
-    2014, submitted to the Draft Proceedings of IFL.
-  year: 2014
+    2015, submitted to for peer-review for publication in the
+    post-proceedings of IFL 2014.
+  year: 2015
   links:
   abstract: |
     A benefit of pure functional programming is that it encourages equational reasoning. 
@@ -21,78 +23,9 @@
   bibtex: |
     @unpublished{Sculthorpe:14:Century,
       author = {Sculthorpe, Neil and Farmer, Andrew and Gill, Andrew},
-      year = {2014},
+      year = {2015},
       title = {Making a Century in HERMIT},
-      note = {Submitted to the Draft Proceedings of IFL},
-    }
-
-- key: Torrence-14-BetterLife
-  cite: |
-    B. Torrence, M. Stees, and A. Gill, “Worker/wrapper for a better life,”
-    2014, submitted to the Draft Proceedings of IFL.
-  a_cite: |
-    B. Torrence, M. Stees, and A. Gill, “[Worker/wrapper for a better life](/papers/Torrence-14-BetterLife),”
-    2014, submitted to the Draft Proceedings of IFL.
-  year: 2014
-  links:
-  abstract: |
-    In Software Engineering, an implementation, and its model, can fall out of step.
-    If we can connect the implementation and model, then development of both artifacts
-    can continue, while retaining confidence in the overall design and implementation.
-    In this paper, we show it is possible in practice to
-    connect together an executable specification of Conway's Game of Life,
-    and a number of implementations, using the worker/wrapper transformation.
-    In particular, we use the rewrite tool HERMIT to apply post-hoc transformations to
-    replace a linked-list based description with other data structures.
-    Directed optimizations allow for highly-efficient executable specifications,
-    where the model becomes the implementation.
-    This work is the first time programmer-directed worker/wrapper
-    has been attempted on a whole application,
-    rather than simply on individual functions.
-    Beyond data representation improvement, we translate our model
-    such that we can execute on a CPU/GPU hybrid, by targeting
-    the accelerate DSL.
-  bibtex: |
-    @unpublished{Torrence:14:BetterLife,
-      author = {Torrence, Brad and Stees, Make and Gill, Andrew},
-      year = {2014},
-      title = {Worker/wrapper for a Better Life},
-      note = {Submitted to the Draft Proceedings of IFL},
-    }
-
-- key: Gill-14-BlankCanvas
-  cite: |
-    A. Gill, A. Eskilson, R. Scott, and J. Stanton, “Blank canvas and the
-    remote-monad design pattern: A foreign function interface to the
-    javascript canvas api,” 2014, submitted to the Draft Proceedings of IFL.
-  a_cite: |
-    A. Gill, A. Eskilson, R. Scott, and J. Stanton, “[Blank canvas and the
-    remote-monad design pattern: A foreign function interface to the
-    javascript canvas api](/papers/Gill-14-BlankCanvas),” 2014, submitted to the Draft Proceedings of IFL.
-  year: 2014
-  links:
-  abstract: |
-    JavaScript is the de-facto assembly language of the internet.
-    Browsers offer an array of powerful rendering and event processing services,
-    including a simple 2D canvas.
-    Blank Canvas is Haskell DSL that provides a Foreign Function Interface
-    to the JavaScript canvas API and the JavaScript event API.
-    With this capability, Haskell programmers can draw pictures on the browsers,
-    and access input from the keyboard and mouse.
-    At the University of Kansas, we use the blank-canvas package for teaching Haskell,
-    where it provides a more interesting I/O experience than stdio.
-    
-    We investigate the use of the remote-monad design
-    pattern, using Blank Canvas as our driving example. After explaining
-    the design pattern, and constructing the basic remote capability,
-    we critically assess the feasibility of our straightforward
-    approach, and explore improvements.
-  bibtex: |
-    @unpublished{Gill:14:BlankCanvas,
-      author = {Gill, Andrew and Eskilson, Aleksander and Scott,Ryan and Stanton, James},
-      year = {2014},
-      title = {Blank Canvas and the remote-monad design pattern: A Foreign Function Interface to the JavaScript Canvas API},
-      note = {Submitted to the Draft Proceedings of IFL},
+      note = {Submitted to for peer-review for publication in the post-proceedings of IFL 2014},
     }
 
 - key: Sculthorpe-14-KURE
