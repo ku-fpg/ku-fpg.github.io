@@ -34,7 +34,7 @@ Aleksander Eskilson                     | Animations                      | BS C
 [Andrew Farmer](/people/andrewfarmer)   | HERMIT                          | PhD, expected 2015
 [Josh Filstrup](/people/joshfilstrup)   | High Performance Haskell        | PhD, expected 2019
 [Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
-Mark Grebe                              | Embedded Haskell Systems        | Part time PhD
+[Mark Grebe](/people/markgrebe)         | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
 Aditya Kumar Ravikanti			| (TDB)                           | MS CS
 [Ryan Scott](/people/ryanscott)         | HERMIT / CAREER                 | BS CS, expected 2015
