@@ -13,6 +13,12 @@ are interested in contributing, or want more details about a specific
 tool. We also maintain a [Research Projects](/research) webpage,
 which gives the research-centric view of the FPG lab.
 
+## Resource Aware DSL Toolkit
+
+### Wakarusa
+
+{% include teaser.fn href="/software/wakarusa" %}
+
 -----------------------------------------------------------
 
 ## Rewriting and Refactoring Tools

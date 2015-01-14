@@ -24,7 +24,7 @@ title: Andrew Gill
 **Phone:**    | +1 785-864-8817 (Eaton) / <BR>  +1 785-864-4712 (ITTC) <BR> +1 785-864-3226 (FAX)
 **Address:**  | The University of Kansas, <BR>  2001 Eaton Hall, <BR> 1520 West 15th Street, <BR> Lawrence, KS 66045-7621
 **Office:**   | Room 2024 (Eaton) / <BR> Room 252 (Nichols Hall)
-**Office hours:** | Wednesday 2:00-4:00 <BR> (or by appointment)
+**Office hours:** | Wednesday 10:00-12:00 <BR> (or by appointment)
 
 Research
 --------
@@ -48,15 +48,16 @@ I teach programming in Java (EECS 168 &amp; 368),
 JavaScript &amp; Scheme (EECS 368), and Haskell (EECS 368, 776, 876).
 In all these class, we go on to use programming
 to solve interesting real-world problems.
+I also lead the EECS Computer Science Capstone (EECS 581, 582).
+In Spring 2015, I am teaching EECS 582.
 Before KU, I taught graduate-level compilers at the Oregon Graduate
 Institute (OGI).
-I also lead the EECS Computer Science Capstone (EECS 581, 582).
-In Fall 2014, I am teaching EECS 776 and EECS 581.
 
 ------------ |:-------------------------------------------------------|:---------
-EECS 168     | Programming I					      | S13 S12
-EECS 368     | Programming Language Paradigms			      | F08 F09 F11 F12 S14
-EECS 581/582 | CS Senior Design I & II				      | F14 S15
+EECS 168     | Programming I					                      | S13 S12
+ENGR 108     | Introduction to Engineering (CS component)             | F13 F14
+EECS 368     | Programming Language Paradigms			              | F08 F09 F10 F11 F12 S14
+EECS 581/582 | CS Senior Design I & II				                  | F14 S15
 EECS 700     | Functional Programming                                 | S09 S10 S11 S12
 EECS 776     | Functional Programming and Domain Specific Languages   | F12 F13 F14
 EECS 876/800 | Advanced Topics in Functional Languages                | S10 S11 S14
@@ -64,7 +65,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 
 ## Recent Publications and Submissions
 
-{% include cite.fn year="2013,2014" grep="Gill" %}
+{% include cite.fn year="2013,2014,2015" grep="Gill" %}
 
 ## Professional Activities
 

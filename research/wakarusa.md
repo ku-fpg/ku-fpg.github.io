@@ -65,6 +65,13 @@ high-performance DSL compilers, and open opportunities for customized
 DSLs and the domain specialist working together to find
 implementations that execute correctly and quickly.
 
+### Students
+
+ * [Josh Filstrup](/people/joshfilstrup)  - Reification and deep embeddings
+ * [Mark Grebe](/people/markgrebe) - Embedded systems plugin
+ * [Mike Stees](/people/mikestees) - GPU support via Accelerate and Boost
+ * David Young  - TDB
+
 ### Project Name
 
 [Wakarusa](http://en.wikipedia.org/wiki/Wakarusa_River) is a river just south of Lawrence, KS,

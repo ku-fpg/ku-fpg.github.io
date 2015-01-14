@@ -21,7 +21,7 @@ needs.
 The Functional Programming Group at the University of Kansas
 is led by Andrew Gill.
 The group operates inside the Computer Systems Design Laboratory (CSDL), at
-ITTC, in Nichols Hall on west campus. We currently have 15 group members.
+ITTC, in Nichols Hall on west campus. We currently have 16 group members.
 
 
 
@@ -36,13 +36,13 @@ Aleksander Eskilson                     | Animations                      | BS C
 [Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
 [Mark Grebe](/people/markgrebe)         | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
-Aditya Kumar Ravikanti			| (TDB)                           | MS CS
+Aditya Kumar Ravikanti			        | (TDB)                           | MS CS
 [Ryan Scott](/people/ryanscott)         | HERMIT / CAREER                 | BS CS, expected 2015
 Nicholas Shaheed                        | Animations and Music            | BS CS
 James Stanton                           | CAREER                          | BS CS, expected 2016
 [Mike Stees](/people/mikestees)         | High Performance Haskell        | PhD, expected 2017
 Rama Subramanian                        | Animations / FRP                | MS CS
-Brad Torrence                           | Artificial Life                 | MS CS
+Brad Torrence                           | Artificial Life                 | MS CS, PhD, expected 2018
 David Young                             | TDB                             | BS CS
 Mohammed Ziauddin                       | TBD                             | MS CS
 
@@ -82,8 +82,9 @@ We also occasionally leave the lab.
 
 Who            | When           | Length   | Visiting
 ---------------|:---------------|:---------|:-----------
-Andrew Farmer  | Spring 2013    | 6 months | Portland State University
-Professor Gill | Fall 2014      | 2 weeks  | Distinguished Visitor Fellowship, Scotland
+Andrew Farmer  | Spring 2013    | 6 months | Portland State University (Oregon)
+Professor Gill | Fall 2014      | 2 weeks  | Distinguished Visitor Fellowship (Scotland)
+Andrew Farmer  | Fall 2014      | 3 months | Facebook (London)
 
 ### Joining the Group
 
@@ -94,7 +95,8 @@ If you are not at KU, and are not planning on applying to KU,
 then please outline how you know Haskell, or another functional
 language. The lab does not offer scholarships to outside students,
 though we have people join from other graduate programs from
-time to time.
+time to time. Template requests for sponsorship without FP specifics
+will be deleted without acknowledgement.
 
 ### Collaborations and Other Activities
 

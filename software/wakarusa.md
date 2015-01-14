@@ -2,20 +2,18 @@
 layout: page
 title: Wakarusa
 ---
-**Walkarusa** is a Functional Reactive Programming (FRP) library
-that support synthesis for embedded controllers, including
-Arduino and Raspberry Pi. 
+**Wakarusa** is a toolkit for connecting DSLs.
+It provides support for synthesis to CUDA for execution of GPGPAS,
+synthesis for VHDL to execution on FPGAS, and
+synthesis to C for execution on embedded controllers, including
+the Arduino and Raspberry Pi. The capabilities are provided
+via a plugin interface, and Wakarusa provides a resources-aware 
+infrastructure for allowing staged development of remotely executable
+artifacts.
 
-Why Walkarusa?
-Technincally, Walkarusa is a deep embedding of FRP, using
-a varient of the popular Yampa API.
-Yampa, a shallow embedding of FRP,
-is named after the Yampa river, which is known for being
-shallow, though treatruous in places.
-Walkarusa, a river in Kansas, translates to "deep river".
-Hence, Walkarusa, a deep embedding of FRP.
+The first public release of Wakarusa is scheduled for Spring 2015.
 
-
+There is also a [funding centric](/research/wakarusa.md) webpage about wakarusa.
 
 
 
