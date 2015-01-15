@@ -44,6 +44,7 @@ James Stanton                           | CAREER                          | BS C
 Rama Subramanian                        | Animations / FRP                | MS CS
 Brad Torrence                           | Artificial Life                 | MS CS, PhD, expected 2018
 David Young                             | TDB                             | BS CS
+Angela Wright                           | FRP Wakarusa                    | BS CS
 Mohammed Ziauddin                       | TBD                             | MS CS
 
 ### FPG Alumni
