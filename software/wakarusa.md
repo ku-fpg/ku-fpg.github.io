@@ -13,7 +13,7 @@ artifacts.
 
 The first public release of Wakarusa is scheduled for Spring 2015.
 
-There is also a [funding centric](/research/wakarusa/) webpage about wakarusa.
+There is also a [project centric](/research/wakarusa/) webpage about wakarusa.
 
 
 
