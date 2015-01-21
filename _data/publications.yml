@@ -291,6 +291,7 @@
   year: 2014
   links:
     - <http://dx.doi.org/10.1017/S0956796814000045>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Sculthorpe-14-WorkIt.pdf>
   abstract: |
     The worker/wrapper transformation is a general-purpose technique
     for refactoring recursive programs to improve their performance.
@@ -328,6 +329,7 @@
   year: 2013
   links:
     - <http://dx.doi.org/10.1007/s10990-013-9098-7>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-13-TypesKansasLava.pdf>
   abstract: |
     In this article
     we overview the design and implementation of the second generation
