@@ -93,11 +93,11 @@
 - key: Gill-14-DSLs-and-Synthesis
   cite: |
     A. Gill, “Domain-specific languages and code synthesis using
-    <span>H</span>askell,” *Commun. ACM*, vol. 57, no. 6, pp. 42–49, jun
+    <span>H</span>askell,” *Commun. ACM*, vol. 57, no. 6, pp. 42–49, June
     2014, also appeared in ACM Queue, Vol 12(4), April 2014.
   a_cite: |
     A. Gill, “[Domain-specific languages and code synthesis using
-    <span>H</span>askell](/papers/Gill-14-DSLs-and-Synthesis),” *Commun. ACM*, vol. 57, no. 6, pp. 42–49, jun
+    <span>H</span>askell](/papers/Gill-14-DSLs-and-Synthesis),” *Commun. ACM*, vol. 57, no. 6, pp. 42–49, June
     2014, also appeared in ACM Queue, Vol 12(4), April 2014.
   year: 2014
   links:
@@ -110,7 +110,7 @@
       issue_date = {June 2014},
       volume = {57},
       number = {6},
-      month = {jun},
+      month = {June},
       year = {2014},
       issn = {0001-0782},
       pages = {42--49},
