@@ -82,6 +82,8 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
        The 22nd Annual IEEE International Symposium on 
        Field-Programmable Custom Computing Machines,
        2015
+-   Invited participant, Dagstuhl Seminar on Domain-Specific Languages, 2015
+-   Invited observer, IFIP Working Group 2.1, 2014
 -   PC Member,
        7th International Conference on Software Language Engineering,
        2014
@@ -118,6 +120,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 -   PC Member,
         High-level programming for heterogeneous and hierarchical parallel systems,
         2012
+-   Invited observer, IFIP Working Group 2.8, 2012
 -   PC Member,
         ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation
         (PEPM'12)
@@ -130,6 +133,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 -   PC Member,
         [ACM SIGPLAN Haskell Symposium](http://www.haskell.org/haskell-symposium/2011/)
         (HASKELL'11)
+-   Invited observer, IFIP Working Group 2.1, 2011
 -   Chair,
         ICFP Program Committee Workshop, Cambridge, England,
         2010
