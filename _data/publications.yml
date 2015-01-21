@@ -138,6 +138,7 @@
   year: 2014
   links:
     - <http://dx.doi.org/10.1007/978-3-319-04132-2_5>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Bracker-14-Sunroof.pdf>
   abstract: |
     Sunroof is a Haskell-hosted Domain Specific Language (DSL)
     for generating JavaScript. The central feature of
