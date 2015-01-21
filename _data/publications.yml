@@ -484,6 +484,8 @@
     and Implementation*, Sep 2012.
   year: 2012
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Farmer-12-WebDSLs.pdf>
+    - <http://workshops.inf.ed.ac.uk/xldi2012/>
   abstract: |
     Robust cross-platform GUI-based applications are challenging to write in Haskell,
     not because providing hooks into existing GUI frameworks is hard,
