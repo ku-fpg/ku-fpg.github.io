@@ -30,7 +30,6 @@ ITTC, in Nichols Hall on west campus. We currently have 16 group members.
 Who                                     | Project(s)                      | Status
 :---------------------------------------|:--------------------------------|:------------------
 Justin Dawson                           | Armored Software                | PhD, expected 2017
-Aleksander Eskilson                     | Animations                      | BS CS
 [Andrew Farmer](/people/andrewfarmer)   | HERMIT                          | PhD, expected 2015
 [Josh Filstrup](/people/joshfilstrup)   | High Performance Haskell        | PhD, expected 2019
 [Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
@@ -56,6 +55,7 @@ Who                                                   | Project                 
 Robert Blair                                          | HERMIT/Android, BS 2013  | Industry
 Jan Bracker                                           | Sunroof, MS Exchange     | Christian-Albrechts-University
 Tristan Bull                                          | HFEC, MS 2011            | Industry
+Aleksander Eskilson                                   | HERMIT & Animations, BS 2016 | N/A 
 Patrick G Flor                                        | HERMIT/Android           | Groupon
 Nicolas Frisby                                        | HERMIT, Staff            | FP Complete
 Adam Howell                                           | HERMIT/Android, BS 2014  | IBM
