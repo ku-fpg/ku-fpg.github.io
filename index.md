@@ -40,7 +40,6 @@ Aditya Kumar Ravikanti			        | (TDB)                           | MS CS
 Nicholas Shaheed                        | Animations and Music            | BS CS
 James Stanton                           | CAREER                          | BS CS, expected 2016
 [Mike Stees](/people/mikestees)         | High Performance Haskell        | PhD, expected 2017
-Rama Subramanian                        | Animations / FRP                | MS CS
 Brad Torrence                           | Artificial Life                 | MS CS, PhD, expected 2018
 David Young                             | TDB                             | BS CS
 Angela Wright                           | FRP Wakarusa                    | BS CS
@@ -61,6 +60,7 @@ Nicolas Frisby                                        | HERMIT, Staff           
 Adam Howell                                           | HERMIT/Android, BS 2014  | IBM
 [Garrin Kimmell](http://www.ittc.ku.edu/~kimmell/)    | HFEC, PostDoc            | PostDoc, University of Iowa
 [Ed Komp](http://www.ittc.ku.edu/view_contact.phtml?id=28) | HERMIT              | Long-term ITTC Staff member
+Rama Krishnamoorthy                                   | Animations / FRP, MS 2015 | Industry
 Kevin Matlage                                         | ChalkBoard, MS 2011      | Industry
 Patrick Miller                                        | Lambda Bridge, BS 2012   | PhD student, Notre Dame
 [Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/)   | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
