@@ -47,7 +47,7 @@ To generate a function, not just an effect, you can use the `function` combinato
 
 ~~~
 GHCi> :set -XScopedTypeVariables
-GHCi> txt <- sunroofCompileJS def "square" $ do
+GHCi> txt <- sunroofCompileJSA def "square" $ do
                function $ \ (n :: JSNumber) -> do
                    return (n * n)
 GHCi> putStrLn txt
