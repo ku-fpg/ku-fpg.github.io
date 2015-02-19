@@ -24,6 +24,7 @@ The HERMIT Package
 Publications
 ------------
 
+{% include cite.fn key="Adams-15-OSTIE" %}
 {% include cite.fn key="Farmer-14-HERMITinStream" %}
 {% include cite.fn key="Adams-14-OSIE" %}
 {% include cite.fn key="Sculthorpe-13-KURE" %}
