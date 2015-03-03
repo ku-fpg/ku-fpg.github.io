@@ -101,8 +101,8 @@
   year: 2014
   links:
   abstract: |
-    A benefit of pure functional programming is that it encourages equational reasoning.
-    However, the Haskell language currently lacks direct tool support for such reasoning. Consequently,
+    A benefit of pure functional programming is that it encourages equational reasoning. 
+    However, the Haskell language currently lacks direct tool support for such reasoning. Consequently, 
     reasoning about Haskell programs is either performed manually, or in another language that does
     provide tool support (e.g. Agda).
     HERMIT is a Haskell-specific toolkit designed to support equational reasoning and
