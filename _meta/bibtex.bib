@@ -70,14 +70,34 @@ approach, and explore improvements."
   abstract="A benefit of pure functional programming is that it encourages equational reasoning. 
 However, the Haskell language currently lacks direct tool support for such reasoning. Consequently, 
 reasoning about Haskell programs is either performed manually, or in another language that does
-provide tool support (e.g. Agda). 
-HERMIT is a Haskell-specific toolkit designed to support equational reasoning and 
+provide tool support (e.g. Agda).
+HERMIT is a Haskell-specific toolkit designed to support equational reasoning and
 user-guided program transformation, and to do so as part of the GHC compilation pipeline.
-This extended abstract presents a detailed case study of HERMIT usage in practice: 
+This extended abstract presents a detailed case study of HERMIT usage in practice:
 mechanising Bird’s classic “Making a Century” pearl. We also use the mechanised
 pearl to introduce recent HERMIT developments for supporting for equational reasoning."
 }
 
+@unpublished{Adams:15:OSTIE,
+    author = "Michael D. Adams and Andrew Farmer and Jos\'{e} Pedro {Magalh\~{a}es}",
+    title  = "Optimizing {SYB} {Traversals} {Is} {Easy}!",
+    note = "Extended version of the PEPM'14 paper. Submitted to Science of Computer Programming.",
+    year   = 2015,
+    xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Adams-15-OSTIE-draft.pdf},
+    abstract = "The most widely used generic-programming system in the Haskell community,
+                Scrap Your Boilerplate (SYB), also happens to be one of the slowest. Generic
+                traversals in SYB are often an order of magnitude slower than equivalent handwritten,
+                non-generic traversals. Thus while SYB allows the concise expression
+                of many traversals, its use incurs a significant runtime cost. Existing techniques
+                for optimizing other generic-programming systems are not able to eliminate this
+                overhead.
+
+                This paper presents an optimization that eliminates this cost. Essentially, it
+                is a partial evaluation that takes advantage of domain-specific knowledge about
+                the structure of SYB. It optimizes SYB traversals to be as fast as handwritten,
+                non-generic code, and benchmarks show that this optimization improves the
+                speed of SYB traversals by an order of magnitude or more."
+}
 
 // ------------------------------------------------------------------------------
 // Published
@@ -145,7 +165,7 @@ pearl to introduce recent HERMIT developments for supporting for equational reas
  publisher = {ACM},
  address = {New York, NY, USA},
  note = "Also appeared in ACM Queue, Vol 12(4), April 2014"
-} 
+}
 
 @incollection{Bracker:14:Sunroof,
   year={2014},
@@ -171,7 +191,7 @@ abstract={Sunroof is a Haskell-hosted Domain Specific Language (DSL)
                   foreign-function API to the browser’s JavaScript
                   engine, and all the browser-specific functionality,
                   including HTML-based rendering, event handling, and
-                  drawing to the HTML5 canvas element.  
+                  drawing to the HTML5 canvas element.
 
                   In this paper,
                   we give the design and implementation of
@@ -208,9 +228,9 @@ abstract={Sunroof is a Haskell-hosted Domain Specific Language (DSL)
     location = "San Diego, California, USA",
     year   = 2014,
   xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Adams-14-OSIE.pdf},
-    abstract = "The most widely used generic-programming system in the Haskell community, Scrap Your Boilerplate (SYB), also happens to be one of the slowest. Generic traversals in SYB are about an order of magnitude slower than equivalent handwritten, non-generic traversals. Thus while SYB allows the concise expression of many traversals, its use incurs a significant runtime cost. Existing techniques for optimizing other generic-programming systems are not able to eliminate this overhead. 
+    abstract = "The most widely used generic-programming system in the Haskell community, Scrap Your Boilerplate (SYB), also happens to be one of the slowest. Generic traversals in SYB are about an order of magnitude slower than equivalent handwritten, non-generic traversals. Thus while SYB allows the concise expression of many traversals, its use incurs a significant runtime cost. Existing techniques for optimizing other generic-programming systems are not able to eliminate this overhead.
 
-This paper presents an optimization that completely eliminates this cost. The optimization takes advantage of domain-specific knowledge about the structure of SYB and in so doing can optimize SYB-style traversals to be as fast as handwritten, non-generic code. 
+This paper presents an optimization that completely eliminates this cost. The optimization takes advantage of domain-specific knowledge about the structure of SYB and in so doing can optimize SYB-style traversals to be as fast as handwritten, non-generic code.
 
 This paper presents both the formal structure of the optimization and the results of benchmarking the optimized SYB code against both unoptimized SYB code and handwritten, non-generic code. In these benchmarks, the optimized SYB code matches the performance of handwritten code even when the unoptimized SYB code is an order of magnitude or more slower."
 }
@@ -615,8 +635,8 @@ and because of this the rendered binary was found to be robust and reliable.},
 @article{Hutton:10:F5,
 	author = "Graham Hutton and Mauro Jaskelioff and Andy Gill",
         title  = "Factorising Folds for Faster Functions",
- xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Hutton-10-F5.pdf}, 
- xxurl = {http://www.ittc.ku.edu/csdl/fpg/files/Hutton-10-F5-extended.pdf}, 
+ xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Hutton-10-F5.pdf},
+ xxurl = {http://www.ittc.ku.edu/csdl/fpg/files/Hutton-10-F5-extended.pdf},
         abstract ={The worker/wrapper transformation is a general technique for improving the performance of
         recursive programs by changing their types. The previous formalisation (Gill & Hutton, 2009) was
 based upon a simple fixed point semantics of recursion. In this article we develop a more structured
@@ -877,8 +897,8 @@ institution	= "Information Telecommunication and Technology Center, University o
 @article{Gill:09:WW,
  author = {Andy Gill and Graham Hutton},
  title = {The worker/wrapper transformation},
- xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-09-WW.pdf}, 
- xxurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-09-WW-extended.pdf}, 
+ xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-09-WW.pdf},
+ xxurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-09-WW-extended.pdf},
  abstract = {The worker/wrapper transformation is a technique for changing the type
 of a computation, usually with the aim of improving its performance.
 It has been used by compiler writers for many years, but the technique

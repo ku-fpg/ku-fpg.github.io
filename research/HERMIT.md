@@ -53,17 +53,16 @@ and this project addresses keys part of this requirement.
 
 ## Relevent Publications
 
-{% include cite.fn key="Gill-13-TypesKansasLava" %}
-
+{% include cite.fn key="Adams-15-OSTIE" %}
 {% include cite.fn key="Sculthorpe-14-KURE" %}
 {% include cite.fn key="Gill-2014-DSLs-and-Synthesis" %}
+{% include cite.fn key="Sculthorpe-14-WorkIt" %}
 {% include cite.fn key="Bracker-14-Sunroof" %}
 {% include cite.fn key="Farmer-14-HERMITinStream" %}
 {% include cite.fn key="Adams-14-OSIE" %}
-{% include cite.fn key="Sculthorpe-13-ConstrainedMonad" %}
-{% include cite.fn key="Sculthorpe-14-WorkIt" %}
-{% include cite.fn key="Gill-13-TypesKansasLava" %}
 {% include cite.fn key="Sculthorpe-13-HERMITinTree" %}
+{% include cite.fn key="Sculthorpe-13-ConstrainedMonad" %}
+{% include cite.fn key="Gill-13-TypesKansasLava" %}
 {% include cite.fn key="Farmer-12-HERMITinMachine" %}
 {% include cite.fn key="Farmer-12-WebDSLs" %}
 

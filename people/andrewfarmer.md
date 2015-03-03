@@ -19,24 +19,16 @@ the [Kansas Lava](http://www.ittc.ku.edu/csdl/fpg/software/kansas-lava.html) pro
 I also created [Scotty](http://hackage.haskell.org/package/scotty), a small framework
 for specifying RESTful web services.
 
-<div align="center">
-<dl class="dl-horizontal">
-    <dt>Email:</dt>
-    <dd>afarmer at ittc dot ku.edu</dd>
-    <dt>Personal webpage:</dt>
-    <dd>[http://andrewfarmer.name]</dd>
-    <dt>Github:</dt>
-    <dd>[https://github.com/xich]</dd>
-    <dt>Twitter:</dt>
-    <dd>[http://twitter.com/xich]</dd>
-    <dt>Google+:</dt>
-    <dd>[http://gplus.to/afarmer]</dd>
-</dl>
-</div>
+Email: afarmer at ittc dot ku.edu
+
+Personal webpage: [http://andrewfarmer.name](http://andrewfarmer.name)
+
+Github: [https://github.com/xich](https://github.com/xich)
 
 
 ### Publications
 
+{% include cite.fn key="Adams:15:OSTIE" %}
 {% include cite.fn key="Farmer:14:HERMITinStream" %}
 {% include cite.fn key="Adams:14:OSIE" %}
 {% include cite.fn key="Gill:13:TypesKansasLava" %}

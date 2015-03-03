@@ -31,8 +31,8 @@ value into a JavaScript program. An example invocation is
 ~~~
 GHCi> import Language.Sunroof
 GHCi> import Language.Sunroof.JS.Browser
-GHCi> import Data.Default
-GHCi> txt <- sunroofCompileJS def "main" $ do
+GHCi> import Data.Default.Class
+GHCi> txt <- sunroofCompileJSA def "main" $ do
                 alert (js "Hello");
 GHCi> putStrLn txt
 var main = (function() {
@@ -46,7 +46,8 @@ trick to circumvent scoping issues.
 To generate a function, not just an effect, you can use the `function` combinator.
 
 ~~~
-GHCi> txt <- sunroofCompileJS def "square" $ do
+GHCi> :set -XScopedTypeVariables
+GHCi> txt <- sunroofCompileJSA def "square" $ do
                function $ \ (n :: JSNumber) -> do
                    return (n * n)
 GHCi> putStrLn txt
