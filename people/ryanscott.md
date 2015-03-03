@@ -15,4 +15,4 @@ I am pursuing a B.S. in Computer Science under the supervision of Dr. Gill. I am
 
 ### Publications
 
-{% include cite.fn key="Gill-14-BlankCanvas" %}
+{% include cite.fn year="2015" grep="Scott" %}
