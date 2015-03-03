@@ -94,11 +94,11 @@
 - key: Sculthorpe-15-Century
   cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “Making a century in hermit,”
-    2014, to be submitted to the Haskell Symposium, 2015.
+    2015, to be submitted to the Haskell Symposium, 2015.
   a_cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “[Making a century in hermit](/papers/Sculthorpe-15-Century),”
-    2014, to be submitted to the Haskell Symposium, 2015.
-  year: 2014
+    2015, to be submitted to the Haskell Symposium, 2015.
+  year: 2015
   links:
   abstract: |
     A benefit of pure functional programming is that it encourages equational reasoning. 
@@ -113,7 +113,7 @@
   bibtex: |
     @unpublished{Sculthorpe:15:Century,
       author = {Sculthorpe, Neil and Farmer, Andrew and Gill, Andy},
-      year = {2014},
+      year = {2015},
       title = {Making a Century in HERMIT},
       note = {To be submitted to the Haskell Symposium, 2015},
     }
