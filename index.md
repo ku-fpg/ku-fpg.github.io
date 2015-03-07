@@ -69,11 +69,12 @@ Moiz Virani                                           | Websockets, MS 2015     
 
 ### Visitors and Visits
 
-These are people who have visited the lab for more than a day or so.
+These are people who have visited the lab.
 If you want to visit KU, email Professor Gill.
 
 Who                                                                    | When          | From
 ------------------------------------------------------------           |:--------------|:-----------
+[John Peterson](http://www.western.edu/people/john-c-peterson)         | Mar 2015      | Western State Colorado University
 [Laurence E. Day](http://www.cs.nott.ac.uk/~led/)                      | Oct 2013      | University of Nottingham
 [Anders Persson](http://www.chalmers.se/cse/EN/people/persson-anders)  | Oct 2011      | Chalmers
 [Simon Thompson](http://www.cs.kent.ac.uk/people/staff/sjt/)           | June 2011     |  University of Kent
@@ -83,9 +84,9 @@ We also occasionally leave the lab.
 
 Who            | When           | Length   | Visiting
 ---------------|:---------------|:---------|:-----------
-Andrew Farmer  | Spring 2013    | 6 months | Portland State University (Oregon)
-Professor Gill | Fall 2014      | 2 weeks  | Distinguished Visitor Fellowship (Scotland)
 Andrew Farmer  | Fall 2014      | 3 months | Facebook (London)
+Professor Gill | Fall 2014      | 2 weeks  | Distinguished Visitor Fellowship (Scotland)
+Andrew Farmer  | Spring 2013    | 6 months | Portland State University (Oregon)
 
 ### Joining the Group
 
