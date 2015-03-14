@@ -74,7 +74,7 @@
     This gives the Haskell community access to remote capabilities that Haskell
     does not directly support, at a surprisingly inexpensive cost.
     
-    JavaScript is the {\em de facto} assembly language of the Internet.
+    JavaScript is the de facto assembly language of the Internet.
     Web browsers offer an array of powerful rendering and event processing services,
     including a simple 2D canvas.
     Blank Canvas is a Haskell domain-specific language that provides a Foreign Function Interface
@@ -118,7 +118,7 @@
   year: 2015
   links:
   abstract: |
-    A benefit of pure functional programming is that it encourages .
+    A benefit of pure functional programming is that it encourages equational reasoning.
     However, the Haskell language currently lacks direct tool support for such reasoning.
     Consequently, reasoning about Haskell programs is either performed manually, or in 
     another language that does provide tool support (e.g. Agda or Coq).
@@ -588,7 +588,7 @@
     that facilitates refactoring and equational reasoning.
     To develop our ideas, we have implemented HERMIT, a toolkit enabling
     informal but systematic transformation of Haskell
-    programs from  the Glasgow Haskell Compiler{\textquoteright}s
+    programs from inside the Glasgow Haskell Compiler's
     optimization pipeline.
     With HERMIT, users can experiment with optimizations
     and equational reasoning, while the
@@ -952,7 +952,7 @@
     behavior of the system was simulated via a binary provided to contestants
     which ran on top of a simple virtual machine.  Contestants were required to
     implement the virtual machine along with a controller program to manipulate
-    the satellite{\textquoteright}s behavior. In this paper, we describe the modeling of the
+    the satellite's behavior. In this paper, we describe the modeling of the
     simulation environment, with a focus on the compilation and testing
     infrastructure for the generated binaries for this virtual machine. This
     infrastructure makes novel use of an implementation of a deeply embedded

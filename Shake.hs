@@ -57,7 +57,7 @@ main2 ("build":extra) = do
 
         addBibTeXOracle "_meta/bibtex.bib" bib
         
-        let okayBib xs = not (xs `elem` words "abstract url xurl xxurl xcontent")
+        let okayBib xs = not (xs `elem` words "abstract url xurl xxurl xcontent xredirect")
 
         "_data/publications.yml" *> \ out -> do
 	    txt <- sequence 
@@ -82,7 +82,9 @@ main2 ("build":extra) = do
 			  [ "  abstract: |" | _ <- maybeToList $ lookupBibTexCitation "abstract" e ] ++
 			  [ "    " ++ dropWhile isSpace txt 
                                           | abstract <- maybeToList $ lookupBibTexCitation "abstract" e
-                                          , txt <- lines $ remove "\\emph{" "}"                                          
+                                          , txt <- lines $ unparen "\\emph{" "}"                                          
+                                                         $ unparen "{\\em " "}"                                          
+                                                         $ replace "{\\textquoteright}" "'"
                                                          $ abstract 
                                           ] ++
 			  [ "  bibtex: |"] ++
@@ -101,12 +103,14 @@ main2 ("build":extra) = do
         "papers/*.md" *> \ out -> do
                let nm = (dropExtension (dropDirectory1 out))
                cite <- getBibTeXCitation nm
-               writeFile' out $ unlines
+               writeFile' out $ unlines $
                               [ "---"
                               , "layout: publication"
                               , "key: " ++ nm
-                              , "---"
                               ]
+                              ++ [ "redirect_from:" | _ <- maybeToList $ lookupBibTexCitation "xredirect" cite ]
+                              ++ [ " - " ++ txt | txt <- maybeToList $ lookupBibTexCitation "xredirect" cite ]
+                              ++ ["---"]
 
 
 ------------------------------------------------------------------------------------------------------------------------------
@@ -212,4 +216,15 @@ remove start end inp = outside inp
 
            inside cs | end `isPrefixOf` cs = outside (drop (length end) cs)
            inside (c:cs) = inside cs
+           inside [] = []
+
+unparen :: String -> String -> String -> String
+unparen start end inp = outside inp
+   where
+           outside cs | start `isPrefixOf` cs = inside (drop (length start) cs)
+           outside (c:cs) = c : outside cs
+           outside [] = []
+
+           inside cs | end `isPrefixOf` cs = outside (drop (length end) cs)
+           inside (c:cs) = c : inside cs
            inside [] = []
