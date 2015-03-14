@@ -1,32 +1,32 @@
 # auto generated from _meta/bibtex.bib
-- key: Torrence-15-BetterLife
+- key: Stees-15-Ion
   cite: |
-    M. Stees, J. Filstrup, and A. Gill, “Worker/wrapper for a better life,”
-    2014, to be submitted to the ACM SIGPLAN 2nd International Workshop on
-    Libraries, Languages and Compilers for Array Programming, 2015.
+    M. Stees, J. Filstrup, and A. Gill, “A haskell dsl for gpu c++
+    programming (wokring title),” 2014, to be submitted to the ACM SIGPLAN
+    2nd International Workshop on Libraries, Languages and Compilers for
+    Array Programming, 2015.
   a_cite: |
-    M. Stees, J. Filstrup, and A. Gill, “[Worker/wrapper for a better life](/papers/Torrence-15-BetterLife),”
-    2014, to be submitted to the ACM SIGPLAN 2nd International Workshop on
-    Libraries, Languages and Compilers for Array Programming, 2015.
+    M. Stees, J. Filstrup, and A. Gill, “[A haskell dsl for gpu c++
+    programming (wokring title)](/papers/Stees-15-Ion),” 2014, to be submitted to the ACM SIGPLAN
+    2nd International Workshop on Libraries, Languages and Compilers for
+    Array Programming, 2015.
   year: 2014
   links:
   bibtex: |
-    @unpublished{Torrence:15:BetterLife,
+    @unpublished{Stees:15:Ion,
       author = {Stees, Mike and Filstrup, Josh and Gill, Andy},
       year = {2014},
-      title = {Worker/wrapper for a Better Life},
+      title = {A Haskell DSL for GPU C++ Programming (Wokring Title)},
       note = {To be submitted to the ACM SIGPLAN 2nd International Workshop  on Libraries, Languages and Compilers for Array Programming, 2015},
     }
 
 - key: Torrence-15-BetterLife
   cite: |
-    M. Stees, J. Filstrup, and A. Gill, “Worker/wrapper for a better life,”
-    2014, to be submitted to the ACM SIGPLAN 2nd International Workshop on
-    Libraries, Languages and Compilers for Array Programming, 2015.
+    B. Torrence, M. Stees, and A. Gill, “Worker/wrapper for a better life,”
+    2015, to be submitted to the Haskell Symposium, 2015.
   a_cite: |
-    M. Stees, J. Filstrup, and A. Gill, “[Worker/wrapper for a better life](/papers/Torrence-15-BetterLife),”
-    2014, to be submitted to the ACM SIGPLAN 2nd International Workshop on
-    Libraries, Languages and Compilers for Array Programming, 2015.
+    B. Torrence, M. Stees, and A. Gill, “[Worker/wrapper for a better life](/papers/Torrence-15-BetterLife),”
+    2015, to be submitted to the Haskell Symposium, 2015.
   year: 2015
   links:
   abstract: |
@@ -56,66 +56,81 @@
 
 - key: Gill-15-BlankCanvas
   cite: |
-    A. Gill, A. Eskilson, R. Scott, and J. Stanton, “Blank canvas and the
-    remote-monad design pattern: A foreign function interface to the
-    javascript canvas api,” 2015, to be submitted to the Haskell Symposium,
-    2015.
+    A. Gill, J. Dawson, A. Eskilson, M. Grebe, R. Scott, J. Stanton,
+    J. Rosenbluth, and N. Sculthorpe, “The remote-monad design pattern,”
+    2015, to be submitted to the Haskell Symposium, 2015.
   a_cite: |
-    A. Gill, A. Eskilson, R. Scott, and J. Stanton, “[Blank canvas and the
-    remote-monad design pattern: A foreign function interface to the
-    javascript canvas api](/papers/Gill-15-BlankCanvas),” 2015, to be submitted to the Haskell Symposium,
-    2015.
+    A. Gill, J. Dawson, A. Eskilson, M. Grebe, R. Scott, J. Stanton,
+    J. Rosenbluth, and N. Sculthorpe, “[The remote-monad design pattern](/papers/Gill-15-BlankCanvas),”
+    2015, to be submitted to the Haskell Symposium, 2015.
   year: 2015
   links:
   abstract: |
-    JavaScript is the de-facto assembly language of the internet.
-    Browsers offer an array of powerful rendering and event processing services,
+    Remote Procedure Calls are expensive.
+    In this paper, we reduce the cost of calling remote procedures
+    from Haskell,
+    using the remote-monad design pattern, which amortizes the
+    cost of remote calls using monadic reification.
+    This gives the Haskell community access to remote capabilities that Haskell
+    does not directly support, at a surprisingly inexpensive cost.
+    
+    JavaScript is the {\em de facto} assembly language of the Internet.
+    Web browsers offer an array of powerful rendering and event processing services,
     including a simple 2D canvas.
-    Blank Canvas is Haskell DSL that provides a Foreign Function Interface
-    to the JavaScript canvas API and the JavaScript event API.
-    With this capability, Haskell programmers can draw pictures on the browsers,
+    Blank Canvas is a Haskell domain-specific language that provides a Foreign Function Interface
+    to the JavaScript canvas API and the JavaScript event API,
+    via the remote-monad design pattern.
+    With this capability, Haskell programmers can draw pictures on a browser,
     and access input from the keyboard and mouse.
-    At the University of Kansas, we use the blank-canvas package for teaching Haskell,
+    At the University of Kansas, we use Blank Canvas for teaching Haskell,
     where it provides a more interesting I/O experience than stdio.
     
     We investigate the use of the remote-monad design
-    pattern, using Blank Canvas as our driving example. After explaining
+    pattern, using Blank Canvas as our full-scale example. After explaining
     the design pattern, and constructing the basic remote capability,
     we critically assess the feasibility of our straightforward
     approach, and explore improvements.
+    We give more than a dozen examples of using Blank Canvas,
+    including student projects,
+    a backend for the {\tt diagrams} package,
+    and slide presentation software.
+    Finally, we generalize our ideas, and show how the exact same pattern
+    can be used to build other web-based interfaces.
   bibtex: |
     @unpublished{Gill:15:BlankCanvas,
-      author = {Gill, Andy and Eskilson, Aleksander and Scott,Ryan and Stanton, James},
+      author = {Andy Gill and Justin Dawson and Aleksander Eskilson and Mark Grebe and Ryan Scott and James Stanton and Jeffrey Rosenbluth and Neil Sculthorpe},
       year = {2015},
-      title = {Blank Canvas and the remote-monad design pattern: A Foreign Function Interface to the JavaScript Canvas API},
+      title = {The Remote-Monad Design Pattern},
       note = {To be submitted to the Haskell Symposium, 2015},
     }
 
-- key: Sculthorpe-15-Century
+- key: Farmer-15-ToolSupportEquationalReasoning
   cite: |
-    N. Sculthorpe, A. Farmer, and A. Gill, “Making a century in hermit,”
-    2015, to be submitted to the Haskell Symposium, 2015.
+    A. Farmer, N. Sculthorpe, and A. Gill, “Mechanising equational reasoning
+    in the ghc core language: Tool support for equational reasoning on ghc
+    core programs,” 2015, submitted to the Haskell Symposium, 2015.
   a_cite: |
-    N. Sculthorpe, A. Farmer, and A. Gill, “[Making a century in hermit](/papers/Sculthorpe-15-Century),”
-    2015, to be submitted to the Haskell Symposium, 2015.
+    A. Farmer, N. Sculthorpe, and A. Gill, “[Mechanising equational reasoning
+    in the ghc core language: Tool support for equational reasoning on ghc
+    core programs](/papers/Farmer-15-ToolSupportEquationalReasoning),” 2015, submitted to the Haskell Symposium, 2015.
   year: 2015
   links:
   abstract: |
-    A benefit of pure functional programming is that it encourages equational reasoning. 
-    However, the Haskell language currently lacks direct tool support for such reasoning. Consequently, 
-    reasoning about Haskell programs is either performed manually, or in another language that does
-    provide tool support (e.g. Agda).
+    A benefit of pure functional programming is that it encourages \emph{equational reasoning}.
+    However, the Haskell language currently lacks direct tool support for such reasoning.
+    Consequently, reasoning about Haskell programs is either performed manually, or in 
+    another language that does provide tool support (e.g. Agda or Coq).
     HERMIT is a Haskell-specific toolkit designed to support equational reasoning and
     user-guided program transformation, and to do so as part of the GHC compilation pipeline.
-    This extended abstract presents a detailed case study of HERMIT usage in practice:
-    mechanising Bird’s classic “Making a Century” pearl. We also use the mechanised
-    pearl to introduce recent HERMIT developments for supporting for equational reasoning.
+    This paper describes HERMIT's recently developed support for equational reasoning, and
+    presents two case studies of HERMIT usage:  proving that type-class laws hold for specific
+    instance declarations, and mechanising textbook equational reasoning.
   bibtex: |
-    @unpublished{Sculthorpe:15:Century,
-      author = {Sculthorpe, Neil and Farmer, Andrew and Gill, Andy},
+    @unpublished{Farmer:15:ToolSupportEquationalReasoning,
+      author = {Farmer, Andrew and Sculthorpe, Neil and Gill, Andy},
       year = {2015},
-      title = {Making a Century in HERMIT},
-      note = {To be submitted to the Haskell Symposium, 2015},
+      title = {Mechanising Equational Reasoning in the GHC Core Language: Tool Support for Equational Reasoning on GHC Core Programs},
+      note = {Submitted to the Haskell Symposium, 2015},
     }
 
 - key: Adams-15-OSTIE
