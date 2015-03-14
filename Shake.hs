@@ -57,7 +57,7 @@ main2 ("build":extra) = do
 
         addBibTeXOracle "_meta/bibtex.bib" bib
         
-        let okayBib xs = not (xs `elem` words "abstract url xurl xxurl")
+        let okayBib xs = not (xs `elem` words "abstract url xurl xxurl xcontent")
 
         "_data/publications.yml" *> \ out -> do
 	    txt <- sequence 
@@ -85,7 +85,12 @@ main2 ("build":extra) = do
                                           , txt <- lines abstract 
                                           ] ++
 			  [ "  bibtex: |"] ++
-			  [ "    " ++ txt | txt <- lines $ asciiBibText $ filterBibTexCitation okayBib e ]
+			  [ "    " ++ txt | txt <- lines $ asciiBibText $ filterBibTexCitation okayBib e ] ++
+			  [ "  xcontent: |" | _ <- maybeToList $ lookupBibTexCitation "xcontent" e ] ++
+			  [ "    " ++ dropWhile isSpace txt 
+                                          | xcontent <- maybeToList $ lookupBibTexCitation "xcontent" e
+                                          , txt <- lines xcontent 
+                                          ]
 	    	    | (nm,e) <- bib
 		    ]
             writeFile' out $ unlines $ ("# auto generated from _meta/bibtex.bib" : txt)

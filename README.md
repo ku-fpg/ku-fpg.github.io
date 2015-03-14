@@ -45,6 +45,13 @@ jquery-1.11.1:
     js/jquery-1.11.1.min.js
 
 
+## Problems
+
+````
+     Generating...   Liquid Exception: comparison of Hash with Hash failed in _includes/cite.fn, included in people/andrewfarmer.md
+````
+
+This may mean that there is a bib file without a year (yes, really)
 
 
 

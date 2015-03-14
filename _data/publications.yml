@@ -104,15 +104,17 @@
       note = {To be submitted to the Haskell Symposium, 2015},
     }
 
-- key: Farmer-15-ToolSupportEquationalReasoning
+- key: Farmer-15-HERMIT-reasoning
   cite: |
-    A. Farmer, N. Sculthorpe, and A. Gill, “Mechanising equational reasoning
-    in the ghc core language: Tool support for equational reasoning on ghc
-    core programs,” 2015, submitted to the Haskell Symposium, 2015.
+    A. Farmer, N. Sculthorpe, and A. Gill, “Reasoning with the
+    <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
+    on <span>GHC</span> core programs,” 2015, submitted to the 2015
+    Symposium on Haskell.
   a_cite: |
-    A. Farmer, N. Sculthorpe, and A. Gill, “[Mechanising equational reasoning
-    in the ghc core language: Tool support for equational reasoning on ghc
-    core programs](/papers/Farmer-15-ToolSupportEquationalReasoning),” 2015, submitted to the Haskell Symposium, 2015.
+    A. Farmer, N. Sculthorpe, and A. Gill, “[Reasoning with the
+    <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
+    on <span>GHC</span> core programs](/papers/Farmer-15-HERMIT-reasoning),” 2015, submitted to the 2015
+    Symposium on Haskell.
   year: 2015
   links:
   abstract: |
@@ -126,12 +128,21 @@
     presents two case studies of HERMIT usage:  proving that type-class laws hold for specific
     instance declarations, and mechanising textbook equational reasoning.
   bibtex: |
-    @unpublished{Farmer:15:ToolSupportEquationalReasoning,
-      author = {Farmer, Andrew and Sculthorpe, Neil and Gill, Andy},
+    @unpublished{Farmer:15:HERMIT-reasoning,
+      title = {Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} Core Programs},
+      author = {Andrew Farmer and Neil Sculthorpe and Andy Gill},
       year = {2015},
-      title = {Mechanising Equational Reasoning in the GHC Core Language: Tool Support for Equational Reasoning on GHC Core Programs},
-      note = {Submitted to the Haskell Symposium, 2015},
+      note = {Submitted to the 2015 Symposium on Haskell},
+      xcontent = {
+     #### Case Studies
+    
+    The ‘Type-Class Laws’ and `Making a Century’ case studies will be appear here on Monday 16th March, to coincide with the next release of the HERMIT package.},
     }
+  xcontent: |
+    
+    #### Case Studies
+    
+    The ‘Type-Class Laws’ and `Making a Century’ case studies will be appear here on Monday 16th March, to coincide with the next release of the HERMIT package.
 
 - key: Adams-15-OSTIE
   cite: |
