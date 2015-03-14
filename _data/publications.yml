@@ -133,10 +133,6 @@
       author = {Andrew Farmer and Neil Sculthorpe and Andy Gill},
       year = {2015},
       note = {Submitted to the 2015 Symposium on Haskell},
-      xcontent = {
-     #### Case Studies
-    
-    The ‘Type-Class Laws’ and `Making a Century’ case studies will be appear here on Monday 16th March, to coincide with the next release of the HERMIT package.},
     }
   xcontent: |
     
