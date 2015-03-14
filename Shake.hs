@@ -82,7 +82,8 @@ main2 ("build":extra) = do
 			  [ "  abstract: |" | _ <- maybeToList $ lookupBibTexCitation "abstract" e ] ++
 			  [ "    " ++ dropWhile isSpace txt 
                                           | abstract <- maybeToList $ lookupBibTexCitation "abstract" e
-                                          , txt <- lines abstract 
+                                          , txt <- lines $ remove "\\emph{" "}"                                          
+                                                         $ abstract 
                                           ] ++
 			  [ "  bibtex: |"] ++
 			  [ "    " ++ txt | txt <- lines $ asciiBibText $ filterBibTexCitation okayBib e ] ++

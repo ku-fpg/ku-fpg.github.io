@@ -118,7 +118,7 @@
   year: 2015
   links:
   abstract: |
-    A benefit of pure functional programming is that it encourages \emph{equational reasoning}.
+    A benefit of pure functional programming is that it encourages .
     However, the Haskell language currently lacks direct tool support for such reasoning.
     Consequently, reasoning about Haskell programs is either performed manually, or in 
     another language that does provide tool support (e.g. Agda or Coq).
@@ -588,7 +588,7 @@
     that facilitates refactoring and equational reasoning.
     To develop our ideas, we have implemented HERMIT, a toolkit enabling
     informal but systematic transformation of Haskell
-    programs from \emph{inside} the Glasgow Haskell Compiler{\textquoteright}s
+    programs from  the Glasgow Haskell Compiler{\textquoteright}s
     optimization pipeline.
     With HERMIT, users can experiment with optimizations
     and equational reasoning, while the
