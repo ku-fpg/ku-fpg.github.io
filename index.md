@@ -23,10 +23,6 @@ is led by Andrew Gill.
 The group operates inside the Computer Systems Design Laboratory (CSDL), at
 ITTC, in Nichols Hall on west campus. We currently have 16 group members.
 
-
-
-
-
 Who                                     | Project(s)                      | Status
 :---------------------------------------|:--------------------------------|:------------------
 Justin Dawson                           | Armored Software                | PhD, expected 2017
@@ -39,7 +35,6 @@ Aditya Kumar Ravikanti			        | (TDB)                           | MS CS
 [Ryan Scott](/people/ryanscott)         | HERMIT / CAREER                 | BS CS, expected 2015
 Nicholas Shaheed                        | Animations and Music            | BS CS
 James Stanton                           | CAREER                          | BS CS, expected 2016
-[Mike Stees](/people/mikestees)         | High Performance Haskell        | PhD, expected 2017
 Brad Torrence                           | Artificial Life                 | MS CS, PhD, expected 2018
 David Young                             | TDB                             | BS CS
 Angela Wright                           | FRP Wakarusa                    | BS CS
@@ -64,6 +59,7 @@ Rama Krishnamoorthy                                   | Animations / FRP, MS 201
 Kevin Matlage                                         | ChalkBoard, MS 2011      | Industry
 Patrick Miller                                        | Lambda Bridge, BS 2012   | PhD student, Notre Dame
 [Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/)   | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
+Mike Stees					      | High Performance Haskell | Parallel Scientific Computing 
 Brandon Smith                                         | ChalkBoard, BS 2011      | Industry
 Moiz Virani                                           | Websockets, MS 2015      | Industry
 
