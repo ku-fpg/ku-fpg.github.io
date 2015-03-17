@@ -120,7 +120,7 @@
   abstract: |
     A benefit of pure functional programming is that it encourages equational reasoning.
     However, the Haskell language currently lacks direct tool support for such reasoning.
-    Consequently, reasoning about Haskell programs is either performed manually, or in 
+    Consequently, reasoning about Haskell programs is either performed manually, or in
     another language that does provide tool support (e.g. Agda or Coq).
     HERMIT is a Haskell-specific toolkit designed to support equational reasoning and
     user-guided program transformation, and to do so as part of the GHC compilation pipeline.
@@ -138,7 +138,9 @@
     
     #### Case Studies
     
-    The ‘Type-Class Laws’ and `Making a Century’ case studies will be appear here on Monday 16th March, to coincide with the next release of the HERMIT package.
+    Download the case studies here: [Reasoning with the HERMIT Case Studies](http://www.ittc.ku.edu/csdl/fpg/files/Reasoning-with-the-HERMIT-1.tgz)
+    
+    Instructions for installing HERMIT (cabal update ; cabal install hermit) and running the case studies can be found in the README file contained within the case study archive.
 
 - key: Adams-15-OSTIE
   cite: |

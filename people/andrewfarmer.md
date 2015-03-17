@@ -28,6 +28,7 @@ Github: [https://github.com/xich](https://github.com/xich)
 
 ### Publications
 
+{% include cite.fn key="Farmer:15:HERMIT-reasoning" %}
 {% include cite.fn key="Adams:15:OSTIE" %}
 {% include cite.fn key="Farmer:14:HERMITinStream" %}
 {% include cite.fn key="Adams:14:OSIE" %}
