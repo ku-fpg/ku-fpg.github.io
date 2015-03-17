@@ -84,6 +84,7 @@ main2 ("build":extra) = do
                                           | abstract <- maybeToList $ lookupBibTexCitation "abstract" e
                                           , txt <- lines $ unparen "\\emph{" "}"                                          
                                                          $ unparen "{\\em " "}"                                          
+                                                         $ unparen "{\\tt " "}"                                          
                                                          $ replace "{\\textquoteright}" "'"
                                                          $ abstract 
                                           ] ++
