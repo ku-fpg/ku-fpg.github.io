@@ -27,7 +27,6 @@ Who                                     | Project(s)                      | Stat
 :---------------------------------------|:--------------------------------|:------------------
 Justin Dawson                           | Armored Software                | PhD, expected 2017
 [Andrew Farmer](/people/andrewfarmer)   | HERMIT                          | PhD, expected 2015
-[Josh Filstrup](/people/joshfilstrup)   | High Performance Haskell        | PhD, expected 2019
 [Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
 [Mark Grebe](/people/markgrebe)         | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
@@ -50,6 +49,7 @@ Robert Blair                                          | HERMIT/Android, BS 2013 
 Jan Bracker                                           | Sunroof, MS Exchange     | Christian-Albrechts-University
 Tristan Bull                                          | HFEC, MS 2011            | Industry
 Aleksander Eskilson                                   | HERMIT & Animations, BS 2016 | N/A 
+Josh Filstrup					      | High Performance Haskell | TBD
 Patrick G Flor                                        | HERMIT/Android           | Groupon
 Nicolas Frisby                                        | HERMIT, Staff            | FP Complete
 Adam Howell                                           | HERMIT/Android, BS 2014  | IBM
