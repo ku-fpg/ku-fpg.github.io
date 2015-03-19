@@ -92,7 +92,7 @@
     approach, and explore improvements.
     We give more than a dozen examples of using Blank Canvas,
     including student projects,
-    a backend for the {\tt diagrams} package,
+    a backend for the diagrams package,
     and slide presentation software.
     Finally, we generalize our ideas, and show how the exact same pattern
     can be used to build other web-based interfaces.
@@ -138,7 +138,7 @@
     
     #### Case Studies
     
-    Download the case studies here: [Reasoning with the HERMIT Case Studies](http://www.ittc.ku.edu/csdl/fpg/files/Reasoning-with-the-HERMIT-1.tgz)
+    Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-2.tgz)
     
     Instructions for installing HERMIT (cabal update ; cabal install hermit) and running the case studies can be found in the README file contained within the case study archive.
 
