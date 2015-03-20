@@ -49,7 +49,6 @@ Robert Blair                                          | HERMIT/Android, BS 2013 
 Jan Bracker                                           | Sunroof, MS Exchange     | Christian-Albrechts-University
 Tristan Bull                                          | HFEC, MS 2011            | Industry
 Aleksander Eskilson                                   | HERMIT & Animations, BS 2016 | N/A 
-Josh Filstrup					      | High Performance Haskell | TBD
 Patrick G Flor                                        | HERMIT/Android           | Groupon
 Nicolas Frisby                                        | HERMIT, Staff            | FP Complete
 Adam Howell                                           | HERMIT/Android, BS 2014  | IBM
