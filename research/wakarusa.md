@@ -67,9 +67,7 @@ implementations that execute correctly and quickly.
 
 ### Students
 
- * [Josh Filstrup](/people/joshfilstrup)  - Reification and deep embeddings
  * [Mark Grebe](/people/markgrebe) - Embedded systems plugin
- * [Mike Stees](/people/mikestees) - GPU support via Accelerate and Boost
  * David Young  - TDB
  * Angela Wright - Flight control implementation using Wakarusa (in conjunction with Aerospace).
  
