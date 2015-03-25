@@ -5,7 +5,7 @@ description: "The Functional Programming Group at the University of Kansas appli
 baseurl: ""
 url: "http://www.ittc.ku.edu/csdl/fpg"
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  ku-fpg
 
 # Build settings
 markdown: kramdown
