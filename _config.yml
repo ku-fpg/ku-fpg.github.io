@@ -1,9 +1,9 @@
 # Site settings
 title: Functional Programming at the University of Kansas
-email: your-email@domain.com
-description: "The Functional Programming Group at the University of Kansas apply and extend functional programming technologies to the diverse areas of building computer systems, high-performance computing, information assurance and telemetry."
+email: andygill@ku.edu
+description: "The Functional Programming Group at the University of Kansas applies and extends functional programming technologies to the diverse areas of building computer systems, high-performance computing, information assurance, and telemetry."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://www.ittc.ku.edu/csdl/fpg"
 twitter_username: jekyllrb
 github_username:  jekyll
 
