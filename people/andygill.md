@@ -63,7 +63,7 @@ EECS 776     | Functional Programming and Domain Specific Languages   | F12 F13 
 EECS 876/800 | Advanced Topics in Functional Languages                | S10 S11 S14
 CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 02, Summer 03
 
-## Recent Publications and Submissions
+## Recent and Pending Publications and Submissions
 
 {% include cite.fn year="2013,2014,2015" grep="Gill" %}
 
