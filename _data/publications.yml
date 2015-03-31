@@ -35,13 +35,13 @@
 
 - key: Gill-15-BlankCanvas
   cite: |
-    A. Gill, J. Dawson, A. Eskilson, M. Grebe, R. Scott, J. Stanton,
-    J. Rosenbluth, and N. Sculthorpe, “The remote-monad design pattern,”
-    2015, to be submitted to the Haskell Symposium, 2015.
+    A. Gill, J. Dawson, A. Eskilson, A. Farmer, M. Grebe, R. Scott,
+    J. Stanton, J. Rosenbluth, and N. Sculthorpe, “The remote-monad design
+    pattern,” 2015, to be submitted to the Haskell Symposium, 2015.
   a_cite: |
-    A. Gill, J. Dawson, A. Eskilson, M. Grebe, R. Scott, J. Stanton,
-    J. Rosenbluth, and N. Sculthorpe, “[The remote-monad design pattern](/papers/Gill-15-BlankCanvas),”
-    2015, to be submitted to the Haskell Symposium, 2015.
+    A. Gill, J. Dawson, A. Eskilson, A. Farmer, M. Grebe, R. Scott,
+    J. Stanton, J. Rosenbluth, and N. Sculthorpe, “[The remote-monad design
+    pattern](/papers/Gill-15-BlankCanvas),” 2015, to be submitted to the Haskell Symposium, 2015.
   year: 2015
   links:
   abstract: |
@@ -77,7 +77,7 @@
     can be used to build other web-based interfaces.
   bibtex: |
     @unpublished{Gill:15:BlankCanvas,
-      author = {Andy Gill and Justin Dawson and Aleksander Eskilson and Mark Grebe and Ryan Scott and James Stanton and Jeffrey Rosenbluth and Neil Sculthorpe},
+      author = {Andy Gill and Justin Dawson and Aleksander Eskilson and Andrew Farmer and Mark Grebe and Ryan Scott and James Stanton and Jeffrey Rosenbluth and Neil Sculthorpe},
       year = {2015},
       title = {The Remote-Monad Design Pattern},
       note = {To be submitted to the Haskell Symposium, 2015},
