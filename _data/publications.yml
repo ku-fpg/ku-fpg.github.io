@@ -1,25 +1,4 @@
 # auto generated from _meta/bibtex.bib
-- key: Stees-15-Ion
-  cite: |
-    M. Stees, J. Filstrup, and A. Gill, “A haskell dsl for gpu c++
-    programming (wokring title),” 2014, to be submitted to the ACM SIGPLAN
-    2nd International Workshop on Libraries, Languages and Compilers for
-    Array Programming, 2015.
-  a_cite: |
-    M. Stees, J. Filstrup, and A. Gill, “[A haskell dsl for gpu c++
-    programming (wokring title)](/papers/Stees-15-Ion),” 2014, to be submitted to the ACM SIGPLAN
-    2nd International Workshop on Libraries, Languages and Compilers for
-    Array Programming, 2015.
-  year: 2014
-  links:
-  bibtex: |
-    @unpublished{Stees:15:Ion,
-      author = {Stees, Mike and Filstrup, Josh and Gill, Andy},
-      year = {2014},
-      title = {A Haskell DSL for GPU C++ Programming (Wokring Title)},
-      note = {To be submitted to the ACM SIGPLAN 2nd International Workshop  on Libraries, Languages and Compilers for Array Programming, 2015},
-    }
-
 - key: Torrence-15-BetterLife
   cite: |
     B. Torrence, M. Stees, and A. Gill, “Worker/wrapper for a better life,”
