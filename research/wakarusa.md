@@ -68,9 +68,9 @@ implementations that execute correctly and quickly.
 ### Students
 
  * [Mark Grebe](/people/markgrebe) - Embedded systems plugin
+ * James Stanton - Kansas Lava: The Next Generation
  * David Young  - TDB
  * Angela Wright - Flight control implementation using Wakarusa (in conjunction with Aerospace).
- 
 
 ### Project Name
 
