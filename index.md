@@ -21,12 +21,12 @@ needs.
 The Functional Programming Group at the University of Kansas
 is led by Andrew Gill.
 The group operates inside the Computer Systems Design Laboratory (CSDL), at
-ITTC, in Nichols Hall on west campus. We currently have 16 group members.
+ITTC, in Nichols Hall on west campus. 
 
 Who                                     | Project(s)                      | Status
 :---------------------------------------|:--------------------------------|:------------------
 Justin Dawson                           | Armored Software                | PhD, expected 2017
-[Andrew Farmer](/people/andrewfarmer)   | HERMIT                          | PhD, expected 2015
+[Andrew Farmer](/people/andrewfarmer)   | HERMIT                          | Defended PhD
 [Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
 [Mark Grebe](/people/markgrebe)         | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
@@ -80,7 +80,7 @@ We also occasionally leave the lab.
 Who            | When           | Length   | Visiting
 ---------------|:---------------|:---------|:-----------
 Andrew Farmer  | Fall 2014      | 3 months | Facebook (London)
-Professor Gill | Fall 2014      | 2 weeks  | Distinguished Visitor Fellowship (Scotland)
+Professor Gill | Fall 2013      | 2 weeks  | Distinguished Visitor Fellowship (Scotland)
 Andrew Farmer  | Spring 2013    | 6 months | Portland State University (Oregon)
 
 ### Joining the Group
@@ -102,7 +102,6 @@ Group](https://wiki.ittc.ku.edu/sldg_wiki/index.php/Main_Page) (SLDG),
 lead by [Perry Alexander](http://www.ittc.ku.edu/~alex/), who also uses
 functional programming for system engineering, and with whom we
 collaborate closely.
-
 
 
 SLDG and FPG jointly run the [LAMBDA reading
