@@ -65,7 +65,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 
 ## Recent and Pending Publications and Submissions
 
-{% include cite.fn year="2013,2014,2015" grep="Gill" %}
+{% include cite.fn year="2014,2015" grep="Gill" %}
 
 ## Professional Activities
 
@@ -191,14 +191,22 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 
 ## Professional Awards
 
- * Leading Light Award, for contributing to the research enterprise at the University of Kansas in a major way, Office of the Provost & Office of Research and Graduate Studies, 2014.
+ * Harry Talley Excellence in Teaching Award, for
+   contributed significantly to undergraduate education and developing
+   a strong rapport with students both inside and outside of the classroom,
+   KU EECS Department, 2015.
+ * Leading Light Award, for contributing to the research enterprise at the University of Kansas in a major way,
+   Office of the Provost & Office of Research and Graduate Studies, 2014.
  * Miller Professional Development Award for distinguished research in the engineering profession,
    University of Kansas School of Engineering, 
    2014.
  * National Science Foundation CAREER Award, 2014.
  * Distinguished Visitor Fellowship, Scottish Informatics and Computer Science Alliance, 2013.
  * Excellence in Teaching award, Center for Teaching Excellence, University of Kansas, 2010.
- * Harry Talley Excellence in Teaching Award, KU EECS Department, 2009.
+ * Harry Talley Excellence in Teaching Award, for
+   contributed significantly to undergraduate education and developing
+   a strong rapport with students both inside and outside of the classroom,
+   KU EECS Department, 2009.
 
 ## Bio and Background
 
