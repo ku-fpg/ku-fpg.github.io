@@ -116,6 +116,53 @@ instance declarations, and mechanising textbook equational reasoning.",
 // ------------------------------------------------------------------------------
 // Published
 
+
+@phdthesis{Farmer:15:PhD,
+   author   = {Andrew Farmer},
+   title    = {{HERMIT}: Mechanized Reasoning during Compilation in the Glasgow Haskell Compiler},
+   school   = {The University of Kansas},
+   month    = {April},
+   year     = 2015,
+   abstract = {It is difficult to write programs which are both correct and fast.
+A promising approach, functional programming, is based on the idea of using pure,
+mathematical functions to construct programs.
+With effort, it is possible to establish a connection between a specification written in a functional language,
+which has been proven correct, and a fast implementation, via program transformation.
+
+When practiced in the functional programming community, this style of reasoning is still typically performed by hand,
+by either modifying the source code or using pen-and-paper.
+Unfortunately, performing such semi-formal reasoning by directly modifying the source code often obfuscates
+the program, and pen-and-paper reasoning becomes outdated as the program changes over time.
+Even so, this semi-formal reasoning prevails because formal reasoning is time-consuming, and requires considerable
+expertise.
+Formal reasoning tools often only work for a subset of the target language, or require programs to be implemented in
+a custom language for reasoning.
+
+This dissertation investigates a solution, called HERMIT, which mechanizes reasoning during compilation.
+HERMIT can be used to prove properties about programs written in the Haskell functional programming language,
+or transform them to improve their performance.
+Reasoning in HERMIT proceeds in a style familiar to practitioners of pen-and-paper reasoning, and
+mechanization allows these techniques to be applied to real-world programs with greater confidence.
+HERMIT can also re-check recorded reasoning steps on subsequent compilations,
+enforcing a connection with the program as the program is developed.
+
+HERMIT is the first system capable of directly reasoning about the full Haskell language.
+The design and implementation of HERMIT, motivated both by typical reasoning tasks and HERMIT's place in the Haskell
+ecosystem, is presented in detail.
+Three case studies investigate HERMIT's capability to reason in practice.
+These case studies demonstrate that semi-formal reasoning with HERMIT lowers the barrier to writing programs which are both
+correct and fast.}
+}
+
+
+@mastersthesis { Torrence:15:Life,
+  author       = "Brad Torrence",
+  title        = "{The Life Changing {HERMIT}: A Case Study of the Worker/Wrapper Transformation}",
+  school       = "The University of Kansas",
+  year         = 2015,
+  month        = "January"
+}
+
 @article{Sculthorpe:14:KURE,
     author       = "Neil Sculthorpe and Nicolas Frisby and Andy Gill",
     title        = "The {K}ansas {U}niversity {R}ewrite {E}ngine: A {H}askell-Embedded Strategic Programming Language with Custom Closed Universes",
