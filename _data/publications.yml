@@ -218,6 +218,39 @@
     University of Kansas, January 2015.
   year: 2015
   links:
+  abstract: |
+    In software engineering, altering a program’s
+    original implementation disconnects it from the
+    model that produced it. Reconnecting the model and
+    new implementations must be done in a way that does
+    not decrease confidence in the design’s correctness
+    and performance. This thesis demonstrates that it is
+    possible, in practice, to connect the model of
+    Conway’s Game of Life with new implementations,
+    using the worker/wrapper transformation
+    theory. This connection allows development to
+    continue without the sacrifice of reimplementation.
+    
+    HERMIT is a tool that allows programs implemented in
+    Haskell to be transformed during the compilation
+    process, and has features capable of performing
+    worker/wrapper transformations. Specifically in
+    these experiments, HERMIT is used to apply syntax
+    transformations to replace Life’s linked-list based
+    implementation with one that uses other data
+    structures in an effort to explore alternative
+    implementations and improve overall performance.
+    
+    Previous work has successfully performed the
+    worker/wrapper conversion on an individual
+    function using HERMIT. This thesis presents the
+    first time that a programmer-directed
+    worker/wrapper transformation has been attempted on
+    an entire program. From this experiment, substantial
+    observations have been made. These observations have
+    led to proposed improvements to the HERMIT system,
+    as well as the formal approach to the worker/wrapper
+    transformation process.
   bibtex: |
     @mastersthesis{Torrence:15:Life,
       author = {Brad Torrence},
@@ -225,38 +258,6 @@
       school = {The University of Kansas},
       year = {2015},
       month = {January},
-      abstact = {In software engineering, altering a program’s
-                      original implementation disconnects it from the
-                      model that produced it. Reconnecting the model and
-                      new implementations must be done in a way that does
-                      not decrease confidence in the design’s correctness
-                      and performance. This thesis demonstrates that it is
-                      possible, in practice, to connect the model of
-                      Conway’s Game of Life with new implementations,
-                      using the worker/wrapper transformation
-                      theory. This connection allows development to
-                      continue without the sacrifice of reimplementation.
-    
-                      HERMIT is a tool that allows programs implemented in
-                      Haskell to be transformed during the compilation
-                      process, and has features capable of performing
-                      worker/wrapper transformations. Specifically in
-                      these experiments, HERMIT is used to apply syntax
-                      transformations to replace Life’s linked-list based
-                      implementation with one that uses other data
-                      structures in an effort to explore alternative
-                      implementations and improve overall performance.
-    
-                      Previous work has successfully performed the
-                      worker/wrapper conversion on an individual
-                      function using HERMIT. This thesis presents the
-                      first time that a programmer-directed
-                      worker/wrapper transformation has been attempted on
-                      an entire program. From this experiment, substantial
-                      observations have been made. These observations have
-                      led to proposed improvements to the HERMIT system,
-                      as well as the formal approach to the worker/wrapper
-                      transformation process.},
     }
 
 - key: Sculthorpe-14-KURE
