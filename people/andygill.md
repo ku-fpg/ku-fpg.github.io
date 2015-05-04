@@ -73,7 +73,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
         SIGPLAN Notices
 -   ACM SIGPLAN Information Director
 -   PC Member,
-       High level languages for FPGAs,
+       [Symposium on High Level Languages for Parallel Computing on FPGAs](http://www.macs.hw.ac.uk/~rs46/parco15-high-level-fpga-languages/),
        2015
 -   PC Member,
        Trends in Functional Programming,
