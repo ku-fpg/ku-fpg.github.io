@@ -73,6 +73,10 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
         SIGPLAN Notices
 -   ACM SIGPLAN Information Director
 -   PC Member,
+       The 23rd Annual IEEE International Symposium on 
+       Field-Programmable Custom Computing Machines,
+       2016
+-   PC Member,
        [Symposium on High Level Languages for Parallel Computing on FPGAs](http://www.macs.hw.ac.uk/~rs46/parco15-high-level-fpga-languages/),
        2015
 -   PC Member,
