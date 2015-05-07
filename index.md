@@ -43,24 +43,24 @@ Mohammed Ziauddin                       | TBD                             | MS C
 
 These are people who have previously worked for or with FPG in some capacity.
 
-Who                                                   | Project                 | Where after FPG
-------------------------------------------------------|:------------------------|:---------------
-Robert Blair                                          | HERMIT/Android, BS 2013  | Industry
-Jan Bracker                                           | Sunroof, MS Exchange     | Christian-Albrechts-University
-Tristan Bull                                          | HFEC, MS 2011            | Industry
-Aleksander Eskilson                                   | HERMIT & Animations, BS 2016 | N/A 
-Patrick G Flor                                        | HERMIT/Android           | Groupon
-Nicolas Frisby                                        | HERMIT, Staff            | FP Complete
-Adam Howell                                           | HERMIT/Android, BS 2014  | IBM
-[Garrin Kimmell](http://www.ittc.ku.edu/~kimmell/)    | HFEC, PostDoc            | PostDoc, University of Iowa
-[Ed Komp](http://www.ittc.ku.edu/view_contact.phtml?id=28) | HERMIT              | Long-term ITTC Staff member
-Rama Krishnamoorthy                                   | Animations / FRP, MS 2015 | Industry
-Kevin Matlage                                         | ChalkBoard, MS 2011      | Industry
-Patrick Miller                                        | Lambda Bridge, BS 2012   | PhD student, Notre Dame
-[Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/)   | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
-Mike Stees					      | High Performance Haskell | Parallel Scientific Computing 
-Brandon Smith                                         | ChalkBoard, BS 2011      | Industry
-Moiz Virani                                           | Websockets, MS 2015      | Industry
+Who                                                 | Project                  | Where after FPG
+----------------------------------------------------|:-------------------------|:---------------
+Robert Blair                                        | HERMIT/Android, BS 2013  | Garmin
+Jan Bracker                                         | Sunroof, MS Exchange     | Christian-Albrechts-University
+Tristan Bull                                        | HFEC, MS 2011            | Industry
+Aleksander Eskilson                                 | HERMIT & Animations, BS 2016 | N/A 
+Patrick G Flor                                      | HERMIT/Android           | Groupon
+Nicolas Frisby                                      | HERMIT, Staff            | FP Complete
+Adam Howell                                         | HERMIT/Android, BS 2014  | IBM
+[Garrin Kimmell](http://www.ittc.ku.edu/~kimmell/)  | HFEC, PostDoc            | PostDoc, University of Iowa
+[Ed Komp](http://www.ittc.ku.edu/view_contact.phtml?id=28) | HERMIT            | Long-term ITTC Staff member
+Rama Krishnamoorthy                                 | Animations / FRP, MS 2015 | Industry
+Kevin Matlage                                       | ChalkBoard, MS 2011      | Industry
+Patrick Miller                                      | Lambda Bridge, BS 2012   | PhD student, Notre Dame
+[Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/) | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
+Mike Stees					    | High Performance Haskell | Parallel Scientific Computing 
+Brandon Smith                                       | ChalkBoard, BS 2011      | Industry
+Moiz Virani                                         | Websockets, MS 2015      | Industry
 
 ### Visitors and Visits
 
