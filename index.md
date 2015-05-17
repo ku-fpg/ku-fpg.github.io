@@ -26,12 +26,11 @@ ITTC, in Nichols Hall on west campus.
 Who                                     | Project(s)                      | Status
 :---------------------------------------|:--------------------------------|:------------------
 Justin Dawson                           | Armored Software                | PhD, expected 2017
-[Andrew Farmer](/people/andrewfarmer)   | HERMIT                          | Defended PhD
 [Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
 [Mark Grebe](/people/markgrebe)         | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
 Aditya Kumar Ravikanti			        | (TDB)                           | MS CS
-[Ryan Scott](/people/ryanscott)         | HERMIT / CAREER                 | BS CS, expected 2015
+[Ryan Scott](/people/ryanscott)         | HERMIT / Wakarusa               | BS CS
 Nicholas Shaheed                        | Animations and Music            | BS CS
 James Stanton                           | CAREER                          | BS CS, expected 2016
 Brad Torrence                           | Artificial Life                 | MS CS, PhD, expected 2018
@@ -49,6 +48,7 @@ Robert Blair                                        | HERMIT/Android, BS 2013  |
 Jan Bracker                                         | Sunroof, MS Exchange     | Christian-Albrechts-University
 Tristan Bull                                        | HFEC, MS 2011            | Industry
 Aleksander Eskilson                                 | HERMIT & Animations, BS 2016 | N/A 
+[Andrew Farmer](/people/andrewfarmer)               | HERMIT, PhD 2015         | Facebook
 Patrick G Flor                                      | HERMIT/Android           | Groupon
 Nicolas Frisby                                      | HERMIT, Staff            | FP Complete
 Adam Howell                                         | HERMIT/Android, BS 2014  | IBM
