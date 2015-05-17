@@ -159,15 +159,18 @@
 
 - key: Farmer-15-PhD
   cite: |
-    A. Farmer, “<span>HERMIT</span>: Mechanized reasoning during compilation
-    in the glasgow haskell compiler,” Ph.D. dissertation, The University of
-    Kansas, April 2015.
+    A. Farmer, “<span>HERMIT</span>: <span>M</span>echanized
+    <span>R</span>easoning during <span>C</span>ompilation in the
+    <span>G</span>lasgow <span>H</span>askell <span>C</span>ompiler,” Ph.D.
+    dissertation, The University of Kansas, April 2015.
   a_cite: |
-    A. Farmer, “[<span>HERMIT</span>: Mechanized reasoning during compilation
-    in the glasgow haskell compiler](/papers/Farmer-15-PhD),” Ph.D. dissertation, The University of
-    Kansas, April 2015.
+    A. Farmer, “[<span>HERMIT</span>: <span>M</span>echanized
+    <span>R</span>easoning during <span>C</span>ompilation in the
+    <span>G</span>lasgow <span>H</span>askell <span>C</span>ompiler](/papers/Farmer-15-PhD),” Ph.D.
+    dissertation, The University of Kansas, April 2015.
   year: 2015
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Farmer-15-Dissertation.pdf>
   abstract: |
     It is difficult to write programs which are both correct and fast.
     A promising approach, functional programming, is based on the idea of using pure,
@@ -201,7 +204,7 @@
   bibtex: |
     @phdthesis{Farmer:15:PhD,
       author = {Andrew Farmer},
-      title = {{HERMIT}: Mechanized Reasoning during Compilation in the Glasgow Haskell Compiler},
+      title = {{HERMIT}: {M}echanized {R}easoning during {C}ompilation in the {G}lasgow {H}askell {C}ompiler},
       school = {The University of Kansas},
       month = {April},
       year = {2015},

@@ -7,7 +7,7 @@ title: Andrew Farmer
 
 ## Andrew Farmer
 
-I am a Ph.D. student with Dr. Gill. My interests include programming
+My interests include programming
 language design in general and specifically the compilation and optimization
 of functional languages.
 I am currently working on [HERMIT](http://www.ittc.ku.edu/csdl/fpg/software/hermit.html),
@@ -28,6 +28,7 @@ Github: [https://github.com/xich](https://github.com/xich)
 
 ### Publications
 
+{% include cite.fn key="Farmer:15:PhD" %}
 {% include cite.fn key="Farmer:15:HERMIT-reasoning" %}
 {% include cite.fn key="Adams:15:OSTIE" %}
 {% include cite.fn key="Farmer:14:HERMITinStream" %}
@@ -43,6 +44,7 @@ Github: [https://github.com/xich](https://github.com/xich)
 
 ### Presentations
 
+- HERMIT: Mechanized Reasoning during Compilation in the Glasgow Haskell Compiler. Dissertation Defense. Lawrence, Kansas. April 2014. [Slides](http://www.ittc.ku.edu/~afarmer/talks/defense.html)
 - The HERMIT in the Stream. [PEPM 2014](http://www.program-transformation.org/PEPM14). San Diego, California. January 2014. [Slides](http://www.ittc.ku.edu/~afarmer/talks/concatmap-pepm14.html)
 - RESTful Web Services with Haskell. [Lambda Lounge KC](http://www.meetup.com/lamba-lounge-kc/events/149077972/). Fairway, Kansas. November 2013. [Slides](http://www.ittc.ku.edu/~afarmer/talks/lambdaloungekc.html) [Video](https://db.tt/WGVW6UZV)
 - Prototyping GHC Optimizations with HERMIT. [2013 Haskell Implementors Workshop](http://www.haskell.org/haskellwiki/HaskellImplementorsWorkshop/2013). Boston, Massachusetts. September 2013. [Slides](http://www.ittc.ku.edu/~afarmer/hiw-13.html)
