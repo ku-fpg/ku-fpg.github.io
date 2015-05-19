@@ -1,4 +1,4 @@
 ---
 layout: publication
-key: Gill-15-BlankCanvas
+key: Gill-15-RemoteMonad
 ---

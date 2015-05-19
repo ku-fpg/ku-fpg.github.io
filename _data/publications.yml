@@ -33,7 +33,7 @@
       note = {To be submitted to the Haskell Symposium, 2015},
     }
 
-- key: Gill-15-BlankCanvas
+- key: Gill-15-RemoteMonad
   cite: |
     A. Gill, J. Dawson, A. Eskilson, A. Farmer, M. Grebe, R. Scott,
     J. Stanton, J. Rosenbluth, and N. Sculthorpe, “The remote-monad design
@@ -41,7 +41,7 @@
   a_cite: |
     A. Gill, J. Dawson, A. Eskilson, A. Farmer, M. Grebe, R. Scott,
     J. Stanton, J. Rosenbluth, and N. Sculthorpe, “[The remote-monad design
-    pattern](/papers/Gill-15-BlankCanvas),” 2015, to be submitted to the Haskell Symposium, 2015.
+    pattern](/papers/Gill-15-RemoteMonad),” 2015, to be submitted to the Haskell Symposium, 2015.
   year: 2015
   links:
   abstract: |
@@ -76,7 +76,7 @@
     Finally, we generalize our ideas, and show how the exact same pattern
     can be used to build other web-based interfaces.
   bibtex: |
-    @unpublished{Gill:15:BlankCanvas,
+    @unpublished{Gill:15:RemoteMonad,
       author = {Andy Gill and Justin Dawson and Aleksander Eskilson and Andrew Farmer and Mark Grebe and Ryan Scott and James Stanton and Jeffrey Rosenbluth and Neil Sculthorpe},
       year = {2015},
       title = {The Remote-Monad Design Pattern},
