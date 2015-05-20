@@ -117,9 +117,9 @@
     
     #### Case Studies
     
-    Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-2.tgz)
+    Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-3.tgz)
     
-    Instructions for installing HERMIT (cabal update ; cabal install hermit) and running the case studies can be found in the README file contained within the case study archive.
+    Instructions for installing HERMIT (cabal update ; cabal install hermit-1.0.0.0) and running the case studies can be found in the README file contained within the case study archive.
 
 - key: Adams-15-OSTIE
   cite: |
