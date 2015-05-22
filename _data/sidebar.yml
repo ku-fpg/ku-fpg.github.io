@@ -1,8 +1,6 @@
 - name: Functional Programming Group
   href: "/"
   sublinks:
-  - name: Andrew Farmer
-    href: "/people/andrewfarmer"
   - name: Andrew Gill
     href: "/people/andygill"
   - name: Mark Grebe
