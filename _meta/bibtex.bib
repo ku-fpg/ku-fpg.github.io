@@ -5,64 +5,67 @@
 // ------------------------------------------------------------------------------
 // In prep
 
-@unpublished{Torrence:15:BetterLife,
- author="Torrence, Brad and Stees, Mike and Gill, Andrew",
+@unpublished{Austin:15:ProofPlugin,
+  author="Evan Austin and Andy Gill and Perry Alexander",
   year = 2015,
-  title="Worker/wrapper for a Better Life",
-  note="To be submitted to the Haskell Symposium, 2015",
-  abstract="In Software Engineering, an implementation, and its model, can fall out of step.
-If we can connect the implementation and model, then development of both artifacts
-can continue, while retaining confidence in the overall design and implementation.
-In this paper, we show it is possible in practice to
-connect together an executable specification of Conway's Game of Life,
-and a number of implementations, using the worker/wrapper transformation.
-In particular, we use the rewrite tool HERMIT to apply post-hoc transformations to
-replace a linked-list based description with other data structures.
-Directed optimizations allow for highly-efficient executable specifications,
-where the model becomes the implementation.
-This work is the first time programmer-directed worker/wrapper
-has been attempted on a whole application,
-rather than simply on individual functions.
-Beyond data representation improvement, we translate our model
-such that we can execute on a CPU/GPU hybrid, by targeting
-the accelerate DSL."
+  title="The Proof is in the Plugin",
+  note="Submitted to the 2015 Haskell Symposium",
+  abstract="An advantage of programming in a pure functional language,
+                  such as Haskell, is that guarantees of correctness
+                  can be made quite directly using equational
+                  reasoning.  Though this reasoning is in and of
+                  itself a fairly simple process, attempts to formally
+                  mechanize its application typically rely on
+                  integrating with complex, external proof systems.
+                  It is our belief that the burden of working with
+                  these complex systems precludes the average
+                  programmer from formally verifying properties that
+                  they could otherwise discharge and demonstrate to be
+                  true.  The work in this paper discusses an
+                  alternative approach to program verification -- the
+                  integration of a lightweight proof system into the
+                  GHC compiler pipeline via its plugin framework.
+                  Rather than use the informal reasoning engine
+                  provided by the existing HERMIT Shell, we use
+                  HERMIT's meta-plugin capability to connect GHC with
+                  our library for higher-order logic theorem proving
+                  in order to provide complete front-to-back formality
+                  in verification efforts.  We assess the challenges
+                  of connecting our system to GHC, via HERMIT, give
+                  some initial examples of use, and discuss the
+                  remaining challenges with using our approach."
 }
 
-@unpublished{Gill:15:RemoteMonad,
-  author="Andy Gill and Justin Dawson and Aleksander Eskilson and Andrew Farmer and Mark Grebe and Ryan Scott and James Stanton and Jeffrey Rosenbluth and Neil Sculthorpe",
+
+@unpublished{Gill:15:RemoteMonad, 
+  author="Andy Gill and Neil Sculthorpe and Justin Dawson and
+                  Aleksander Eskilson and Andrew Farmer and Mark Grebe
+                  and Jeffrey Rosenbluth and Ryan Scott and James
+                  Stanton",
   year = 2015,
-  title="The Remote-Monad Design Pattern",
-  note="To be submitted to the Haskell Symposium, 2015",
-  abstract="Remote Procedure Calls are expensive.
-In this paper, we reduce the cost of calling remote procedures
-from Haskell,
-using the remote-monad design pattern, which amortizes the
-cost of remote calls using monadic reification.
-This gives the Haskell community access to remote capabilities that Haskell
-does not directly support, at a surprisingly inexpensive cost.
+  title="The Remote Monad Design Pattern",
+  note="Submitted to the 2015 Haskell Symposium",
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-15-RemoteMonad.pdf},
+  abstract="Remote Procedure Calls are expensive.  This paper
+                  demonstrates how to reduce the cost of calling
+                  remote procedures from Haskell by using the
+                  \emph{remote monad design pattern}, which amortizes
+                  the cost of remote calls.  This gives the Haskell
+                  community access to remote capabilities that are not
+                  directly supported, at a surprisingly inexpensive
+                  cost.  
 
-JavaScript is the {\em de facto} assembly language of the Internet.
-Web browsers offer an array of powerful rendering and event processing services,
-including a simple 2D canvas.
-Blank Canvas is a Haskell domain-specific language that provides a Foreign Function Interface
-to the JavaScript canvas API and the JavaScript event API,
-via the remote-monad design pattern.
-With this capability, Haskell programmers can draw pictures on a browser,
-and access input from the keyboard and mouse.
-At the University of Kansas, we use Blank Canvas for teaching Haskell,
-where it provides a more interesting I/O experience than stdio.
-
-We investigate the use of the remote-monad design
-pattern, using Blank Canvas as our full-scale example. After explaining
-the design pattern, and constructing the basic remote capability,
-we critically assess the feasibility of our straightforward
-approach, and explore improvements.
-We give more than a dozen examples of using Blank Canvas,
-including student projects,
-a backend for the {\tt diagrams} package,
-and slide presentation software.
-Finally, we generalize our ideas, and show how the exact same pattern
-can be used to build other web-based interfaces."
+                  We explore the remote monad design pattern
+                  through six models of remote execution patterns,
+                  using a simulated Internet of Things toaster as a
+                  running example.  We consider the expressiveness and
+                  optimizations enabled by each remote execution
+                  model, and assess the feasibility of our approach.
+                  We then present a full-scale case study: a Haskell
+                  library that provides a Foreign Function Interface
+                  to the JavaScript Canvas API.  Finally, we discuss
+                  existing instances of the remote monad design
+                  pattern found in Haskell libraries."
 }
 
 // ------------------------------------------------------------------------------
