@@ -52,7 +52,7 @@
     pattern](/papers/Gill-15-RemoteMonad),” 2015, submitted to the 2015 Haskell Symposium.
   year: 2015
   links:
-    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-15-RemoteMonad.pdf>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-15-RemoteMonad-DRAFT.pdf>
   abstract: |
     Remote Procedure Calls are expensive.  This paper
     demonstrates how to reduce the cost of calling
