@@ -9,7 +9,7 @@
     {% if item.href %}
       <a href="{{item.href}}">{{item.name}}</a>
     {% else %}
-      [{{item.name}}]
+     {{item.name}}
     {% endif %}
   </span>
 {% if include.level > 0 %}</li>{% else %}</b>{% endif %}
