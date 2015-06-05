@@ -1,6 +1,7 @@
 - name: Functional Programming Group
   href: "/"
   sublinks:
+  - name: Justin Dawson
   - name: Andrew Gill
     href: "/people/andygill"
   - name: Mark Grebe

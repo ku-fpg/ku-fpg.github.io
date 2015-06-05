@@ -5,37 +5,38 @@
 // ------------------------------------------------------------------------------
 // In prep
 
-@unpublished{Austin:15:ProofPlugin,
-  author="Evan Austin and Andy Gill and Perry Alexander",
-  year = 2015,
-  title="The Proof is in the Plugin",
-  note="Submitted to the 2015 Haskell Symposium",
-  abstract="An advantage of programming in a pure functional language,
-                  such as Haskell, is that guarantees of correctness
-                  can be made quite directly using equational
-                  reasoning.  Though this reasoning is in and of
-                  itself a fairly simple process, attempts to formally
-                  mechanize its application typically rely on
-                  integrating with complex, external proof systems.
-                  It is our belief that the burden of working with
-                  these complex systems precludes the average
-                  programmer from formally verifying properties that
-                  they could otherwise discharge and demonstrate to be
-                  true.  The work in this paper discusses an
-                  alternative approach to program verification -- the
-                  integration of a lightweight proof system into the
-                  GHC compiler pipeline via its plugin framework.
-                  Rather than use the informal reasoning engine
-                  provided by the existing HERMIT Shell, we use
-                  HERMIT's meta-plugin capability to connect GHC with
-                  our library for higher-order logic theorem proving
-                  in order to provide complete front-to-back formality
-                  in verification efforts.  We assess the challenges
-                  of connecting our system to GHC, via HERMIT, give
-                  some initial examples of use, and discuss the
-                  remaining challenges with using our approach."
-}
+// ------------------------------------------------------------------------------
+// Submitted
 
+@unpublished{Farmer:15:HERMIT-reasoning,
+  title = "Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} Core Programs",
+  author = "Andrew Farmer and Neil Sculthorpe and Andy Gill",
+  year = 2015,
+  note = "Submitted to the 2015 Symposium on Haskell",
+  abstract="A benefit of pure functional programming is that it
+                  encourages \emph{equational reasoning}.  However,
+                  the Haskell language has lacked direct tool support
+                  for such reasoning.  Consequently, reasoning about
+                  Haskell programs is either performed manually, or in
+                  another language that does provide tool support
+                  (e.g. Agda or Coq).  HERMIT is a Haskell-specific
+                  toolkit designed to support equational reasoning and
+                  user-guided program transformation, and to do so as
+                  part of the GHC compilation pipeline.  This paper
+                  describes HERMIT's recently developed support for
+                  equational reasoning, and presents two case studies
+                  of HERMIT usage: checking that type-class laws hold
+                  for specific instance declarations, and mechanising
+                  textbook equational reasoning.",
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Farmer-15-HERMIT-reasoning-DRAFT.pdf},
+  xcontent = "
+ #### Case Studies
+
+ Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-3.tgz)
+
+ Instructions for installing HERMIT (cabal update ; cabal install hermit-1.0.0.0) and running the case studies can be found in the README file contained within the case study archive.",
+  xredirect = "/research/HERMIT/case-studies/",
+}
 
 @unpublished{Gill:15:RemoteMonad, 
   author="Andy Gill and Neil Sculthorpe and Justin Dawson and
@@ -68,32 +69,37 @@
                   pattern found in Haskell libraries."
 }
 
-// ------------------------------------------------------------------------------
-// Submitted
-
-
-@unpublished{Farmer:15:HERMIT-reasoning,
-  title = "Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} Core Programs",
-  author = "Andrew Farmer and Neil Sculthorpe and Andy Gill",
+@unpublished{Austin:15:ProofPlugin,
+  author="Evan Austin and Andy Gill and Perry Alexander",
   year = 2015,
-  note = "Submitted to the 2015 Symposium on Haskell",
-  abstract="A benefit of pure functional programming is that it encourages \emph{equational reasoning}.
-However, the Haskell language currently lacks direct tool support for such reasoning.
-Consequently, reasoning about Haskell programs is either performed manually, or in
-another language that does provide tool support (e.g. Agda or Coq).
-HERMIT is a Haskell-specific toolkit designed to support equational reasoning and
-user-guided program transformation, and to do so as part of the GHC compilation pipeline.
-This paper describes HERMIT's recently developed support for equational reasoning, and
-presents two case studies of HERMIT usage:  proving that type-class laws hold for specific
-instance declarations, and mechanising textbook equational reasoning.",
-  xcontent = "
- #### Case Studies
-
- Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-3.tgz)
-
- Instructions for installing HERMIT (cabal update ; cabal install hermit-1.0.0.0) and running the case studies can be found in the README file contained within the case study archive.",
-  xredirect = "/research/HERMIT/case-studies/",
+  title="The Proof is in the Plugin",
+  note="Submitted to the 2015 Haskell Symposium",
+  abstract="An advantage of programming in a pure functional language,
+                  such as Haskell, is that guarantees of correctness
+                  can be made quite directly using equational
+                  reasoning.  Though this reasoning is in and of
+                  itself a fairly simple process, attempts to formally
+                  mechanize its application typically rely on
+                  integrating with complex, external proof systems.
+                  It is our belief that the burden of working with
+                  these complex systems precludes the average
+                  programmer from formally verifying properties that
+                  they could otherwise discharge and demonstrate to be
+                  true.  The work in this paper discusses an
+                  alternative approach to program verification -- the
+                  integration of a lightweight proof system into the
+                  GHC compiler pipeline via its plugin framework.
+                  Rather than use the informal reasoning engine
+                  provided by the existing HERMIT Shell, we use
+                  HERMIT's meta-plugin capability to connect GHC with
+                  our library for higher-order logic theorem proving
+                  in order to provide complete front-to-back formality
+                  in verification efforts.  We assess the challenges
+                  of connecting our system to GHC, via HERMIT, give
+                  some initial examples of use, and discuss the
+                  remaining challenges with using our approach."
 }
+
 
 @unpublished{Adams:15:OSTIE,
     author = "Michael D. Adams and Andrew Farmer and Jos\'{e} Pedro {Magalh\~{a}es}",
