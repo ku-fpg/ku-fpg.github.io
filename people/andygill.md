@@ -195,6 +195,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 
 ## Professional Awards
 
+ * Millar Scholar, for overall achievement during the past academic year,
+   University of Kansas School of Engineering,
+   2015.
  * Harry Talley Excellence in Teaching Award, for
    contributed significantly to undergraduate education and developing
    a strong rapport with students both inside and outside of the classroom,
