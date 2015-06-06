@@ -37,11 +37,11 @@
       note = {Submitted to the 2015 Symposium on Haskell},
     }
   xcontent: |
-    
+
     #### Case Studies
-    
-    Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-3.tgz)
-    
+
+    Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-4.tgz)
+
     Instructions for installing HERMIT (cabal update ; cabal install hermit-1.0.0.0) and running the case studies can be found in the README file contained within the case study archive.
 
 - key: Gill-15-RemoteMonad
@@ -64,8 +64,8 @@
     the cost of remote calls.  This gives the Haskell
     community access to remote capabilities that are not
     directly supported, at a surprisingly inexpensive
-    cost.  
-    
+    cost.
+
     We explore the remote monad design pattern
     through six models of remote execution patterns,
     using a simulated Internet of Things toaster as a
@@ -152,7 +152,7 @@
     of many traversals, its use incurs a significant runtime cost. Existing techniques
     for optimizing other generic-programming systems are not able to eliminate this
     overhead.
-    
+
     This paper presents an optimization that eliminates this cost. Essentially, it
     is a partial evaluation that takes advantage of domain-specific knowledge about
     the structure of SYB. It optimizes SYB traversals to be as fast as handwritten,
@@ -186,7 +186,7 @@
     mathematical functions to construct programs.
     With effort, it is possible to establish a connection between a specification written in a functional language,
     which has been proven correct, and a fast implementation, via program transformation.
-    
+
     When practiced in the functional programming community, this style of reasoning is still typically performed by hand,
     by either modifying the source code or using pen-and-paper.
     Unfortunately, performing such semi-formal reasoning by directly modifying the source code often obfuscates
@@ -195,7 +195,7 @@
     expertise.
     Formal reasoning tools often only work for a subset of the target language, or require programs to be implemented in
     a custom language for reasoning.
-    
+
     This dissertation investigates a solution, called HERMIT, which mechanizes reasoning during compilation.
     HERMIT can be used to prove properties about programs written in the Haskell functional programming language,
     or transform them to improve their performance.
@@ -203,7 +203,7 @@
     mechanization allows these techniques to be applied to real-world programs with greater confidence.
     HERMIT can also re-check recorded reasoning steps on subsequent compilations,
     enforcing a connection with the program as the program is developed.
-    
+
     HERMIT is the first system capable of directly reasoning about the full Haskell language.
     The design and implementation of HERMIT, motivated both by typical reasoning tasks and HERMIT's place in the Haskell
     ecosystem, is presented in detail.
@@ -242,7 +242,7 @@
     using the worker/wrapper transformation
     theory. This connection allows development to
     continue without the sacrifice of reimplementation.
-    
+
     HERMIT is a tool that allows programs implemented in
     Haskell to be transformed during the compilation
     process, and has features capable of performing
@@ -252,7 +252,7 @@
     implementation with one that uses other data
     structures in an effort to explore alternative
     implementations and improve overall performance.
-    
+
     Previous work has successfully performed the
     worker/wrapper conversion on an individual
     function using HERMIT. This thesis presents the
@@ -394,7 +394,7 @@
     engine, and all the browser-specific functionality,
     including HTML-based rendering, event handling, and
     drawing to the HTML5 canvas element.
-    
+
     In this paper,
     we give the design and implementation of
     Sunroof. Using monadic reification, we generate
@@ -466,9 +466,9 @@
     - <http://www.ittc.ku.edu/csdl/fpg/files/Adams-14-OSIE.pdf>
   abstract: |
     The most widely used generic-programming system in the Haskell community, Scrap Your Boilerplate (SYB), also happens to be one of the slowest. Generic traversals in SYB are about an order of magnitude slower than equivalent handwritten, non-generic traversals. Thus while SYB allows the concise expression of many traversals, its use incurs a significant runtime cost. Existing techniques for optimizing other generic-programming systems are not able to eliminate this overhead.
-    
+
     This paper presents an optimization that completely eliminates this cost. The optimization takes advantage of domain-specific knowledge about the structure of SYB and in so doing can optimize SYB-style traversals to be as fast as handwritten, non-generic code.
-    
+
     This paper presents both the formal structure of the optimization and the results of benchmarking the optimized SYB code against both unoptimized SYB code and handwritten, non-generic code. In these benchmarks, the optimized SYB code matches the performance of handwritten code even when the unoptimized SYB code is an order of magnitude or more slower.
   bibtex: |
     @inproceedings{Adams:14:OSIE,
@@ -636,7 +636,7 @@
     language for strategic programming specialized to GHC's core
     language, a library of primitive rewrites, and a shell-style--based
     scripting language for interactive and batch usage.
-    
+
     There are many program transformation techniques that have been
     described in the literature but have not been mechanized and made
     available inside GHC --- either because they are too specialized to
@@ -690,7 +690,7 @@
     and equational reasoning, while the
     tedious heavy lifting of performing the actual transformations
     is done for them.
-    
+
     HERMIT provides a transformation API that can be
     used to build higher-level rewrite tools.
     One use-case is
@@ -825,7 +825,7 @@
     well-understood protocols. We build a theory round
     the notion of patches, which we call patch logic,
     and then use the patch abstraction to build a small
-    driver for an FPGA board. 
+    driver for an FPGA board.
   bibtex: |
     @inproceedings{Gill:12:PatchLogic,
       title = {Handshaking in {K}ansas {L}ava using Patch Logic},
@@ -892,7 +892,7 @@
     choices between computational components. Design
     choices and engineering compromises during co-design
     become type-centric refinements, encouraging
-    architectural exploration. 
+    architectural exploration.
   bibtex: |
     @inproceedings{Gill:11:Declarative,
       title = {Declarative {FPGA} Circuit Synthesis using {K}ansas {L}ava},
@@ -1151,7 +1151,7 @@
   links:
   abstract: |
     In this paper,
-    
+
     we overview the design and implementation of our latest
     version of Kansas Lava. Driven by needs and experiences
     of implementing telemetry circuits,
@@ -1441,7 +1441,7 @@
     reasonably efficient rewrite systems, makes use of
     type families to provide a delimited generic
     mechanism for tree rewriting, and provides support
-    for efficient identity rewrite detection. 
+    for efficient identity rewrite detection.
   bibtex: |
     @inproceedings{Gill:2009:KUREDSL,
       author = {Gill, Andy},
@@ -1560,7 +1560,7 @@
     apply in a call-by-value setting, even though they might
     not be using laziness for any other purpose than to
     enable the desired form of recursion.
-    
+
     In this paper we present an operational semantics as well
     as a straightforward implementation technique for
     unrestricted recursion under pure call-by-value.  On that
@@ -1671,7 +1671,7 @@
     context of Haskell because it exposes the lazy evaluation order.  We
     argue that this drawback is not as severe as it may seem, and in some
     cases is an advantage.
-    
+
     The design focuses on availability: our debugger is intended
     to work on all programs that can be compiled with GHC, and without
     requiring the programmer to jump through additional hoops to debug
@@ -1752,7 +1752,7 @@
     translating. The more knowledge a tool has at its disposal,
     the less code an application engineer is forced to translate
     by hand.
-    
+
     Until recently, it has been difficult to perform automatic
     translation satisfactorily because it was not cost effective
     to write a translator that possessed such semantic
@@ -1858,19 +1858,19 @@
     intermediate data structures. In this thesis we present and analyse a
     new approach to deforestation. This new approach is both practical and
     general.
-    
+
     We analyse in detail the problem of list removal rather than
     the more general problem of arbitrary data structure removal. This
     more limited scope allows a complete evaluation of the pragmatic
     aspects of using our deforestation technology.
-    
+
     We have implemented our list deforestation algorithm in the
     Glasgow Haskell compiler. Our implementation has allowed
     practical feedback. One important conclusion is that a new
     analysis is required to infer function arities and the
     linearity of lambda abstractions. This analysis renders the
     basic deforestation algorithm far more effective.
-    
+
     We give a detailed assessment of our implementation of
     deforestation. We measure the effectiveness of our
     deforestation on a suite of real application programs. We
