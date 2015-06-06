@@ -28,19 +28,7 @@ Github: [https://github.com/xich](https://github.com/xich)
 
 ### Publications
 
-{% include cite.fn key="Farmer:15:PhD" %}
-{% include cite.fn key="Farmer:15:HERMIT-reasoning" %}
-{% include cite.fn key="Adams:15:OSTIE" %}
-{% include cite.fn key="Farmer:14:HERMITinStream" %}
-{% include cite.fn key="Adams:14:OSIE" %}
-{% include cite.fn key="Gill:13:TypesKansasLava" %}
-{% include cite.fn key="Sculthorpe:13:HERMITinTree" %}
-{% include cite.fn key="Farmer:12:HERMITinMachine" %}
-{% include cite.fn key="Farmer-12-WebDSLs" %}
-{% include cite.fn key="Gill:11:DerivingLDPC" %}
-{% include cite.fn key="Gill:11:GeneratingLDPC" %}
-{% include cite.fn key="Gill:10:TypesKansasLava" %}
-{% include cite.fn key="Farmer:10:WhatsTheMatter" %}
+{% include cite.fn grep="Farmer" %}
 
 ### Presentations
 
