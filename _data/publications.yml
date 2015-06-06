@@ -40,7 +40,7 @@
     
     #### Case Studies
     
-    Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-3.tgz)
+    Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-4.tgz)
     
     Instructions for installing HERMIT (cabal update ; cabal install hermit-1.0.0.0) and running the case studies can be found in the README file contained within the case study archive.
 
@@ -64,7 +64,7 @@
     the cost of remote calls.  This gives the Haskell
     community access to remote capabilities that are not
     directly supported, at a surprisingly inexpensive
-    cost.  
+    cost.
     
     We explore the remote monad design pattern
     through six models of remote execution patterns,
