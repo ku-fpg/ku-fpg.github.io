@@ -77,6 +77,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
        Field-Programmable Custom Computing Machines,
        2016
 -   PC Member,
+       Workshop on Partial Evaluation and Program Manipulation,
+       2016.
+-   PC Member,
        [Symposium on High Level Languages for Parallel Computing on FPGAs](http://www.macs.hw.ac.uk/~rs46/parco15-high-level-fpga-languages/),
        2015
 -   PC Member,
