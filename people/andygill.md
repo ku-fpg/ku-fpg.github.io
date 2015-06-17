@@ -72,6 +72,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 -   Editor,
         SIGPLAN Notices
 -   ACM SIGPLAN Information Director
+-   Reviewer, PeerJ Computer Science
 -   PC Member,
        The 23rd Annual IEEE International Symposium on 
        Field-Programmable Custom Computing Machines,
