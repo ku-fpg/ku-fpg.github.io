@@ -32,7 +32,8 @@ Github: [https://github.com/xich](https://github.com/xich)
 
 ### Presentations
 
-- HERMIT: Mechanized Reasoning during Compilation in the Glasgow Haskell Compiler. Dissertation Defense. Lawrence, Kansas. April 2014. [Slides](http://www.ittc.ku.edu/~afarmer/talks/defense.html)
+- Reasoning with the HERMIT: Tool Support for Equational Reasoning on GHC Core Programs. [UNSW Programming Languages and Systems Group](http://www.cse.unsw.edu.au/~pls/pls-website/index.html). Sydney, Australia. June 2015. [Slides](http://www.ittc.ku.edu/~afarmer/talks/unsw.html)
+- HERMIT: Mechanized Reasoning during Compilation in the Glasgow Haskell Compiler. Dissertation Defense. Lawrence, Kansas. April 2015. [Slides](http://www.ittc.ku.edu/~afarmer/talks/defense.html)
 - The HERMIT in the Stream. [PEPM 2014](http://www.program-transformation.org/PEPM14). San Diego, California. January 2014. [Slides](http://www.ittc.ku.edu/~afarmer/talks/concatmap-pepm14.html)
 - RESTful Web Services with Haskell. [Lambda Lounge KC](http://www.meetup.com/lamba-lounge-kc/events/149077972/). Fairway, Kansas. November 2013. [Slides](http://www.ittc.ku.edu/~afarmer/talks/lambdaloungekc.html) [Video](https://db.tt/WGVW6UZV)
 - Prototyping GHC Optimizations with HERMIT. [2013 Haskell Implementors Workshop](http://www.haskell.org/haskellwiki/HaskellImplementorsWorkshop/2013). Boston, Massachusetts. September 2013. [Slides](http://www.ittc.ku.edu/~afarmer/hiw-13.html)
