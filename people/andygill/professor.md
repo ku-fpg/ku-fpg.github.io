@@ -36,7 +36,7 @@ my [research](/research/), and see what we have [published](/publications/).
 
 We also have the [Lab Rules](/research/Lab_rules/).
 
-#### Services
+#### Service
 
 This is what keeps academia, and research, running. I help with various committees at the departmental 
 level, serve on the ACM SIGPLAN Executive Committee. I also do a lot of peer reviews. In 2015, I 
@@ -63,9 +63,22 @@ may or may not be able to engage in other activities during the summer.
 
 This split means that our focus during the semester is quite different that the focus during the summer. I am not allowed to take an outside job over the summer without jumping through additional hoops - we are still covered by the University IP policy over the summer.
 
+Assuming the service aspect is constant at 20% throughout the year, this means I have
+
+Semesters:
+
+ * 40% teaching
+ * 40% research
+ * 20% service
+ 
+Summer:
+
+ * 0% teaching
+ * 80% research
+ * 20% service
+ 
 Some professors are not research active. So they have up to 8 classes per year, 
 as well as university service, and are not paid over the summer.
-
 
 
 
