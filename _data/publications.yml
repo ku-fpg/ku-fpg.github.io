@@ -3,16 +3,16 @@
   cite: |
     A. Farmer, N. Sculthorpe, and A. Gill, “Reasoning with the
     <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
-    on <span>GHC</span> core programs,” 2015, submitted to the 2015
-    Symposium on Haskell.
+    on <span>GHC</span> <span>C</span>ore programs,” in *Proceedings of the
+    Haskell Symposium*. ACM, 2015, to appear.
   a_cite: |
     A. Farmer, N. Sculthorpe, and A. Gill, “[Reasoning with the
     <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
-    on <span>GHC</span> core programs](/papers/Farmer-15-HERMIT-reasoning),” 2015, submitted to the 2015
-    Symposium on Haskell.
+    on <span>GHC</span> <span>C</span>ore programs](/papers/Farmer-15-HERMIT-reasoning),” in *Proceedings of the
+    Haskell Symposium*. ACM, 2015, to appear.
   year: 2015
   links:
-    - <http://www.ittc.ku.edu/csdl/fpg/files/Farmer-15-HERMIT-reasoning-DRAFT.pdf>
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Farmer-15-HERMIT-reasoning.pdf>
   abstract: |
     A benefit of pure functional programming is that it
     encourages equational reasoning.  However,
@@ -30,13 +30,20 @@
     for specific instance declarations, and mechanising
     textbook equational reasoning.
   bibtex: |
-    @unpublished{Farmer:15:HERMIT-reasoning,
-      title = {Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} Core Programs},
+    @inproceedings{Farmer:15:HERMIT-reasoning,
       author = {Andrew Farmer and Neil Sculthorpe and Andy Gill},
+      title = {Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} {C}ore Programs},
+      booktitle = {Proceedings of the Haskell Symposium},
+      location = {Vancouver, Canada},
+      publisher = {ACM},
       year = {2015},
-      note = {Submitted to the 2015 Symposium on Haskell},
+      note = {To appear},
     }
   xcontent: |
+    
+    #### Disclaimer
+    
+    This is the author's version of the work. It is posted here for your personal use. Not for redistribution.  The definitive version will be published in Haskell 2015, and will be made available in the ACM Digital Library.
     
     #### Case Studies
     

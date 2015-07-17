@@ -8,11 +8,15 @@
 // ------------------------------------------------------------------------------
 // Submitted
 
-@unpublished{Farmer:15:HERMIT-reasoning,
-  title = "Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} Core Programs",
-  author = "Andrew Farmer and Neil Sculthorpe and Andy Gill",
-  year = 2015,
-  note = "Submitted to the 2015 Symposium on Haskell",
+
+@inproceedings{ Farmer:15:HERMIT-reasoning,
+  author       = "Andrew Farmer and Neil Sculthorpe and Andy Gill",
+  title        = "Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} {C}ore Programs",
+  booktitle    = "Proceedings of the Haskell Symposium",
+  location     = "Vancouver, Canada",
+  publisher    = "ACM",
+  year         = 2015,
+  note         = "To appear",
   abstract="A benefit of pure functional programming is that it
                   encourages \emph{equational reasoning}.  However,
                   the Haskell language has lacked direct tool support
@@ -28,14 +32,18 @@
                   of HERMIT usage: checking that type-class laws hold
                   for specific instance declarations, and mechanising
                   textbook equational reasoning.",
-  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Farmer-15-HERMIT-reasoning-DRAFT.pdf},
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Farmer-15-HERMIT-reasoning.pdf},
   xcontent = "
+ #### Disclaimer
+
+ This is the author's version of the work. It is posted here for your personal use. Not for redistribution.  The definitive version will be published in Haskell 2015, and will be made available in the ACM Digital Library.
+
  #### Case Studies
 
  Download the case studies here: [Reasoning with the HERMIT Case Studies](/files/Reasoning-with-the-HERMIT-4.tgz)
 
  Instructions for installing HERMIT (cabal update ; cabal install hermit-1.0.0.0) and running the case studies can be found in the README file contained within the case study archive.",
-  xredirect = "/research/HERMIT/case-studies/",
+  xredirect = "/research/HERMIT/case-studies-2015/",
 }
 
 @unpublished{Gill:15:RemoteMonad,
