@@ -9,6 +9,45 @@
 // Submitted
 
 
+@inproceedings{Gill:15:RemoteMonad,
+  author="Andy Gill and Neil Sculthorpe and Justin Dawson and
+                  Aleksander Eskilson and Andrew Farmer and Mark Grebe
+                  and Jeffrey Rosenbluth and Ryan Scott and James
+                  Stanton",
+  title="The Remote Monad Design Pattern",
+  booktitle    = "Proceedings of the Haskell Symposium",
+  location     = "Vancouver, Canada",
+  publisher    = "ACM",
+  year         = 2015,
+  note         = "To appear",
+  abstract="Remote Procedure Calls are expensive.  This paper
+                  demonstrates how to reduce the cost of calling
+                  remote procedures from Haskell by using the
+                  \emph{remote monad design pattern}, which amortizes
+                  the cost of remote calls.  This gives the Haskell
+                  community access to remote capabilities that are not
+                  directly supported, at a surprisingly inexpensive
+                  cost.  
+
+                  We explore the remote monad design pattern
+                  through six models of remote execution patterns,
+                  using a simulated Internet of Things toaster as a
+                  running example.  We consider the expressiveness and
+                  optimizations enabled by each remote execution
+                  model, and assess the feasibility of our approach.
+                  We then present a full-scale case study: a Haskell
+                  library that provides a Foreign Function Interface
+                  to the JavaScript Canvas API.  Finally, we discuss
+                  existing instances of the remote monad design
+                  pattern found in Haskell libraries.",
+  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-15-RemoteMonad.pdf},
+  xcontent = "
+ #### Disclaimer
+
+ This is the author's version of the work. It is posted here for your personal use. Not for redistribution.  The definitive version will be published in Haskell 2015, and will be made available in the ACM Digital Library."
+       
+}
+
 @inproceedings{ Farmer:15:HERMIT-reasoning,
   author       = "Andrew Farmer and Neil Sculthorpe and Andy Gill",
   title        = "Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} {C}ore Programs",
@@ -46,36 +85,6 @@
   xredirect = "/HERMIT/case-studies-2015/",
 }
 
-@unpublished{Gill:15:RemoteMonad,
-  author="Andy Gill and Neil Sculthorpe and Justin Dawson and
-                  Aleksander Eskilson and Andrew Farmer and Mark Grebe
-                  and Jeffrey Rosenbluth and Ryan Scott and James
-                  Stanton",
-  year = 2015,
-  title="The Remote Monad Design Pattern",
-  note="Submitted to the 2015 Haskell Symposium",
-  xurl = {http://www.ittc.ku.edu/csdl/fpg/files/Gill-15-RemoteMonad-DRAFT.pdf},
-  abstract="Remote Procedure Calls are expensive.  This paper
-                  demonstrates how to reduce the cost of calling
-                  remote procedures from Haskell by using the
-                  \emph{remote monad design pattern}, which amortizes
-                  the cost of remote calls.  This gives the Haskell
-                  community access to remote capabilities that are not
-                  directly supported, at a surprisingly inexpensive
-                  cost.
-
-                  We explore the remote monad design pattern
-                  through six models of remote execution patterns,
-                  using a simulated Internet of Things toaster as a
-                  running example.  We consider the expressiveness and
-                  optimizations enabled by each remote execution
-                  model, and assess the feasibility of our approach.
-                  We then present a full-scale case study: a Haskell
-                  library that provides a Foreign Function Interface
-                  to the JavaScript Canvas API.  Finally, we discuss
-                  existing instances of the remote monad design
-                  pattern found in Haskell libraries."
-}
 
 @unpublished{Austin:15:ProofPlugin,
   author="Evan Austin and Andy Gill and Perry Alexander",
