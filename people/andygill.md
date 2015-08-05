@@ -69,10 +69,8 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 
 ## Professional Activities
 
--   Editor,
-        SIGPLAN Notices
--   ACM SIGPLAN Information Director
--   Reviewer, PeerJ Computer Science
+#### 2016
+
 -   PC Member,
        The 23rd Annual IEEE International Symposium on 
        Field-Programmable Custom Computing Machines,
@@ -80,6 +78,13 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 -   PC Member,
        Workshop on Partial Evaluation and Program Manipulation,
        2016.
+
+#### 2015
+
+- Editor, SIGPLAN Notices 
+  & ACM SIGPLAN Information Director,
+  2011-2015
+-   Reviewer, PeerJ Computer Science
 -   PC Member,
        [Symposium on High Level Languages for Parallel Computing on FPGAs](http://www.macs.hw.ac.uk/~rs46/parco15-high-level-fpga-languages/),
        2015
@@ -94,6 +99,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
        Field-Programmable Custom Computing Machines,
        2015
 -   Invited participant, Dagstuhl Seminar on Domain-Specific Languages, 2015
+
+#### 2014
+
 -   Invited observer, IFIP Working Group 2.1, 2014
 -   PC Member,
        7th International Conference on Software Language Engineering,
@@ -101,6 +109,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 -   PC Member,
        24th International Conference on Field Programmable Logic and Applications,
        2014
+
+#### 2013
+
 -   PC Member,
         Workshop on Haskell And Rewriting Techniques (HART), 
         2013
@@ -116,6 +127,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 -   PC Member,
         6th International Conference on Software Language Engineering,
         2013
+
+#### 2012
+
 -   Co-Chair,
         Midwest Verification Day, Lawrence, KS, 45 attendees,
         2012
@@ -135,6 +149,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 -   PC Member,
         ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation
         (PEPM'12)
+
+#### 2011
+
 -   Chair & Editor,
         International Symposium on the Implementation and Application of Functional Languages
         (IFL'11)
@@ -145,6 +162,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
         [ACM SIGPLAN Haskell Symposium](http://www.haskell.org/haskell-symposium/2011/)
         (HASKELL'11)
 -   Invited observer, IFIP Working Group 2.1, 2011
+
+#### 2010
+
 -   Chair,
         ICFP Program Committee Workshop, Cambridge, England,
         2010
@@ -166,6 +186,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 -   PC Member for
         [Practical Aspects of Declarative Languages](http://clip.dia.fi.upm.es/Conferences/PADL-2010/)
         (PADL'10)
+
+#### 2009
+
 -   PC Member for the
         Symposium on the Implementation and Application of Functional Languages
         (IFL'09)
@@ -181,17 +204,30 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 -   PC Co-Chair for the
         [Practical Aspects of Declarative Languages](http://cs.utdallas.edu/padl09/)
         (PADL'09)
+
+#### 2008
+
 -   PC Chair for the
         [ACM SIGPLAN Haskell Symposium](http://www.haskell.org/haskell-symposium/2008/)
         (HASKELL'08)
 -   PC Member for
         [Mathematically Structured Functional Programming](http://msfp.org.uk/)
         (MSFP'08)
+
+#### 2007
+
 -   PC Member for the
         [ACM SIGPLAN Haskell  Workshop](http://www.haskell.org/haskell-workshop/2007/)
         (HASKELL'07)
+
+
+#### 2006
+
 -   Chair,
 	First International Glasgow Haskell Compiler “Hackathon”, 2006, 55 attendees.
+
+#### 2000
+
 -   PC Member,
        ACM SIGPLAN Haskell Workshop,
        2000  
