@@ -12,10 +12,14 @@
      {{item.name}}
     {% endif %}
   </span>
-{% if include.level > 0 %}</li>{% else %}</b>{% endif %}
+  {% if include.level > 0 %}</li>{% else %}</b>{% endif %}
   {% if item.sublinks %}
-      {% assign level = include.level | plus: 1 %}
-      {% include sidebar.fn param=item.sublinks level=level %}
+        {% assign level = include.level | plus: 1 %}
+        {% include sidebar.fn param=item.sublinks level=level %}
+  {% else %}
+    {% if include.level == 0 %}</br>{% endif %}
   {% endif %}
 {% endfor %}
-{% if include.level > 0 %}</ul>{% endif %}
+{% if include.level > 0 %}
+  </ul>
+{% endif %}
