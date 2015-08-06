@@ -38,6 +38,19 @@ David Young                             | TDB                             | BS C
 Angela Wright                           | FRP Wakarusa                    | BS CS
 Mohammed Ziauddin                       | TBD                             | MS CS
 
+------------------------------------------------------------------------
+
+## Recent Activities
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
 ### FPG Alumni
 
 These are people who have previously worked for or with FPG in some capacity.
@@ -69,6 +82,7 @@ If you want to visit KU, email Professor Gill.
 
 Who                                                                    | When          | From
 ------------------------------------------------------------           |:--------------|:-----------
+[Brent Yorgey](http://dept.cs.williams.edu/~byorgey/)                  | July 2015     | [Hendrix College](http://ozark.hendrix.edu/)
 [John Peterson](http://www.western.edu/people/john-c-peterson)         | Mar 2015      | Western State Colorado University
 [Laurence E. Day](http://www.cs.nott.ac.uk/~led/)                      | Oct 2013      | University of Nottingham
 [Anders Persson](http://www.chalmers.se/cse/EN/people/persson-anders)  | Oct 2011      | Chalmers
