@@ -9,6 +9,7 @@ github_username:  ku-fpg
 
 # Build settings
 markdown: kramdown
+highlighter:  pygments
 permalink: pretty
 excerpt_separator: "<!--MORE-->"
 exclude: ['_meta','dist','ku-fpg-github-io.cabal','Shake.hs','BibTeX.hs','.cabal-sandbox']
