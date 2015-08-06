@@ -3,18 +3,22 @@ layout: default
 title: Andrew Gill
 ---
 
-<img src="{{site.baseurl}}/images/andygill/me.jpg" class="img-rounded floatright"/>
+<div class="row"><div class="col-md-8">
 
-
-
+{% capture address %}
 > **Andrew Gill**  
 > Associate Professor  
 > [Electrical Engineering and Computer Science](http://www.eecs.ku.edu/)  
 > [School of Engineering](http://www.engr.ku.edu/)  
 > [The University of Kansas](http://www.ku.edu/)  
+{% endcapture %}
+{{ address | markdownify }}
 
+</div><div class="col-md-4">
 
-<div class="clear-both"/>
+<img src="{{site.baseurl}}/images/andygill/me.jpg" class="img-rounded floatright"/>
+
+</div></div>
 
 ### Contact Information
 
