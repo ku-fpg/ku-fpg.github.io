@@ -49,7 +49,7 @@ JavaScript &amp; Scheme (EECS 368), and Haskell (EECS 368, 776, 876).
 In all these class, we go on to use programming
 to solve interesting real-world problems.
 I also lead the EECS Computer Science Capstone (EECS 581, 582).
-In Spring 2015, I am teaching EECS 582.
+In Fall 2015, I am teaching EECS 581 and EECS 582.
 Before KU, I taught graduate-level compilers at the Oregon Graduate
 Institute (OGI).
 
@@ -57,9 +57,9 @@ Institute (OGI).
 EECS 168     | Programming I					                      | S13 S12
 ENGR 108     | Introduction to Engineering (CS component)             | F13 F14
 EECS 368     | Programming Language Paradigms			              | F08 F09 F10 F11 F12 S14
-EECS 581/582 | CS Senior Design I & II				                  | F14 S15
+EECS 581/582 | CS Senior Design I & II				                  | F14 S15 **F15**
 EECS 700     | Functional Programming                                 | S09 S10 S11 S12
-EECS 776     | Functional Programming and Domain Specific Languages   | F12 F13 F14
+EECS 776     | Functional Programming and Domain Specific Languages   | F12 F13 F14 **F15**
 EECS 876/800 | Advanced Topics in Functional Languages                | S10 S11 S14
 CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 02, Summer 03
 
