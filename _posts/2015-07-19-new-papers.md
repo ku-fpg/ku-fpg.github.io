@@ -1,6 +1,6 @@
 ---
 title: 2 New KU FPG Papers
-layout: default
+layout: post
 ---
 
 Two papers from the University of Kansas Functional Programming Group have been accepted for publication at Haskell'15! One about using 

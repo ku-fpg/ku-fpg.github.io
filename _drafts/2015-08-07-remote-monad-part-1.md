@@ -1,9 +1,7 @@
 ---
-title: The Remote Monad
-layout: default
+title: The Remote Monad Design Pattern
+layout: post
 ---
-
-## The Remote Monad Design Pattern
 
 Remote Procedure Calls (RPCs) are expensive. This blog article,
 based on our [Haskell symposium paper](http://ku-fpg.github.io/papers/Gill-15-RemoteMonad/),
@@ -15,6 +13,7 @@ type, and invoke the remote procedure call using a monadic ``send'' function.
 Specifically, A **remote monad** is a monad that has its evaluation function in
 a remote location, outside the local runtime system.
 
+<!--MORE-->
 
 By factoring the RPC into sending invocation and service name,
 we can group together procedure calls, and amortize the cost
