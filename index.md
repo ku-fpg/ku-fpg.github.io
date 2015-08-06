@@ -62,9 +62,9 @@ Who                                                 | Project                  |
 Robert Blair                                        | HERMIT/Android, BS 2013  | Garmin
 Jan Bracker                                         | Sunroof, MS Exchange     | Christian-Albrechts-University
 Tristan Bull                                        | HFEC, MS 2011            | Industry
-Aleksander Eskilson                                 | HERMIT & Animations, BS 2016 | N/A 
+Aleksander Eskilson                                 | HERMIT & Animations, BS 2016 | -
 [Andrew Farmer](/people/andrewfarmer)               | HERMIT, PhD 2015         | Facebook
-Patrick G Flor                                      | HERMIT/Android           | Groupon
+Patrick G Flor                                      | HERMIT/Android           | Groupon, now at Google
 Nicolas Frisby                                      | HERMIT, Staff            | FP Complete
 Adam Howell                                         | HERMIT/Android, BS 2014  | IBM
 [Garrin Kimmell](http://www.ittc.ku.edu/~kimmell/)  | HFEC, PostDoc            | PostDoc, University of Iowa
