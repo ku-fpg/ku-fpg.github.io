@@ -26,17 +26,13 @@ ITTC, in Nichols Hall on west campus.
 Who                                     | Project(s)                      | Status
 :---------------------------------------|:--------------------------------|:------------------
 Justin Dawson                           | Armored Software                | PhD, expected 2017
-[Andrew Gill](/people/andygill)         | HERMIT &amp; KansasLava         | PI / Faculty
+[Andrew Gill](/people/andygill)         | PI                              | Faculty
 [Mark Grebe](/people/markgrebe)         | Embedded Haskell Systems        | Part time PhD
 Bowe Neuenschwander                     | KansasLava / &lambda;-Bridge    | MS, expected 2015
 Aditya Kumar Ravikanti			        | (TDB)                           | MS CS
-[Ryan Scott](/people/ryanscott)         | HERMIT / Wakarusa               | BS CS
-Nicholas Shaheed                        | Animations and Music            | BS CS
-James Stanton                           | CAREER                          | BS CS, expected 2016
+James Stanton                           | Wakarusa                        | BS CS, expected 2016
 Brad Torrence                           | Artificial Life                 | MS CS, PhD, expected 2018
-David Young                             | TDB                             | BS CS
-Angela Wright                           | FRP Wakarusa                    | BS CS
-Mohammed Ziauddin                       | TBD                             | MS CS
+David Young                             | Wakarusa                        | BS CS
 
 ------------------------------------------------------------------------
 
@@ -70,8 +66,10 @@ Adam Howell                                         | HERMIT/Android, BS 2014  |
 Rama Krishnamoorthy                                 | Animations / FRP, MS 2015 | Industry
 Kevin Matlage                                       | ChalkBoard, MS 2011      | Industry
 Patrick Miller                                      | Lambda Bridge, BS 2012   | PhD student, Notre Dame
+[Ryan Scott](/people/ryanscott)                     | HERMIT / Wakarusa        | BS CS
 [Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/) | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
-Mike Stees					    | High Performance Haskell | Parallel Scientific Computing 
+Nicholas Shaheed                                    | Animations and Music     | BS CS
+Mike Stees					                        | High Performance Haskell | Parallel Scientific Computing 
 Brandon Smith                                       | ChalkBoard, BS 2011      | Industry
 Moiz Virani                                         | Websockets, MS 2015      | Industry
 
