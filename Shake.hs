@@ -59,7 +59,7 @@ main2 ("build":extra) = do
         
         let okayBib xs = not (xs `elem` words "abstract url xurl xxurl xcontent xredirect")
 
-        "_data/publications.yml" *> \ out -> do
+        "_data/publications.yml" %> \ out -> do
 	    txt <- sequence 
 	    	    [ do md <- readFile' $ "_auto/bibtex/" ++ nm ++ ".md-citation"
 			 return $ unlines $ 
@@ -74,6 +74,8 @@ main2 ("build":extra) = do
                                                   $ replace "?\8221" ("?](/papers/" ++ nm ++ ")\8221")
                                                   $ md
                                         , not (all isSpace d) ] ++
+			  [ "  title: " ++ show (replace "\n" "" $ replace "{" "" $ replace "}" "" $ title)
+                                             | title <- maybeToList $ lookupBibTexCitation "title" e ] ++
 			  [ "  year: " ++ year | year <- maybeToList $ lookupBibTexCitation "year" e ] ++
 			  [ "  links:" ] ++
 			  [ "    - <" ++ x ++ ">"| t <- ["url","xurl","xxurl"]
@@ -101,7 +103,7 @@ main2 ("build":extra) = do
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-        "papers/*.md" *> \ out -> do
+        "papers/*.md" %> \ out -> do
                let nm = (dropExtension (dropDirectory1 out))
                cite <- getBibTeXCitation nm
                writeFile' out $ unlines $
@@ -116,20 +118,20 @@ main2 ("build":extra) = do
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-        "_auto/bibtex/*.bib" *> \ out -> do
+        "_auto/bibtex/*.bib" %> \ out -> do
                 cite <- getBibTeXCitation (dropExtension (dropDirectory1 (dropDirectory1 out)))
 		let p xs = not (xs `elem` words "url xurl isbn doi acmid")
                 writeFile' out $ asciiBibText $ filterBibTexCitation p $ cite
         
 
-        "_auto/bibtex/*.abstract" *> \ out -> do
+        "_auto/bibtex/*.abstract" %> \ out -> do
                 cite <- getBibTeXCitation (dropExtension (dropDirectory1 (dropDirectory1 out)))
                 case lookupBibTexCitation "abstract" cite of
                    Just abs_txt -> writeFile' out abs_txt
                    Nothing -> writeFile' out "No Abstract in BiBTeX"
 		   		 -- TODO: use  return ()
 
-        "_auto/bibtex/*.aux" *> \ out -> do
+        "_auto/bibtex/*.aux" %> \ out -> do
                 cite <- getBibTeXCitation (dropExtension (dropDirectory1 (dropDirectory1 out)))
                 writeFile' out $ unlines
                         [ "% generated"
@@ -138,7 +140,7 @@ main2 ("build":extra) = do
                         , "\\bibdata{" ++ dropExtension (takeFileName out) ++ "}"
                         ]
 
-        "_auto/bibtex/*.bbl" *> \ out -> do
+        "_auto/bibtex/*.bbl" %> \ out -> do
                 need [ replaceExtension out ".bib"
                      , replaceExtension out ".aux"
                         -- TODO: also the bst file???
@@ -146,7 +148,7 @@ main2 ("build":extra) = do
                 cmd (Cwd $ dropFileName out) "bibtex" [dropExtension (takeFileName out)]
 
 		-- Short has the preamble to postamble removed
-        "_auto/bibtex/*.bbl-short" *> \ out -> do
+        "_auto/bibtex/*.bbl-short" %> \ out -> do
                 txt <- readFile' (replaceExtension out "bbl")
                 let macros xs | "\\doi{" `isPrefixOf` xs = "doi: \\texttt{" ++ macros (drop 5 xs)
                     macros (x:xs) = x : macros xs
@@ -161,7 +163,7 @@ main2 ("build":extra) = do
                                $ lines
                                $ txt
 
-        "_auto/bibtex/*.md-citation" *> \ out -> do
+        "_auto/bibtex/*.md-citation" %> \ out -> do
                 -- If this crashes, check to see if you have pandoc
                 need [ replaceExtension out "bbl-short"
                      ]
@@ -177,7 +179,7 @@ main2 ("build":extra) = do
 			   $ replace "\160" " "
 			   $ txt	    
 
-        "_auto/bibtex/*.html-abstract" *> \ out -> do
+        "_auto/bibtex/*.html-abstract" %> \ out -> do
                 need [ replaceExtension out "abstract"
                      ]
                 cmd    "pandoc" ["-f","latex",
