@@ -6,8 +6,16 @@
   {% else %}
      <span>
   {% endif %}
-    {% if item.href %}
+    {% if item.title %}
+      {% if forloop.index == 5 %}
+        <a href="{{include.break}}">...</a>
+        {% break %}
+      {% endif %}
+      <a href="/papers/{{item.key}}">{{item.title}}</a>
+    {% elsif item.href %}
       <a href="{{item.href}}">{{item.name}}</a>
+    {% elsif item.url %}
+      <a href="{{item.url}}">{{item.title}}</a>
     {% else %}
      {{item.name}}
     {% endif %}
@@ -16,6 +24,12 @@
   {% if item.sublinks %}
         {% assign level = include.level | plus: 1 %}
         {% include sidebar.fn param=item.sublinks level=level %}
+  {% elsif item.href == "/blog" %}
+        {% assign level = include.level | plus: 1 %}
+        {% include sidebar.fn param=site.posts level=level break=item.href %}
+  {% elsif item.href == "/publications" %}
+        {% assign level = include.level | plus: 1 %}
+        {% include sidebar.fn param=site.data.publications level=level break=item.href %}
   {% else %}
     {% if include.level == 0 %}</br>{% endif %}
   {% endif %}
