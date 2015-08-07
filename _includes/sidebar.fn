@@ -1,12 +1,17 @@
 {% if include.level > 0 %}<ul>{% endif %}
 {% for item in include.param %}
 {% if include.level > 0 %}<li>{% else %}<b>{% endif %}
-  {% if item.href == href %}
-    <span class="self">
+  {% assign key_link = "/papers/" | append: item.key %}
+  {% assign link_close = "" %}
+  {% if item.href == href or key_link == href or (item.id and item.id == page.id) %}
+    <span class="self">&#187;
+    {% if include.level > 0 %}
+      {% assign link_close = "&#171;" %}
+    {% endif %}
   {% else %}
      <span>
   {% endif %}
-    {% if item.title %}
+    {% if item.key %}
       {% if forloop.index == 5 %}
         <a href="{{include.break}}">...</a>
         {% break %}
@@ -19,7 +24,7 @@
     {% else %}
      {{item.name}}
     {% endif %}
-  </span>
+  {{link_close}}</span>
   {% if include.level > 0 %}</li>{% else %}</b>{% endif %}
   {% if item.sublinks %}
         {% assign level = include.level | plus: 1 %}

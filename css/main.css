@@ -9,11 +9,13 @@
   color: #428bca;
 }
 
+/*
 .sidebar .self a { 
   color: white;
   background: #428bca;
   padding: 1px;
 }
+*/
 
 .page-content { font-size: larger; }
 /* Set the fixed height of the footer here */
@@ -22,7 +24,7 @@
   border-top: 1px solid black;
 }
 
-.self { color: red; }
+.self { color: red; } 
 
 .floatright { float: right; }
 .floatleft { float: left; margin-right: 10px; margin-bottom: 10px; }
