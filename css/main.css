@@ -27,3 +27,7 @@
 .floatright { float: right; }
 .floatleft { float: left; margin-right: 10px; margin-bottom: 10px; }
 .clear-both { clear: both; }
+
+h1 {
+    margin-top: 0px; /* because this is inserted out of band at the top of the page */
+}
