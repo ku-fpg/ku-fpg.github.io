@@ -52,7 +52,10 @@
     
     #### Disclaimer
     
-    This is the author's version of the work. It is posted here for your personal use. Not for redistribution.  The definitive version will be published in Haskell 2015, and will be made available in the ACM Digital Library.
+    This is the author's version of the work. It is posted here for your
+    personal use. Not for redistribution.
+    The definitive version was published in Haskell 2015, and is available
+    in the ACM Digital Library.
 
 - key: Farmer-15-HERMIT-reasoning
   cite: |
@@ -68,6 +71,7 @@
   title: "Reasoning with the HERMIT: Tool Support for Equational Reasoning on GHC Core Programs"
   year: 2015
   links:
+    - <http://dx.doi.org/10.1145/2804302.2804311>
     - <http://www.ittc.ku.edu/csdl/fpg/files/Farmer-15-HERMIT-reasoning.pdf>
   abstract: |
     A benefit of pure functional programming is that it
@@ -99,7 +103,10 @@
     
     #### Disclaimer
     
-    This is the author's version of the work. It is posted here for your personal use. Not for redistribution.  The definitive version will be published in Haskell 2015, and will be made available in the ACM Digital Library.
+    This is the author's version of the work. It is posted here for your
+    personal use. Not for redistribution.
+    The definitive version was published in Haskell 2015, and is available
+    in the [ACM Digital Library](http://dx.doi.org/10.1145/2804302.2804311).
     
     #### Case Studies
     

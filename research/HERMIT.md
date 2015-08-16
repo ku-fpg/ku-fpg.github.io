@@ -53,6 +53,7 @@ and this project addresses keys part of this requirement.
 
 ## Relevent Publications
 
+{% include cite.fn key="Farmer-15-HERMIT-reasoning" %}
 {% include cite.fn key="Adams-15-OSTIE" %}
 {% include cite.fn key="Sculthorpe-14-KURE" %}
 {% include cite.fn key="Gill-2014-DSLs-and-Synthesis" %}
