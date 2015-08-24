@@ -21,17 +21,17 @@ needs.
 The Functional Programming Group at the University of Kansas
 is led by [Andrew Gill](/people/andygill).
 The group operates inside the Computer Systems Design Laboratory (CSDL), at
-ITTC, in Nichols Hall on west campus. 
- 
+ITTC, in Nichols Hall on west campus.
+
 PhD Students:
 
  * Justin Dawson, Armored Software
  * [Mark Grebe](/people/markgrebe), Embedded Haskell Systems
  * Brad Torrence, Artificial Life
- 
+
 MS Students:
 
- * Bowe Neuenschwander, KansasLava / &lambda;-Bridge 
+ * Bowe Neuenschwander, KansasLava / &lambda;-Bridge
  * Aditya Kumar Ravikanti, TDB
 
 BS Students:
@@ -72,10 +72,10 @@ Adam Howell                                         | HERMIT/Android, BS 2014  |
 Rama Krishnamoorthy                                 | Animations / FRP, MS 2015 | Industry
 Kevin Matlage                                       | ChalkBoard, MS 2011      | Industry
 Patrick Miller                                      | Lambda Bridge, BS 2012   | PhD student, Notre Dame
-[Ryan Scott](/people/ryanscott)                     | HERMIT / Wakarusa        | BS CS
+[Ryan Scott](/people/ryanscott)                     | HERMIT / Wakarusa        | PhD student, [Indiana University](https://www.indiana.edu/)
 [Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/) | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
 Nicholas Shaheed                                    | Animations and Music     | BS CS
-Mike Stees					                        | High Performance Haskell | Parallel Scientific Computing 
+Mike Stees					                        | High Performance Haskell | Parallel Scientific Computing
 Brandon Smith                                       | ChalkBoard, BS 2011      | Industry
 Moiz Virani                                         | Websockets, MS 2015      | Industry
 

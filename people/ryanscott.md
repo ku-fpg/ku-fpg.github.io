@@ -7,11 +7,13 @@ title: Ryan Scott
 
 ## Ryan Scott
 
-I am pursuing a B.S. in Computer Science under the supervision of Dr. Gill. I am interested in making programming safer and less error-prone through the use of functional programming and static type systems. I am also interested in bringing functional programming to mobile devices.
+I graduated from the University of Kansas in May 2015 with a BS in Computer Science under the supervision of Dr. Gill.
+
+I am currently a PhD student at [Indiana University](https://www.indiana.edu/) under the supervision of Dr. [Ryan Newton](http://www.cs.indiana.edu/~rrnewton/homepage.html).
 
 ### Contact Info
 
-> [Email](mailto:ryan.gl.scott@ku.edu), [GitHub](http://github.com/RyanGlScott), [Web](http://ryanglscott.github.io)
+> [Email](mailto:ryan.gl.scott at the google mail thing dot com), [GitHub](http://github.com/RyanGlScott), [Web](http://ryanglscott.github.io)
 
 ### Publications
 
