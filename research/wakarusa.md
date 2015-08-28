@@ -69,8 +69,18 @@ implementations that execute correctly and quickly.
 
  * [Mark Grebe](/people/markgrebe) - Embedded systems plugin
  * James Stanton - Kansas Lava: The Next Generation
- * David Young  - TDB
- * Angela Wright - Flight control implementation using Wakarusa (in conjunction with Aerospace).
+ * David Young  - GHC REWRITE rules and translators
+
+## Relevent Publications
+
+{% include cite.fn key="Gill-15-RemoteMonad" %}
+
+### Background Publications
+
+These publications either supported the original proposal, or were written around the same time
+as the original proposal.
+
+{% include cite.fn key="Gill-14-DSLs-and-Synthesis" %}
 
 ### Project Name
 
