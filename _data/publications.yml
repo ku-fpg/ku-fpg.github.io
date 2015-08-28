@@ -118,13 +118,11 @@
   cite: |
     M. D. Adams, A. Farmer, and J. P. <span>Magalhães</span>, “Optimizing
     <span>SYB</span> <span>Traversals</span> <span>Is</span>
-    <span>Easy</span>!” 2015, extended version of the PEPM’14 paper.
-    Submitted to Science of Computer Programming.
+    <span>Easy</span>!” *Science of Computer Programming*, 2015, to appear.
   a_cite: |
     M. D. Adams, A. Farmer, and J. P. <span>Magalhães</span>, “[Optimizing
     <span>SYB</span> <span>Traversals</span> <span>Is</span>
-    <span>Easy</span>!](/papers/Adams-15-OSTIE)” 2015, extended version of the PEPM’14 paper.
-    Submitted to Science of Computer Programming.
+    <span>Easy</span>!](/papers/Adams-15-OSTIE)” *Science of Computer Programming*, 2015, to appear.
   title: "Optimizing SYB Traversals Is Easy!"
   year: 2015
   links:
@@ -144,11 +142,12 @@
     non-generic code, and benchmarks show that this optimization improves the
     speed of SYB traversals by an order of magnitude or more.
   bibtex: |
-    @unpublished{Adams:15:OSTIE,
+    @article{Adams:15:OSTIE,
       author = {Michael D. Adams and Andrew Farmer and Jos\'{e} Pedro {Magalh\~{a}es}},
       title = {Optimizing {SYB} {Traversals} {Is} {Easy}!},
-      note = {Extended version of the PEPM'14 paper. Submitted to Science of Computer Programming.},
+      journal = {Science of Computer Programming},
       year = {2015},
+      note = {To appear},
     }
 
 - key: Farmer-15-PhD
@@ -275,7 +274,7 @@
   title: "The Kansas University Rewrite Engine: A Haskell-Embedded Strategic Programming Language with Custom Closed Universes"
   year: 2014
   links:
-    - <http://journals.cambridge.org/article_S0956796814000185>
+    - <http://journals.cambridge.org/article_S956796814000187>
     - <http://www.ittc.ku.edu/csdl/fpg/files/Sculthorpe-14-KURE.pdf>
   abstract: |
     When writing transformation systems, a significant
