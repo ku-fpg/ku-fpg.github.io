@@ -13,7 +13,9 @@
   title: "The Remote Monad Design Pattern"
   year: 2015
   links:
+    - <http://dl.acm.org/citation.cfm?id=2804311>
     - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-15-RemoteMonad.pdf>
+    - <https://www.youtube.com/watch?v=guMLPr6eBLo>
   abstract: |
     Remote Procedure Calls are expensive.  This paper
     demonstrates how to reduce the cost of calling
