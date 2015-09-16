@@ -3,17 +3,17 @@
   cite: |
     A. Gill, N. Sculthorpe, J. Dawson, A. Eskilson, A. Farmer, M. Grebe,
     J. Rosenbluth, R. Scott, and J. Stanton, “The remote monad design
-    pattern,” in *Proceedings of the Haskell Symposium*. ACM, 2015, to
-    appear.
+    pattern,” in *Proceedings of the 8th ACM SIGPLAN Symposium on Haskell*.
+    New York, NY, USA: ACM, 2015, pp. 59–70.
   a_cite: |
     A. Gill, N. Sculthorpe, J. Dawson, A. Eskilson, A. Farmer, M. Grebe,
     J. Rosenbluth, R. Scott, and J. Stanton, “[The remote monad design
-    pattern](/papers/Gill-15-RemoteMonad),” in *Proceedings of the Haskell Symposium*. ACM, 2015, to
-    appear.
+    pattern](/papers/Gill-15-RemoteMonad),” in *Proceedings of the 8th ACM SIGPLAN Symposium on Haskell*.
+    New York, NY, USA: ACM, 2015, pp. 59–70.
   title: "The Remote Monad Design Pattern"
   year: 2015
   links:
-    - <http://dl.acm.org/citation.cfm?id=2804311>
+    - <http://doi.acm.org/10.1145/2804302.2804311>
     - <http://www.ittc.ku.edu/csdl/fpg/files/Gill-15-RemoteMonad.pdf>
     - <https://www.youtube.com/watch?v=guMLPr6eBLo>
   abstract: |
@@ -44,11 +44,16 @@
                       and Jeffrey Rosenbluth and Ryan Scott and James
                       Stanton},
       title = {The Remote Monad Design Pattern},
-      booktitle = {Proceedings of the Haskell Symposium},
-      location = {Vancouver, Canada},
+      booktitle = {Proceedings of the 8th ACM SIGPLAN Symposium on Haskell},
+      location = {Vancouver, BC, Canada},
       publisher = {ACM},
       year = {2015},
-      note = {To appear},
+      pages = {59--70},
+      numpages = {12},
+      doi = {10.1145/2804302.2804311},
+      publisher = {ACM},
+      address = {New York, NY, USA},
+      keywords = {Design Pattern, FFI, Monads, Remote Procedure Call},
     }
   xcontent: |
     
@@ -64,16 +69,18 @@
     A. Farmer, N. Sculthorpe, and A. Gill, “Reasoning with the
     <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
     on <span>GHC</span> <span>C</span>ore programs,” in *Proceedings of the
-    Haskell Symposium*. ACM, 2015, to appear.
+    8th ACM SIGPLAN Symposium on Haskell*. New York, NY, USA: ACM, 2015, pp.
+    59–70.
   a_cite: |
     A. Farmer, N. Sculthorpe, and A. Gill, “[Reasoning with the
     <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
     on <span>GHC</span> <span>C</span>ore programs](/papers/Farmer-15-HERMIT-reasoning),” in *Proceedings of the
-    Haskell Symposium*. ACM, 2015, to appear.
+    8th ACM SIGPLAN Symposium on Haskell*. New York, NY, USA: ACM, 2015, pp.
+    59–70.
   title: "Reasoning with the HERMIT: Tool Support for Equational Reasoning on GHC Core Programs"
   year: 2015
   links:
-    - <http://dx.doi.org/10.1145/2804302.2804311>
+    - <http://doi.acm.org/10.1145/2804302.2804311>
     - <http://www.ittc.ku.edu/csdl/fpg/files/Farmer-15-HERMIT-reasoning.pdf>
   abstract: |
     A benefit of pure functional programming is that it
@@ -95,11 +102,17 @@
     @inproceedings{Farmer:15:HERMIT-reasoning,
       author = {Andrew Farmer and Neil Sculthorpe and Andy Gill},
       title = {Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} {C}ore Programs},
-      booktitle = {Proceedings of the Haskell Symposium},
+      booktitle = {Proceedings of the 8th ACM SIGPLAN Symposium on Haskell},
       location = {Vancouver, Canada},
-      publisher = {ACM},
       year = {2015},
-      note = {To appear},
+      isbn = {978-1-4503-3808-0},
+      location = {Vancouver, BC, Canada},
+      pages = {59--70},
+      numpages = {12},
+      doi = {10.1145/2804302.2804311},
+      acmid = {2804311},
+      publisher = {ACM},
+      address = {New York, NY, USA},
     }
   xcontent: |
     
