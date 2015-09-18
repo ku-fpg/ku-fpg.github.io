@@ -32,7 +32,7 @@ Github: [https://github.com/xich](https://github.com/xich)
 
 ### Presentations
 
-- Reasoning with the HERMIT: Tool Support for Equational Reasoning on GHC Core Programs. [2015 Haskell Symposium](https://www.haskell.org/haskell-symposium/2015/). Vancouver, Canada. September 2015. [Slides](http://www.ittc.ku.edu/~afarmer/talks/haskell15.html)
+- Reasoning with the HERMIT: Tool Support for Equational Reasoning on GHC Core Programs. [2015 Haskell Symposium](https://www.haskell.org/haskell-symposium/2015/). Vancouver, Canada. September 2015. [Slides](http://www.ittc.ku.edu/~afarmer/talks/haskell15.html) [Video](https://www.youtube.com/watch?v=51V3yAww8sU&list=PLnqUlCo055hV5dPC-4VWeXzhI8ooeTsVy&index=3)
 - Reasoning with the HERMIT: Tool Support for Equational Reasoning on GHC Core Programs. [UNSW Programming Languages and Systems Group](http://www.cse.unsw.edu.au/~pls/pls-website/index.html). Sydney, Australia. June 2015. [Slides](http://www.ittc.ku.edu/~afarmer/talks/unsw.html)
 - HERMIT: Mechanized Reasoning during Compilation in the Glasgow Haskell Compiler. Dissertation Defense. Lawrence, Kansas. April 2015. [Slides](http://www.ittc.ku.edu/~afarmer/talks/defense.html)
 - The HERMIT in the Stream. [PEPM 2014](http://www.program-transformation.org/PEPM14). San Diego, California. January 2014. [Slides](http://www.ittc.ku.edu/~afarmer/talks/concatmap-pepm14.html)
