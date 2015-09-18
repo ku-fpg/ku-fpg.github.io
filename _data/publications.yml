@@ -69,18 +69,18 @@
     A. Farmer, N. Sculthorpe, and A. Gill, “Reasoning with the
     <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
     on <span>GHC</span> <span>C</span>ore programs,” in *Proceedings of the
-    8th ACM SIGPLAN Symposium on Haskell*. New York, NY, USA: ACM, 2015, pp.
-    59–70.
+    8th ACM SIGPLAN Symposium on Haskell*, ser. Haskell 2015. New York, NY,
+    USA: ACM, 2015, pp. 23–34.
   a_cite: |
     A. Farmer, N. Sculthorpe, and A. Gill, “[Reasoning with the
     <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
     on <span>GHC</span> <span>C</span>ore programs](/papers/Farmer-15-HERMIT-reasoning),” in *Proceedings of the
-    8th ACM SIGPLAN Symposium on Haskell*. New York, NY, USA: ACM, 2015, pp.
-    59–70.
+    8th ACM SIGPLAN Symposium on Haskell*, ser. Haskell 2015. New York, NY,
+    USA: ACM, 2015, pp. 23–34.
   title: "Reasoning with the HERMIT: Tool Support for Equational Reasoning on GHC Core Programs"
   year: 2015
   links:
-    - <http://doi.acm.org/10.1145/2804302.2804311>
+    - <http://doi.acm.org/10.1145/2804302.2804303>
     - <http://www.ittc.ku.edu/csdl/fpg/files/Farmer-15-HERMIT-reasoning.pdf>
   abstract: |
     A benefit of pure functional programming is that it
@@ -103,16 +103,18 @@
       author = {Andrew Farmer and Neil Sculthorpe and Andy Gill},
       title = {Reasoning with the {HERMIT}: {T}ool Support for Equational Reasoning on {GHC} {C}ore Programs},
       booktitle = {Proceedings of the 8th ACM SIGPLAN Symposium on Haskell},
-      location = {Vancouver, Canada},
+      series = {Haskell 2015},
+      location = {Vancouver, BC, Canada},
       year = {2015},
       isbn = {978-1-4503-3808-0},
       location = {Vancouver, BC, Canada},
-      pages = {59--70},
+      pages = {23--34},
       numpages = {12},
-      doi = {10.1145/2804302.2804311},
-      acmid = {2804311},
+      doi = {10.1145/2804302.2804303},
+      acmid = {2804303},
       publisher = {ACM},
       address = {New York, NY, USA},
+      keywords = {Equational Reasoning, HERMIT, Type Class Laws},
     }
   xcontent: |
     
