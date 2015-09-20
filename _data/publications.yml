@@ -351,6 +351,7 @@
   year: 2014
   links:
     - <http://doi.acm.org/10.1145/2605205>
+    - <https://queue.acm.org/detail.cfm?id=2617811>
   bibtex: |
     @article{Gill:14:DSLs-and-Synthesis,
       author = {Gill, Andy},
