@@ -78,3 +78,4 @@ The invocation of `send` can also return a value:
 
 Thus, while the monadic commands inside `send` are executed in a *remote* location,
 the results of those executions need to be made available for use *locally*.
+**This is the remote monad design pattern.**
