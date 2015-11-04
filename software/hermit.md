@@ -7,8 +7,8 @@ redirect_from:
 The **Haskell Equational Reasoning Model-to-Implementation Tunnel**
 (HERMIT) is a GHC plugin that allows post-hoc transformations
 to be applied to Haskell programs, after compilation has started.
-HERMIT can be used for program-specfic optimizations,
-domain-specific optimzations, or for constructing semi-formal
+HERMIT can be used for program-specific optimizations,
+domain-specific optimizations, or for constructing semi-formal
 assurance arguments.
 
 ## Architecture

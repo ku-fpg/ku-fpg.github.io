@@ -28,7 +28,18 @@
     href: /software/data-reify
   - name: Wakarusa
     href: /software/wakarusa
-- name: Publications
+- name: Theory and Practice
+  href: /practice
+  sublinks:
+  - name: Constrained Type-Class Instances
+    href: /practice/constrainedTypeClassInstances
+  - name: Observable Sharing
+    href: /practice/observablesharing
+  - name: Remote Monad Design Pattern
+    href: /practice/remotemonad
+  - name: Worker Wrapper        
+    href: /practice/workerwrapper
+- name: Recent Publications
   href: "/publications"
-- name: Blog
+- name: KU FPG Blog
   href: "/blog"  

@@ -1,21 +1,18 @@
-Worker/Wrapper Transformation
-=============================
-
-<div class="teaser">
-
-The worker/wrapper transformation is a technique for transforming a
+---
+layout: page
+title: The Worker/Wrapper Transformation
+---
+The **worker/wrapper transformation** is a technique for transforming a
 computation of one type into a *worker* of a different type, together
 with a *wrapper* that acts as an impedance matcher between the original
 and new computations. The technique can be used to improve the
 performance of functional programs by improving the choice of data
 structures used.
 
-</div>
-
 Transformation Overview
 -----------------------
 
-[![](/files/WW.png)](/files/WW.png)
+[![](/images/practice/WW.png)](/images/practice/WW.png)
 
 (click to enlarge)
 
@@ -81,11 +78,12 @@ There are several worker/wrapper assumptions that are sufficient to
 justify worker/wrapper factorization. The three given in the
 worker/wrapper paper are:
 
-  ------- -------------------------------------- ----------------------------------
-  **(A)** **abs ο rep = id**                      (basic assumption)
-  **(B)** **abs ο rep ο body = body**             (body assumption)
-  **(C)** **fix (abs ο rep ο body) = fix body**   (fixed-point assumption)
-  ------- -------------------------------------- ----------------------------------
+
+        | Rule                                   | Rule Name
+--------|----------------------------------------|-----------------------------
+**(A)** | **abs ο rep = id**                     | (basic assumption)
+**(B)** | **abs ο rep ο body = body**            |(body assumption)
+**(C)** | **fix (abs ο rep ο body) = fix body**  |(fixed-point assumption)
 
 There is also another possible assumption, which uses the **fixed point
 fusion** rule (hence the name fpf assumption) and only holds for a
@@ -105,13 +103,9 @@ hold, then:
 Papers
 ------
 
-
-* <div class="cite Hackett:14:WWFaster"/>
-* <div class="cite Hackett:13:WWUnfold"/>
-* <div class="cite Sculthorpe:14:WorkIt"/>
-* <div class="cite Gill:10:F5"/>
-* <div class="cite Gill:09:WW"/>
-* <div class="cite SPJ:91:Unboxed"/>
+{% include cite.fn key="Sculthorpe-14-WorkIt" %}
+{% include cite.fn key="Gill-10-F5" %}
+{% include cite.fn key="Gill-09-WW" %}
 
 Use Cases
 ---------

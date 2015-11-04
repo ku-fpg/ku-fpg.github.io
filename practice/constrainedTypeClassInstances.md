@@ -1,17 +1,18 @@
-Constrained Type-Class Instances
-================================
+---
+layout: page
+title: Constrained Type-Class Problem
+---
 
-<div class="teaser">
-
-In Haskell, there are many data types that could be made instances of standard type classes such as **Functor** and **Monad**, were it not for the presence of type-class constraints on the operations on that data type.
+In Haskell, there are many data types that could be made instances of standard type
+classes such as `Functor` and `Monad`, were it not for the presence of type-class
+constraints on the operations on that data type.
 This is a frustrating problem in practice, because there is a considerable amount of support and infrastructure for standard type classes that these data types cannot use.
-We call this the *Constrained-Type-Class Problem*.
-To give a concrete example, the abstract type **Set** provided by the [Data.Set](http://hackage.haskell.org/packages/archive/containers/0.5.2.1/doc/html/Data-Set.html) module cannot be made an instance of the **Monad** type class, because of **Ord** constraints on operations over **Set**.
+We call this the **Constrained-Type-Class Problem**.
+
+To give a concrete example, the abstract type `Set` provided by the [Data.Set](http://hackage.haskell.org/packages/archive/containers/0.5.2.1/doc/html/Data-Set.html) module cannot be made an instance of the `Monad` type class, because of `Ord` constraints on operations over `Set`.
 
 One significant occurrence of the constrained-type-class problem is when embedding a Domain-Specific Language (DSL) in Haskell, where it is necessary to restrict the types that can appear in an embedded computation so that the computation can be compiled to some other language.
 This restriction can prevent type classes with polymorphic methods being used to structure such computations.
-
-</div>
 
 Existing Solutions
 ------------------
@@ -31,11 +32,9 @@ Normalized Computations
 This can be achieved by embedding the original data type (which we call the type of *primitive operations*) in a new data type that represents a *normal form* of computations constructed using the operations of the type class over the primitive operations.
 What is required from a normal form is that all types introduced by polymorphic class methods should appear either as type parameters on primitive operations, or as top-level type parameters of the computation.
 Any other types should be eliminated when converting to the normal form.
-For example, the normal form for monadic computations consists of a sequence of right-nested **>>=**s, terminating in a **return**:
+For example, the normal form for monadic computations consists of a sequence of right-nested `>>=`s, terminating in a `return`:
 
-<div style="text-align: center;">
-![](/files/MonadNormalForm.png)
-</div>
+![](/images/practice/MonadNormalForm.png)
 
 One way to convert a computation to this normal form is to use a continuation transformer, as demonstrated by [Persson et al](http://link.springer.com/chapter/10.1007%2F978-3-642-34407-7_6?LI=true).
 Another way is to construct a deep embedding of the computation, and restructure that deep embedding into the normal form by applying the *monad laws* as rewrites.
@@ -48,5 +47,4 @@ This technique is not limited to monads, and is applicable to any type class for
 Publications and Libraries
 --------------------------
 
-* <div class="cite Sculthorpe:13:ConstrainedMonad"/>
-* <div class="cite Hackage:13:ConstrainedNormal"/>
+{% include cite.fn key="Sculthorpe-13-ConstrainedMonad" %}
