@@ -33,6 +33,8 @@
   sublinks:
   - name: Constrained Type-Class Instances
     href: /practice/constrainedTypeClassInstances
+  - name: Lab Rules
+    href: /practice/Lab_Rules
   - name: Observable Sharing
     href: /practice/observablesharing
   - name: Remote Monad Design Pattern

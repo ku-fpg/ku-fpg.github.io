@@ -30,11 +30,12 @@ I teach 3 classes per year, and the Computer Science module of a special one-of 
 
 #### Research
 
-We are expected to have a sustainable and funded research program. That is we have a research output
-that reflects our 50% effort, and we do so by funding students to do research. You can read more about
-my [research](/research/), and see what we have [published](/publications/). 
-
-We also have the [Lab Rules](/research/Lab_rules/).
+We are expected to have a sustainable and funded research
+program. That is we have a research output that reflects our 50%
+effort, and we do so by funding students to do research. You can read
+more about my [research](/research/), and see what we have
+[published](/publications/). You may also want to read the
+[Lab Rules](/practice/Lab_Rules/).
 
 #### Service
 

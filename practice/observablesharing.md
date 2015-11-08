@@ -3,7 +3,7 @@ layout: page
 title: Observable Sharing
 ---
 
-**Observable Sharing(( is where the sharing implicit in a set of data-structures can be observed.
+**Observable Sharing** is where the sharing implicit in a set of data-structures can be observed.
 
 IO-based reification, as implemented by
 [data-reify](http://hackage.haskell.org/cgi-bin/hackage-scripts/package/data-reify),

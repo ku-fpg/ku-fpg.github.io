@@ -9,6 +9,10 @@ the theory and practice of our ideas, and other practices.
 
 {% include teaser.fn href="/practice/constrainedTypeClassInstances" %}
 
+### Lab Rules
+
+{% include teaser.fn href="/practice/Lab_Rules" %}
+
 ### Observable Sharing
 
 {% include teaser.fn href="/practice/observablesharing" %}

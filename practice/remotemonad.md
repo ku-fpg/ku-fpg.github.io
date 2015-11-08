@@ -12,7 +12,7 @@ type, and invoke the remote procedure call using a monadic "send" function.
 Specifically, A **remote monad** is a monad that has its evaluation function in
 a remote location, outside the local runtime system.
 
-## Introducing a Example Remote Monad 
+## Example of a Remote Monad 
 
 By factoring the RPC into sending invocation and service name,
 we can group together procedure calls, and amortize the cost
@@ -44,7 +44,7 @@ and `strokeStyle`:
 send device (strokeStyle "red")
 {% endhighlight %}
 
-The key idea of this paper is that *remote* monadic commands can
+The key idea is that *remote* monadic commands can
 be *locally* combined before sending them to a remote server.
 For example:
 
@@ -85,6 +85,9 @@ the results of those executions need to be made available for use *locally*.
 Once the Remote Monad design pattern is understood, many instances of
 its use, or of related patterns, can be observed in the wild.
 Here we highlight some examples, and give the type of the `send` analog.
+The tell-tale sign of a remote monad is the natural transformation
+between a monad that offers specific services to the IO monad,
+but there are other cases as well.
 
 Package | Remote Monad | `send` 
 --------|--------------|--------
@@ -101,3 +104,8 @@ accelerate | Arr         | `runIn :: ... -> Acc a -> a`
 sbv        | Symbolic    | `runSymbolic' :: ... -> Symbolic a -> IO (a, Result)`
 mcpi       | MCPI        | `runMCPI :: MCPI a -> IO a`
 remote-json | RPC        | `send :: ... -> RPC a -> IO a`
+
+
+## Publications and Libraries
+
+{% include cite.fn key="Gill:15:RemoteMonad" %}
