@@ -1,4 +1,24 @@
 # auto generated from _meta/bibtex.bib
+- key: Grebe-15-Haskino
+  cite: |
+    M. Grebe and A. Gill, “Haskino: <span>H</span>askell and
+    <span>A</span>rduino,” in *Practical Aspects of Declarative Languages*,
+    2016.
+  a_cite: |
+    M. Grebe and A. Gill, “[Haskino: <span>H</span>askell and
+    <span>A</span>rduino](/papers/Grebe-15-Haskino),” in *Practical Aspects of Declarative Languages*,
+    2016.
+  title: "Haskino: Haskell and Arduino"
+  year: 2016
+  links:
+  bibtex: |
+    @inproceedings{Grebe:15:Haskino,
+      year = {2016},
+      booktitle = {Practical Aspects of Declarative Languages},
+      title = {Haskino: {H}askell and {A}rduino},
+      author = {Grebe, Mark and Gill, Andy},
+    }
+
 - key: Gill-15-RemoteMonad
   cite: |
     A. Gill, N. Sculthorpe, J. Dawson, A. Eskilson, A. Farmer, M. Grebe,
