@@ -90,6 +90,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                 | Summer 0
 - Editor, SIGPLAN Notices 
   & ACM SIGPLAN Information Director,
   2011-2015
+-   Faculty Attendee, (KU Startup School)[http://kuic.ku.edu/upcoming-events/startup-schoolku]
 -   Reviewer, PeerJ Computer Science
 -   PC Member,
        [Symposium on High Level Languages for Parallel Computing on FPGAs](http://www.macs.hw.ac.uk/~rs46/parco15-high-level-fpga-languages/),
