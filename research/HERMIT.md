@@ -47,22 +47,61 @@ impact. For example, Evaluation Assurance Level (EAL) 5 and 6 of the
 Common Criteria call for semi-formal methods to construct such links,
 and this project addresses keys part of this requirement.
 
-## Relevent Publications
+## Final Summary
+
+In engineering practice, models are an essential part of understanding
+how to build complex systems. In this investigation, we constructed
+a tool we called HERMIT, which mechanized the connections between
+a specific class of software models, and their programatic counterparts.
+We have used HERMIT on a number of case studies, pushing the state-of-the
+art in semi-formal mathematical reasoning for software development.
+
+Functional programming is a promising approach to writing programs
+which are both correct and fast. Functional programming is based on
+the idea of using mathematical functions to construct
+programs. With effort, it is possible to establish a connection
+between a model written in a functional language, 
+and a fast implementation, via program transformation.
+
+HERMIT is a software artifact that fits in the gap between
+mathematically formal tools for reasoning about programs, and informal
+techniques such as pen-and-paper derivations. HERMIT attaches to the
+popular Glasgow Haskell compiler, the premier compiler for the lazy
+functional language Haskell, providing new tools and techniques for
+mechanizing reasoning and program transformations.  This architecture
+allows HERMIT to be the first system capable of directly reasoning
+about the full Haskell language.
+
+Using HERMIT, we completed five case studies that connected models with
+implementations. There included that specific critical properties
+of a software library hold in the given cases, running efficient simulations
+of cellular automata, and mechanizing a proof that a well-known
+implementation of a mathematical property holds. Further, two
+case studies resulted in state-of-the-art optimized implementations,
+resulting in the solution to an open problem in optimization,
+and giving a way to write more expressive programs without compromising
+the speed of the final program.
+
+This project resulted in 11 publications, one PhD dissertation,
+and one MS thesis.
+
+## Relevant Publications
 
 {% include cite.fn key="Gill-15-RemoteMonad" %}
 {% include cite.fn key="Farmer-15-HERMIT-reasoning" %}
 {% include cite.fn key="Adams-15-OSTIE" %}
+{% include cite.fn key="Farmer-15-PhD" %}
+{% include cite.fn key="Torrence:15:Life" %}
+
 {% include cite.fn key="Sculthorpe-14-KURE" %}
+{% include cite.fn key="Sculthorpe-15-WorkIt" %}
 {% include cite.fn key="Gill-14-DSLs-and-Synthesis" %}
-{% include cite.fn key="Sculthorpe-14-WorkIt" %}
-{% include cite.fn key="Bracker-14-Sunroof" %}
 {% include cite.fn key="Farmer-14-HERMITinStream" %}
 {% include cite.fn key="Adams-14-OSIE" %}
+
 {% include cite.fn key="Sculthorpe-13-HERMITinTree" %}
 {% include cite.fn key="Sculthorpe-13-ConstrainedMonad" %}
-{% include cite.fn key="Gill-13-TypesKansasLava" %}
 {% include cite.fn key="Farmer-12-HERMITinMachine" %}
-{% include cite.fn key="Farmer-12-WebDSLs" %}
 
 ### Background Publications
 
