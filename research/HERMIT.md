@@ -53,8 +53,8 @@ In engineering practice, models are an essential part of understanding
 how to build complex systems. In this investigation, we constructed
 a tool we called HERMIT, which mechanized the connections between
 a specific class of software models, and their programatic counterparts.
-We have used HERMIT on a number of case studies, pushing the state-of-the
-art in semi-formal mathematical reasoning for software development.
+We have used HERMIT on a number of case studies, pushing the state-of-the-art
+in semi-formal mathematical reasoning for software development.
 
 Functional programming is a promising approach to writing programs
 which are both correct and fast. Functional programming is based on
