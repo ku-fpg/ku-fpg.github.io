@@ -79,6 +79,7 @@ Thus, while the monadic commands inside `send` are executed in a *remote* locati
 the results of those executions need to be made available for use *locally*.
 **This is the remote monad design pattern.**
 
+
 ## Uses of the Remote Monad Design Pattern
 
 
@@ -96,16 +97,21 @@ HAXL    | `GenHaxl u`    | `runHaxl :: ... -> GenHaxl u a -> IO a`
 mongoDB | `Action m`     | `access :: ... -> Action m a -> m a`
 Haste   | `Remote (...)` | `onServer :: ... -> Remote (Server a) -> Client a`
 Sunroof  | `JS t`        | `rsyncJS :: JS t a  -> IO a`
-hArduino | Arduino       | `withArduino :: ...  -> Arduino () -> IO ()`
-bus-pirate | BusPirateM  | `runBusPirate :: ... -> BusPirateM a -> IO (Either String a)`
-&#955;-bridge | BusCmd   | `send :: ... -> BusCmd a -> IO (Maybe a)`
-threepenny-gui | UI      | `runUI :: ... -> UI a -> IO a`
-accelerate | Arr         | `runIn :: ... -> Acc a -> a`
-sbv        | Symbolic    | `runSymbolic' :: ... -> Symbolic a -> IO (a, Result)`
-mcpi       | MCPI        | `runMCPI :: MCPI a -> IO a`
-remote-json | RPC        | `send :: ... -> RPC a -> IO a`
+hArduino | `Arduino`       | `withArduino :: ...  -> Arduino () -> IO ()`
+bus-pirate | `BusPirateM`  | `runBusPirate :: ... -> BusPirateM a -> IO (Either String a)`
+&#955;-bridge | `BusCmd`   | `send :: ... -> BusCmd a -> IO (Maybe a)`
+threepenny-gui | `UI`      | `runUI :: ... -> UI a -> IO a`
+accelerate | `Arr`         | `runIn :: ... -> Acc a -> a`
+sbv        | `Symbolic`    | `runSymbolic' :: ... -> Symbolic a -> IO (a, Result)`
+mcpi       | `MCPI`        | `runMCPI :: MCPI a -> IO a`
+remote-json | `RPC`        | `send :: ... -> RPC a -> IO a`
+plist-buddy | `PlistBuddy` | `send :: ... -> PlistBuddy a -> IO a`
 
+We have also written a blog article about one of these libraries, and how it
+uses the remote monad.
 
-## Publications and Libraries
+ * [Shells and the Remote Monad Design Pattern](/2015/12/10/remote-monad-part-1/)
+
+## Publications
 
 {% include cite.fn key="Gill:15:RemoteMonad" %}
