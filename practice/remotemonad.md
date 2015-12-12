@@ -115,3 +115,4 @@ uses the remote monad.
 ## Publications
 
 {% include cite.fn key="Gill:15:RemoteMonad" %}
+{% include cite.fn key="Grebe:15:Haskino" %}
