@@ -118,6 +118,7 @@ There have been a number of studies into what makes a team effective. Here are s
  * https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/
  
 Summary
+
  * **Psychological safety:** Can we take risks on this team without feeling insecure or embarrassed?
  * **Dependability:** Can we count on each other to do high quality work on time?
  * **Structure & clarity:** Are goals, roles, and execution plans on our team clear?
