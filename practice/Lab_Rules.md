@@ -109,7 +109,20 @@ Funded students are under additional rules.
  * If you are are a GRA, the you typically work 1/2 time. I expect 20 hours of work, on average, every week.
 
 
+### Effective Teams
 
+There have been a number of studies into what makes a team effective. Here are some links and summaries.
+
+#### What makes a Google team effective?
+
+ * https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/
+ 
+Summary
+ * **Psychological safety:** Can we take risks on this team without feeling insecure or embarrassed?
+ * **Dependability:** Can we count on each other to do high quality work on time?
+ * **Structure & clarity:** Are goals, roles, and execution plans on our team clear?
+ * **Meaning of work:** Are we working on something that is personally important for each of us?
+ * **Impact of work:** Do we fundamentally believe that the work we’re doing matters?
 
 
 
