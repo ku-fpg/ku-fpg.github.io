@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Haskell Object Observation Debugger
-redirect_from: "/Hood"
+redirect_from:
+ - /Hood/
 ---
 Haskell Object Observation Debugger (HOOD) is a small post-mortem
 debugger for the lazy functional language
