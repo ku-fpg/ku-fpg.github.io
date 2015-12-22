@@ -14,9 +14,14 @@ bringing our research and development expertise to work on our
 collaborators' open issues, as well as their assurance and performance
 needs.
 
-------------------------------------------------------------------------
+### Research Thrusts
 
-## Group Composition
+ * **Reification and Homoiconicity**: We are developing tools for parallelism that use novel compiler technology for high-performance computing
+ * **Embedded Systems**: We are working on an Arduino compiler, and a Next Generation Kansas Lava.
+ * **Virtual Reality**: We are exploring using VR for teaching programming, and debugging functional languages.
+ 
+  
+### Group Composition
 
 The Functional Programming Group at the University of Kansas
 is led by [Andrew Gill](/people/andygill).
