@@ -36,6 +36,15 @@ Here are the lab rules.
    be the center of your campus operations, in the same way a professor
    has an office as their center of operations.
 
+### Social Media
+
+I will be happy to connect though Linkedin with any student that is in any of my classes,
+or otherwise knows me as an EECS professor. I accept Facebook request from
+students I work with professionally in the Lab. I never send KU students Facebook or Linkedin
+requests, because doing so can implied coercion, which is not intended.
+
+KU also has [Social Media Guidelines](http://connect.ku.edu/social-media-guidelines)
+
 ### Adults
 
  * I treat students as adults. You are responsible for your results,
