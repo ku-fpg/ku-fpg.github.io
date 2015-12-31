@@ -12,11 +12,27 @@
 // Published
 
 
-@inproceedings{Grebe:15:Haskino,
+@incollection{Grebe:16:Haskino,
   year={2016},
   booktitle={Practical Aspects of Declarative Languages},
-  title={Haskino: {H}askell and {A}rduino},
-  author={Grebe, Mark and Gill, Andy}
+  series={Lecture Notes in Computer Science},
+  title={{H}askino: A Remote Monad for Programming the {A}rduino},
+  xurl= "http://www.ittc.ku.edu/csdl/fpg/files/Grebe-16-Haskino.pdf",
+  author={Grebe, Mark and Gill, Andy},
+  abstract={The Haskino library provides a mechanism for programming the Arduino
+            microcontroller boards in high level, strongly typed Haskell instead of the
+            low level C language normally used.
+            Haskino builds
+            on previous libraries for Haskell based Arduino programming by utilizing the
+            recently developed remote monad design pattern.
+            This paper presents the design and implementation
+            of the two-level Haskino library.
+            This first level
+            of Haskino requires communication from the host running the Haskell program and
+            the target Arduino over a serial link.  We then investigate extending the
+            initial version of the library with a
+            deep embedding allowing us to cut the cable, and run the
+            Arduino as an independent system.}
 }
 
 
