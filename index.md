@@ -30,19 +30,19 @@ ITTC, in Nichols Hall on west campus.
 
 PhD Students:
 
- * Justin Dawson, Armored Software
+ * Justin Dawson, Armored Software / Wakarusa
  * [Mark Grebe](/people/markgrebe), Embedded Haskell Systems
  * Brad Torrence, Artificial Life
 
 MS Students:
 
- * Bowe Neuenschwander, KansasLava / &lambda;-Bridge
- * Aditya Kumar Ravikanti, TDB
+ * Aditya Kumar Ravikanti, Cloud Storage
 
 BS Students:
 
  * James Stanton, Wakarusa
  * David Young, Wakarusa
+ * Chinmay Ratnaparkhi, Wakarusa
 
 ------------------------------------------------------------------------
 
@@ -108,15 +108,30 @@ Andrew Farmer  | Spring 2013    | 6 months | Portland State University (Oregon)
 
 ### Joining the Group
 
-New members (that are already at KU) are always welcome. Typically, at
-the graduate level you will need some experience in Haskell (for
-example, via EECS 776.  Email Professor Gill for a discussion.
+#### If you are already at KU
+
+New members are always welcome, however, at
+the graduate level you will need some experience in Haskell, for
+example, via EECS 776.  Email Professor Gill for a discussion,
+explaining why functional programming is something you are interested
+in exploring.
+
+#### If you are not already at KU
+
 If you are not at KU, and are not planning on applying to KU,
 then please outline how you know Haskell, or another functional
 language. The lab does not offer scholarships to outside students,
 though we have people join from other graduate programs from
 time to time. Template requests for sponsorship without FP specifics
 will be deleted without acknowledgement.
+
+#### Common Misunderstandings
+
+* We are not a software engineering group. 
+We use functional languages to solve problems, which *may* have
+a software engineering component.
+
+* There are no *funded* research openings right now. 
 
 ### Collaborations and Other Activities
 
