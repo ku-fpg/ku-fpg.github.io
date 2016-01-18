@@ -9,6 +9,13 @@
     href: /research/HERMIT
   - name: FEC Decoders (2009-2011)
     href: /research/HFEC
+- name: Andrew Gill
+  href: /people/andygill
+  sublinks:
+  - name: EECS 582 (Spring 2016)
+    href: ""
+  - name: QR Coversheet Generator
+    href: ""
 - name: Software, Tools and Libraries
   href: /software
   sublinks:
