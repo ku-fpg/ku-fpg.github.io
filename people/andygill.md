@@ -77,6 +77,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 #### 2016
 
 -   PC Member,
+    Workshop on Real World Domain Specific Languages,
+    2016
+-   PC Member,
        The 23rd Annual IEEE International Symposium on 
        Field-Programmable Custom Computing Machines,
        2016
@@ -89,8 +92,8 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 - Editor, SIGPLAN Notices 
   & ACM SIGPLAN Information Director,
   2011-2015
--   Faculty Attendee, (KU Startup School)[http://kuic.ku.edu/upcoming-events/startup-schoolku]
--   Reviewer, PeerJ Computer Science
+-   Faculty Attendee, [KU Startup School](http://kuic.ku.edu/upcoming-events/startup-schoolku), 2015
+-   Reviewer, PeerJ Computer Science, 2015
 -   PC Member,
        [Symposium on High Level Languages for Parallel Computing on FPGAs](http://www.macs.hw.ac.uk/~rs46/parco15-high-level-fpga-languages/),
        2015
