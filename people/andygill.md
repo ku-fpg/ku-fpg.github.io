@@ -98,6 +98,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
        [Symposium on High Level Languages for Parallel Computing on FPGAs](http://www.macs.hw.ac.uk/~rs46/parco15-high-level-fpga-languages/),
        2015
 -   PC Member,
+       International Symposium on the Implementation and Application of Functional Languages,
+       2015
+-   PC Member,
        Trends in Functional Programming,
        2015
 -   PC Member,
