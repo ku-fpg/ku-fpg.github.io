@@ -280,6 +280,7 @@
   title: "The Life Changing HERMIT: A Case Study of the Worker/Wrapper Transformation"
   year: 2015
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Torrence-15-MS.pdf>
   abstract: |
     In software engineering, altering a program’s
     original implementation disconnects it from the
