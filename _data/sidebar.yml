@@ -13,10 +13,10 @@
   href: /people/andygill
   sublinks:
   - name: EECS 582 (Spring 2016)
-    href: ""
+    href: "https://piazza.com/ku/spring2016/eecs582/home"
   - name: QR Coversheet Generator
-    href: ""
-- name: Software, Tools and Libraries
+    href: "/workbook/EECS_582"
+- name: "Software, Tools and Libraries"
   href: /software
   sublinks:
   - name: HERMIT
