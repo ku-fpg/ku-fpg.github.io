@@ -83,7 +83,7 @@
           if (googl[url]) {
               url = googl[url]
           }
-          url += "?" + encodeURIComponent(inputName)
+          url += "?n=" + encodeURIComponent(inputName)
           console.log(inputAssignment)
           qrcode.makeCode( url )
         };
