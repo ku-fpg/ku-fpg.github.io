@@ -34,15 +34,12 @@ PhD Students:
  * [Mark Grebe](/people/markgrebe), Embedded Haskell Systems
  * Brad Torrence, Artificial Life
 
-MS Students:
-
- * Aditya Kumar Ravikanti, Cloud Storage
-
 BS Students:
 
  * James Stanton, Wakarusa
  * David Young, Wakarusa
  * Chinmay Ratnaparkhi, Wakarusa
+ * Nicholas Shaheed, Music and FP
 
 ------------------------------------------------------------------------
 
@@ -60,29 +57,14 @@ BS Students:
 
 ### FPG Alumni
 
-These are people who have previously worked for or with FPG in some capacity.
-
-Who                                                 | Project                  | Where after FPG
-----------------------------------------------------|:-------------------------|:---------------
-Robert Blair                                        | HERMIT/Android, BS 2013  | Garmin
-Jan Bracker                                         | Sunroof, MS Exchange     | Christian-Albrechts-University
-Tristan Bull                                        | HFEC, MS 2011            | Industry
-Aleksander Eskilson                                 | HERMIT & Animations, BS 2016 | -
-[Andrew Farmer](/people/andrewfarmer)               | HERMIT, PhD 2015         | Facebook
-Patrick G Flor                                      | HERMIT/Android           | Groupon, now at Google
-Nicolas Frisby                                      | HERMIT, Staff            | FP Complete
-Adam Howell                                         | HERMIT/Android, BS 2014  | IBM
-[Garrin Kimmell](http://www.ittc.ku.edu/~kimmell/)  | HFEC, PostDoc            | PostDoc, University of Iowa
-[Ed Komp](http://www.ittc.ku.edu/view_contact.phtml?id=28) | HERMIT            | Long-term ITTC Staff member
-Rama Krishnamoorthy                                 | Animations / FRP, MS 2015 | Industry
-Kevin Matlage                                       | ChalkBoard, MS 2011      | Industry
-Patrick Miller                                      | Lambda Bridge, BS 2012   | PhD student, Notre Dame
-[Ryan Scott](/people/ryanscott)                     | HERMIT / Wakarusa        | PhD student, [Indiana University](https://www.indiana.edu/)
-[Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/) | HERMIT/KURE, PostDoc     | PostDoc, Swansea University
-Nicholas Shaheed                                    | Animations and Music     | BS CS
-Mike Stees					                        | High Performance Haskell | Parallel Scientific Computing
-Brandon Smith                                       | ChalkBoard, BS 2011      | Industry
-Moiz Virani                                         | Websockets, MS 2015      | Industry
+Year | &nbsp;
+-----|-----
+2016 | Aditya Kumar Ravikanti (MS), Mohammed Ziauddin (MS)
+2015 | [Andrew Farmer](/people/andrewfarmer) (PhD), Rama Krishnamoorthy (MS), [Ryan Scott](/people/ryanscott) (BS), Moiz Virani (MS)
+2014 | Jan Bracker (MS Exchange), Adam Howell (BS)
+2013 | Robert Blair (BS), Patrick G Flor (BS), [Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/) (PostDoc)
+2012 | Patrick Miller (BS)
+2011 | Tristan Bull (MS), Kevin Matlage (MS), [Garrin Kimmell](http://www.ittc.ku.edu/~kimmell/) (PostDoc), Brandon Smith (BS)
 
 ### Visitors and Visits
 
