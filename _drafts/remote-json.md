@@ -3,8 +3,8 @@ title: The Remote JSON library
 layout: post
 ---
 
-[JSON-RPC](http://www.jsonrpc.org/) is simple, well supported API for
-remote procedure calls over the HTTP protocol. 
+[JSON-RPC](http://www.jsonrpc.org/) is simple and well supported protocol for
+remote procedure calls over the HTTP. 
 JSON-RPC supports both synchronous remote methods calls,
 and asynchronous notifications. We want to access JSON-PRC from Haskell,
 but in a principled way. This blog post discusses the design and implementation
@@ -25,13 +25,14 @@ reply from the server.
 
 The JSON-RPC protocol supports batching
 (sending several method calls and notifications at the same time),
-is JSON based, which makes it easier to debug, because it is text-based,
-and is widely supported. By using JSON-RPC we can implement our clients
-in Haskell, and not care what the server is written in.
+is JSON-based, which makes it easier to debug, because it is straightforward to read JSON packets.
+Furthermore, by using JSON-RPC we can implement our clients
+in Haskell, and be agnostic about what language or framework the server is written in.
 
 There are at least five existing Haskell libraries that support
-JSON-RPC. We wanted to build our own because we saw a 
-way of simplifying the API considerably, while allowing
+JSON-RPC. So why a new library?
+We wanted to build our own because we saw a 
+way of simplifying the API considerably, while still allowing
 access to all the capabilities of JSON-RPC. Specifically,
 by using the remote monad design pattern
 **we can automate taking advantage of the batch capability**,
@@ -40,9 +41,6 @@ separate entry point for batched and singleton calls,
 a single entry point can provide both batched and singletons,
 simplifying the API.
 The library also acts as a case study of using the remote monad.
-
-Lets go ahead and design our API, show two examples of usage, before
-exploring the implementation details.
 
 ## Basic Design of the JSON-RPC API
 
@@ -78,8 +76,6 @@ example s = do
   print t
 {% endhighlight %}
   
-### Added a typed varient around our JSON-RPC API
-
 This is our basic capability, but a bit low-level for most Haskellers' tastes.
 We can build a DSL that supports the same capabilities. Assuming our above
 API is imported used `R`, we can write
@@ -119,12 +115,11 @@ example s = do
   print t
 {% endhighlight %}
 
-Both examples generate the same session interactions with the server. `send` can be used
+`send` can be used
 multiple times if needed, acting as translation between our `IO` monad, and the remote `RPC`/`DSL` monad.
 
-### What happens at the JSON-RPC level
-
-For our Hello, World example, here is a possible JSON-RPC interaction log.
+Both examples will generate the same session interactions with the server, given 
+the same `Session`. The most straightforward JSON-RPC interaction is:
 
 {% highlight json %}
 --> {"jsonrpc": "2.0", "method": "say", "params": ["Hello. "]}
@@ -155,14 +150,16 @@ In the remote monad theory, there are two key concepts:
 
    There are restrictions on commands and procedures, specifically that they
    can be serializable.
- * Choosing a bundling strategy. There are two that were documented in the original paper.
+ * Choosing a bundling strategy. There are two that were documented in the original paper
+   and one new bundling strategy we are investigating.
     * **Weak**        - a bundle of a single command or a single procedure, or
-    * **Strong**      - a bundle of a sequence of commands, optionally terminated by a procedure.
+    * **Strong**      - a bundle of a sequence of commands, optionally terminated by a procedure, or
     * **Applicative** - a bundle of a sequence of commands and procedures, held together using an applicative functor.
     
-By factoring our primitives, we can automatically split up a monadic computation
+By factoring our primitives into commands and procedures, we can automatically split up a monadic computation
 into maximal bundles, and then use a transport layer to send, execute and get
-the result from each bundle. The good news is there is a library, called the `remote-monad`,
+the result from each bundle. The good news is there is a library, called the 
+[`remote-monad`](http://hackage.haskell.org/package/remote-monad),
 that has a plug-and-play API. If we provide the best bundling transport we can, 
 and the library can pick the best way of splitting up the monadic computation
 into our bundles.
@@ -267,7 +264,7 @@ Now, we get a single transaction, which conforms to the JSON-RPC specification.
 {% endhighlight %}
 
 The same RPC `send` command gives better bundling, because of the
-`strongSession`. Now, the JOSN-RPC specification says 
+`strongSession`. Now, the JSON-RPC specification says 
 
  * "The Server MAY process a batch rpc call as a set of concurrent tasks,
    processing them in any order and with any width of parallelism."
@@ -341,15 +338,19 @@ Enjoy!
 
  * [`remote-json`](http://hackage.haskell.org/package/remote-json)
  * [`remote-monad`](http://hackage.haskell.org/package/remote-monad)
+ * [`haxl`](https://hackage.haskell.org/package/haxl)
+ * [There is no fork:](http://dl.acm.org/citation.cfm?id=2628144)
+    an abstraction for efficient, concurrent, and concise data access, 
+    Simon Marlow and Louis Brandy	and Jonathan Coens	and Jon Purdy.
+ * [Semi-implicit batched remote code execution as staging](http://okmij.org/ftp/meta-future/), Oleg Kiselyov
  * The [remote monad design pattern](/practice/remotemonad/)
- * [Semi-implicit batched remote code execution as staging](http://okmij.org/ftp/meta-future/)
- * [There is no fork:](http://dl.acm.org/citation.cfm?id=2628144) an abstraction for efficient, concurrent, and concise data access
+
 
 #### Existing JSON-RPC packages
 
  * [`json-rpc`](http://hackage.haskell.org/package/json-rpc) by Jean-Pierre Rupp
  * [`json-rpc-client`](http://hackage.haskell.org/package/json-rpc-client) by Kristen Kozak
- * [`jsonrpc-conduit`]((http://hackage.haskell.org/package/jsonrpc-conduit) by Gabriele Sales
+ * [`jsonrpc-conduit`](http://hackage.haskell.org/package/jsonrpc-conduit) by Gabriele Sales
  * [`colchis`](http://hackage.haskell.org/package/colchis) by Daniel Díaz Carrete
  * [`jmacro-rpc`](http://hackage.haskell.org/package/jmacro-rpc) by	Gershom Bazerman
 
