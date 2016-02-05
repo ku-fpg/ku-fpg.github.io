@@ -112,6 +112,11 @@ uses the remote monad.
 
  * [Shells and the Remote Monad Design Pattern](/2015/12/10/remote-monad-part-1/)
 
+## Related Work
+
+ * [Semi-implicit batched remote code execution as staging](http://okmij.org/ftp/meta-future/)
+ * [There is no fork:](http://dl.acm.org/citation.cfm?id=2628144) an abstraction for efficient, concurrent, and concise data access
+ 
 ## Publications
 
 {% include cite.fn key="Gill:15:RemoteMonad" %}
