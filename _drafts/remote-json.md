@@ -3,10 +3,10 @@ title: The Remote JSON library
 layout: post
 ---
 
-[JSON-RPC](http://www.jsonrpc.org/) is simple and well supported protocol for
+[JSON-RPC](http://www.jsonrpc.org/) is a simple and well supported protocol for
 remote procedure calls over the HTTP. 
 JSON-RPC supports both synchronous remote methods calls,
-and asynchronous notifications. We want to access JSON-PRC from Haskell,
+and asynchronous notifications. We want to access JSON-RPC from Haskell,
 but in a principled way. This blog post discusses the design and implementation
 of remote-json, a new library for JSON-RPC that makes use of the
 [remote monad design pattern](/practice/remotemonad/)
@@ -20,12 +20,12 @@ a method `subtract`, with the arguments `42` and `23`.
 {% endhighlight %}
 
 Here, `-->` is the data sent from client to server, and `<--` is what the
-server responds. The packet being send is a simple JSON object, as is the 
+server responds. The packet being sent is a simple JSON object, as is the 
 reply from the server.
 
 The JSON-RPC protocol supports batching
-(sending several method calls and notifications at the same time),
-is JSON-based, which makes it easier to debug, because it is straightforward to read JSON packets.
+(sending several method calls and notifications at the same time) and
+is easy to debug, because it is straightforward to read JSON structures.
 Furthermore, by using JSON-RPC we can implement our clients
 in Haskell, and be agnostic about what language or framework the server is written in.
 
@@ -37,8 +37,8 @@ access to all the capabilities of JSON-RPC. Specifically,
 by using the remote monad design pattern
 **we can automate taking advantage of the batch capability**,
 amortizing the cost of the remote call. Rather than have
-separate entry point for batched and singleton calls,
-a single entry point can provide both batched and singletons,
+separate entry points for batched and singleton calls,
+a single entry point can provide both batched and singleton calls,
 simplifying the API.
 The library also acts as a case study of using the remote monad.
 
@@ -60,11 +60,11 @@ send         :: Session -> RPC a -> IO a
 
 This is a classical remote monad design - a restricted monad, a small number of primitives
 for this monad, and a `send` function. `Session` is an abstract handle to the web server
-we want to talk to; we'll come back to how to generates a `Session` shortly.
+we want to talk to; we'll come back to how to generate a `Session` shortly.
 
 This API gives an untyped access to JSON-RPC.
 As an example, consider sending two `say` notifications, that make the remote
-server say things, and a `temperature` method.
+server say things, and a `temperature` method that returns the remote server's temperature.
 
 {% highlight haskell %}
 example :: Session -> IO ()
@@ -119,10 +119,10 @@ example s = do
 multiple times if needed, acting as translation between our `IO` monad, and the remote `RPC`/`DSL` monad.
 
 Both examples will generate the same session interactions with the server, given 
-the same `Session`. The most straightforward JSON-RPC interaction is:
+the same `Session`. The above example produces the following JSON-RPC interaction with the server:
 
 {% highlight json %}
---> {"jsonrpc": "2.0", "method": "say", "params": ["Hello. "]}
+--> {"jsonrpc": "2.0", "method": "say", "params": ["Hello, "]}
 // No reply
 --> {"jsonrpc": "2.0", "method": "say", "params": ["World "]}
 // No reply
@@ -138,7 +138,7 @@ In this interaction:
 This usage is reasonable, but we can do better. We want to bundle together
 notifications and methods, to amortize the cost of network traffic, but
 without comprising the API. Specifically, we want users to just write code
-using `send`, and the RPC library figure out the best bundling possible.
+using `send`, and the RPC library to figure out the best bundling possible.
 
 ## The Remote Monad
 
@@ -149,9 +149,9 @@ In the remote monad theory, there are two key concepts:
     * **Procedures** have a result.
 
    There are restrictions on commands and procedures, specifically that they
-   can be serializable.
- * Choosing a bundling strategy. There are two that were documented in the original paper
-   and one new bundling strategy we are investigating.
+   must be serializable.
+ * Choosing a bundling strategy. There are two strategies that were documented in the original paper
+   and one new bundling strategy that we are investigating.
     * **Weak**        - a bundle of a single command or a single procedure, or
     * **Strong**      - a bundle of a sequence of commands, optionally terminated by a procedure, or
     * **Applicative** - a bundle of a sequence of commands and procedures, held together using an applicative functor.
@@ -161,7 +161,7 @@ into maximal bundles, and then use a transport layer to send, execute and get
 the result from each bundle. The good news is there is a library, called the 
 [`remote-monad`](http://hackage.haskell.org/package/remote-monad),
 that has a plug-and-play API. If we provide the best bundling transport we can, 
-and the library can pick the best way of splitting up the monadic computation
+then the library can pick the best way of splitting up the monadic computation
 into our bundles.
 
 Considering JSON-RPC, the concept of notification and method map straight onto the
@@ -171,7 +171,7 @@ remote monad concepts of commands and procedures. This makes things straightforw
 
 You can create a JSON-RPC instance using `weakSession`,
 which takes an encoding of **how** to send values to a 
-remote web address, and returns a `Session`.
+remote server, and returns a `Session`.
 
 {% highlight haskell %}
 weakSession :: (∀ a. SendAPI a -> IO a) -> Session
@@ -179,7 +179,7 @@ weakSession :: (∀ a. SendAPI a -> IO a) -> Session
 
 `∀ a. SendAPI a -> IO a` is a natural transformation.
 Specifically, `∀ a. SendAPI a -> IO a` is a functor
-morphism between `SendAPI` and `IO`. Or, operationally
+morphism between `SendAPI` and `IO`. Or, operationally,
 this transformation is how you **run** `SendAPI`,
 using `IO`. `SendAPI` is a deep embedding of
 both synchronous and asynchronous communications of JSON `Value`.
@@ -198,7 +198,7 @@ With the `weakSession`, every primitive causes its own
 
 You can write your own matcher for `SendAPI`, or use `remote-json-client`,
 which provides a function that, when given a URL, returns
-the `SendAPI` to `IO` natural transformation.
+the `SendAPI` to `IO` natural transformation using the wreq library.
 
 {% highlight haskell %}
 clientSendAPI :: String -> (∀ a. SendAPI a -> IO a)
@@ -217,7 +217,7 @@ main = do
   print t
 {% endhighlight %}
 
-Having used the weak remote monad, we have the weakest JSON-RPC interaction -
+Having selected the weak remote monad, we have the weakest JSON-RPC interaction -
 three transactions.
 
 {% highlight json %}
@@ -236,7 +236,7 @@ three transactions.
 
 ### Strong Bundles
 
-The strong remote monad bundled together commands, where possible, to amortize
+The strong remote monad bundles together commands, where possible, to amortize
 the cost of the remote call. In our example above, we have two notifications,
 and a method call. We want to combine them together. We do so by using the
 `strongSession` combinator.
@@ -263,8 +263,12 @@ Now, we get a single transaction, which conforms to the JSON-RPC specification.
     ]
 {% endhighlight %}
 
-The same RPC `send` command gives better bundling, because of the
-`strongSession`. Now, the JSON-RPC specification says 
+Note: If we were to have a second method call at the end in the example above, then
+the new method call would be in a second transaction by itself.
+
+The same RPC `send` command gives better bundling, solely from changing the 
+strategy from a `weakSession` to a `strongSession`. 
+Now, the JSON-RPC specification says 
 
  * "The Server MAY process a batch rpc call as a set of concurrent tasks,
    processing them in any order and with any width of parallelism."
@@ -287,7 +291,7 @@ The `remote-json` library supports applicative bundling. Again, the details
 are abstracted by the library, and again the monad and applicative functor
 reflect the concurrency semantics of the server. We've added a new remote
 command `uptime` that returns the uptime of a specific machine, to aid
-the demonstration of batching, an reworked the computation to use applicative.
+the demonstration of batching, and reworked the computation to use applicative.
 
 {% highlight haskell %}
 main :: IO ()
@@ -329,7 +333,7 @@ of `send`.
 We have been using `remote-json`, and its predecessors, on a number of projects here at KU
 for several years now.  Feel free to try it out. 
 In a future blog post, we will discuss how to use natural transformations
-to implement a JSON-RPC server, and address he cost of
+to implement a JSON-RPC server, and address the cost of
 normalizing the remote monad before transmission.
 
 Enjoy!
@@ -358,16 +362,3 @@ Enjoy!
 
 {% include cite.fn key="Gill:15:RemoteMonad" %}
 {% include cite.fn key="Grebe:16:Haskino" %}
-
-
-
-
-
-
-
- 
-
-
-
-
-
