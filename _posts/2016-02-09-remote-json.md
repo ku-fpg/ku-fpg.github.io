@@ -12,6 +12,8 @@ of [`remote-json`](http://hackage.haskell.org/package/remote-json),
 a new library for JSON-RPC that makes use of the
 [remote monad design pattern](/practice/remotemonad/)
 
+<!--MORE-->
+
 To give an example from the specification, consider calling
 a method `subtract`, with the arguments `42` and `23`.
 
