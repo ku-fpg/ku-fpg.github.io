@@ -107,10 +107,11 @@ mcpi       | `MCPI`        | `runMCPI :: MCPI a -> IO a`
 remote-json | `RPC`        | `send :: ... -> RPC a -> IO a`
 plist-buddy | `PlistBuddy` | `send :: ... -> PlistBuddy a -> IO a`
 
-We have also written a blog article about one of these libraries, and how it
+We have also written some blog articles about some of these libraries, and how it
 uses the remote monad.
 
  * [Shells and the Remote Monad Design Pattern](/2015/12/10/remote-monad-part-1/)
+ * [The Remote JSON library](/2016/02/09/remote-json/)
 
 ## Related Work
 
