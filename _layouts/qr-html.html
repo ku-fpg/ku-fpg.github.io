@@ -44,7 +44,8 @@
               <label for="inputAssignment" class="col-xs-2 control-label">Assignment</label>
               <div class="col-xs-4 c">
                 <select class="form-control" id="inputAssignment">
-                  <option selected="selected" assignmentName="S1">Status Report 1</option>
+                  <option                     assignmentName="S1">Status Report 1</option>
+                  <option selected="selected" assignmentName="G1">Group Deliverable 1</option>
                 </select>
               </div>
             </div>
@@ -77,9 +78,10 @@
           var url = "http://ittc.ku.edu/~andygill/582"
           url += "/" + encodeURIComponent(inputAssignment)
           // I used https://goo.gl/ to build shorteners
+          // [Does not preserve the message after the ?, so does not work]
           var googl = {}
-          googl["http://ittc.ku.edu/~andygill/582/H1"] = "goo.gl/uYSkep"
-          googl["http://ittc.ku.edu/~andygill/582/S1"] = "goo.gl/kEiluc"
+//          googl["http://ittc.ku.edu/~andygill/582/H1"] = "goo.gl/uYSkep/"
+//          googl["http://ittc.ku.edu/~andygill/582/S1"] = "goo.gl/kEiluc/"
           if (googl[url]) {
               url = googl[url]
           }
