@@ -20,7 +20,6 @@ needs.
  * **Embedded Systems**: We are working on an Arduino compiler, and a Next Generation Kansas Lava.
  * **Virtual Reality**: We are exploring using VR for teaching programming, and debugging functional languages.
  
-  
 ### Group Composition
 
 The Functional Programming Group at the University of Kansas
@@ -41,8 +40,6 @@ BS Students:
  * Chinmay Ratnaparkhi, Wakarusa
  * Nicholas Shaheed, Music and FP
 
-------------------------------------------------------------------------
-
 ## Recent Activities
 
 <ul>
@@ -52,6 +49,11 @@ BS Students:
     </li>
   {% endfor %}
 </ul>
+
+### Pending Deadlines
+
+<iframe width="350" height="240" src="https://w2.countingdownto.com/1303832" frameborder="0"></iframe><p><a href="https://countingdownto.com">Countdown Clock</a></p>
+
 
 ------------------------------------------------------------------------
 
