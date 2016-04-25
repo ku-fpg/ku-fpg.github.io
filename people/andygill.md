@@ -77,6 +77,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 #### 2016
 
 -   PC Member,
+    2016 Workshop on Domain-Specific Language Design and Implementation,
+    2016
+-   PC Member,
     ACM SIGPLAN Haskell Symposium,
     2016
 -   PC Member,
@@ -257,12 +260,12 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
    contributed significantly to undergraduate education and developing
    a strong rapport with students both inside and outside of the classroom,
    KU EECS Department, 2015.
+ * National Science Foundation CAREER Award, 2014.
  * Leading Light Award, for contributing to the research enterprise at the University of Kansas in a major way,
    Office of the Provost & Office of Research and Graduate Studies, 2014.
  * Miller Professional Development Award for distinguished research in the engineering profession,
    University of Kansas School of Engineering, 
    2014.
- * National Science Foundation CAREER Award, 2014.
  * Distinguished Visitor Fellowship, Scottish Informatics and Computer Science Alliance, 2013.
  * Excellence in Teaching award, Center for Teaching Excellence, University of Kansas, 2010.
  * Harry Talley Excellence in Teaching Award, for
