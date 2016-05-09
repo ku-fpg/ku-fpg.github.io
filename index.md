@@ -50,10 +50,6 @@ BS Students:
   {% endfor %}
 </ul>
 
-### Pending Deadlines
-
-<iframe width="350" height="240" src="https://w2.countingdownto.com/1303832" frameborder="0"></iframe><p><a href="https://countingdownto.com">Countdown Clock</a></p>
-
 
 ------------------------------------------------------------------------
 
