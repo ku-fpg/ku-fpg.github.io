@@ -253,6 +253,12 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 
 ## Professional Awards
 
+
+ * John E. and Winifred E. Sharp Teaching Professorship,
+   for ``his demonstrated excellence in engineering education and dedication to the University,
+   the School, and the Department'',
+   University of Kansas School of Engineering,
+   2016
  * Millar Scholar, for overall achievement during the past academic year,
    University of Kansas School of Engineering,
    2015.
