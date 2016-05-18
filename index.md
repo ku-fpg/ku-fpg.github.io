@@ -5,8 +5,9 @@ title: The Functional Programming Group
 
 The Functional Programming Group at the University of Kansas apply and extend
 functional programming technologies to the diverse areas of building
-computer systems, high-performance computing, information assurance and
-telemetry. We use functional programming to bring clarity to
+computer systems, high-performance computing, information assurance, 
+virtual reality and telemetry. 
+We use functional programming to bring clarity to
 descriptions of what we want to compute, and computer language
 technologies to provide efficiency and assurance. Typically, we
 collaborate with other research groups, deploying our technology and

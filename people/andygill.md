@@ -44,8 +44,8 @@ assurance arguments. As a group we make aggressive use of functional languages,
 extending the technology where needed, and ultimately strive to close
 gaps between high level specifications and highly efficient
 implementations. We then deploy our new technologies into diverse
-application areas, including telemetry, high performance computing and
-real-time systems.
+application areas, including telemetry, high performance computing,
+virtual reality and real-time systems.
 
 Teaching
 --------
@@ -255,7 +255,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 
 
  * John E. and Winifred E. Sharp Teaching Professorship,
-   for ``his demonstrated excellence in engineering education and dedication to the University,
+   for ``demonstrated excellence in engineering education and dedication to the University,
    the School, and the Department'',
    University of Kansas School of Engineering,
    2016
