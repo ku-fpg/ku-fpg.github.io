@@ -36,10 +36,10 @@ PhD Students:
 
 BS Students:
 
- * James Stanton, Wakarusa
- * David Young, Wakarusa
+ * Jackson Montgomery (EECS VR Lab)
  * Chinmay Ratnaparkhi, Wakarusa
  * Nicholas Shaheed, Music and FP
+ * David Young, Wakarusa
 
 ## Recent Activities
 
