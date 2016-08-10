@@ -40,16 +40,15 @@ more about my [research](/research/), and see what we have
 #### Service
 
 This is what keeps academia, and research, running. I help with various committees at the departmental 
-level, serve on the ACM SIGPLAN Executive Committee. I also do a lot of peer reviews. In 2015, I 
+level, and have served on the ACM SIGPLAN Executive Committee. I also do a lot of peer reviews. In 2015, I 
 served on the program committees for ICFP, FCCM, PEPM, TFP, and IFL, and I served on a NSF grant 
 review panel. Each committee required reading and reviewing a paper (or grant) in detail, and writing 
 an in-depth report about what you have read. Each report can take up to 10 hours, and in some cases, 
 you can have up to 20 papers to review. The committees sometimes include travel to a face-to-face 
-meeting, to select the best papers, though some committees meet online. I also do journal reviews, which also take around 10 hours, but do not involved any meetings. 
+meeting, to select the best papers, though some committees meet online. 
+I also do journal reviews, which also take around 10 hours, but do not involved any meetings. 
 
-The 20% allocation, a day a week, is
-probably on the low side - most reviewers do reviewing after hours.
-
+The 20% allocation, a day a week, is on the low side - most reviewers do reviewing after hours.
 
 ### Appointments
 
@@ -58,11 +57,11 @@ Professors are appointed for 9 months. That is, we are paid by the University fo
 As a research-active professor, I am expected to find
 my own funding over the summer, typically from federal sources like the
 [National Science Foundation](http://nsf.gov/) - I would be unable to make my 50% research commitment
-without finding additional funding. Each project provides typically a month of summer,
-so professors work on many project over the summer. Depending on the rules of funding, we
+without finding additional funding. Each project typically provides a month of summer,
+so professors work on many projects over the summer. Depending on the rules of funding, we
 may or may not be able to engage in other activities during the summer. 
 
-This split means that our focus during the semester is quite different that the focus during the summer. I am not allowed to take an outside job over the summer without jumping through additional hoops - we are still covered by the University IP policy over the summer.
+This split means that our focus during the semester is quite different that the focus during the summer.
 
 Assuming the service aspect is constant at 20% throughout the year, this means I have
 
@@ -79,10 +78,8 @@ Summer:
  * 20% service
  
 Some professors are not research active. So they have up to 8 classes per year, 
-as well as university service, and are not paid over the summer.
-
-
-
+as well as university service, and are also not paid over the summer, unless
+they teach a summer class.
 
 
 
