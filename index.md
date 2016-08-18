@@ -33,13 +33,16 @@ PhD Students:
  * Justin Dawson, Armored Software / Wakarusa
  * [Mark Grebe](/people/markgrebe), Embedded Haskell Systems
  * Brad Torrence, Artificial Life
+ * David Young, Wakarusa
+
+MS Students:
+
+ * Chinmay Ratnaparkhi, TBD
 
 BS Students:
 
  * Jackson Montgomery (EECS VR Lab)
- * Chinmay Ratnaparkhi, Wakarusa
- * Nicholas Shaheed, Music and FP
- * David Young, Wakarusa
+ * Liia Butler (VR)
 
 ## Recent Activities
 
