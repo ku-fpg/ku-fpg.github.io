@@ -28,7 +28,7 @@ title: Andrew Gill
 **Phone:**    | +1 785-864-8817 (Eaton) / <BR>  +1 785-864-4712 (ITTC) <BR> +1 785-864-3226 (FAX)
 **Address:**  | The University of Kansas, <BR>  2001 Eaton Hall, <BR> 1520 West 15th Street, <BR> Lawrence, KS 66045-7621
 **Office:**   | Room 2024 (Eaton) / <BR> Room 252 (Nichols Hall)
-**Office hours:** | Wednesday 09:00-11:00 <BR> (or by appointment)
+**Office hours:** | Monday and Friday 01:30-02:30 <BR> (or by appointment)
 **Twitter** | [@_andy_gill](https://twitter.com/_andy_gill)
 
 
@@ -55,16 +55,16 @@ JavaScript &amp; Scheme (EECS 368), and Haskell (EECS 368, 776, 876).
 In all these class, we go on to use programming
 to solve interesting real-world problems.
 I also lead the EECS Computer Science Capstone (EECS 581, 582).
-In Spring 2016, I am teaching EECS 582.
+In Fall 2016, I am teaching EECS 368 and EECS 776.
 Before KU, I taught graduate-level compilers at the Oregon Graduate
 Institute (OGI).
 
 ------------ |:--------------------------------------------------------|:---------
 ENGR 108     | Introduction to Engineering (CS component)              | F13 F14
 EECS 168     | Programming I					       | S13 S12
-EECS 368     | Programming Language Paradigms			       | F08 F09 F10 F11 F12 S14 F15
-EECS 581/582 | CS Senior Design I & II				       | F14 S15 F15 **S16**
-EECS 700/776 | Functional Programming / and Domain Specific Languages] | S09 S10 S11 S12 F12 F13 F14 F15 
+EECS 368     | Programming Language Paradigms			       | F08 F09 F10 F11 F12 S14 F15 **F16**
+EECS 581/582 | CS Senior Design I & II				       | F14 S15 F15 S16
+EECS 700/776 | Functional Programming / and Domain Specific Languages] | S09 S10 S11 S12 F12 F13 F14 F15 **F16**
 EECS 876/800 | Advanced Topics in Functional Languages                 | S10 S11 S14
 CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 02, Summer 03
 
@@ -76,6 +76,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 
 #### 2016
 
+-   Visiting Professor, Facebook
 -   PC Member,
     2016 Workshop on Domain-Specific Language Design and Implementation,
     2016
