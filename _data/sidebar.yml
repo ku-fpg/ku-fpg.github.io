@@ -12,6 +12,10 @@
 - name: Andrew Gill
   href: /people/andygill
   sublinks:
+  - name: EECS 368 (Spring 2016)
+    href: "https://piazza.com/ku/fall2016/eecs368/home"
+  - name: EECS 368 QR Cover Sheet
+    href: "/workbook/EECS_368"
   - name: EECS 776 (Spring 2016)
     href: "https://piazza.com/ku/fall2016/eecs776/home"
   - name: EECS 776 QR Cover Sheet

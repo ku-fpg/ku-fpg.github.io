@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Fall 2016 EECS 368 Cover Sheet</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="print" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+      <!-- From https://github.com/davidshimjs/qrcodejs/blob/master/qrcode.js -->
+     <script src="/js/qrcode.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Fall 2016 EECS 368 Cover Sheet</h1>
+
+
+          <p class="lead">Fill in your name, select assignment, and print this page.
+          <p class="lead">Include this page as the front page of your assignment.
+
+          <hr>
+
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="inputName" class="col-xs-2 control-label">Name</label>
+              <div class="col-xs-8">
+                <input type="Name" class="form-control" id="inputName" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAssignment" class="col-xs-2 control-label">Assignment</label>
+              <div class="col-xs-4 c">
+                <select class="form-control" id="inputAssignment">
+                  <option                     assignmentName="H2">Homework 2</option>
+                </select>
+              </div>
+            </div>
+          </form>
+
+          <HR>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3"><div id="qrcode" style="padding: 10px; padding-top: 30px;"></div>
+        </div>
+      </div>      
+
+
+
+
+
+      <script type="text/javascript">
+      var qrcode;
+      qrcode = new QRCode(document.getElementById("qrcode"),
+        { text: "-"
+        , correctLevel : QRCode.CorrectLevel.H
+        });
+
+      $(function() {
+        var updateQR = function () {
+          var inputName  = $("#inputName").val().substring(0,64)
+          var inputAssignment = $("#inputAssignment option:selected").attr("assignmentName")
+          qrcode.clear(); // clear the code.
+          var url = "http://ittc.ku.edu/~andygill/582"
+          url += "/" + encodeURIComponent(inputAssignment)
+          // I used https://goo.gl/ to build shorteners
+          // [Does not preserve the message after the ?, so does not work]
+          var googl = {}
+//          googl["http://ittc.ku.edu/~andygill/582/H1"] = "goo.gl/uYSkep/"
+//          googl["http://ittc.ku.edu/~andygill/582/S1"] = "goo.gl/kEiluc/"
+          if (googl[url]) {
+              url = googl[url]
+          }
+          url += "?n=" + encodeURIComponent(inputName)
+          console.log(inputAssignment)
+          qrcode.makeCode( url )
+        };
+        updateQR();
+
+        $('#inputName').on("keyup",function () {
+          updateQR();
+        });
+
+        $('#inputAssignment').on("change",function () {
+          updateQR();
+        });
+        
+      });
+      </script>
+
+    </div>
+
+
+
+
+
+
+  </body>
+</html>
