@@ -37,12 +37,13 @@ PhD Students:
 
 MS Students:
 
- * Chinmay Ratnaparkhi, TBD
+ * Chinmay Ratnaparkhi, VR
 
 BS Students:
 
+ * Liia Butler        (VR and Education)
+ * Brandon Caudell    (Higher-dimensional Rubik cube in VR)
  * Jackson Montgomery (EECS VR Lab)
- * Liia Butler (VR)
 
 ## Recent Activities
 
