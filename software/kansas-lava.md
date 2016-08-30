@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Kansas Lava
+redirect_from:
+ - /Tools/KansasLava
 ---
 **Kansas Lava** is a Domain Specific Language (DSL) for expressing
 hardware-oriented descriptions of computations, and is hosted inside the
