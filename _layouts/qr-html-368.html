@@ -44,7 +44,7 @@
               <label for="inputAssignment" class="col-xs-2 control-label">Assignment</label>
               <div class="col-xs-4 c">
                 <select class="form-control" id="inputAssignment">
-                  <option                     assignmentName="H2">Homework 2</option>
+                  <option selected assignmentName="H1">Homework 1</option>
                 </select>
               </div>
             </div>
@@ -74,7 +74,7 @@
           var inputName  = $("#inputName").val().substring(0,64)
           var inputAssignment = $("#inputAssignment option:selected").attr("assignmentName")
           qrcode.clear(); // clear the code.
-          var url = "http://ittc.ku.edu/~andygill/582"
+          var url = "http://ittc.ku.edu/~andygill/368"
           url += "/" + encodeURIComponent(inputAssignment)
           // I used https://goo.gl/ to build shorteners
           // [Does not preserve the message after the ?, so does not work]
