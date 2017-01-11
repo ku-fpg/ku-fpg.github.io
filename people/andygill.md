@@ -70,9 +70,16 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 
 ## Recent and Pending Publications and Submissions
 
-{% include cite.fn year="2014,2015,2016" grep="Gill" %}
+{% include cite.fn year="2014,2015,2016,2017" grep="Gill" %}
 
 ## Professional Activities
+
+#### 2017
+
+-   PC Member,
+       The 24th Annual IEEE International Symposium on 
+       Field-Programmable Custom Computing Machines,
+       2017
 
 #### 2016
 
