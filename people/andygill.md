@@ -80,6 +80,9 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
        The 24th Annual IEEE International Symposium on 
        Field-Programmable Custom Computing Machines,
        2017
+-   PC Member,
+    Workshop on Real World Domain Specific Languages,
+    2017
 
 #### 2016
 
