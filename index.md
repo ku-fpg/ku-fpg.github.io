@@ -19,7 +19,7 @@ needs.
 
  * **Reification and Homoiconicity**: We are developing tools for parallelism that use novel compiler technology for high-performance computing
  * **Embedded Systems**: We are working on an Arduino compiler, and a Next Generation Kansas Lava.
- * **Virtual Reality**: We are exploring using VR for teaching programming, and debugging functional languages.
+ * **Virtual Reality**: We are exploring using VR for teaching, debugging, and (with KU athletics) sport simulators.
  
 ### Group Composition
 
