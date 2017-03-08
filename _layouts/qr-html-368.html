@@ -90,6 +90,7 @@
               url = googl[url]
           }
           url += "?n=" + encodeURIComponent(inputName)
+          url += "&d=" + encodeURIComponent(Date.now())
           console.log(inputAssignment)
           qrcode.makeCode( url )
         };
