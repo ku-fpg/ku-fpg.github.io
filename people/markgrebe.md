@@ -7,7 +7,7 @@ title: Mark Grebe
 
 ## Mark Grebe
 
-I am a first year, part time, PhD student with Dr. Gill.  My research interests include applying functional languages to solve problems in the Embedded Systems space, programming language design, and Computer Science education at all levels.
+I am a third year, part time, PhD student with Dr. Gill.  My research interests include applying functional languages to solve problems in the Embedded Systems space, programming language design, and Computer Science education at all levels.
 My industry experience has been centered around embedded software design and development in the OS and middleware layers.
 
 <div align="center">
