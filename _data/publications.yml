@@ -28,18 +28,19 @@
       keywords = {DSLs, HTML5, Virtual Reality},
     }
 
-- key: Grebe-16-HaskinoThreads
+- key: Grebe-17-HaskinoThreads
   cite: |
     M. Grebe and A. Gill, “Threading the <span>A</span>rduino with
     <span>H</span>askell,” in *Post-Proceedings of Trends in Functional
-    Programming*, May 2016.
+    Programming*, 2017.
   a_cite: |
     M. Grebe and A. Gill, “[Threading the <span>A</span>rduino with
-    <span>H</span>askell](/papers/Grebe-16-HaskinoThreads),” in *Post-Proceedings of Trends in Functional
-    Programming*, May 2016.
+    <span>H</span>askell](/papers/Grebe-17-HaskinoThreads),” in *Post-Proceedings of Trends in Functional
+    Programming*, 2017.
   title: "Threading the Arduino with Haskell"
-  year: 2016
+  year: 2017
   links:
+    - <http://www.ittc.ku.edu/csdl/fpg/files/Grebe-17-HaskinoThreads.pdf>
   abstract: |
     Programming embedded microcontrollers often requires the scheduling of
     independent threads of execution, specifying the interaction and sequencing
@@ -51,10 +52,10 @@
     This paper describes our efforts to extend the Haskino library to
     translate monadic Haskell code to multi-threaded code executing on Arduino boards.
   bibtex: |
-    @incollection{Grebe:16:HaskinoThreads,
-      year = {2016},
+    @incollection{Grebe:17:HaskinoThreads,
+      year = {2017},
       booktitle = {Post-Proceedings of Trends in Functional Programming},
-      month = {May},
+      pubstate = {inpress},
       title = {Threading the {A}rduino with {H}askell},
       author = {Grebe, Mark and Gill, Andy},
     }
