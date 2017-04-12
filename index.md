@@ -43,7 +43,6 @@ BS Students:
 
  * Liia Butler        (VR and Education)
  * Brandon Caudell    (Higher-dimensional Rubik cube in VR)
- * Jackson Montgomery (EECS VR Lab)
 
 ## Recent Activities
 
@@ -62,7 +61,7 @@ BS Students:
 
 Year | &nbsp;
 -----|-----
-2016 | Aditya Kumar Ravikanti (MS), Mohammed Ziauddin (MS)
+2016 | Jackson Montgomery (BS), Aditya Kumar Ravikanti (MS), Mohammed Ziauddin (MS)
 2015 | [Andrew Farmer](/people/andrewfarmer) (PhD), Rama Krishnamoorthy (MS), [Ryan Scott](/people/ryanscott) (BS), Moiz Virani (MS)
 2014 | Jan Bracker (MS Exchange), Adam Howell (BS)
 2013 | Robert Blair (BS), Patrick G Flor (BS), [Neil Sculthorpe](http://www.cs.swan.ac.uk/~csnas/) (PostDoc)
