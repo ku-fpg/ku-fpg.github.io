@@ -25,9 +25,46 @@
     when given a user-supplied packet transportation mechanism,
     and the primitives obey some simple pre- and post-conditions.
   bibtex: |
-    @submitted{Dawson:17:RemoteMonad,
+    @unpublished{Dawson:17:RemoteMonad,
       author = {Justin Dawson and Mark Grebe and Andy Gill},
       title = {Composable Network Stacks and Remote Monads},
+      booktitle = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
+      year = {2017},
+    }
+
+- key: Grebe-17-ShallowDeep
+  cite: |
+    M. Grebe, D. Young, and A. Gill, “Transformations in the deep end,”
+    2017.
+  a_cite: |
+    M. Grebe, D. Young, and A. Gill, “[Transformations in the deep end](/papers/Grebe-17-ShallowDeep),”
+    2017.
+  title: "Transformations in the Deep End"
+  year: 2017
+  links:
+  abstract: |
+    
+    Embedded Domain Specific Languages are a powerful tool for
+    developing customized languages to fit specific problem domains.  
+    Shallow EDSLs allow a programmer to program using many of
+    the features of a host language and it's syntax, but sacrifice
+    performance.  Deep EDSLs provide better performance
+    and flexibility, through the ability to manipulate the
+    abstract syntax tree of the DSL program, but sacrifice
+    syntactical similarity to the host language.  Using Haskino,
+    an EDSL designed for small embedded systems based on
+    the Arduino line of microcontrollers, we show a method
+    for combining the best aspects of shallow and deep EDSLs.
+    The programmer is able to write in the shallow EDSL, and
+    have it automatically transformed into the deep EDSL. This
+    allows the EDSL user to benefit from powerful aspects
+    of the host language, Haskell, while meeting the demanding
+    resource constraints of the small embedded processing
+    environment.
+  bibtex: |
+    @unpublished{Grebe:17:ShallowDeep,
+      author = {Mark Grebe and David Young and Andy Gill},
+      title = {Transformations in the Deep End},
       booktitle = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
       year = {2017},
     }
