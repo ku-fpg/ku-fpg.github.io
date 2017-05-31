@@ -1,4 +1,37 @@
 # auto generated from _meta/bibtex.bib
+- key: Dawson-17-RemoteMonad
+  cite: |
+    J. Dawson, M. Grebe, and A. Gill, “Composable network stacks and remote
+    monads,” 2017.
+  a_cite: |
+    J. Dawson, M. Grebe, and A. Gill, “[Composable network stacks and remote
+    monads](/papers/Dawson-17-RemoteMonad),” 2017.
+  title: "Composable Network Stacks and Remote Monads"
+  year: 2017
+  links:
+  abstract: |
+    
+    Monads and applicative functors are two ways that Haskell
+    programmers bundle effectful primitives into effectful program fragments.
+    In this paper, we investigate using monads and applicative functors
+    to bundle remote effectful primitives, specifically aiming to
+    amortize the cost of remote communications using bundling.
+    We look at several ways of maximizing the bundling of primitives, drawing
+    from the remote monad design pattern and Haxl system, and provide
+    a taxonomy of mechanism for amortization, with examples.
+    The result of this
+    investigation is that monadic fragments can be efficiently 
+    bundled into packets, almost for free,
+    when given a user-supplied packet transportation mechanism,
+    and the primitives obey some simple pre- and post-conditions.
+  bibtex: |
+    @submitted{Dawson:17:RemoteMonad,
+      author = {Justin Dawson and Mark Grebe and Andy Gill},
+      title = {Composable Network Stacks and Remote Monads},
+      booktitle = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
+      year = {2017},
+    }
+
 - key: Gill-17-AFrameDSL
   cite: |
     A. Gill, “Aframe: A domain specific language for virtual reality:
