@@ -2,10 +2,10 @@
 - key: Dawson-17-RemoteMonad
   cite: |
     J. Dawson, M. Grebe, and A. Gill, “Composable network stacks and remote
-    monads,” 2017.
+    monads,” 2017, submitted to the 10th ACM SIGPLAN Symposium on Haskell.
   a_cite: |
     J. Dawson, M. Grebe, and A. Gill, “[Composable network stacks and remote
-    monads](/papers/Dawson-17-RemoteMonad),” 2017.
+    monads](/papers/Dawson-17-RemoteMonad),” 2017, submitted to the 10th ACM SIGPLAN Symposium on Haskell.
   title: "Composable Network Stacks and Remote Monads"
   year: 2017
   links:
@@ -28,17 +28,17 @@
     @unpublished{Dawson:17:RemoteMonad,
       author = {Justin Dawson and Mark Grebe and Andy Gill},
       title = {Composable Network Stacks and Remote Monads},
-      booktitle = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
+      note = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
       year = {2017},
     }
 
 - key: Grebe-17-ShallowDeep
   cite: |
     M. Grebe, D. Young, and A. Gill, “Transformations in the deep end,”
-    2017.
+    2017, submitted to the 10th ACM SIGPLAN Symposium on Haskell.
   a_cite: |
     M. Grebe, D. Young, and A. Gill, “[Transformations in the deep end](/papers/Grebe-17-ShallowDeep),”
-    2017.
+    2017, submitted to the 10th ACM SIGPLAN Symposium on Haskell.
   title: "Transformations in the Deep End"
   year: 2017
   links:
@@ -65,7 +65,7 @@
     @unpublished{Grebe:17:ShallowDeep,
       author = {Mark Grebe and David Young and Andy Gill},
       title = {Transformations in the Deep End},
-      booktitle = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
+      note = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
       year = {2017},
     }
 
