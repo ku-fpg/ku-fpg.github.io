@@ -39,11 +39,6 @@ MS Students:
 
  * Chinmay Ratnaparkhi, VR
 
-BS Students:
-
- * Liia Butler        (VR and Education)
- * Brandon Caudell    (Higher-dimensional Rubik cube in VR)
-
 ## Recent Activities
 
 <ul>
@@ -61,6 +56,7 @@ BS Students:
 
 Year | &nbsp;
 -----|-----
+2017 | Liia Butler (BS), Brandon Caudell (BS)
 2016 | Jackson Montgomery (BS), Aditya Kumar Ravikanti (MS), Mohammed Ziauddin (MS)
 2015 | [Andrew Farmer](/people/andrewfarmer) (PhD), Rama Krishnamoorthy (MS), [Ryan Scott](/people/ryanscott) (BS), Moiz Virani (MS)
 2014 | Jan Bracker (MS Exchange), Adam Howell (BS)
