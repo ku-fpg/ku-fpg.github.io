@@ -8,28 +8,6 @@
 // ------------------------------------------------------------------------------
 // Submitted
 
-@unpublished{Dawson:17:RemoteMonad,
-  author="Justin Dawson and Mark Grebe and Andy Gill",
-  title="Composable Network Stacks and Remote Monads",
-  note = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
-  year         = 2017,
-  abstract="
-  Monads and applicative functors are two ways that Haskell
-  programmers bundle effectful primitives into effectful program fragments.
-  In this paper, we investigate using monads and applicative functors
-  to bundle remote effectful primitives, specifically aiming to
-  amortize the cost of remote communications using bundling.
-  We look at several ways of maximizing the bundling of primitives, drawing
-  from the remote monad design pattern and Haxl system, and provide
-  a taxonomy of mechanism for amortization, with examples.
-  The result of this
-  investigation is that monadic fragments can be efficiently 
-  bundled into packets, almost for free,
-  when given a user-supplied packet transportation mechanism,
-  and the primitives obey some simple pre- and post-conditions."
-}
-
-
 @unpublished{Grebe:17:ShallowDeep,
   author="Mark Grebe and David Young and Andy Gill",
   title="Rewriting a shallow DSL using a GHC compiler extension",
@@ -61,6 +39,40 @@ environment."
 
 // ------------------------------------------------------------------------------
 // Published
+
+@incollection{Dawson:17:RemoteMonad,
+  author="Justin Dawson and Mark Grebe and Andy Gill",
+  title="Composable Network Stacks and Remote Monads",
+  booktitle = {Proceedings of the 10th ACM SIGPLAN International Symposium on Haskell},
+  xurl="http://doi.org/10.1145/3122955.3122968",
+  series = {Haskell 2017},
+  year = {2017},
+  isbn = {978-1-4503-5182-9},
+  location = {Oxford, UK},
+  pages = {86--97},
+  numpages = {12},
+  xurl = {http://doi.acm.org/10.1145/3122955.3122968},
+  doi = {10.1145/3122955.3122968},
+  acmid = {3122968},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  keywords = {DSLs, FFI, Monads, RPC},
+  abstract="
+  Monads and applicative functors are two ways that Haskell
+  programmers bundle effectful primitives into effectful program fragments.
+  In this paper, we investigate using monads and applicative functors
+  to bundle remote effectful primitives, specifically aiming to
+  amortize the cost of remote communications using bundling.
+  We look at several ways of maximizing the bundling of primitives, drawing
+  from the remote monad design pattern and Haxl system, and provide
+  a taxonomy of mechanism for amortization, with examples.
+  The result of this
+  investigation is that monadic fragments can be efficiently 
+  bundled into packets, almost for free,
+  when given a user-supplied packet transportation mechanism,
+  and the primitives obey some simple pre- and post-conditions."
+}
+
 
 @incollection{Gill:17:AFrameDSL,
  author = {Gill, Andy},

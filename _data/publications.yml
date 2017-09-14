@@ -1,37 +1,4 @@
 # auto generated from _meta/bibtex.bib
-- key: Dawson-17-RemoteMonad
-  cite: |
-    J. Dawson, M. Grebe, and A. Gill, “Composable network stacks and remote
-    monads,” 2017, submitted to the 10th ACM SIGPLAN Symposium on Haskell.
-  a_cite: |
-    J. Dawson, M. Grebe, and A. Gill, “[Composable network stacks and remote
-    monads](/papers/Dawson-17-RemoteMonad),” 2017, submitted to the 10th ACM SIGPLAN Symposium on Haskell.
-  title: "Composable Network Stacks and Remote Monads"
-  year: 2017
-  links:
-  abstract: |
-    
-    Monads and applicative functors are two ways that Haskell
-    programmers bundle effectful primitives into effectful program fragments.
-    In this paper, we investigate using monads and applicative functors
-    to bundle remote effectful primitives, specifically aiming to
-    amortize the cost of remote communications using bundling.
-    We look at several ways of maximizing the bundling of primitives, drawing
-    from the remote monad design pattern and Haxl system, and provide
-    a taxonomy of mechanism for amortization, with examples.
-    The result of this
-    investigation is that monadic fragments can be efficiently 
-    bundled into packets, almost for free,
-    when given a user-supplied packet transportation mechanism,
-    and the primitives obey some simple pre- and post-conditions.
-  bibtex: |
-    @unpublished{Dawson:17:RemoteMonad,
-      author = {Justin Dawson and Mark Grebe and Andy Gill},
-      title = {Composable Network Stacks and Remote Monads},
-      note = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
-      year = {2017},
-    }
-
 - key: Grebe-17-ShallowDeep
   cite: |
     M. Grebe, D. Young, and A. Gill, “Rewriting a shallow dsl using a ghc
@@ -71,6 +38,52 @@
       title = {Rewriting a shallow DSL using a GHC compiler extension},
       note = {Submitted to the 16th International Conference on Generative Programming: Concepts & Experience},
       year = {2017},
+    }
+
+- key: Dawson-17-RemoteMonad
+  cite: |
+    J. Dawson, M. Grebe, and A. Gill, “Composable network stacks and remote
+    monads,” in *Proceedings of the 10th ACM SIGPLAN International Symposium
+    on Haskell*, ser. Haskell 2017. New York, NY, USA: ACM, 2017, pp. 86–97.
+  a_cite: |
+    J. Dawson, M. Grebe, and A. Gill, “[Composable network stacks and remote
+    monads](/papers/Dawson-17-RemoteMonad),” in *Proceedings of the 10th ACM SIGPLAN International Symposium
+    on Haskell*, ser. Haskell 2017. New York, NY, USA: ACM, 2017, pp. 86–97.
+  title: "Composable Network Stacks and Remote Monads"
+  year: 2017
+  links:
+    - <http://doi.org/10.1145/3122955.3122968>
+  abstract: |
+    
+    Monads and applicative functors are two ways that Haskell
+    programmers bundle effectful primitives into effectful program fragments.
+    In this paper, we investigate using monads and applicative functors
+    to bundle remote effectful primitives, specifically aiming to
+    amortize the cost of remote communications using bundling.
+    We look at several ways of maximizing the bundling of primitives, drawing
+    from the remote monad design pattern and Haxl system, and provide
+    a taxonomy of mechanism for amortization, with examples.
+    The result of this
+    investigation is that monadic fragments can be efficiently 
+    bundled into packets, almost for free,
+    when given a user-supplied packet transportation mechanism,
+    and the primitives obey some simple pre- and post-conditions.
+  bibtex: |
+    @incollection{Dawson:17:RemoteMonad,
+      author = {Justin Dawson and Mark Grebe and Andy Gill},
+      title = {Composable Network Stacks and Remote Monads},
+      booktitle = {Proceedings of the 10th ACM SIGPLAN International Symposium on Haskell},
+      series = {Haskell 2017},
+      year = {2017},
+      isbn = {978-1-4503-5182-9},
+      location = {Oxford, UK},
+      pages = {86--97},
+      numpages = {12},
+      doi = {10.1145/3122955.3122968},
+      acmid = {3122968},
+      publisher = {ACM},
+      address = {New York, NY, USA},
+      keywords = {DSLs, FFI, Monads, RPC},
     }
 
 - key: Gill-17-AFrameDSL
