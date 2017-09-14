@@ -32,20 +32,22 @@
 
 @unpublished{Grebe:17:ShallowDeep,
   author="Mark Grebe and David Young and Andy Gill",
-  title="Transformations in the Deep End",
-  note = {Submitted to the 10th ACM SIGPLAN Symposium on Haskell},
+  title="Rewriting a shallow DSL using a GHC compiler extension",
+  note = {Submitted to the 16th International Conference on Generative Programming: Concepts & Experience},
+  xurl= "http://www.ittc.ku.edu/csdl/fpg/files/Grebe-17-Transformations.pdf",
   year         = 2017,
   abstract="
 Embedded Domain Specific Languages are a powerful tool for
 developing customized languages to fit specific problem domains.  
 Shallow EDSLs allow a programmer to program using many of
-the features of a host language and it's syntax, but sacrifice
+the features of a host language and its syntax, but sacrifice
 performance.  Deep EDSLs provide better performance
 and flexibility, through the ability to manipulate the
 abstract syntax tree of the DSL program, but sacrifice
 syntactical similarity to the host language.  Using Haskino,
 an EDSL designed for small embedded systems based on
-the Arduino line of microcontrollers, we show a method
+the Arduino line of microcontrollers, and a compiler plugin
+for the Haskell GHC compiler, we show a method
 for combining the best aspects of shallow and deep EDSLs.
 The programmer is able to write in the shallow EDSL, and
 have it automatically transformed into the deep EDSL. This
