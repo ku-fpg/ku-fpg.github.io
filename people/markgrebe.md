@@ -27,3 +27,12 @@ LinkedIn: [Mark Grebe](https://www.linkedin.com/in/mark-grebe-41394bb)
 - Rewriting a Shallow DSL using a GHC compiler Extension. [Lightning Talk, 2017 Haskell Implementors Workshop](https://icfp17.sigplan.org/track/hiw-2017). Oxford, United Kingdom. September 2017. [Slides](http://www.ittc.ku.edu/csdl/fpg/files/Grebe-HIW17-Plugin.pdf) 
 - Threading the Arduino with Haskell. [The 17th Symposium on Trends in Functional Programming](http://tfp2016.org). College Park, Maryland. June 2016. [Slides](http://www.ittc.ku.edu/csdl/fpg/files/Grebe-TFP16Haskino.pdf) 
 - Haskino: A Remote Monad for Programming the Arduino. [Eighteenth International Symposium on Practical Aspects of Declarative Languages](http://conf.researchr.org/home/PADL-2016). St. Petersburg, Florida. January 2016. [Slides](http://www.ittc.ku.edu/csdl/fpg/files/Grebe-PADL16Haskino.pdf)
+
+### Research Github Repos
+- [Haskino](https://github.com/ku-fpg/haskino) - Haskell/Arduino Library/Transformation Plugin
+- [Haskino Examples](https://github.com/ku-fpg/haskino-examples) - Examples for the Haskino Library
+- [Blankeroids](https://github.com/markgrebe/Blankeroids) - FRP Asteroids, using Yampa and BlankCanvas
+
+### CV
+- [My CV](http://www.ittc.ku.edu/csdl/fpg/files/Mark_Grebe_CV.pdf)
+
