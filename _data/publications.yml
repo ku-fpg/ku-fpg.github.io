@@ -1,17 +1,19 @@
 # auto generated from _meta/bibtex.bib
-- key: Grebe-17-ShallowDeep
+- key: Grebe-2017-RSD-3136040.3136048
   cite: |
     M. Grebe, D. Young, and A. Gill, “Rewriting a shallow dsl using a ghc
-    compiler extension,” 2017, submitted to the 16th International
-    Conference on Generative Programming: Concepts & Experience.
+    compiler extension,” in *Proceedings of the 16th ACM SIGPLAN
+    International Conference on Generative Programming: Concepts and
+    Experiences*, ser. GPCE 2017. New York, NY, USA: ACM, 2017, pp. 246–258.
   a_cite: |
     M. Grebe, D. Young, and A. Gill, “[Rewriting a shallow dsl using a ghc
-    compiler extension](/papers/Grebe-17-ShallowDeep),” 2017, submitted to the 16th International
-    Conference on Generative Programming: Concepts & Experience.
-  title: "Rewriting a shallow DSL using a GHC compiler extension"
+    compiler extension](/papers/Grebe-2017-RSD-3136040.3136048),” in *Proceedings of the 16th ACM SIGPLAN
+    International Conference on Generative Programming: Concepts and
+    Experiences*, ser. GPCE 2017. New York, NY, USA: ACM, 2017, pp. 246–258.
+  title: "Rewriting a Shallow DSL Using a GHC Compiler Extension"
   year: 2017
   links:
-    - <http://www.ittc.ku.edu/csdl/fpg/files/Grebe-17-Transformations.pdf>
+    - <http://doi.acm.org/10.1145/3136040.3136048>
   abstract: |
     
     Embedded Domain Specific Languages are a powerful tool for
@@ -33,11 +35,21 @@
     resource constraints of the small embedded processing
     environment.
   bibtex: |
-    @unpublished{Grebe:17:ShallowDeep,
-      author = {Mark Grebe and David Young and Andy Gill},
-      title = {Rewriting a shallow DSL using a GHC compiler extension},
-      note = {Submitted to the 16th International Conference on Generative Programming: Concepts & Experience},
+    @inproceedings{Grebe:2017:RSD:3136040.3136048,
+      author = {Grebe, Mark and Young, David and Gill, Andy},
+      title = {Rewriting a Shallow DSL Using a GHC Compiler Extension},
+      booktitle = {Proceedings of the 16th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences},
+      series = {GPCE 2017},
       year = {2017},
+      isbn = {978-1-4503-5524-7},
+      location = {Vancouver, BC, Canada},
+      pages = {246--258},
+      numpages = {13},
+      doi = {10.1145/3136040.3136048},
+      acmid = {3136048},
+      publisher = {ACM},
+      address = {New York, NY, USA},
+      keywords = {Arduino, EDSL, GHC, Haskell, Transformations},
     }
 
 - key: Dawson-17-RemoteMonad
