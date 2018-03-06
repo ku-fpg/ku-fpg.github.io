@@ -31,6 +31,12 @@ title: Andrew Gill
 **Office hours:** | Wednesday 02:00-04:00 <BR> (or by appointment)
 **Twitter** | [@_andy_gill](https://twitter.com/_andy_gill)
 
+New Position
+------------
+
+I now work at X, the moonshot company (sometime known as Google X). 
+I am still a KU EECS professor, but am rarely in Lawrence any more,
+and am not taking on any new students.
 
 Research
 --------
@@ -55,14 +61,13 @@ JavaScript &amp; Scheme (EECS 368), and Haskell (EECS 368, 776, 876).
 In all these class, we go on to use programming
 to solve interesting real-world problems.
 I also lead the EECS Computer Science Capstone (EECS 581, 582).
-In Fall 2016, I am teaching EECS 368 and EECS 776.
 Before KU, I taught graduate-level compilers at the Oregon Graduate
 Institute (OGI).
 
 ------------ |:--------------------------------------------------------|:---------
 ENGR 108     | Introduction to Engineering (CS component)              | F13 F14
 EECS 168     | Programming I					       | S13 S12
-EECS 368     | Programming Language Paradigms			       | F08 F09 F10 F11 F12 S14 F15 F16 **S17**
+EECS 368     | Programming Language Paradigms			       | F08 F09 F10 F11 F12 S14 F15 F16 S17
 EECS 581/582 | CS Senior Design I & II				       | F14 S15 F15 S16
 EECS 700/776 | Functional Programming / and Domain Specific Languages] | S09 S10 S11 S12 F12 F13 F14 F15 F16
 EECS 876/800 | Advanced Topics in Functional Languages                 | S10 S11 S14
@@ -70,9 +75,21 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 
 ## Recent and Pending Publications and Submissions
 
-{% include cite.fn year="2014,2015,2016,2017" grep="Gill" %}
+{% include cite.fn year="2015,2016,2017,2018" grep="Gill" %}
 
 ## Professional Activities
+
+#### 2018
+
+-   PC Member,
+       The 24th Annual IEEE International Symposium on 
+       Field-Programmable Custom Computing Machines,
+       2018
+-   PC Member,
+    Workshop on Real World Domain Specific Languages,
+    2018
+-   PC Member,
+    ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation, 2018
 
 #### 2017
 
@@ -292,8 +309,28 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 
 ## Bio and Background
 
-Andrew (Andy) Gill is an Associate Professor of Electrical Engineering and Computer Science at the University of Kansas, and holds the John E. and Winifred E. Sharp Teaching Professorship.  He was born and educated in Scotland, and has spent his professional career in the United States. Andy received his Ph.D. from the University of Glasgow in 1996, then spent three years in industry as a compiler developer (Hewlett Packard, Metrowerks, Semantic Designs), and a year in academia as a principal project scientist (Oregon Graduate Institute). In 2000, he co-founded Galois, a technology transfer company that used language technologies to create trustworthiness in critical systems. In 2008 he returned to academia and research, joining the University of Kansas and the Information and Telecommunication Technology Center based in Lawrence, KS.
+Andrew (Andy) Gill is an Associate Professor of Electrical Engineering
+and Computer Science at the University of Kansas, and holds the John
+E. and Winifred E. Sharp Teaching Professorship.  He was born and
+educated in Scotland, and has spent his professional career in the
+United States. Andy received his Ph.D. from the University of Glasgow
+in 1996, then spent three years in industry as a compiler developer
+(Hewlett Packard, Metrowerks, Semantic Designs), and a year in
+academia as a principal project scientist (Oregon Graduate
+Institute). In 2000, he co-founded Galois, a technology transfer
+company that used language technologies to create trustworthiness in
+critical systems. In 2008 he returned to academia and research,
+joining the University of Kansas and the Information and
+Telecommunication Technology Center based in Lawrence, KS.
  
-Since returning to academia, Gill has targeted the application areas of telemetry and signal processing, specializing in generating high performance circuits from specifications. His research interests include optimization, domain-specific languages, language design, debugging, and dependability. The long-term goal of his research is to offer engineers and practitioners the opportunity to write clear and high-level executable specifications that can realistically be compiled into efficient implementations.
+Since returning to academia, Gill has targeted the application areas
+of telemetry and signal processing, specializing in generating high
+performance circuits from specifications. His research interests
+include optimization, domain-specific languages, language design,
+debugging, and dependability. The long-term goal of his research is to
+offer engineers and practitioners the opportunity to write clear and
+high-level executable specifications that can realistically be
+compiled into efficient implementations.
  
-
+In 2017, Gill took a job at X, the moonshot company, doing applied
+functional programming in industry.
