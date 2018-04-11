@@ -27,7 +27,7 @@ LinkedIn: [Mark Grebe](https://www.linkedin.com/in/mark-grebe-41394bb)
 - Rewriting a Shallow DSL using a GHC compiler Extension. [GPCE 2017 - 16th International Conference on Generative Programming: Concepts & Experience](https://conf.researchr.org/track/gpce-2017/gpce-2017-GPCE-2017). Vancouver, British Columbis. October 2017. [Slides](http://www.ittc.ku.edu/csdl/fpg/files/Grebe-GPCE17-Transformation.pdf) 
 - Rewriting a Shallow DSL using a GHC compiler Extension. [Lightning Talk, 2017 Haskell Implementors Workshop](https://icfp17.sigplan.org/track/hiw-2017). Oxford, United Kingdom. September 2017.
 - Threading the Arduino with Haskell. [The 17th Symposium on Trends in Functional Programming](http://tfp2016.org). College Park, Maryland. June 2016. [Slides](http://www.ittc.ku.edu/csdl/fpg/files/Grebe-TFP16Haskino.pdf) 
-- Haskino: A Remote Monad for Programming the Arduino. [Eighteenth International Symposium on Practical Aspects of Declarative Languages](http://conf.researchr.org/home/PADL-2016). St. Petersburg, Florida. January 2016. [Slides](http://www.ittc.ku.edu/csdl/fpg/files/Grebe-PADL16Haskino.pdf)
+- Haskino: A Remote Monad for Programming the Arduino. [Eighteenth International Symposium on Practical Aspects of Declarative Languages](http://conf.researchr.org/home/PADL-2016). St. Petersburg, Florida. January 2016. [Slides](http://www.ittc.ku.edu/csdl/fpg/files/Grebe-PADL16Haskino.pdf) [Video] (https://www.youtube.com/watch?v=j0b_8FOPalY)
 
 ### Research Github Repos
 - [Haskino](https://github.com/ku-fpg/haskino) - Haskell/Arduino Library/Transformation Plugin
