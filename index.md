@@ -27,17 +27,7 @@ The Functional Programming Group at the University of Kansas
 is led by [Andrew Gill](/people/andygill).
 The group operates inside the Computer Systems Design Laboratory (CSDL), at
 ITTC, in Nichols Hall on west campus.
-
-PhD Students:
-
- * Justin Dawson, Armored Software / Wakarusa
- * [Mark Grebe](/people/markgrebe), Embedded Haskell Systems
- * Brad Torrence, Artificial Life
- * David Young, Wakarusa
-
-MS Students:
-
- * Chinmay Ratnaparkhi, VR
+The group is currently on hiatus, for the duruation of Professor Gill's industrial leave of absence.
 
 ## Recent Activities
 
@@ -56,6 +46,7 @@ MS Students:
 
 Year | &nbsp;
 -----|-----
+2018 | Justin Dawson (PhD), [Mark Grebe](/people/markgrebe) (PhD)
 2017 | Liia Butler (BS), Brandon Caudell (BS)
 2016 | Jackson Montgomery (BS), Aditya Kumar Ravikanti (MS), Mohammed Ziauddin (MS)
 2015 | [Andrew Farmer](/people/andrewfarmer) (PhD), Rama Krishnamoorthy (MS), [Ryan Scott](/people/ryanscott) (BS), Moiz Virani (MS)
