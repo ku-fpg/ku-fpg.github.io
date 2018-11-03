@@ -135,7 +135,7 @@ main2 ("build":extra) = do
                 cite <- getBibTeXCitation (dropExtension (dropDirectory1 (dropDirectory1 out)))
                 writeFile' out $ unlines
                         [ "% generated"
-                        , "\\bibstyle{IEEEtran}"
+                        , "\\bibstyle{ieeetr}"
                         , "\\citation{" ++ getBibTexCitationTag cite ++ "}"
                         , "\\bibdata{" ++ dropExtension (takeFileName out) ++ "}"
                         ]
