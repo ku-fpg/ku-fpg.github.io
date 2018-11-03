@@ -1,0 +1,7 @@
+flags: {}
+packages:
+- .
+extra-deps:
+- primitive-0.6.4.0
+- shake-0.17
+resolver: lts-12.16

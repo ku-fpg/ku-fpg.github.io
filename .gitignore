@@ -11,3 +11,4 @@ cabal.sandbox.*
 tmp/
 *.swp
 *.swo
+.stack-work/
