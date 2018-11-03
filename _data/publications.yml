@@ -2,14 +2,16 @@
 - key: Grebe-2017-RSD-3136040.3136048
   cite: |
     M. Grebe, D. Young, and A. Gill, “Rewriting a shallow dsl using a ghc
-    compiler extension,” in *Proceedings of the 16th ACM SIGPLAN
+    compiler extension,” in <span>*Proceedings of the 16th ACM SIGPLAN
     International Conference on Generative Programming: Concepts and
-    Experiences*, ser. GPCE 2017. New York, NY, USA: ACM, 2017, pp. 246–258.
+    Experiences*</span>, GPCE 2017, (New York, NY, USA), pp. 246–258, ACM,
+    2017.
   a_cite: |
     M. Grebe, D. Young, and A. Gill, “[Rewriting a shallow dsl using a ghc
-    compiler extension](/papers/Grebe-2017-RSD-3136040.3136048),” in *Proceedings of the 16th ACM SIGPLAN
+    compiler extension](/papers/Grebe-2017-RSD-3136040.3136048),” in <span>*Proceedings of the 16th ACM SIGPLAN
     International Conference on Generative Programming: Concepts and
-    Experiences*, ser. GPCE 2017. New York, NY, USA: ACM, 2017, pp. 246–258.
+    Experiences*</span>, GPCE 2017, (New York, NY, USA), pp. 246–258, ACM,
+    2017.
   title: "Rewriting a Shallow DSL Using a GHC Compiler Extension"
   year: 2017
   links:
@@ -55,12 +57,14 @@
 - key: Dawson-17-RemoteMonad
   cite: |
     J. Dawson, M. Grebe, and A. Gill, “Composable network stacks and remote
-    monads,” in *Proceedings of the 10th ACM SIGPLAN International Symposium
-    on Haskell*, ser. Haskell 2017. New York, NY, USA: ACM, 2017, pp. 86–97.
+    monads,” in <span>*Proceedings of the 10th ACM SIGPLAN International
+    Symposium on Haskell*</span>, Haskell 2017, pp. 86–97, New York, NY,
+    USA: ACM, 2017.
   a_cite: |
     J. Dawson, M. Grebe, and A. Gill, “[Composable network stacks and remote
-    monads](/papers/Dawson-17-RemoteMonad),” in *Proceedings of the 10th ACM SIGPLAN International Symposium
-    on Haskell*, ser. Haskell 2017. New York, NY, USA: ACM, 2017, pp. 86–97.
+    monads](/papers/Dawson-17-RemoteMonad),” in <span>*Proceedings of the 10th ACM SIGPLAN International
+    Symposium on Haskell*</span>, Haskell 2017, pp. 86–97, New York, NY,
+    USA: ACM, 2017.
   title: "Composable Network Stacks and Remote Monads"
   year: 2017
   links:
@@ -101,12 +105,12 @@
 - key: Gill-17-AFrameDSL
   cite: |
     A. Gill, “Aframe: A domain specific language for virtual reality:
-    Extended abstract,” in *Proceedings of the 2nd International Workshop on
-    Real World Domain Specific Languages*, ser. RWDSL17, 2017.
+    Extended abstract,” in <span>*Proceedings of the 2nd International
+    Workshop on Real World Domain Specific Languages*</span>, RWDSL17, 2017.
   a_cite: |
     A. Gill, “[Aframe: A domain specific language for virtual reality:
-    Extended abstract](/papers/Gill-17-AFrameDSL),” in *Proceedings of the 2nd International Workshop on
-    Real World Domain Specific Languages*, ser. RWDSL17, 2017.
+    Extended abstract](/papers/Gill-17-AFrameDSL),” in <span>*Proceedings of the 2nd International
+    Workshop on Real World Domain Specific Languages*</span>, RWDSL17, 2017.
   title: "AFrame: A Domain Specific Language for Virtual Reality: Extended Abstract"
   year: 2017
   links:
@@ -130,12 +134,12 @@
 - key: Grebe-17-HaskinoThreads
   cite: |
     M. Grebe and A. Gill, “Threading the <span>A</span>rduino with
-    <span>H</span>askell,” in *Post-Proceedings of Trends in Functional
-    Programming*, 2017.
+    <span>H</span>askell,” in <span>*Post-Proceedings of Trends in
+    Functional Programming*</span>, 2017.
   a_cite: |
     M. Grebe and A. Gill, “[Threading the <span>A</span>rduino with
-    <span>H</span>askell](/papers/Grebe-17-HaskinoThreads),” in *Post-Proceedings of Trends in Functional
-    Programming*, 2017.
+    <span>H</span>askell](/papers/Grebe-17-HaskinoThreads),” in <span>*Post-Proceedings of Trends in
+    Functional Programming*</span>, 2017.
   title: "Threading the Arduino with Haskell"
   year: 2017
   links:
@@ -162,12 +166,12 @@
 - key: Grebe-16-Haskino
   cite: |
     M. Grebe and A. Gill, “<span>H</span>askino: A remote monad for
-    programming the <span>A</span>rduino,” in *Practical Aspects of
-    Declarative Languages*, ser. Lecture Notes in Computer Science, 2016.
+    programming the <span>A</span>rduino,” in <span>*Practical Aspects of
+    Declarative Languages*</span>, Lecture Notes in Computer Science, 2016.
   a_cite: |
     M. Grebe and A. Gill, “[<span>H</span>askino: A remote monad for
-    programming the <span>A</span>rduino](/papers/Grebe-16-Haskino),” in *Practical Aspects of
-    Declarative Languages*, ser. Lecture Notes in Computer Science, 2016.
+    programming the <span>A</span>rduino](/papers/Grebe-16-Haskino),” in <span>*Practical Aspects of
+    Declarative Languages*</span>, Lecture Notes in Computer Science, 2016.
   title: "Haskino: A Remote Monad for Programming the Arduino"
   year: 2016
   links:
@@ -200,13 +204,13 @@
   cite: |
     A. Gill, N. Sculthorpe, J. Dawson, A. Eskilson, A. Farmer, M. Grebe,
     J. Rosenbluth, R. Scott, and J. Stanton, “The remote monad design
-    pattern,” in *Proceedings of the 8th ACM SIGPLAN Symposium on Haskell*.
-    New York, NY, USA: ACM, 2015, pp. 59–70.
+    pattern,” in <span>*Proceedings of the 8th ACM SIGPLAN Symposium on
+    Haskell*</span>, (New York, NY, USA), pp. 59–70, ACM, 2015.
   a_cite: |
     A. Gill, N. Sculthorpe, J. Dawson, A. Eskilson, A. Farmer, M. Grebe,
     J. Rosenbluth, R. Scott, and J. Stanton, “[The remote monad design
-    pattern](/papers/Gill-15-RemoteMonad),” in *Proceedings of the 8th ACM SIGPLAN Symposium on Haskell*.
-    New York, NY, USA: ACM, 2015, pp. 59–70.
+    pattern](/papers/Gill-15-RemoteMonad),” in <span>*Proceedings of the 8th ACM SIGPLAN Symposium on
+    Haskell*</span>, (New York, NY, USA), pp. 59–70, ACM, 2015.
   title: "The Remote Monad Design Pattern"
   year: 2015
   links:
@@ -265,15 +269,15 @@
   cite: |
     A. Farmer, N. Sculthorpe, and A. Gill, “Reasoning with the
     <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
-    on <span>GHC</span> <span>C</span>ore programs,” in *Proceedings of the
-    8th ACM SIGPLAN Symposium on Haskell*, ser. Haskell 2015. New York, NY,
-    USA: ACM, 2015, pp. 23–34.
+    on <span>GHC</span> <span>C</span>ore programs,” in <span>*Proceedings
+    of the 8th ACM SIGPLAN Symposium on Haskell*</span>, Haskell 2015, (New
+    York, NY, USA), pp. 23–34, ACM, 2015.
   a_cite: |
     A. Farmer, N. Sculthorpe, and A. Gill, “[Reasoning with the
     <span>HERMIT</span>: <span>T</span>ool support for equational reasoning
-    on <span>GHC</span> <span>C</span>ore programs](/papers/Farmer-15-HERMIT-reasoning),” in *Proceedings of the
-    8th ACM SIGPLAN Symposium on Haskell*, ser. Haskell 2015. New York, NY,
-    USA: ACM, 2015, pp. 23–34.
+    on <span>GHC</span> <span>C</span>ore programs](/papers/Farmer-15-HERMIT-reasoning),” in <span>*Proceedings
+    of the 8th ACM SIGPLAN Symposium on Haskell*</span>, Haskell 2015, (New
+    York, NY, USA), pp. 23–34, ACM, 2015.
   title: "Reasoning with the HERMIT: Tool Support for Equational Reasoning on GHC Core Programs"
   year: 2015
   links:
@@ -332,15 +336,15 @@
   cite: |
     M. D. Adams, A. Farmer, and J. P. <span>Magalhães</span>, “Optimizing
     <span>SYB</span> <span>Traversals</span> <span>Is</span>
-    <span>Easy</span>!” *Science of Computer Programming*, vol. 112, Part 2,
-    pp. 170 – 193, 2015, selected and extended papers from Partial
-    Evaluation and Program Manipulation 2014.
+    <span>Easy</span>!,” <span>*Science of Computer Programming*</span>,
+    vol. 112, Part 2, pp. 170 – 193, 2015. Selected and extended papers from
+    Partial Evaluation and Program Manipulation 2014.
   a_cite: |
     M. D. Adams, A. Farmer, and J. P. <span>Magalhães</span>, “[Optimizing
     <span>SYB</span> <span>Traversals</span> <span>Is</span>
-    <span>Easy</span>!](/papers/Adams-15-OSTIE)” *Science of Computer Programming*, vol. 112, Part 2,
-    pp. 170 – 193, 2015, selected and extended papers from Partial
-    Evaluation and Program Manipulation 2014.
+    <span>Easy</span>!](/papers/Adams-15-OSTIE),” <span>*Science of Computer Programming*</span>,
+    vol. 112, Part 2, pp. 170 – 193, 2015. Selected and extended papers from
+    Partial Evaluation and Program Manipulation 2014.
   title: "Optimizing SYB Traversals Is Easy!"
   year: 2015
   links:
@@ -376,15 +380,15 @@
 
 - key: Farmer-15-PhD
   cite: |
-    A. Farmer, “<span>HERMIT</span>: <span>M</span>echanized
+    A. Farmer, <span>*<span>HERMIT</span>: <span>M</span>echanized
     <span>R</span>easoning during <span>C</span>ompilation in the
-    <span>G</span>lasgow <span>H</span>askell <span>C</span>ompiler,” Ph.D.
-    dissertation, The University of Kansas, April 2015.
+    <span>G</span>lasgow <span>H</span>askell <span>C</span>ompiler*</span>.
+    PhD thesis, The University of Kansas, April 2015.
   a_cite: |
-    A. Farmer, “[<span>HERMIT</span>: <span>M</span>echanized
+    A. Farmer, <span>*<span>HERMIT</span>: <span>M</span>echanized
     <span>R</span>easoning during <span>C</span>ompilation in the
-    <span>G</span>lasgow <span>H</span>askell <span>C</span>ompiler](/papers/Farmer-15-PhD),” Ph.D.
-    dissertation, The University of Kansas, April 2015.
+    <span>G</span>lasgow <span>H</span>askell <span>C</span>ompiler*</span>.
+    PhD thesis, The University of Kansas, April 2015.
   title: "HERMIT: Mechanized Reasoning during Compilation in the Glasgow Haskell Compiler"
   year: 2015
   links:
@@ -488,14 +492,14 @@
     N. Sculthorpe, N. Frisby, and A. Gill, “The <span>K</span>ansas
     <span>U</span>niversity <span>R</span>ewrite <span>E</span>ngine: A
     <span>H</span>askell-embedded strategic programming language with custom
-    closed universes,” *Journal of Functional Programming*, vol. 24, pp.
-    434–473, 7 2014.
+    closed universes,” <span>*Journal of Functional Programming*</span>,
+    vol. 24, pp. 434–473, 7 2014.
   a_cite: |
     N. Sculthorpe, N. Frisby, and A. Gill, “[The <span>K</span>ansas
     <span>U</span>niversity <span>R</span>ewrite <span>E</span>ngine: A
     <span>H</span>askell-embedded strategic programming language with custom
-    closed universes](/papers/Sculthorpe-14-KURE),” *Journal of Functional Programming*, vol. 24, pp.
-    434–473, 7 2014.
+    closed universes](/papers/Sculthorpe-14-KURE),” <span>*Journal of Functional Programming*</span>,
+    vol. 24, pp. 434–473, 7 2014.
   title: "The Kansas University Rewrite Engine: A Haskell-Embedded Strategic Programming Language with Custom Closed Universes"
   year: 2014
   links:
@@ -549,12 +553,12 @@
 - key: Gill-14-DSLs-and-Synthesis
   cite: |
     A. Gill, “Domain-specific languages and code synthesis using
-    <span>H</span>askell,” *Commun. ACM*, vol. 57, no. 6, pp. 42–49, June
-    2014, also appeared in ACM Queue, Vol 12(4), April 2014.
+    <span>H</span>askell,” <span>*Commun. ACM*</span>, vol. 57, pp. 42–49,
+    June 2014. Also appeared in ACM Queue, Vol 12(4), April 2014.
   a_cite: |
     A. Gill, “[Domain-specific languages and code synthesis using
-    <span>H</span>askell](/papers/Gill-14-DSLs-and-Synthesis),” *Commun. ACM*, vol. 57, no. 6, pp. 42–49, June
-    2014, also appeared in ACM Queue, Vol 12(4), April 2014.
+    <span>H</span>askell](/papers/Gill-14-DSLs-and-Synthesis),” <span>*Commun. ACM*</span>, vol. 57, pp. 42–49,
+    June 2014. Also appeared in ACM Queue, Vol 12(4), April 2014.
   title: "Domain-specific Languages and Code Synthesis Using Haskell"
   year: 2014
   links:
@@ -583,16 +587,16 @@
 - key: Bracker-14-Sunroof
   cite: |
     J. Bracker and A. Gill, “Sunroof: A monadic <span>DSL</span> for
-    generating <span>J</span>ava<span>S</span>cript,” in *Practical Aspects
-    of Declarative Languages*, ser. Lecture Notes in Computer Science,
-    M. Flatt and H.-F. Guo, Eds. Springer International Publishing, 2014,
-    vol. 8324, pp. 65–80.
+    generating <span>J</span>ava<span>S</span>cript,” in <span>*Practical
+    Aspects of Declarative Languages*</span> (M. Flatt and H.-F. Guo, eds.),
+    vol. 8324 of <span>*Lecture Notes in Computer Science*</span>,
+    pp. 65–80, Springer International Publishing, 2014.
   a_cite: |
     J. Bracker and A. Gill, “[Sunroof: A monadic <span>DSL</span> for
-    generating <span>J</span>ava<span>S</span>cript](/papers/Bracker-14-Sunroof),” in *Practical Aspects
-    of Declarative Languages*, ser. Lecture Notes in Computer Science,
-    M. Flatt and H.-F. Guo, Eds. Springer International Publishing, 2014,
-    vol. 8324, pp. 65–80.
+    generating <span>J</span>ava<span>S</span>cript](/papers/Bracker-14-Sunroof),” in <span>*Practical
+    Aspects of Declarative Languages*</span> (M. Flatt and H.-F. Guo, eds.),
+    vol. 8324 of <span>*Lecture Notes in Computer Science*</span>,
+    pp. 65–80, Springer International Publishing, 2014.
   title: "Sunroof: A Monadic DSL for Generating JavaScript"
   year: 2014
   links:
@@ -641,14 +645,14 @@
 - key: Farmer-14-HERMITinStream
   cite: |
     A. Farmer, C. <span>Höner zu Siederdissen</span>, and A. Gill, “The
-    <span>HERMIT</span> in the <span>Stream</span>,” in *Proceedings of the
-    2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
-    Manipulation*, ser. PEPM ’14. ACM, 2014.
+    <span>HERMIT</span> in the <span>Stream</span>,” in <span>*Proceedings
+    of the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
+    Manipulation*</span>, PEPM ’14, ACM, 2014.
   a_cite: |
     A. Farmer, C. <span>Höner zu Siederdissen</span>, and A. Gill, “[The
-    <span>HERMIT</span> in the <span>Stream</span>](/papers/Farmer-14-HERMITinStream),” in *Proceedings of the
-    2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
-    Manipulation*, ser. PEPM ’14. ACM, 2014.
+    <span>HERMIT</span> in the <span>Stream</span>](/papers/Farmer-14-HERMITinStream),” in <span>*Proceedings
+    of the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
+    Manipulation*</span>, PEPM ’14, ACM, 2014.
   title: "The HERMIT in the Stream"
   year: 2014
   links:
@@ -669,14 +673,16 @@
 - key: Adams-14-OSIE
   cite: |
     M. D. Adams, A. Farmer, and J. P. <span>Magalhães</span>, “Optimizing
-    <span>SYB</span> <span>Is</span> <span>Easy</span>!” in *Proceedings of
-    the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
-    Manipulation*, ser. PEPM ’14. ACM, 2014, won Best Paper Award.
+    <span>SYB</span> <span>Is</span> <span>Easy</span>!,” in
+    <span>*Proceedings of the 2014 ACM SIGPLAN Workshop on Partial
+    Evaluation and Program Manipulation*</span>, PEPM ’14, ACM, 2014. Won
+    Best Paper Award.
   a_cite: |
     M. D. Adams, A. Farmer, and J. P. <span>Magalhães</span>, “[Optimizing
-    <span>SYB</span> <span>Is</span> <span>Easy</span>!](/papers/Adams-14-OSIE)” in *Proceedings of
-    the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program
-    Manipulation*, ser. PEPM ’14. ACM, 2014, won Best Paper Award.
+    <span>SYB</span> <span>Is</span> <span>Easy</span>!](/papers/Adams-14-OSIE),” in
+    <span>*Proceedings of the 2014 ACM SIGPLAN Workshop on Partial
+    Evaluation and Program Manipulation*</span>, PEPM ’14, ACM, 2014. Won
+    Best Paper Award.
   title: "Optimizing SYB Is Easy!"
   year: 2014
   links:
@@ -702,14 +708,14 @@
 - key: Sculthorpe-13-ConstrainedMonad
   cite: |
     N. Sculthorpe, J. Bracker, G. Giorgidze, and A. Gill, “The
-    constrained-monad problem,” in *Proceedings of the 18th ACM SIGPLAN
-    International Conference on Functional Programming*. ACM, 2013, pp.
-    287–298.
+    constrained-monad problem,” in <span>*Proceedings of the 18th ACM
+    SIGPLAN International Conference on Functional Programming*</span>,
+    pp. 287–298, ACM, 2013.
   a_cite: |
     N. Sculthorpe, J. Bracker, G. Giorgidze, and A. Gill, “[The
-    constrained-monad problem](/papers/Sculthorpe-13-ConstrainedMonad),” in *Proceedings of the 18th ACM SIGPLAN
-    International Conference on Functional Programming*. ACM, 2013, pp.
-    287–298.
+    constrained-monad problem](/papers/Sculthorpe-13-ConstrainedMonad),” in <span>*Proceedings of the 18th ACM
+    SIGPLAN International Conference on Functional Programming*</span>,
+    pp. 287–298, ACM, 2013.
   title: "The Constrained-Monad Problem"
   year: 2013
   links:
@@ -747,10 +753,12 @@
 - key: Sculthorpe-14-WorkIt
   cite: |
     N. Sculthorpe and G. Hutton, “Work it, wrap it, fix it, fold it,”
-    *Journal of Functional Programming*, vol. 24, no. 1, pp. 113–127, 2014.
+    <span>*Journal of Functional Programming*</span>, vol. 24, no. 1,
+    pp. 113–127, 2014.
   a_cite: |
     N. Sculthorpe and G. Hutton, “[Work it, wrap it, fix it, fold it](/papers/Sculthorpe-14-WorkIt),”
-    *Journal of Functional Programming*, vol. 24, no. 1, pp. 113–127, 2014.
+    <span>*Journal of Functional Programming*</span>, vol. 24, no. 1,
+    pp. 113–127, 2014.
   title: "Work It, Wrap It, Fix It, Fold It"
   year: 2014
   links:
@@ -784,12 +792,14 @@
     A. Gill, T. Bull, A. Farmer, G. Kimmell, and E. Komp, “Types and
     associated type families for hardware simulation and synthesis: The
     internals and externals of <span>K</span>ansas <span>L</span>ava,”
-    *Journal of Higher-Order and Symbolic Computation*, pp. 1–20, 2013.
+    <span>*Journal of Higher-Order and Symbolic Computation*</span>,
+    pp. 1–20, 2013.
   a_cite: |
     A. Gill, T. Bull, A. Farmer, G. Kimmell, and E. Komp, “[Types and
     associated type families for hardware simulation and synthesis: The
     internals and externals of <span>K</span>ansas <span>L</span>ava](/papers/Gill-13-TypesKansasLava),”
-    *Journal of Higher-Order and Symbolic Computation*, pp. 1–20, 2013.
+    <span>*Journal of Higher-Order and Symbolic Computation*</span>,
+    pp. 1–20, 2013.
   title: "Types and Associated Type Families for Hardware Simulation and Synthesis:          The Internals and Externals of Kansas Lava"
   year: 2013
   links:
@@ -836,15 +846,15 @@
   cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “The <span>HERMIT</span> in the
     tree: Mechanizing program transformations in the <span>GHC</span> core
-    language,” in *Proceedings of the 24th Symposium on Implementation and
-    Application of Functional Languages*, ser. Lecture Notes in Computer
-    Science, vol. 8241, 2013, pp. 86–103.
+    language,” in <span>*Proceedings of the 24th Symposium on Implementation
+    and Application of Functional Languages*</span>, vol. 8241 of
+    <span>*Lecture Notes in Computer Science*</span>, pp. 86–103, 2013.
   a_cite: |
     N. Sculthorpe, A. Farmer, and A. Gill, “[The <span>HERMIT</span> in the
     tree: Mechanizing program transformations in the <span>GHC</span> core
-    language](/papers/Sculthorpe-13-HERMITinTree),” in *Proceedings of the 24th Symposium on Implementation and
-    Application of Functional Languages*, ser. Lecture Notes in Computer
-    Science, vol. 8241, 2013, pp. 86–103.
+    language](/papers/Sculthorpe-13-HERMITinTree),” in <span>*Proceedings of the 24th Symposium on Implementation
+    and Application of Functional Languages*</span>, vol. 8241 of
+    <span>*Lecture Notes in Computer Science*</span>, pp. 86–103, 2013.
   title: "The HERMIT in the Tree: Mechanizing Program Transformations in the GHC Core Language"
   year: 2013
   links:
@@ -885,13 +895,13 @@
   cite: |
     A. Farmer, A. Gill, E. Komp, and N. Sculthorpe, “The <span>HERMIT</span>
     in the machine: A plugin for the interactive transformation of
-    <span>GHC</span> core language programs,” in *Proceedings of the ACM
-    SIGPLAN Haskell Symposium*, ser. Haskell ’12. ACM, 2012, pp. 1–12.
+    <span>GHC</span> core language programs,” in <span>*Proceedings of the
+    ACM SIGPLAN Haskell Symposium*</span>, Haskell ’12, pp. 1–12, ACM, 2012.
   a_cite: |
     A. Farmer, A. Gill, E. Komp, and N. Sculthorpe, “[The <span>HERMIT</span>
     in the machine: A plugin for the interactive transformation of
-    <span>GHC</span> core language programs](/papers/Farmer-12-HERMITinMachine),” in *Proceedings of the ACM
-    SIGPLAN Haskell Symposium*, ser. Haskell ’12. ACM, 2012, pp. 1–12.
+    <span>GHC</span> core language programs](/papers/Farmer-12-HERMITinMachine),” in <span>*Proceedings of the
+    ACM SIGPLAN Haskell Symposium*</span>, Haskell ’12, pp. 1–12, ACM, 2012.
   title: "The HERMIT in the Machine: A Plugin for the Interactive Transformation of GHC Core Language Programs"
   year: 2012
   links:
@@ -943,12 +953,12 @@
 - key: Farmer-12-WebDSLs
   cite: |
     A. Farmer and A. Gill, “Haskell <span>DSL</span>s for interactive web
-    services,” in *1st International Workshop on Cross-model Language Design
-    and Implementation*, Sep 2012.
+    services,” in <span>*1st International Workshop on Cross-model Language
+    Design and Implementation*</span>, Sep 2012.
   a_cite: |
     A. Farmer and A. Gill, “[Haskell <span>DSL</span>s for interactive web
-    services](/papers/Farmer-12-WebDSLs),” in *1st International Workshop on Cross-model Language Design
-    and Implementation*, Sep 2012.
+    services](/papers/Farmer-12-WebDSLs),” in <span>*1st International Workshop on Cross-model Language
+    Design and Implementation*</span>, Sep 2012.
   title: "Haskell DSLs for Interactive Web Services"
   year: 2012
   links:
@@ -986,10 +996,12 @@
 - key: Frisby-12-AlmostHomomorphicFunctions
   cite: |
     N. Frisby, A. Gill, and P. Alexander, “A pattern for almost homomorphic
-    functions,” in *ACM SIGPLAN Workshop on Generic Programming*, Sep 2012.
+    functions,” in <span>*ACM SIGPLAN Workshop on Generic
+    Programming*</span>, Sep 2012.
   a_cite: |
     N. Frisby, A. Gill, and P. Alexander, “[A pattern for almost homomorphic
-    functions](/papers/Frisby-12-AlmostHomomorphicFunctions),” in *ACM SIGPLAN Workshop on Generic Programming*, Sep 2012.
+    functions](/papers/Frisby-12-AlmostHomomorphicFunctions),” in <span>*ACM SIGPLAN Workshop on Generic
+    Programming*</span>, Sep 2012.
   title: "A Pattern for Almost Homomorphic Functions"
   year: 2012
   links:
@@ -1023,14 +1035,14 @@
 - key: Gill-12-PatchLogic
   cite: |
     A. Gill and B. Neuenschwander, “Handshaking in <span>K</span>ansas
-    <span>L</span>ava using patch logic,” in *Practical Aspects of
-    Declarative Languages*, ser. LNCS, vol. 7149. Springer-Verlag, January
-    2012.
+    <span>L</span>ava using patch logic,” in <span>*Practical Aspects of
+    Declarative Languages*</span>, vol. 7149 of <span>*LNCS*</span>,
+    Springer-Verlag, January 2012.
   a_cite: |
     A. Gill and B. Neuenschwander, “[Handshaking in <span>K</span>ansas
-    <span>L</span>ava using patch logic](/papers/Gill-12-PatchLogic),” in *Practical Aspects of
-    Declarative Languages*, ser. LNCS, vol. 7149. Springer-Verlag, January
-    2012.
+    <span>L</span>ava using patch logic](/papers/Gill-12-PatchLogic),” in <span>*Practical Aspects of
+    Declarative Languages*</span>, vol. 7149 of <span>*LNCS*</span>,
+    Springer-Verlag, January 2012.
   title: "Handshaking in Kansas Lava using Patch Logic"
   year: 2012
   links:
@@ -1067,11 +1079,11 @@
 
 - key: IFL11
   cite: |
-    A. Gill and J. Hage, Eds., *Implementation and Application of Functional
-    Languages*. Springer, LNCS 7257, October 2011.
+    A. Gill and J. Hage, eds., <span>*Implementation and Application of
+    Functional Languages*</span>, Springer, LNCS 7257, October 2011.
   a_cite: |
-    A. Gill and J. Hage, Eds., *Implementation and Application of Functional
-    Languages*. Springer, LNCS 7257, October 2011.
+    A. Gill and J. Hage, eds., <span>*Implementation and Application of
+    Functional Languages*</span>, Springer, LNCS 7257, October 2011.
   title: "Implementation and Application of Functional Languages"
   year: 2011
   links:
@@ -1087,12 +1099,14 @@
 - key: Gill-11-Declarative
   cite: |
     A. Gill, “Declarative <span>FPGA</span> circuit synthesis using
-    <span>K</span>ansas <span>L</span>ava,” in *The International Conference
-    on Engineering of Reconfigurable Systems and Algorithms*, July 2011.
+    <span>K</span>ansas <span>L</span>ava,” in <span>*The International
+    Conference on Engineering of Reconfigurable Systems and
+    Algorithms*</span>, July 2011.
   a_cite: |
     A. Gill, “[Declarative <span>FPGA</span> circuit synthesis using
-    <span>K</span>ansas <span>L</span>ava](/papers/Gill-11-Declarative),” in *The International Conference
-    on Engineering of Reconfigurable Systems and Algorithms*, July 2011.
+    <span>K</span>ansas <span>L</span>ava](/papers/Gill-11-Declarative),” in <span>*The International
+    Conference on Engineering of Reconfigurable Systems and
+    Algorithms*</span>, July 2011.
   title: "Declarative FPGA Circuit Synthesis using Kansas Lava"
   year: 2011
   links:
@@ -1135,13 +1149,13 @@
   cite: |
     A. Gill and A. Farmer, “Deriving an efficient <span>FPGA</span>
     implementation of a low density parity check forward error corrector,”
-    in *Proceedings of the 16th ACM SIGPLAN international conference on
-    Functional programming*, ser. ICFP ’11. ACM, Sep 2011, pp. 209–220.
+    in <span>*Proceedings of the 16th ACM SIGPLAN international conference
+    on Functional programming*</span>, ICFP ’11, pp. 209–220, ACM, Sep 2011.
   a_cite: |
     A. Gill and A. Farmer, “[Deriving an efficient <span>FPGA</span>
     implementation of a low density parity check forward error corrector](/papers/Gill-11-DerivingLDPC),”
-    in *Proceedings of the 16th ACM SIGPLAN international conference on
-    Functional programming*, ser. ICFP ’11. ACM, Sep 2011, pp. 209–220.
+    in <span>*Proceedings of the 16th ACM SIGPLAN international conference
+    on Functional programming*</span>, ICFP ’11, pp. 209–220, ACM, Sep 2011.
   title: "Deriving an Efficient FPGA Implementation of a Low Density Parity Check Forward Error Corrector"
   year: 2011
   links:
@@ -1190,15 +1204,15 @@
   cite: |
     A. Gill, T. Bull, D. DePardo, A. Farmer, E. Komp, and E. Perrins, “Using
     functional programming to generate an <span>LDPC</span> forward error
-    corrector,” in *Proceedings of the IEEE 19th Annual International
-    Symposium on Field-Programmable Custom Computing Machines*, ser. FCCM
-    ’11. IEEE Computer Society, May 2011, pp. 133–140.
+    corrector,” in <span>*Proceedings of the IEEE 19th Annual International
+    Symposium on Field-Programmable Custom Computing Machines*</span>, FCCM
+    ’11, pp. 133–140, IEEE Computer Society, May 2011.
   a_cite: |
     A. Gill, T. Bull, D. DePardo, A. Farmer, E. Komp, and E. Perrins, “[Using
     functional programming to generate an <span>LDPC</span> forward error
-    corrector](/papers/Gill-11-GeneratingLDPC),” in *Proceedings of the IEEE 19th Annual International
-    Symposium on Field-Programmable Custom Computing Machines*, ser. FCCM
-    ’11. IEEE Computer Society, May 2011, pp. 133–140.
+    corrector](/papers/Gill-11-GeneratingLDPC),” in <span>*Proceedings of the IEEE 19th Annual International
+    Symposium on Field-Programmable Custom Computing Machines*</span>, FCCM
+    ’11, pp. 133–140, IEEE Computer Society, May 2011.
   title: "Using Functional Programming to Generate an LDPC Forward Error Corrector"
   year: 2011
   links:
@@ -1264,11 +1278,11 @@
 - key: Gill-11-CatchingSat
   cite: |
     A. Gill and G. Kimmell, “Capturing functions and catching satellites,”
-    Tech. Rep., January 2011, iTTC Technical Report
+    tech. rep., January 2011. ITTC Technical Report
     ITTC-FY2011-TR-29952011-1.
   a_cite: |
     A. Gill and G. Kimmell, “[Capturing functions and catching satellites](/papers/Gill-11-CatchingSat),”
-    Tech. Rep., January 2011, iTTC Technical Report
+    tech. rep., January 2011. ITTC Technical Report
     ITTC-FY2011-TR-29952011-1.
   title: "Capturing Functions and Catching Satellites"
   year: 2011
@@ -1300,12 +1314,12 @@
 - key: Hutton-10-F5
   cite: |
     G. Hutton, M. Jaskelioff, and A. Gill, “Factorising folds for faster
-    functions,” *Journal of Functional Programming*, vol. 20, no. 3-4, pp.
-    353–373, 2010.
+    functions,” <span>*Journal of Functional Programming*</span>, vol. 20,
+    no. 3-4, pp. 353–373, 2010.
   a_cite: |
     G. Hutton, M. Jaskelioff, and A. Gill, “[Factorising folds for faster
-    functions](/papers/Hutton-10-F5),” *Journal of Functional Programming*, vol. 20, no. 3-4, pp.
-    353–373, 2010.
+    functions](/papers/Hutton-10-F5),” <span>*Journal of Functional Programming*</span>, vol. 20,
+    no. 3-4, pp. 353–373, 2010.
   title: "Factorising Folds for Faster Functions"
   year: 2010
   links:
@@ -1333,12 +1347,14 @@
 - key: Matlage-10-BeginningMiddleEnd
   cite: |
     K. Matlage and A. Gill, “Every animation should have a beginning, a
-    middle, and an end,” in *Post-Proceedings of Trends in Functional
-    Programming*, ser. LNCS, vol. 6546. Springer-Verlag, May 2010.
+    middle, and an end,” in <span>*Post-Proceedings of Trends in Functional
+    Programming*</span>, vol. 6546 of <span>*LNCS*</span>, Springer-Verlag,
+    May 2010.
   a_cite: |
     K. Matlage and A. Gill, “[Every animation should have a beginning, a
-    middle, and an end](/papers/Matlage-10-BeginningMiddleEnd),” in *Post-Proceedings of Trends in Functional
-    Programming*, ser. LNCS, vol. 6546. Springer-Verlag, May 2010.
+    middle, and an end](/papers/Matlage-10-BeginningMiddleEnd),” in <span>*Post-Proceedings of Trends in Functional
+    Programming*</span>, vol. 6546 of <span>*LNCS*</span>, Springer-Verlag,
+    May 2010.
   title: "Every Animation Should Have a Beginning, a Middle, and an End"
   year: 2010
   links:
@@ -1373,14 +1389,14 @@
     A. Gill, T. Bull, A. Farmer, G. Kimmell, and E. Komp, “Types and type
     families for hardware simulation and synthesis: The internals and
     externals of <span>K</span>ansas <span>L</span>ava,” in
-    *Post-Proceedings of Trends in Functional Programming*, ser. LNCS, vol.
-    6546. Springer-Verlag, May 2010.
+    <span>*Post-Proceedings of Trends in Functional Programming*</span>,
+    vol. 6546 of <span>*LNCS*</span>, Springer-Verlag, May 2010.
   a_cite: |
     A. Gill, T. Bull, A. Farmer, G. Kimmell, and E. Komp, “[Types and type
     families for hardware simulation and synthesis: The internals and
     externals of <span>K</span>ansas <span>L</span>ava](/papers/Gill-10-TypesKansasLava),” in
-    *Post-Proceedings of Trends in Functional Programming*, ser. LNCS, vol.
-    6546. Springer-Verlag, May 2010.
+    <span>*Post-Proceedings of Trends in Functional Programming*</span>,
+    vol. 6546 of <span>*LNCS*</span>, Springer-Verlag, May 2010.
   title: "Types and Type Families for Hardware Simulation and Synthesis: The Internals and Externals of Kansas Lava"
   year: 2010
   links:
@@ -1417,12 +1433,14 @@
 - key: Farmer-10-WhatsTheMatter
   cite: |
     A. Farmer, G. Kimmell, and A. Gill, “What’s the matter with
-    <span>K</span>ansas <span>L</span>ava?” in *Post-Proceedings of Trends
-    in Functional Programming*. Springer-Verlag, LNCS 6546, May 2010.
+    <span>K</span>ansas <span>L</span>ava?,” in <span>*Post-Proceedings of
+    Trends in Functional Programming*</span>, Springer-Verlag, LNCS 6546,
+    May 2010.
   a_cite: |
     A. Farmer, G. Kimmell, and A. Gill, “[What’s the matter with
-    <span>K</span>ansas <span>L</span>ava?](/papers/Farmer-10-WhatsTheMatter)” in *Post-Proceedings of Trends
-    in Functional Programming*. Springer-Verlag, LNCS 6546, May 2010.
+    <span>K</span>ansas <span>L</span>ava?](/papers/Farmer-10-WhatsTheMatter),” in <span>*Post-Proceedings of
+    Trends in Functional Programming*</span>, Springer-Verlag, LNCS 6546,
+    May 2010.
   title: "What's the matter with Kansas Lava?"
   year: 2010
   links:
@@ -1447,14 +1465,14 @@
 - key: Gill-10-ImprovingVideo
   cite: |
     A. Gill, G. Kimmell, and K. Matlage, “Improving the presentation of
-    technical material in video talks using post production,” in *2010
+    technical material in video talks using post production,” in <span>*2010
     Midwest Section Conference of the American Society for Engineering
-    Education*, September 2010.
+    Education*</span>, September 2010.
   a_cite: |
     A. Gill, G. Kimmell, and K. Matlage, “[Improving the presentation of
-    technical material in video talks using post production](/papers/Gill-10-ImprovingVideo),” in *2010
+    technical material in video talks using post production](/papers/Gill-10-ImprovingVideo),” in <span>*2010
     Midwest Section Conference of the American Society for Engineering
-    Education*, September 2010.
+    Education*</span>, September 2010.
   title: "Improving the Presentation of Technical Material in Video Talks using Post Production"
   year: 2010
   links:
@@ -1487,14 +1505,14 @@
 - key: Matlage-09-ChalkBoard
   cite: |
     K. Matlage and A. Gill, “Chalk<span>B</span>oard: <span>M</span>apping
-    functions to polygons,” in *Proceedings of the Symposium on
-    Implementation and Application of Functional Languages*, ser. LNCS, vol.
-    6041. Springer-Verlag, Sep 2009.
+    functions to polygons,” in <span>*Proceedings of the Symposium on
+    Implementation and Application of Functional Languages*</span>,
+    vol. 6041 of <span>*LNCS*</span>, Springer-Verlag, Sep 2009.
   a_cite: |
     K. Matlage and A. Gill, “[Chalk<span>B</span>oard: <span>M</span>apping
-    functions to polygons](/papers/Matlage-09-ChalkBoard),” in *Proceedings of the Symposium on
-    Implementation and Application of Functional Languages*, ser. LNCS, vol.
-    6041. Springer-Verlag, Sep 2009.
+    functions to polygons](/papers/Matlage-09-ChalkBoard),” in <span>*Proceedings of the Symposium on
+    Implementation and Application of Functional Languages*</span>,
+    vol. 6041 of <span>*LNCS*</span>, Springer-Verlag, Sep 2009.
   title: "ChalkBoard: Mapping Functions to Polygons"
   year: 2009
   links:
@@ -1523,14 +1541,16 @@
 - key: Gill-09-KansasLava
   cite: |
     A. Gill, T. Bull, G. Kimmell, E. Perrins, E. Komp, and B. Werling,
-    “Introducing <span>K</span>ansas <span>L</span>ava,” in *Proceedings of
-    the Symposium on Implementation and Application of Functional
-    Languages*, ser. LNCS, vol. 6041. Springer-Verlag, Sep 2009.
+    “Introducing <span>K</span>ansas <span>L</span>ava,” in
+    <span>*Proceedings of the Symposium on Implementation and Application of
+    Functional Languages*</span>, vol. 6041 of <span>*LNCS*</span>,
+    Springer-Verlag, Sep 2009.
   a_cite: |
     A. Gill, T. Bull, G. Kimmell, E. Perrins, E. Komp, and B. Werling,
-    “[Introducing <span>K</span>ansas <span>L</span>ava](/papers/Gill-09-KansasLava),” in *Proceedings of
-    the Symposium on Implementation and Application of Functional
-    Languages*, ser. LNCS, vol. 6041. Springer-Verlag, Sep 2009.
+    “[Introducing <span>K</span>ansas <span>L</span>ava](/papers/Gill-09-KansasLava),” in
+    <span>*Proceedings of the Symposium on Implementation and Application of
+    Functional Languages*</span>, vol. 6041 of <span>*LNCS*</span>,
+    Springer-Verlag, Sep 2009.
   title: "Introducing Kansas Lava"
   year: 2009
   links:
@@ -1565,13 +1585,13 @@
   cite: |
     B. Werling, E. Perrins, and A. Gill, “Implementation of an
     <span>LDPC</span> decoder using functional programming languages,” in
-    *Proceedings of the International Telemetering Conference*, Oct 2009,
-    (Student Paper).
+    <span>*Proceedings of the International Telemetering Conference*</span>,
+    Oct 2009. (Student Paper).
   a_cite: |
     B. Werling, E. Perrins, and A. Gill, “[Implementation of an
     <span>LDPC</span> decoder using functional programming languages](/papers/Werling-09-ITC),” in
-    *Proceedings of the International Telemetering Conference*, Oct 2009,
-    (Student Paper).
+    <span>*Proceedings of the International Telemetering Conference*</span>,
+    Oct 2009. (Student Paper).
   title: "Implementation of an LDPC decoder using Functional Programming Languages"
   year: 2009
   links:
@@ -1590,12 +1610,14 @@
 - key: Bull-09-ITC
   cite: |
     T. Bull, E. Perrins, and A. Gill, “Implementation of the viterbi
-    algorithm using functional programming languages,” in *Proceedings of
-    the International Telemetering Conference*, Oct 2009, (Student Paper).
+    algorithm using functional programming languages,” in <span>*Proceedings
+    of the International Telemetering Conference*</span>, Oct 2009. (Student
+    Paper).
   a_cite: |
     T. Bull, E. Perrins, and A. Gill, “[Implementation of the viterbi
-    algorithm using functional programming languages](/papers/Bull-09-ITC),” in *Proceedings of
-    the International Telemetering Conference*, Oct 2009, (Student Paper).
+    algorithm using functional programming languages](/papers/Bull-09-ITC),” in <span>*Proceedings
+    of the International Telemetering Conference*</span>, Oct 2009. (Student
+    Paper).
   title: "Implementation of the Viterbi Algorithm using Functional Programming Languages"
   year: 2009
   links:
@@ -1614,14 +1636,14 @@
 - key: Gill-09-TypeSafeReification
   cite: |
     A. Gill, “Type-safe observable sharing in <span>H</span>askell,” in
-    *Proceedings of the Second <span>ACM</span> <span>SIGPLAN</span>
-    <span>H</span>askell Symposium*, ser. Haskell ’09. New York, NY, USA:
-    ACM, Sep 2009, pp. 117–128.
+    <span>*Proceedings of the Second <span>ACM</span> <span>SIGPLAN</span>
+    <span>H</span>askell Symposium*</span>, Haskell ’09, (New York, NY,
+    USA), pp. 117–128, ACM, Sep 2009.
   a_cite: |
     A. Gill, “[Type-safe observable sharing in <span>H</span>askell](/papers/Gill-09-TypeSafeReification),” in
-    *Proceedings of the Second <span>ACM</span> <span>SIGPLAN</span>
-    <span>H</span>askell Symposium*, ser. Haskell ’09. New York, NY, USA:
-    ACM, Sep 2009, pp. 117–128.
+    <span>*Proceedings of the Second <span>ACM</span> <span>SIGPLAN</span>
+    <span>H</span>askell Symposium*</span>, Haskell ’09, (New York, NY,
+    USA), pp. 117–128, ACM, Sep 2009.
   title: "Type-Safe Observable Sharing in Haskell"
   year: 2009
   links:
@@ -1656,14 +1678,14 @@
 - key: Gill-2009-KUREDSL
   cite: |
     A. Gill, “A <span>H</span>askell hosted <span>DSL</span> for writing
-    transformation systems,” in *Proceedings of the IFIP TC 2 Working
-    Conference on Domain-Specific Languages*, ser. DSL ’09. Springer-Verlag,
-    July 2009, pp. 285–309.
+    transformation systems,” in <span>*Proceedings of the IFIP TC 2 Working
+    Conference on Domain-Specific Languages*</span>, DSL ’09, pp. 285–309,
+    Springer-Verlag, July 2009.
   a_cite: |
     A. Gill, “[A <span>H</span>askell hosted <span>DSL</span> for writing
-    transformation systems](/papers/Gill-2009-KUREDSL),” in *Proceedings of the IFIP TC 2 Working
-    Conference on Domain-Specific Languages*, ser. DSL ’09. Springer-Verlag,
-    July 2009, pp. 285–309.
+    transformation systems](/papers/Gill-2009-KUREDSL),” in <span>*Proceedings of the IFIP TC 2 Working
+    Conference on Domain-Specific Languages*</span>, DSL ’09, pp. 285–309,
+    Springer-Verlag, July 2009.
   title: "A Haskell Hosted DSL for Writing Transformation Systems"
   year: 2009
   links:
@@ -1706,15 +1728,15 @@
   cite: |
     G. Kimmell, K. Matlage, T. Bull, N. Frisby, A. Gill, M. Jantz, E. Komp,
     M. Peck, W. Peck, M. Snyder, and B. Werling, “The 2009 <span>ICFP</span>
-    programming contest problem specification,” Information
+    programming contest problem specification,” tech. rep., Information
     Telecommunication and Technology Center, University of Kansas, Lawrence,
-    KS, Tech. Rep., June 2009.
+    KS, June 2009.
   a_cite: |
     G. Kimmell, K. Matlage, T. Bull, N. Frisby, A. Gill, M. Jantz, E. Komp,
     M. Peck, W. Peck, M. Snyder, and B. Werling, “[The 2009 <span>ICFP</span>
-    programming contest problem specification](/papers/Kimmell-09-ICFPContestProblem),” Information
+    programming contest problem specification](/papers/Kimmell-09-ICFPContestProblem),” tech. rep., Information
     Telecommunication and Technology Center, University of Kansas, Lawrence,
-    KS, Tech. Rep., June 2009.
+    KS, June 2009.
   title: "The 2009 ICFP Programming Contest Problem Specification"
   year: 2009
   links:
@@ -1733,11 +1755,11 @@
 
 - key: PADL09
   cite: |
-    A. Gill and T. Swift, Eds., *Practical Aspects of Declarative
-    Languages*. Springer, LNCS 5418, January 2009.
+    A. Gill and T. Swift, eds., <span>*Practical Aspects of Declarative
+    Languages*</span>, Springer, LNCS 5418, January 2009.
   a_cite: |
-    A. Gill and T. Swift, Eds., *Practical Aspects of Declarative
-    Languages*. Springer, LNCS 5418, January 2009.
+    A. Gill and T. Swift, eds., <span>*Practical Aspects of Declarative
+    Languages*</span>, Springer, LNCS 5418, January 2009.
   title: "Practical Aspects of Declarative Languages"
   year: 2009
   links:
@@ -1752,11 +1774,13 @@
 
 - key: Gill-09-WW
   cite: |
-    A. Gill and G. Hutton, “The worker/wrapper transformation,” *Journal of
-    Functional Programming*, vol. 19, no. 2, pp. 227–251, March 2009.
+    A. Gill and G. Hutton, “The worker/wrapper transformation,”
+    <span>*Journal of Functional Programming*</span>, vol. 19, pp. 227–251,
+    March 2009.
   a_cite: |
-    A. Gill and G. Hutton, “[The worker/wrapper transformation](/papers/Gill-09-WW),” *Journal of
-    Functional Programming*, vol. 19, no. 2, pp. 227–251, March 2009.
+    A. Gill and G. Hutton, “[The worker/wrapper transformation](/papers/Gill-09-WW),”
+    <span>*Journal of Functional Programming*</span>, vol. 19, pp. 227–251,
+    March 2009.
   title: "The worker/wrapper transformation"
   year: 2009
   links:
@@ -1788,12 +1812,12 @@
 - key: Nordlander-2008-RecBinds08
   cite: |
     J. Nordlander, M. Carlsson, and A. J. Gill, “Unrestricted pure
-    call-by-value recursion,” in *Proceedings of the 2008 ACM SIGPLAN
-    workshop on ML*, ser. ML ’08. ACM, 2008, pp. 23–34.
+    call-by-value recursion,” in <span>*Proceedings of the 2008 ACM SIGPLAN
+    workshop on ML*</span>, ML ’08, pp. 23–34, ACM, 2008.
   a_cite: |
     J. Nordlander, M. Carlsson, and A. J. Gill, “[Unrestricted pure
-    call-by-value recursion](/papers/Nordlander-2008-RecBinds08),” in *Proceedings of the 2008 ACM SIGPLAN
-    workshop on ML*, ser. ML ’08. ACM, 2008, pp. 23–34.
+    call-by-value recursion](/papers/Nordlander-2008-RecBinds08),” in <span>*Proceedings of the 2008 ACM SIGPLAN
+    workshop on ML*</span>, ML ’08, pp. 23–34, ACM, 2008.
   title: "Unrestricted pure call-by-value recursion"
   year: 2008
   links:
@@ -1834,12 +1858,12 @@
 - key: Harrison-08-Asynchronous
   cite: |
     W. L. Harrison, G. Allwein, A. Gill, and A. Procter, “Asynchronous
-    exceptions as an effect,” in *Ninth International Conference on
-    Mathematics of Program Construction*. Springer-Verlag, July 2008.
+    exceptions as an effect,” in <span>*Ninth International Conference on
+    Mathematics of Program Construction*</span>, Springer-Verlag, July 2008.
   a_cite: |
     W. L. Harrison, G. Allwein, A. Gill, and A. Procter, “[Asynchronous
-    exceptions as an effect](/papers/Harrison-08-Asynchronous),” in *Ninth International Conference on
-    Mathematics of Program Construction*. Springer-Verlag, July 2008.
+    exceptions as an effect](/papers/Harrison-08-Asynchronous),” in <span>*Ninth International Conference on
+    Mathematics of Program Construction*</span>, Springer-Verlag, July 2008.
   title: "Asynchronous Exceptions as an Effect"
   year: 2008
   links:
@@ -1870,14 +1894,14 @@
 - key: Gill-07-Hpc
   cite: |
     A. Gill and C. Runciman, “Haskell <span>P</span>rogram
-    <span>C</span>overage,” in *Proceedings of the 2007 <span>ACM</span>
-    <span>SIGPLAN</span> <span>W</span>orkshop on Haskell*. ACM Press,
-    September 2007.
+    <span>C</span>overage,” in <span>*Proceedings of the 2007
+    <span>ACM</span> <span>SIGPLAN</span> <span>W</span>orkshop on
+    Haskell*</span>, ACM Press, September 2007.
   a_cite: |
     A. Gill and C. Runciman, “[Haskell <span>P</span>rogram
-    <span>C</span>overage](/papers/Gill-07-Hpc),” in *Proceedings of the 2007 <span>ACM</span>
-    <span>SIGPLAN</span> <span>W</span>orkshop on Haskell*. ACM Press,
-    September 2007.
+    <span>C</span>overage](/papers/Gill-07-Hpc),” in <span>*Proceedings of the 2007
+    <span>ACM</span> <span>SIGPLAN</span> <span>W</span>orkshop on
+    Haskell*</span>, ACM Press, September 2007.
   title: "Haskell Program Coverage"
   year: 2007
   links:
@@ -1900,14 +1924,14 @@
 - key: Marlow-07-GhciDebugger
   cite: |
     S. Marlow, J. Iborra, B. Pope, and A. Gill, “A lightweight interactive
-    debugger for <span>H</span>askell,” in *Proceedings of the 2007
-    <span>ACM</span> <span>SIGPLAN</span> <span>W</span>orkshop on Haskell*.
-    ACM Press, September 2007.
+    debugger for <span>H</span>askell,” in <span>*Proceedings of the 2007
+    <span>ACM</span> <span>SIGPLAN</span> <span>W</span>orkshop on
+    Haskell*</span>, ACM Press, September 2007.
   a_cite: |
     S. Marlow, J. Iborra, B. Pope, and A. Gill, “[A lightweight interactive
-    debugger for <span>H</span>askell](/papers/Marlow-07-GhciDebugger),” in *Proceedings of the 2007
-    <span>ACM</span> <span>SIGPLAN</span> <span>W</span>orkshop on Haskell*.
-    ACM Press, September 2007.
+    debugger for <span>H</span>askell](/papers/Marlow-07-GhciDebugger),” in <span>*Proceedings of the 2007
+    <span>ACM</span> <span>SIGPLAN</span> <span>W</span>orkshop on
+    Haskell*</span>, ACM Press, September 2007.
   title: "A lightweight interactive debugger for Haskell"
   year: 2007
   links:
@@ -1942,14 +1966,14 @@
 - key: Gill-06-IntroHERA
   cite: |
     A. Gill, “Introducing the <span>H</span>askell <span>E</span>quational
-    <span>R</span>easoning <span>A</span>ssistant,” in *Proceedings of the
-    2006 ACM SIGPLAN <span>W</span>orkshop on Haskell*. ACM Press, 2006, pp.
-    108–109.
+    <span>R</span>easoning <span>A</span>ssistant,” in <span>*Proceedings of
+    the 2006 ACM SIGPLAN <span>W</span>orkshop on Haskell*</span>,
+    pp. 108–109, ACM Press, 2006.
   a_cite: |
     A. Gill, “[Introducing the <span>H</span>askell <span>E</span>quational
-    <span>R</span>easoning <span>A</span>ssistant](/papers/Gill-06-IntroHERA),” in *Proceedings of the
-    2006 ACM SIGPLAN <span>W</span>orkshop on Haskell*. ACM Press, 2006, pp.
-    108–109.
+    <span>R</span>easoning <span>A</span>ssistant](/papers/Gill-06-IntroHERA),” in <span>*Proceedings of
+    the 2006 ACM SIGPLAN <span>W</span>orkshop on Haskell*</span>,
+    pp. 108–109, ACM Press, 2006.
   title: "Introducing the Haskell Equational Reasoning Assistant"
   year: 2006
   links:
@@ -1974,14 +1998,14 @@
 - key: Moran-01-Legacy
   cite: |
     A. Moran, J. Teisher, A. Gill, E. Pasalic, and J. Veneruso, “Automated
-    translation of legacy code for <span>ATE</span>,” in *Proceedings of the
-    IEEE International Test Conference*. IEEE Computer Society, 2001, pp.
-    148–156.
+    translation of legacy code for <span>ATE</span>,” in <span>*Proceedings
+    of the IEEE International Test Conference*</span>, pp. 148–156, IEEE
+    Computer Society, 2001.
   a_cite: |
     A. Moran, J. Teisher, A. Gill, E. Pasalic, and J. Veneruso, “[Automated
-    translation of legacy code for <span>ATE</span>](/papers/Moran-01-Legacy),” in *Proceedings of the
-    IEEE International Test Conference*. IEEE Computer Society, 2001, pp.
-    148–156.
+    translation of legacy code for <span>ATE</span>](/papers/Moran-01-Legacy),” in <span>*Proceedings
+    of the IEEE International Test Conference*</span>, pp. 148–156, IEEE
+    Computer Society, 2001.
   title: "Automated translation of legacy code for ATE"
   year: 2001
   links:
@@ -2030,14 +2054,14 @@
 - key: Gill-00-HOOD
   cite: |
     A. Gill, “Debugging <span>H</span>askell by observing intermediate data
-    structures,” in *Proceedings of the 2000 ACM SIGPLAN
+    structures,” in <span>*Proceedings of the 2000 ACM SIGPLAN
     <span>W</span>orkshop on Haskell, Technical report of the University of
-    Nottingham*, 2000.
+    Nottingham*</span>, 2000.
   a_cite: |
     A. Gill, “[Debugging <span>H</span>askell by observing intermediate data
-    structures](/papers/Gill-00-HOOD),” in *Proceedings of the 2000 ACM SIGPLAN
+    structures](/papers/Gill-00-HOOD),” in <span>*Proceedings of the 2000 ACM SIGPLAN
     <span>W</span>orkshop on Haskell, Technical report of the University of
-    Nottingham*, 2000.
+    Nottingham*</span>, 2000.
   title: "Debugging Haskell by observing intermediate data structures"
   year: 2000
   links:
@@ -2063,11 +2087,11 @@
 
 - key: Okasaki-98-IntMap
   cite: |
-    C. Okasaki and A. Gill, “Fast mergeable integer maps,” in *ACM SIGPLAN
-    Workshop on ML*, September 1998, pp. 77–86.
+    C. Okasaki and A. Gill, “Fast mergeable integer maps,” in <span>*ACM
+    SIGPLAN Workshop on ML*</span>, pp. 77–86, September 1998.
   a_cite: |
-    C. Okasaki and A. Gill, “[Fast mergeable integer maps](/papers/Okasaki-98-IntMap),” in *ACM SIGPLAN
-    Workshop on ML*, September 1998, pp. 77–86.
+    C. Okasaki and A. Gill, “[Fast mergeable integer maps](/papers/Okasaki-98-IntMap),” in <span>*ACM
+    SIGPLAN Workshop on ML*</span>, pp. 77–86, September 1998.
   title: "Fast mergeable integer maps"
   year: 1998
   links:
@@ -2097,11 +2121,11 @@
 
 - key: Gill-96-PhD
   cite: |
-    A. Gill, “Cheap deforestation for non-strict functional languages,”
-    Ph.D. dissertation, The University of Glasgow, January 1996.
+    A. Gill, <span>*Cheap deforestation for non-strict functional
+    languages*</span>. PhD thesis, The University of Glasgow, January 1996.
   a_cite: |
-    A. Gill, “[Cheap deforestation for non-strict functional languages](/papers/Gill-96-PhD),”
-    Ph.D. dissertation, The University of Glasgow, January 1996.
+    A. Gill, <span>*Cheap deforestation for non-strict functional
+    languages*</span>. PhD thesis, The University of Glasgow, January 1996.
   title: "Cheap deforestation for non-strict functional languages"
   year: 1996
   links:
@@ -2142,14 +2166,14 @@
 - key: Gill-95-TechGUIHERA
   cite: |
     A. Gill, “The technology behind a graphical user interface for an
-    equational reasoning assistant,” in *Proceedings of the 1995 Glasgow
-    Workshop on Functional Programming, Electronic Workshops in Computing,
-    Ullapool, Scotland*, 1995.
+    equational reasoning assistant,” in <span>*Proceedings of the 1995
+    Glasgow Workshop on Functional Programming, Electronic Workshops in
+    Computing, Ullapool, Scotland*</span>, 1995.
   a_cite: |
     A. Gill, “[The technology behind a graphical user interface for an
-    equational reasoning assistant](/papers/Gill-95-TechGUIHERA),” in *Proceedings of the 1995 Glasgow
-    Workshop on Functional Programming, Electronic Workshops in Computing,
-    Ullapool, Scotland*, 1995.
+    equational reasoning assistant](/papers/Gill-95-TechGUIHERA),” in <span>*Proceedings of the 1995
+    Glasgow Workshop on Functional Programming, Electronic Workshops in
+    Computing, Ullapool, Scotland*</span>, 1995.
   title: "The technology behind a graphical user interface for an equational reasoning assistant"
   year: 1995
   links:
@@ -2171,12 +2195,12 @@
 - key: Gill-94-CheapDeforestationPrac
   cite: |
     A. Gill and S. <span>Peyton Jones</span>, “Cheap deforestation in
-    practice: An optimizer for <span>H</span>askell,” in *IFIP Congress
-    (1)*, 1994, pp. 581–586.
+    practice: An optimizer for <span>H</span>askell,” in <span>*IFIP
+    Congress (1)*</span>, pp. 581–586, 1994.
   a_cite: |
     A. Gill and S. <span>Peyton Jones</span>, “[Cheap deforestation in
-    practice: An optimizer for <span>H</span>askell](/papers/Gill-94-CheapDeforestationPrac),” in *IFIP Congress
-    (1)*, 1994, pp. 581–586.
+    practice: An optimizer for <span>H</span>askell](/papers/Gill-94-CheapDeforestationPrac),” in <span>*IFIP
+    Congress (1)*</span>, pp. 581–586, 1994.
   title: "Cheap Deforestation in Practice: An Optimizer for Haskell"
   year: 1994
   links:
@@ -2203,14 +2227,14 @@
 - key: Gill-93-ShortCutFusion
   cite: |
     A. Gill, J. Launchbury, and S. <span>Peyton Jones</span>, “A short cut
-    to deforestation,” in *FPCA ’93: Proceedings of the conference on
-    Functional Programming Languages and Computer Architecture*. ACM Press,
-    1993, pp. 223–232.
+    to deforestation,” in <span>*FPCA ’93: Proceedings of the conference on
+    Functional Programming Languages and Computer Architecture*</span>,
+    pp. 223–232, ACM Press, 1993.
   a_cite: |
     A. Gill, J. Launchbury, and S. <span>Peyton Jones</span>, “[A short cut
-    to deforestation](/papers/Gill-93-ShortCutFusion),” in *FPCA ’93: Proceedings of the conference on
-    Functional Programming Languages and Computer Architecture*. ACM Press,
-    1993, pp. 223–232.
+    to deforestation](/papers/Gill-93-ShortCutFusion),” in <span>*FPCA ’93: Proceedings of the conference on
+    Functional Programming Languages and Computer Architecture*</span>,
+    pp. 223–232, ACM Press, 1993.
   title: "A short cut to deforestation"
   year: 1993
   links:
@@ -2239,14 +2263,14 @@
 - key: Gill-92-Avoid
   cite: |
     J. Launchbury, A. Gill, J. Hughes, S. Marlow, S. <span>Peyton
-    Jones</span>, and P. Wadler, “Avoiding unnecessary updates,” in *Glasgow
-    Workshop on Functional Programming, Workshops in Computing*.
-    Springer-Verlag, 1992, pp. 144–153.
+    Jones</span>, and P. Wadler, “Avoiding unnecessary updates,” in
+    <span>*Glasgow Workshop on Functional Programming, Workshops in
+    Computing*</span>, pp. 144–153, Springer-Verlag, 1992.
   a_cite: |
     J. Launchbury, A. Gill, J. Hughes, S. Marlow, S. <span>Peyton
-    Jones</span>, and P. Wadler, “[Avoiding unnecessary updates](/papers/Gill-92-Avoid),” in *Glasgow
-    Workshop on Functional Programming, Workshops in Computing*.
-    Springer-Verlag, 1992, pp. 144–153.
+    Jones</span>, and P. Wadler, “[Avoiding unnecessary updates](/papers/Gill-92-Avoid),” in
+    <span>*Glasgow Workshop on Functional Programming, Workshops in
+    Computing*</span>, pp. 144–153, Springer-Verlag, 1992.
   title: "Avoiding Unnecessary Updates"
   year: 1992
   links:
@@ -2273,14 +2297,14 @@
 - key: Gill-91-NovelPeep
   cite: |
     A. Gill, “A novel approach towards peephole optimisations,” in
-    *Proceedings of the 1991 Glasgow Workshop on Functional Programming*,
-    ser. Workshops in Computing, R. Heldal, C. K. Holst, and P. Wadler, Eds.
-    Springer, August 1991, pp. 100–111.
+    <span>*Proceedings of the 1991 Glasgow Workshop on Functional
+    Programming*</span> (R. Heldal, C. K. Holst, and P. Wadler, eds.),
+    Workshops in Computing, pp. 100–111, Springer, August 1991.
   a_cite: |
     A. Gill, “[A novel approach towards peephole optimisations](/papers/Gill-91-NovelPeep),” in
-    *Proceedings of the 1991 Glasgow Workshop on Functional Programming*,
-    ser. Workshops in Computing, R. Heldal, C. K. Holst, and P. Wadler, Eds.
-    Springer, August 1991, pp. 100–111.
+    <span>*Proceedings of the 1991 Glasgow Workshop on Functional
+    Programming*</span> (R. Heldal, C. K. Holst, and P. Wadler, eds.),
+    Workshops in Computing, pp. 100–111, Springer, August 1991.
   title: "A Novel Approach Towards Peephole Optimisations"
   year: 1991
   links:
