@@ -1,4 +1,4 @@
-{-# LANGUAGE FlexibleInstances, GeneralizedNewtypeDeriving, DeriveDataTypeable, MultiParamTypeClasses, ScopedTypeVariables, LambdaCase, InstanceSigs, FlexibleContexts #-}
+{-# LANGUAGE FlexibleInstances, GeneralizedNewtypeDeriving, DeriveDataTypeable, MultiParamTypeClasses, ScopedTypeVariables, LambdaCase, InstanceSigs, FlexibleContexts, TypeFamilies #-}
 
 module BibTeX
         ( FindBibTeX
@@ -31,6 +31,7 @@ import Control.DeepSeq
 ---------------------------------
 
 newtype FindBibTeX = FindBibTeX String deriving (Show,Typeable,Eq,Hashable,Binary,NFData)
+type instance RuleResult FindBibTeX = BibTeXCitation
 
 addBibTeXOracle :: String -> [(String,BibTeXCitation)] -> Rules (FindBibTeX -> Action BibTeXCitation)
 addBibTeXOracle loc db = addOracle $ \ (FindBibTeX htmlFile) -> do

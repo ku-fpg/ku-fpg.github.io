@@ -1,4 +1,4 @@
-Name:                fpg-web-github-io
+Name:                ku-fpg-github-io
 Version:             0.1
 Synopsis:            Web pages for FPG group using jakyll
 License:             BSD3
@@ -16,7 +16,7 @@ Executable Shake
   Ghc-options:         -threaded
   Build-depends:       base >= 4.6 && < 5.0,
                        directory >= 1.2,
-                       shake >= 0.10,
+                       shake >= 0.17,
                        old-locale >= 1.0.0.5,
                        time >= 1.4.0.1,
                        bibtex >= 0.1.0.4,
