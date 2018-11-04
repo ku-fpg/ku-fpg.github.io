@@ -27,7 +27,8 @@ The Functional Programming Group at the University of Kansas
 is led by [Andrew Gill](/people/andygill).
 The group operates inside the Computer Systems Design Laboratory (CSDL), at
 ITTC, in Nichols Hall on west campus.
-The group is currently on hiatus, for the duruation of Professor Gill's industrial leave of absence.
+The group is currently on hiatus, for the duruation of Professor Gill's
+industrial leave of absence at X, the moonshot factory (sometime known as Google X). 
 
 ## Recent Activities
 
@@ -73,6 +74,7 @@ We also occasionally leave the lab.
 
 Who            | When           | Length   | Visiting
 ---------------|:---------------|:---------|:-----------
+Professor Gill | Fall 2017-     | Ongoing  | [[Google] X](https://x.company/), The Moonshot Factory
 Andrew Farmer  | Fall 2014      | 3 months | Facebook (London)
 Professor Gill | Fall 2013      | 2 weeks  | Distinguished Visitor Fellowship (Scotland)
 Andrew Farmer  | Spring 2013    | 6 months | Portland State University (Oregon)

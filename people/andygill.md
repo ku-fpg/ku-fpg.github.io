@@ -28,13 +28,13 @@ title: Andrew Gill
 **Phone:**    | +1 785-864-8817 (Eaton) / <BR>  +1 785-864-4712 (ITTC) <BR> +1 785-864-3226 (FAX)
 **Address:**  | The University of Kansas, <BR>  2001 Eaton Hall, <BR> 1520 West 15th Street, <BR> Lawrence, KS 66045-7621
 **Office:**   | Room 2024 (Eaton) / <BR> Room 252 (Nichols Hall)
-**Office hours:** | Wednesday 02:00-04:00 <BR> (or by appointment)
+**Office hours:** | N/A
 **Twitter** | [@_andy_gill](https://twitter.com/_andy_gill)
 
 New Position
 ------------
 
-I now work at X, the moonshot company (sometime known as Google X). 
+I now work at X, the moonshot factory (sometime known as Google X). 
 I am still a KU EECS professor, but am rarely in Lawrence any more,
 and am not taking on any new students.
 
@@ -332,5 +332,5 @@ offer engineers and practitioners the opportunity to write clear and
 high-level executable specifications that can realistically be
 compiled into efficient implementations.
  
-In 2017, Gill took a job at X, the moonshot company, doing applied
+In 2017, Gill took a job at X, the moonshot factory, doing applied
 functional programming in industry.
