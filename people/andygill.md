@@ -23,20 +23,13 @@ title: Andrew Gill
 ### Contact Information
 
 
- **Email:**     |  <tt>andygill@ku.edu</tt>
+ **Email:**   |  <tt>andygill@ku.edu</tt>
  ------------:|:----------------------------
-**Phone:**    | +1 785-864-8817 (Eaton) / <BR>  +1 785-864-4712 (ITTC) <BR> +1 785-864-3226 (FAX)
 **Address:**  | The University of Kansas, <BR>  2001 Eaton Hall, <BR> 1520 West 15th Street, <BR> Lawrence, KS 66045-7621
 **Office:**   | Room 2024 (Eaton) / <BR> Room 252 (Nichols Hall)
 **Office hours:** | N/A
-**Twitter** | [@_andy_gill](https://twitter.com/_andy_gill)
-
-New Position
-------------
-
-I now work at X, the moonshot factory (sometime known as Google X). 
-I am still a KU EECS professor, but am rarely in Lawrence any more,
-and am not taking on any new students.
+**Twitter**   | [@_andy_gill](https://twitter.com/_andy_gill)
+**Fax:**      |  +1 785-864-3226 (FAX)
 
 Research
 --------
@@ -78,6 +71,12 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 {% include cite.fn year="2015,2016,2017,2018" grep="Gill" %}
 
 ## Professional Activities
+
+#### 2019
+
+-   PC Member,
+    Workshop on Real World Domain Specific Languages,
+    2019
 
 #### 2018
 
@@ -286,7 +285,7 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
    for ``demonstrated excellence in engineering education and dedication to the University,
    the School, and the Department'',
    University of Kansas School of Engineering,
-   2016
+   2016-2019
  * Millar Scholar, for overall achievement during the past academic year,
    University of Kansas School of Engineering,
    2015.
@@ -310,18 +309,24 @@ CSE 511      | Principles of Compiler Design (at OGI)                  | Summer 
 ## Bio and Background
 
 Andrew (Andy) Gill is an Associate Professor of Electrical Engineering
-and Computer Science at the University of Kansas, and holds the John
-E. and Winifred E. Sharp Teaching Professorship.  He was born and
+and Computer Science at the University of Kansas. He was born and
 educated in Scotland, and has spent his professional career in the
 United States. Andy received his Ph.D. from the University of Glasgow
-in 1996, then spent three years in industry as a compiler developer
-(Hewlett Packard, Metrowerks, Semantic Designs), and a year in
-academia as a principal project scientist (Oregon Graduate
-Institute). In 2000, he co-founded Galois, a technology transfer
-company that used language technologies to create trustworthiness in
-critical systems. In 2008 he returned to academia and research,
-joining the University of Kansas and the Information and
-Telecommunication Technology Center based in Lawrence, KS.
+in 1996, and has split his time since between industy and adaemdia,
+doing applied functional programming and compiler deveoplemnt.
+
+ * In 1996 through 1999, he worked as a compiler developer
+   (Hewlett Packard, Metrowerks, Semantic Designs),
+ * One year in academia as a principal project scientist
+   (Oregon Graduate Institute).
+ * In 2000, he co-founded Galois, a technology transfer
+   company that used language technologies to create trustworthiness in
+   critical systems.
+ * In 2008 he joining the University of Kansas, being awarded tenure in 2014.
+   From 2016 to 2019, he held the John E. and Winifred E. Sharp Teaching Professorship.
+ * In 2017 and 2018, he took a two year leave from academia, working on machine
+   learning accelerators and compilers at Google.
+ * In 2019, he returned to Kansas and teaching.
  
 Since returning to academia, Gill has targeted the application areas
 of telemetry and signal processing, specializing in generating high

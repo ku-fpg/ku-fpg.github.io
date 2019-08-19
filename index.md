@@ -27,8 +27,6 @@ The Functional Programming Group at the University of Kansas
 is led by [Andrew Gill](/people/andygill).
 The group operates inside the Computer Systems Design Laboratory (CSDL), at
 ITTC, in Nichols Hall on west campus.
-The group is currently on hiatus, for the duruation of Professor Gill's
-industrial leave of absence at X, the moonshot factory (sometime known as Google X). 
 
 ## Recent Activities
 
