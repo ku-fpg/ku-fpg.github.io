@@ -17,8 +17,6 @@
     href: "/teaching/EECS_368_F19"
   - name: EECS 368 QR Cover Sheet
     href: "/workbook/EECS_368"
-- name: Andrew Gill
-  href: /people/andygill
 - name: "Software, Tools and Libraries"
   href: /software
   sublinks:
