@@ -11,13 +11,14 @@
     href: /research/HERMIT
   - name: FEC Decoders (2009-2011)
     href: /research/HFEC
-- name: Andrew Gill
-  href: /people/andygill
+- name: Teaching
   sublinks:
   - name: EECS 368 (Spring 2017)
-    href: "https://piazza.com/ku/spring2017/eecs368/home"
+    href: "/teaching/EECS_368_F19"
   - name: EECS 368 QR Cover Sheet
     href: "/workbook/EECS_368"
+- name: Andrew Gill
+  href: /people/andygill
 - name: "Software, Tools and Libraries"
   href: /software
   sublinks:
