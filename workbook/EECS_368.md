@@ -1,6 +1,7 @@
 ---
-layout: qr-html-368
-title: EECS 368 Coverpage
+layout: qr-html
+class: 368
+title: Spring 2020 EECS 368 Cover Sheet
 ---
 
 

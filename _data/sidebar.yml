@@ -13,10 +13,18 @@
     href: /research/HFEC
 - name: Teaching
   sublinks:
-  - name: EECS 368 (Fall 2019)
-    href: "/teaching/EECS_368_F19"
+  - name: EECS 368 (Spring 2020)
+    href: "/teaching/EECS_368_S20"
   - name: EECS 368 QR Cover Sheet
     href: "/workbook/EECS_368"
+  - name: EECS 448 (Spring 2020)
+    href: "/teaching/EECS_44_S20"
+  - name: EECS 448 QR Cover Sheet
+    href: "/workbook/EECS_448"
+  - name: EECS 776 (Spring 2020)
+    href: "/teaching/EECS_776_S20"
+  - name: EECS 776 QR Cover Sheet
+    href: "/workbook/EECS_776"
 - name: "Software, Tools and Libraries"
   href: /software
   sublinks:

@@ -16,10 +16,10 @@ Webpages for the KU FPG
 
    * _meta/bibtex.bib => _data/publications.yml & papers/*md
 
- * To generate the html files into _site, use `jekyll build`.
+ * To generate the html files into _site, use `bundle exec jekyll build`.
 
  * To generate the html files into _site, and preview them in
-   your browser, use `jekyll serve`.
+   your browser, use `bundle exec jekyll serve`.
 
 ## Other Packages
 

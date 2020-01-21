@@ -1,6 +1,7 @@
 ---
-layout: qr-html-776
-title: EECS 776 Coverpage
+layout: qr-html
+class: 776
+title: Spring 2020 EECS 776 Cover Sheet
 ---
 
 
