@@ -93,8 +93,8 @@ git commands and tell use the status of our git repository.
 
 4.  Copy the clone URL
 
-5.  Make a clone of a repository that I\'ve provided using the following
-    command:
+5.  Make a clone of a repository that I\'ve provided. For example,
+    use the following command:
 
 ```.shell
 git clone https://github.com/ku-fpg/git-command-line.git 
