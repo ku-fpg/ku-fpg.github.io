@@ -327,13 +327,13 @@ are fine, and sometimes removals are fine as well, but if two branches
 modify the same line(s) in different ways, then we have a merge
 conflict.
 Let\'s pretend we have two branches of an fake repository. On the master
-branch we start with a single file, code.txt:
+branch we start with a single commited file, code.txt:
 
 ```.shell
 int x = 5;
 ```
 
-We commit this change to the master branch, create a branch called
+We also commit this change to the master branch, create a branch called
 experiment, checkout experiment, and finally make the following change
 to the file:
 
@@ -341,8 +341,11 @@ to the file:
 int x = 10;
 ```
 
-That would be fine if this were the only branch to change that line,
-since it is just an extension from master. Where a merge conflict arises
+We then add and commit this change. That would be fine if this were
+the only branch to change that line, since it is just an extension
+from master.
+
+Where a merge conflict arises
 is if the master branch were to continue on and make changes of it\'s
 own. For example, if after the experiment branch is made, we checkout
 the master branch and make a change to that same line:
@@ -367,7 +370,8 @@ edit it in a way that resolves the conflict. You see notations like the
 following:
 
 ```.shell
-<<<<<<<<int x=70
+<<<<<<<<
+int x=70
 ================
 int x=10;
 >>>>>>>>experiment
