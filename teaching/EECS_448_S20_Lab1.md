@@ -75,50 +75,6 @@ git config --global core.editor nano
 You can use a different text editor if you don\'t prefer nano or if nano
 is not available. Of course, you should use your name and email.
 
-#### Git and bash
-
-Git has an lot of different options we can use and can be in several
-different states. We will use some pre-made bash profiles, or in other
-words, we will make bash do some handy things for us like tab-complete
-git commands and tell use the status of our git repository.
-
-##### Getting the files
-
-1.  create and navigate, in the terminal, to a directory that will hold
-    your labs. For example `~/eecs448`
-
-2.  In a browser, go to the [instructor\'s KU GitHub page](https://github.com/ku-fpg)
-
-3.  Navigate to the git-command-line repository
-
-4.  Copy the clone URL
-
-5.  Make a clone of a repository that I\'ve provided. For example,
-    use the following command:
-
-```.shell
-git clone https://github.com/ku-fpg/git-command-line.git 
-```
-
-Now, you also could have just downloaded the files manually, but just
-downloading doesn\'t make a git repository locally. Now you have a git
-repository named git-command-line in your 448 folder. It\'s a useful
-practice to use git in this way, just making repositories of files you
-might need to copy to a new machine.
-
-#### Changing the bash profile
-
-After you make a clone of the repository, you\'ll have local copies of
-three files. Two files are scripts used to aid in git commands. The
-other is a .bashrc or bash profile file. **Copy these files in your home
-directory** (meaning the directory you are taken to when you \"cd \~\").
-If you have trouble seeing the .bashrc file, that\'s because any file or
-folder preceded by a period is hidden by default. To see it, use:
-
-```.shell
-ls -a
-````
-
 ### Exercise: Creating a new repository
 
 For our lab, we will create a new repository. A repository isn\'t much
@@ -126,11 +82,21 @@ more than a directory that git tracks changes in. To create a new
 repository use the command:
 
 ```.shell
-git init repo-name-here 
+git init eecs448_lab1
 ```
 
-Make sure [not]{.underline} to make this repository inside of your other
-repository. Do this in a different folder.
+Do this in your `eecs448` folder.
+Make sure **not** to make this repository inside any other
+repository.  A good name for the repo might be `eecs448_lab1`,
+but you can pick any name.
+
+### Step into repo
+
+Step into your repo.
+
+```.shell
+cd eecs448_lab1
+```
 
 ### Staging area
 
@@ -143,8 +109,8 @@ A long time ago, in a galaxy far, far away ...
 
 \"That\'s not code! Why are we doing this!?,\" you might say. Well,
 remember code is just text, so we can learn how to do version control
-without writing a full blown program.\
-\
+without writing a full blown program.
+
 Creating a file is not the same as adding it to the repository. To do
 that, you need to put it into the staging area:
 
@@ -172,9 +138,9 @@ command which lists all the commits thus far. Your log should look
 similar:
 
 ```.shell
-commit 509ce175885be1c8c63ac5ac91043f60538a6935 (HEAD -> master)
-Author: Alex Bardas 
-Fri Jan 19 10:16:43 2018 -0600
+commit 0c6c038abb8be2ce37e8d16657a77cdd1bfb8004 (HEAD -> master)
+Author: Andy Gill <andygill@ku.edu>
+Date:   Mon Jan 27 12:42:21 2020 -0600
 
 First commit message
 ```
@@ -190,12 +156,18 @@ It should look something like this:
 ```.shell
 On branch master
 Changes not staged for commit:
-  (use "git add ..." to update what will be committed)
-  (use "git checkout -- ..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
-        modified:   story.txt
+  modified:   story.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+Add the new text to the staging area.
+
+```.shell
+git add story.txt
 ```
 
 Finally, commit using `git commit` the change and run status one last
@@ -253,7 +225,8 @@ git branch
 
 You\'ll see at least HEAD (usually it\'s a \*) and master. HEAD points
 to the commit you currently have checked-out. So, currently HEAD and
-master are pointing to the same commit.\
+master are pointing to the same commit.
+
 To create a branch type:
 
 ```.shell
@@ -296,8 +269,9 @@ because we haven\'t added any commits to this new branch.
 
 Observe the changes. Also make note of the completely awesome fact that
 **when you check out branch, the files in your local directory are
-reverted to the state they were in when they were committed**.\
-Does it feel like magic yet?\
+reverted to the state they were in when they were committed**.
+Does it feel like magic yet?
+
 If you got your bash profile setup correctly, you can see the branch you
 are currently on in the terminal. You can also use `git status` to see
 what branch you\'re on.
@@ -386,7 +360,8 @@ git merge experiment
 
 Git is an incredible powerful tool, but there are some things it simply
 cannot do. Most importantly, **git forces the user to resolve merge
-conflicts manually**. And this is a good thing.\
+conflicts manually**. And this is a good thing.
+
 To resolve a conflict, you simply open the file with the problem and
 edit it in a way that resolves the conflict. You see notations like the
 following:
