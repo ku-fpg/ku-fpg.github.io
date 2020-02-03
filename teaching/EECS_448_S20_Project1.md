@@ -11,7 +11,7 @@ EECS 448, Spring 2020
 
 ### Code Freeze Date
 
-All teams must have a code freeze as of **February 21st at 5pm.
+All teams must have a code freeze as of **February 21st** at 5pm.
 The timestamp will be judged by the final
 commit on your master branch of the team\'s GitHub repository.
 
@@ -50,7 +50,7 @@ times on that date that he/she is available
     24 hour mode; the timezone is Central Daylight Time (CDT).
 -   A single time slot should be 20 minutes
 -   An event can span multiple time slots (e.g. a two-hour event would
-    occupy six time slots)\
+    occupy six time slots)
     Example: I want to schedule a party for Sunday, February 2nd, and
     name the event "Alex\'s SuperBowl Party". I also want to specify
     that I'm available at 4pm, 4:20pm, 4:40pm, 5:00pm, 5:20pm, 5:40pm
@@ -119,6 +119,7 @@ following topics must be discussed in the presentation:
 -   Challenges and how they were overcome or dealt with
 -   Any features that did not make the demo version
 -   Retrospective on what the team would have done different
+-   Security considerations
 -   Be professional (no need to dress up, but you need present yourself
     and your work in a professional way)
 
@@ -182,7 +183,7 @@ will affect your grade for this project.
 *Instructions for submitting the team evaluations will be available
 after the code freeze date.*
 
-We will likly use the [eurovision song contest](https://en.wikipedia.org/wiki/Eurovision_Song_Contest) model here.
+We will likely use the [eurovision song contest](https://en.wikipedia.org/wiki/Eurovision_Song_Contest) model here.
 
 ### Self evaluations (10% of individual grade)
 
