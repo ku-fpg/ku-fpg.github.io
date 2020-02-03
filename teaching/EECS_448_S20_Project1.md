@@ -25,7 +25,10 @@ branch as of the code freeze.
 
 Your project GitHub repository needs to be **private**. Add your
 teammates, your instructor and your TA as collaborators. Instructor\'s
-and TA\'s GitHub usernames.
+and TA\'s GitHub usernames are:
+
+  * andygill
+  * sushmitha4-cloud
 
 ### Overview
 
