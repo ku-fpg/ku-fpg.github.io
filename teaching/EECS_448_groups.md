@@ -79,6 +79,7 @@ Group 10
 Thomas V Angles  
 Christopher D Ariagno  
 Tiger Ruan  
+Daniel R Schmidt  
 Justin M Schreiner  
 
 Group 11
@@ -88,7 +89,6 @@ Yousef Kazem Alsarraf
 Michael Timothy Collins  
 Brian Jones  
 Jinwoo Park  
-Daniel R Schmidt  
 Garrett W Wolfe  
 
 Group 12
