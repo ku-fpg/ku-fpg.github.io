@@ -20,6 +20,7 @@ grade.
 -   [GitHub](https://github.com/)
 -   Online tutorials in git and GitHub on
     [Udacity](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+-   [The Coding Train: git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
 
 ### Topics
 
@@ -222,9 +223,16 @@ instructions below.
 Only repositories available through your GitHub profile will be
 considered for a grade.
 
+If you want to make your repo private, you will need to add
+your instructor and your TA as collaborators. Instructor\'s
+and TA\'s GitHub usernames are:
+
+  * andygill
+  * sushmitha4-cloud
+
 ### Submission Format
 
--   Email Subject lines: `EECS448 LastName FirstName StudentID Lab##`\
+-   Email Subject lines: `EECS448 LastName FirstName StudentID Lab##`
     (replace \#\# with the appropriate lab number)
 -   If a tarball is attached, format the file name of the tarball as
     follows: `EECS448-LastName-FirstName-StudentID-Lab##.tar.gz`
