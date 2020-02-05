@@ -37,7 +37,8 @@ Group 4
 Joseph D Duong  
 Angel E Guerrero Urbina  
 Manuel Sandoval  
-Alicia Maria Zavala Ferreira  
+Alicia Maria Zavala Ferreira
+Elena Zavala   
 
 Group 6
 =======
@@ -97,7 +98,8 @@ Group 12
 Corey Anderson  
 Theodore Harbison  
 Ruoyu Li  
-Rory J Reidy  
+Rory J Reidy
+Haochuan Zhang . 
 
 Group 13
 ========
