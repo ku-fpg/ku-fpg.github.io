@@ -1,7 +1,5 @@
-Lab 3: Web Languages
-====================
 
-EECS 448, Spring 2018
+EECS 448, Spring 2020
 ---------------------
 
 ### Due Time
@@ -19,7 +17,6 @@ grade.
 
 -   [W3Schools](https://www.w3schools.com/)
 -   [Bootstrap](https://getbootstrap.com/)
--   [Lab3 slides](Lab3Slides.pdf)
 
 ### Topics
 
@@ -34,7 +31,7 @@ All HTML documents are surrounded by the \<html\> tag. It is an open and
 close tag that then contains the \<head\> and \<body\> tags. The head
 contains some of the behind the scenes mechanics. One tag you can put in
 the head right away is the \<title\> tag. The title tag controls what a
-browser tab or window title bar's text is.\
+browser tab or window title bar's text is.
 The body contains all the content that the is contained with the web
 page. Every, image, link, paragraph, or table resides here.
 
@@ -69,8 +66,8 @@ That's because the tag alone isn't enough information. We can't just
 tell the browser we need an image, we need to tell the browser which
 image we want. If we just list the file name, the browser will assume
 it's in a local folder. What you added was an HTML attribute. All
-attributes have a similar format: \<tag attribute = \"value\"\>\
-\
+attributes have a similar format: \<tag attribute = \"value\"\>
+
 You pick some attribute then set it equal to a value in quotation. There
 are many attributes and values for various tasks. For example, depending
 on your image, it may be very large. You can control that. You just need
@@ -88,7 +85,7 @@ one instead of downloading a copy. To do this, you can go back to that
 image you found and instead of saving a copy, choose \"copy image
 location\" (or the wording that matches your browser). You would then
 replace the file name with this URL. Sometimes these URLs get very long,
-so you don't have to do this right now, but it's good to be aware of.\
+so you don't have to do this right now, but it's good to be aware of.
 Reference: [W3Schools HTML \<img\>
 Tag](https://www.w3schools.com/tags/tag_img.asp)
 
@@ -108,15 +105,15 @@ Remember to include the \"http://\" part. Even though you don't type
 that in browsers anymore, you'll need it in your code. It acts as a flag
 that tells the browser it need to use the Hyper Text Transfer Protocol,
 or in other words, it needs to grab something from the internet instead
-of something local.\
+of something local.
 Reference: [HTML Links](https://www.w3schools.com/html/html_links.asp)
 
 #### HTML paragraphs
 
 Paragraphs are used to create, well, paragraphs. The text get some
 automatic formatting, like ensuring its not a the same line as some
-other piece of content. The template is:\
-*Your paragraph here*\
+other piece of content. The template is:
+\<p\>Your paragraph here\</p\>
 Reference: [HTML
 Paragraphs](https://www.w3schools.com/html/html_paragraphs.asp)
 
