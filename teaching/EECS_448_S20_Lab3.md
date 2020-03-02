@@ -9,7 +9,7 @@ This lab is due two weeks from the start of your lab session (because
 of spring break).
 
 This lab (Lab 3) is a primer for web pages. Lab 4 will be about
-server-size web services, and builds on this lab.
+server-side web services, and builds on this lab.
 
 ------------------------------------------------------------------------
 
