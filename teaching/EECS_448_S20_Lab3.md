@@ -1,10 +1,15 @@
-
-EECS 448, Spring 2020
----------------------
+---
+layout: blank-page
+title: "EECS448: Lab 3: HTML, CSS, and JavaScript Primer"
+---
 
 ### Due Time
 
-This lab is due two weeks from the start of your lab session (because of spring break)
+This lab is due two weeks from the start of your lab session (because
+of spring break).
+
+This lab (Lab 3) is a primer for web pages. Lab 4 will be about
+server-size web services, and builds on this lab.
 
 ------------------------------------------------------------------------
 
@@ -16,7 +21,6 @@ grade.
 ### Additional Resources
 
 -   [W3Schools](https://www.w3schools.com/)
--   [Bootstrap](https://getbootstrap.com/)
 
 ### Topics
 
@@ -86,8 +90,8 @@ image you found and instead of saving a copy, choose \"copy image
 location\" (or the wording that matches your browser). You would then
 replace the file name with this URL. Sometimes these URLs get very long,
 so you don't have to do this right now, but it's good to be aware of.
-Reference: [W3Schools HTML \<img\>
-Tag](https://www.w3schools.com/tags/tag_img.asp)
+Reference:
+[W3Schools HTML \<img\> Tag](https://www.w3schools.com/tags/tag_img.asp)
 
 #### HTML: Anchor tags
 
@@ -121,7 +125,7 @@ Paragraphs](https://www.w3schools.com/html/html_paragraphs.asp)
 
 JavaScript is language that runs client-side and is used to make your
 HTML pages interactive and responsive. (It is not a scripted version of
-Java, it\'s a whole other language.)\
+Java, it\'s a whole other language.)
 A lot of syntax is the same or similar to C++/Java:
 
 -   if statement (boolean operators)
@@ -130,7 +134,7 @@ A lot of syntax is the same or similar to C++/Java:
 
 Important changes:
 
--   All variables are declared with the key words `var`
+-   All variables are declared with the key words `let`
 -   There is no explicit class key word (see reference below)
 -   JS files don\'t include each other, instead they are all included in
     your HTML document
@@ -181,13 +185,10 @@ give JavaScript control over an HTML element you must do two steps:
 
 -   In the HTML file: Give a tag you want JavaScript to be able to
     affect an id attribute
--   
 -   In the JavaScript file: Find the element by it\'s id and manipulate
     the attribute in question
 
 ```{=html}
-<!-- -->
-```
     <!-- In HTML -->
     <img src="file.jpg" id="myImgId" width="100" height="200">
     <br>
@@ -196,15 +197,16 @@ give JavaScript control over an HTML element you must do two steps:
     //In JS
     function zoomIn()
     {
-       var theImgTag = document.getElementById("myImgId");
+       let theImgTag = document.getElementById("myImgId");
        theImgTag.width = 1000;
        theImgTag.height = 2000;
     }
+```
 
 ### Exercise 1: Password validator
 
 Create a webpage that allows the user to enter a password two times in
-order to validate it.\
+order to validate it.
 Web page content:
 
 -   Two password fields: first to enter the password and a second one to
@@ -356,11 +358,12 @@ when the user scrolls do the following:
     background-attachment: fixed;
     }
 
-References:\
-Basic: <http://www.w3schools.com/cssref/pr_background-image.asp>\
-Position: <http://www.w3schools.com/cssref/pr_background-position.asp>\
-Size: <http://www.w3schools.com/cssref/css3_pr_background-size.asp>\
-Repeat: <http://www.w3schools.com/cssref/pr_background-repeat.asp>
+References:
+
+  * Basic: <http://www.w3schools.com/cssref/pr_background-image.asp>
+  * Position: <http://www.w3schools.com/cssref/pr_background-position.asp>
+  * Size: <http://www.w3schools.com/cssref/css3_pr_background-size.asp>
+  * Repeat: <http://www.w3schools.com/cssref/pr_background-repeat.asp>
 
 #### CSS: hover
 
@@ -385,9 +388,9 @@ With these two blocks, the user will see red text with a blue background
 for all links normally, but when they hover over the link, the styling
 will invert. Now, you can adjust any styling you want. You could make a
 paragraph that increases its font size when hovered over or a list that
-changes from arial to courier font when hovered over.\
-Reference: [CSS :hover
-Selector](https://www.w3schools.com/cssref/sel_hover.asp)
+changes from arial to courier font when hovered over.
+Reference: 
+[CSS :hover Selector](https://www.w3schools.com/cssref/sel_hover.asp)
 
 #### CSS: classes
 
@@ -421,7 +424,7 @@ attribute on the HTML side:
 Make a profile page that is styled with CSS. Have fun with this. You can
 make a profile about anybody or anything. You are not required to make
 this about yourself or post any personal information online. This
-profile can be entirely fictional.\
+profile can be entirely fictional.
 HTML Requirements:
 
 -   Profile picture
@@ -470,7 +473,8 @@ exercises. You can then access the style object of that tag.
 ### Exercise 4: CSS Manipulation
 
 Create a web page that has a paragraph with some dummy text. Near the
-paragraph have text fields to accept the following values:\
+paragraph have text fields to accept the following values:
+
 Border:
 
 -   red value
@@ -492,7 +496,7 @@ or a color code, but you should tell the user what units they are in
     //in JavaScript
 
     //Access the tag:
-    var someTag = docuement.getElementById("theTagsId");
+    let someTag = document.getElementById("theTagsId");
 
 
     //Change the style attribute
@@ -500,97 +504,17 @@ or a color code, but you should tell the user what units they are in
 
 **NOTE**: the names of the style attributes in CSS are all hyphenated
 (e.g., background-color) but in JavaScript they are nearly all converted
-to camel-case.\
+to camel-case.
 Here is a [reference](https://www.w3schools.com/jsref/dom_obj_style.asp)
 of the style properties that JavaScript can access and change.
 
-### Bootstrap
-
-Writing your own HTML, CSS, and JS code from scratch may be fun \... but
-you may never get them to look as good webpages you see online \... and
-there is also this compatibility issue e.g., some webpages look very
-ugly on mobile devices\
-Here comes Bootstrap \... an open source toolkit for developing with
-HTML, CSS, and JS (<https://getbootstrap.com/>)\
-Let\'s get started. Write the following code into a file called
-`test.html` and open this file in a browser:
-
-    <html>
-        <head>
-          <title>EECS 448: Accessing the EECS Databases</title>
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <!--favicon--><link href="images/favicon.ico" rel="icon" type="image/x-icon" />
-
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        </head>
-
-        <body><div class="container">
-            <div class="jumbotron">
-                <h1>hello Bootstrap world!</h1>
-                <h2>EECS 448, Spring 2018</h2>
-            </div>
-
-            <h3>What is going on?</h3>
-            <p class="text-justify">
-                Bootstrap is a "built-in responsive, mobile-first projects on the web with
-                the world's most popular front-end component library.
-                Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.
-                Quickly prototype your ideas or build your entire app with our Sass variables
-                and mixins, responsive grid system, extensive prebuilt components,
-                and powerful plugins built on jQuery." (Source: <a href="https://getbootstrap.com/">https://getbootstrap.com/</a>)
-                <br>
-                In other words, you have a whole universe of CSS and JS to take advantage of
-                without having to write the actual CSS and JS code.
-            </p>
-
-        </div></body>
-    </html>
-
-What just happened? We leveraged Bootstrap\'s content delivery network
-(BootstrapCDN) to load CSS, JavaScript and images remotely, from its
-servers. In other words, with a few lines of code in the `head` section,
-we have access to the whole Bootstrap universe (sure, we need to have an
-internet connection for the CDN to work). For other options to install
-Bootstrap see:
-<https://getbootstrap.com/docs/4.0/getting-started/download/>\
-\
-Why did I use Bootstrap 3 instead on the latest version 4? Personal
-preference, I like the colors and styles in version 3. You can go with
-version 4; use:
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-instead of:
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-### Excercise 5: Personal Profile with Bootstrap
-
-Change the profile page from Exercise 3 to use Bootstrap (keep the old
-Exercise 3 profile page in a separate file for submission purposes). You
-may start from and customize `test.html` for your new profile page or
-you can leverage one of [Bootstrap\'s example
-pages](https://getbootstrap.com/docs/4.0/examples/).
-
-### Excercise 6: Publication
+### Exercise 5: Publication
 
 In addition to uploading your code to GitHub, place your files in the
 `public_html` folder on your EECS account. You can then access them
 through the URL:
 
     http://people.eecs.ku.edu/~yourKUuserNameHere
-
-    Example:
-    http://people.eecs.ku.edu/~jrmiller
-    //Display Dr. Miller's EECS homepage
-    //Why not mine? Mine is just redirecting you to my webpage hosted on the ITTC infrastructure.
 
 **Note**: If you experience any problems with lab equipment or your EECS
 account, contact the Engineering Technical Support Center immediately.
@@ -601,7 +525,7 @@ Form](https://tsc.ku.edu/request-support-engineering-tsc)
 
 When you go to your people.eecs page, you\'ll most likely see a simple
 file listing. This is the default behavior of apache. To make a landing
-page, you can write an `index.html` file.\
+page, you can write an `index.html` file.
 In your index.html
 
 -   Use links, JS, or whatever means you like to create a menu to all
@@ -610,7 +534,7 @@ In your index.html
     apache could have given us that without any effort
 
 If you already are using your default homepage just provide us with a
-sub-folder URL.\
+sub-folder URL.
 Example:
 
     http://people.eecs.ku.edu/~KuUserName/subdir/eecs448/lab03
@@ -618,19 +542,16 @@ Example:
 ### Web Language Summary
 
 \"Are all these webpages I look at everyday just text files in
-directories with code written in them?\"\
-Yes, they are.\
-Sorry young padawan, the world wide web isn\'t magic. It\'s science.
-Computer science to be exact.
+directories with code written in them?\"
+Yes, they are.
 
 ### Rubric
 
--   \[20pts\] Exercise 1: Password validator
--   \[25pts\] Exercise 2: Slide show
+-   \[25pts\] Exercise 1: Password validator
+-   \[30pts\] Exercise 2: Slide show
 -   \[15pts\] Exercise 3: Profile
 -   \[20pts\] Exercise 4: CSS Manipulation
--   \[10pts\] Exercise 5: Profile with Bootstrap
--   \[10pts\] Exercise 6: Publication
+-   \[10pts\] Exercise 5: Publication
 
 ### Submission
 
@@ -646,16 +567,7 @@ The body of the email should contain:
 
 ### Additional Reading
 
-#### Classes in Javascript
-
-You can make classes in Javascript in a variety, although confusing,
-ways. One way is with functions, but coming from C++/Java would probably
-feel very odd. The good news is that Javascript is adding the keywords
-and semantics a C++/Java person would be used to.
-[Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)\
-**NOTE**: This is a fairly new standard and not guaranteed to work in
-all browsers.
-:::
-
-This initial version of this lab was designed by [Dr. John
-Gibbons](http://www.eecs.ku.edu/people/faculty/jwgibbo)
+This lab was initially designed by 
+[Dr. John Gibbons](http://www.eecs.ku.edu/people/faculty/jwgibbo),
+and 
+[Dr. Alex Bardas](http://www.eecs.ku.edu/people/faculty/alexbardas).
