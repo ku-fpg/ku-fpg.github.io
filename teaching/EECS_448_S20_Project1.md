@@ -11,7 +11,8 @@ EECS 448, Spring 2020
 
 ### Code Freeze Date
 
-All teams must have a code freeze as of **February 24th** at 5pm.
+All teams must have a code freeze as of **February 26th** at 5pm 
+(this was Monday the 24th, but moved because of Engineering EXPO)
 The timestamp will be judged by the final
 commit on your master branch of the team\'s GitHub repository.
 
