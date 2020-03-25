@@ -98,7 +98,7 @@ Corey Anderson
 Theodore Harbison  
 Ruoyu Li  
 Rory J Reidy
-Haochuan Zhang . 
+Haochuan Zhang
 
 Group 13
 ========
