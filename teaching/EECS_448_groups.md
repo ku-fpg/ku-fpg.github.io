@@ -88,7 +88,6 @@ Group 11
 
 Yousef Kazem Alsarraf  
 Michael Timothy Collins  
-Brian Jones  
 Jinwoo Park  
 Garrett W Wolfe  
 
@@ -106,5 +105,6 @@ Group 13
 
 Adam Clark Lawrence Auer  
 Christian Harris  
+Brian Jones  
 Chase W Odgers  
 Kerr Salabao  
