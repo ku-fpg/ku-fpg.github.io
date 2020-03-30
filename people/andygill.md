@@ -27,7 +27,7 @@ title: Andrew Gill
  ------------:|:----------------------------
 **Address:**  | The University of Kansas, <BR>  2001 Eaton Hall, <BR> 1520 West 15th Street, <BR> Lawrence, KS 66045-7621
 **Office:**   | Room 2024 (Eaton) / <BR> Room 252 (Nichols Hall)
-**Office hours:** | N/A
+**Office hours:** | [Zoom, MWF 1-2ish](https://kansas.zoom.us/j/622179596)
 **Twitter**   | [@_andy_gill](https://twitter.com/_andy_gill)
 **Fax:**      |  +1 785-864-3226 (FAX)
 
